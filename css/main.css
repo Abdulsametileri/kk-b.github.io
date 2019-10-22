@@ -1,0 +1,31 @@
+:root {
+  --solSagOkUzaklik: 100px;
+  --solSagOkBottom: 90px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+/*
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: initial;
+}
+*/

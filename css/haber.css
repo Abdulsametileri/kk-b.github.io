@@ -1,0 +1,45 @@
+.haber-border {
+  border: #e0e0e0 1px solid;
+}
+
+.haber-baslik {
+  font-size: 30px;
+  font-family: "Raleway";
+  color: rgb(57, 57, 57);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  z-index: 111;
+}
+
+.haber-detay {
+  font-size: 16px;
+  color: rgb(57, 57, 57);
+  font-weight: bold;
+  line-height: 1.5;
+  width: 370px;
+  height: 60px;
+}
+
+.haber_tarih {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(167, 167, 162);
+  line-height: 1.714;
+}
+
+.haber-preview-resim {
+  width: 160px;
+  height: 108px;
+}
+
+.haber-image-wrapper {
+  display: inline-block;
+  background: url('../img/haber/hover.png');
+}
+
+
+.haber-preview-resim:hover {
+  opacity: 0;
+  cursor: pointer;
+}
