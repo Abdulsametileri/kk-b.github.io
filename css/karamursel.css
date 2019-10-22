@@ -1,6 +1,5 @@
 html {
     scroll-behavior: smooth;
-
 }
 
 body {
@@ -20,7 +19,7 @@ body {
 .sosyal-media {
     position: absolute;
     z-index: 9;
-    right: 133px;
+     left: 50%;
 }
 
 .cizgi {
@@ -36,7 +35,6 @@ body {
     position: absolute;
     z-index: 9;
     margin-top:30px;
-    right: 133px;
   }
   
   .navbar-brand img {
