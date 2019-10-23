@@ -4,9 +4,9 @@ const sass = require('gulp-sass');
 
 //compile SASS files into CSS files
 gulp.task('sass', function() {
-  return gulp.src('src/scss/*.scss')
+  return gulp.src('src/scss/style.scss')
     .pipe(sass())
-    .pipe(gulp.dest('src/css'))
+    .pipe(gulp.dest('src/css/'))
     .pipe(browserSync.stream());
 })
 
