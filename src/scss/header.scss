@@ -1,0 +1,24 @@
+.header {
+  position: relative;
+  height: 560px;
+
+  .sosyal-media-container {
+    z-index: 9;
+    position: absolute;
+    left: 50%;
+  }
+
+  @import 'navbar.scss';
+
+  .baslik {
+    position: relative;
+    bottom: 140px;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  @import 'header-slider.scss';
+
+}

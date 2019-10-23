@@ -1,0 +1,42 @@
+$solSagOkUzaklik: 100px;
+$solSagOkBottom: 90px;
+
+.owl-zero {
+  height: 100%;
+
+  /*.item-header {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }*/
+
+  .owl-nav {
+    .owl-prev img{
+      position: absolute;
+      left: $solSagOkUzaklik;
+      bottom: $solSagOkBottom;
+    }
+    .owl-next img {
+      position: absolute;
+      right: $solSagOkUzaklik;
+      bottom: $solSagOkBottom;
+    }
+  }
+  .owl-dots {
+    position: absolute;
+    right: $solSagOkUzaklik;
+    bottom: 44px;
+
+    .owl-dot {
+      span {
+        background: initial;
+        border: white 2px solid;
+      }
+    }
+    .active span{
+      background: white;
+    }
+  }
+}
+

@@ -1,25 +1,3 @@
-* {
-  box-sizing: border-box;
-  -webkit-appearance: none;
-  margin: 0;
-  padding: 0; }
-
-html {
-  scroll-behavior: smooth; }
-
-a {
-  text-decoration: none;
-  color: inherit; }
-  a:hover {
-    cursor: pointer;
-    text-decoration: none; }
-
-.cizgi {
-  position: absolute;
-  z-index: 9;
-  bottom: 0px;
-  width: 100%; }
-
 .header {
   position: relative;
   height: 560px; }

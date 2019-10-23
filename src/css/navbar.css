@@ -1,0 +1,32 @@
+.nav {
+  align-items: center;
+  position: absolute;
+  z-index: 9;
+  margin-top: 30px; }
+  .nav .navbar-brand img {
+    width: 141px;
+    height: 135px; }
+  .nav .nav-item .nav-link {
+    font-size: 13px;
+    font-weight: 800;
+    color: white;
+    padding: 1rem 0.4rem; }
+  .nav .aramaAlani .aramaKutusu {
+    color: white;
+    width: 190px;
+    height: 32px;
+    font-size: 13px;
+    background-color: rgba(25, 52, 76, 0.5);
+    border: solid 1px;
+    font-weight: 500;
+    border-color: #7c8b9b;
+    font-family: inherit;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-left: 30px; }
+  .nav .aramaAlani .aramaBtn {
+    display: flex;
+    border: none;
+    background: none;
+    margin-top: -23px;
+    margin-left: 175px; }
