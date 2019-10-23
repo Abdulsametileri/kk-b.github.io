@@ -1,0 +1,61 @@
+.online-dergiler-container {
+  margin-top: 76px;
+
+  &-baslik {
+    font-size: 28.413px;
+    color: rgb(58, 102, 175);
+    font-weight: 500;
+    line-height: 1.267;
+    text-align: left;
+  }
+  &-baslik-bold {
+    @extend .online-dergiler-container-baslik;
+    font-weight: 800;
+  }
+
+  .row {
+    margin-top: 45px;
+    margin-bottom: 95px;
+
+    .img-dergi {
+      width: 208px !important;
+      height: 290px !important;
+      margin: 0 auto;
+    }
+
+    .owl-two {
+      .owl-nav {
+        .owl-next {
+          position: absolute;
+          top: -26%;
+          left: 97%;
+          height: 35px;
+          width: 35px;
+        }
+        .owl-prev {
+          position: absolute;
+          top: -26%;
+          left: 93%;
+          height: 35px;
+          width: 35px;
+        }
+      }
+      .item-dergi {
+        background-color: #a7c8dc !important;
+        &-wrapper {
+          &:hover {
+            cursor: pointer;
+            background: url("../img/dergiler/ho.png")
+          }
+          &:hover img {
+            opacity: 0;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+  }
+
+
+}

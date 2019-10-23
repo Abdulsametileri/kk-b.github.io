@@ -191,7 +191,50 @@ a {
       padding-left: 13px; }
       .projeler .baskan-card-container-list li {
         margin-top: 15px; }
+      .projeler .baskan-card-container-list a {
+        font-size: 16px;
+        color: #3a66af !important;
+        font-weight: bold;
+        line-height: 1.5; }
       .projeler .baskan-card-container-list:nth-child(1) {
         margin-top: 61px; }
     .projeler .baskan-card .detaylaricintikla img {
       margin-top: 135px; }
+
+.online-dergiler-container {
+  margin-top: 76px; }
+  .online-dergiler-container-baslik, .online-dergiler-container-baslik-bold {
+    font-size: 28.413px;
+    color: #3a66af;
+    font-weight: 500;
+    line-height: 1.267;
+    text-align: left; }
+  .online-dergiler-container-baslik-bold {
+    font-weight: 800; }
+  .online-dergiler-container .row {
+    margin-top: 45px;
+    margin-bottom: 95px; }
+    .online-dergiler-container .row .img-dergi {
+      width: 208px !important;
+      height: 290px !important;
+      margin: 0 auto; }
+    .online-dergiler-container .row .owl-two .owl-nav .owl-next {
+      position: absolute;
+      top: -26%;
+      left: 97%;
+      height: 35px;
+      width: 35px; }
+    .online-dergiler-container .row .owl-two .owl-nav .owl-prev {
+      position: absolute;
+      top: -26%;
+      left: 93%;
+      height: 35px;
+      width: 35px; }
+    .online-dergiler-container .row .owl-two .item-dergi {
+      background-color: #a7c8dc !important; }
+      .online-dergiler-container .row .owl-two .item-dergi-wrapper:hover {
+        cursor: pointer;
+        background: url("../img/dergiler/ho.png"); }
+      .online-dergiler-container .row .owl-two .item-dergi-wrapper:hover img {
+        opacity: 0;
+        cursor: pointer; }

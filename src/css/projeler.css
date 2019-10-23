@@ -53,6 +53,11 @@
       padding-left: 13px; }
       .projeler .baskan-card-container-list li {
         margin-top: 15px; }
+      .projeler .baskan-card-container-list a {
+        font-size: 16px;
+        color: #3a66af !important;
+        font-weight: bold;
+        line-height: 1.5; }
       .projeler .baskan-card-container-list:nth-child(1) {
         margin-top: 61px; }
     .projeler .baskan-card .detaylaricintikla img {
