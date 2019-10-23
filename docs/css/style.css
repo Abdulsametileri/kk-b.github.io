@@ -118,6 +118,10 @@ a {
     padding-top: 38px;
     padding-bottom: 38px;
     border: #e0e0e0 1px solid; }
+    @media (max-width: 499px) {
+      .haberler-container .haber-manset-detay {
+        padding: 5px;
+        text-align: center; } }
     .haberler-container .haber-manset-detay-container .haber-manset-detay-baslik {
       font-size: 30px;
       color: #393939;
@@ -135,8 +139,15 @@ a {
       font-family: "OpenSans";
       color: #a7a7a2;
       line-height: 1.714; }
+      @media (max-width: 499px) {
+        .haberler-container .haber-manset-detay-container .haber-manset-detay-tarih {
+          margin-top: 40px; } }
     .haberler-container .haber-manset-detay-container .devamicintiklayin img {
       margin-top: 45px; }
+      @media (max-width: 499px) {
+        .haberler-container .haber-manset-detay-container .devamicintiklayin img {
+          margin: initial;
+          margin-bottom: 10px; } }
   .haberler-container .haberler {
     margin-top: 28px; }
     .haberler-container .haberler .haber-preview-wrapper {

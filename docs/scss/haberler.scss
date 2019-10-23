@@ -13,6 +13,12 @@
     padding-top: 38px;
     padding-bottom: 38px;
     border: #e0e0e0 1px solid;
+
+    @media (max-width: $phone) {
+      padding: 5px;
+      text-align: center;
+    }
+
     &-container {
       $namespace: ".haber-manset-detay";
       #{$namespace}-baslik {
@@ -27,6 +33,7 @@
         font-weight: bold;
         line-height: 1.5;
         height: 60px;
+        
       }
       #{$namespace}-tarih {
         margin-top:66px;
@@ -34,9 +41,16 @@
         font-family: "OpenSans";
         color: rgb(167, 167, 162);
         line-height: 1.714;
+        @media (max-width: $phone) {
+          margin-top: 40px;
+        }
       }
       .devamicintiklayin img {
         margin-top:45px;
+        @media (max-width: $phone) {
+          margin: initial;
+          margin-bottom: 10px; 
+        }
       }
     }
   }
