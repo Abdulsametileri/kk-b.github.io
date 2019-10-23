@@ -13,6 +13,13 @@
     padding-top: 38px;
     padding-bottom: 38px;
     border: #e0e0e0 1px solid;
+
+    @media (max-width: $phone) {
+      padding: 0px;
+      font-size: 20px;
+      text-align: center;
+    }
+
     &-container {
       $namespace: ".haber-manset-detay";
       #{$namespace}-baslik {
@@ -20,6 +27,7 @@
         color: rgb(57, 57, 57);
         font-weight: bold;
         line-height: 1.2;
+        
       }
       #{$namespace}-detay {
         font-size: 16px;
@@ -37,6 +45,10 @@
       }
       .devamicintiklayin img {
         margin-top:45px;
+        @media (max-width: $phone) {
+          margin: initial;
+          margin-bottom: 10px;
+        }
       }
     }
   }
