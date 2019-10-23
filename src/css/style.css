@@ -28,9 +28,8 @@ a {
     position: absolute;
     left: 50%; }
   .header .nav {
-    align-items: center;
-    position: absolute;
-    z-index: 9;
+    align-items: baseline;
+    justify-content: flex-end;
     margin-top: 30px; }
     .header .nav .navbar-brand img {
       width: 141px;
