@@ -1,13 +1,22 @@
+
+
 .nav {
   align-items: baseline;
   justify-content: flex-end;
   margin-top:30px;
 
+  @media (max-width: $phone) {
+    justify-content: center;
+    .navbar-brand {
+      display: none;
+    }      
+  }
+
   .navbar-brand img {
     width: 141px;
     height: 135px;
   }
-
+  
   .nav-item {
     .nav-link {
       font-size: 13px;

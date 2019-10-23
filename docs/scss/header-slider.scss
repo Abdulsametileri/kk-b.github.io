@@ -4,12 +4,9 @@ $solSagOkBottom: 90px;
 .owl-zero {
   height: 100%;
 
-  /*.item-header {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }*/
+  @media (max-width: $phone) {
+    
+  }
 
   .owl-nav {
     .owl-prev img{
@@ -27,6 +24,12 @@ $solSagOkBottom: 90px;
     position: absolute;
     right: $solSagOkUzaklik;
     bottom: 44px;
+
+    @media (max-width: $phone) {
+      right: 0;
+      left: 0;
+      margin: 0 auto;
+    }
 
     .owl-dot {
       span {

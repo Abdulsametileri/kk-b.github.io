@@ -23,14 +23,26 @@ a {
 .header {
   position: relative;
   height: 560px; }
-  .header .sosyal-media-container {
-    z-index: 9;
-    position: absolute;
-    left: 50%; }
+  .header .social-media {
+    justify-content: flex-end; }
+    .header .social-media .online-islemler {
+      margin-right: 32px; }
+  @media (max-width: 499px) {
+    .header .social-media {
+      justify-content: center; }
+      .header .social-media .online-islemler {
+        margin: initial; }
+      .header .social-media .links {
+        margin-top: 10px; } }
   .header .nav {
     align-items: baseline;
     justify-content: flex-end;
     margin-top: 30px; }
+    @media (max-width: 499px) {
+      .header .nav {
+        justify-content: center; }
+        .header .nav .navbar-brand {
+          display: none; } }
     .header .nav .navbar-brand img {
       width: 141px;
       height: 135px; }
@@ -65,14 +77,11 @@ a {
     color: white;
     text-align: center;
     pointer-events: none; }
+    @media (max-width: 499px) {
+      .header .baslik {
+        bottom: 225px; } }
   .header .owl-zero {
-    height: 100%;
-    /*.item-header {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }*/ }
+    height: 100%; }
     .header .owl-zero .owl-nav .owl-prev img {
       position: absolute;
       left: 100px;
@@ -85,6 +94,11 @@ a {
       position: absolute;
       right: 100px;
       bottom: 44px; }
+      @media (max-width: 499px) {
+        .header .owl-zero .owl-dots {
+          right: 0;
+          left: 0;
+          margin: 0 auto; } }
       .header .owl-zero .owl-dots .owl-dot span {
         background: initial;
         border: white 2px solid; }
@@ -436,6 +450,9 @@ a {
   position: absolute;
   right: 133px;
   bottom: 65px; }
+  @media (max-width: 499px) {
+    .karamursel .header-kesfet-text {
+      display: none; } }
 
 .karamursel .karamursel-breadcrumb {
   font-size: 14px;

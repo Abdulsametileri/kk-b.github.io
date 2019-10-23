@@ -1,11 +1,26 @@
+
+
 .header {
   position: relative;
   height: 560px;
 
-  .sosyal-media-container {
-    z-index: 9;
-    position: absolute;
-    left: 50%;
+  .social-media {
+    justify-content: flex-end;
+    .online-islemler {
+      margin-right: 32px;
+    }
+  }
+
+  @media (max-width: $phone) {
+    .social-media {
+      justify-content: center;
+      .online-islemler {
+        margin: initial;
+      }
+      .links {
+        margin-top: 10px;
+      }
+    }      
   }
 
   @import 'navbar.scss';
@@ -17,6 +32,9 @@
     color: white;
     text-align: center;
     pointer-events: none;
+    @media (max-width: $phone) {
+      bottom: 225px;
+    }
   }
 
   @import 'header-slider.scss';

@@ -36,23 +36,28 @@
       <div id="scrollOnTop"></div>
 
       <div style="position: absolute; left: 0; right: 0;  z-index: 99;">
-        <div class="container" style="text-align: right;">
-          <div>
-            <a href="">
-              <img src="img/online_islemler.png" class="mr-4" />
-            </a>
-            <a href="">
-              <img src="img/facebook.png" class="mr-1" />
-            </a>
-            <a href="">
-              <img src="img/twitter.png" class="mr-1" />
-            </a>
-            <a href="">
-              <img src="img/instegram.png" class="mr-1" />
-            </a>
-            <a href="">
-              <img src="img/youtube.png" />
-            </a>
+        <div class="container" >
+          <div class="row social-media" >
+            <div class="online-islemler">
+              <a href="">
+                <img src="img/online_islemler.png" />
+              </a>
+            </div>
+              <div class="links">
+                  <a href="">
+                      <img src="img/facebook.png" class="mr-1" />
+                    </a>
+                    <a href="">
+                      <img src="img/twitter.png" class="mr-1" />
+                    </a>
+                    <a href="">
+                      <img src="img/instegram.png" class="mr-1" />
+                    </a>
+                    <a href="">
+                      <img src="img/youtube.png" />
+                    </a>
+              </div>
+            
           </div>
         </div>
         <div class="container">
@@ -107,7 +112,6 @@
           </ul>
         </div>
       </div>
-
       <div class="owl-zero owl-carousel owl-theme">
         <div class="item-header">
           <img src="img/header-bg.png" height="560px" alt="" />
@@ -224,6 +228,7 @@
     </div>
 
     <!-- PROJELER FELAN -->
+    <!--
     <div class="container-fluid projeler">
       <div class="container">
         <div class="row">
@@ -285,8 +290,9 @@
         </div>
       </div>
     </div>
-
+-->
     <!-- ONLİNE DERGİLER -->
+
     <div class="container online-dergiler-container">
       <div class="row">
         <span class="online-dergiler-container-baslik-bold">Online </span>
@@ -606,7 +612,7 @@
           nav: true,
           dots: true,
           items: 1,
-          navText: ["<img src='img/solOk.png'>", "<img src='img/sagOk.png'>"]
+          navText: ["<img src='img/solOk.png'>", "<img src='img/sagOk.png'>"],
         });
 
         $('.owl-one').owlCarousel({

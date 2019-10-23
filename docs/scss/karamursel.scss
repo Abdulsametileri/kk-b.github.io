@@ -16,6 +16,9 @@
     position: absolute;
     right: 133px;
     bottom: 65px;
+    @media (max-width: $phone) {
+        display: none;
+    }
   }
 
   .karamursel-breadcrumb {
