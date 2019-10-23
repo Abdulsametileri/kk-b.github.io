@@ -62,13 +62,14 @@
       display: inline-block;
       background: url('../img/haber/hover.png');
 
-      @media (max-width: $phone), (max-width: $xs)
+      @media (max-width: $phone)
        {
         background: initial;
         display: block;
         margin: 7px auto;
         width: 50%;
       }
+      
 
       #{$namespace}-resim {
         width: 100%;

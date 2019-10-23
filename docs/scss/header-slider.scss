@@ -4,7 +4,7 @@ $solSagOkBottom: 90px;
 .owl-zero {
   height: 100%;
 
-  @media (max-width: $phone) {
+  @media (max-width: $xs) {
     img {
       object-fit: cover;
     } 
