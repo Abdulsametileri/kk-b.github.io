@@ -39,6 +39,30 @@
           height: 35px;
           width: 35px;
         }
+        @media (max-width: $lg) {
+            .owl-next {
+              left: 95%;
+            }
+            .owl-prev {
+              left: 89%;
+            }
+        }
+        @media (max-width: $md) {
+          .owl-next {
+            left: 91%;
+          }
+          .owl-prev {
+            left: 84%;
+          }
+        }
+        @media (max-width: $phone) {
+          .owl-next {
+            left: 89%;
+          }
+          .owl-prev {
+            left: 77%;
+          }
+        }
       }
       .item-dergi {
         background-color: #a7c8dc !important;

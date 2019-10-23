@@ -299,7 +299,7 @@
         <span class="online-dergiler-container-baslik ml-1"> Dergiler</span>
       </div>
       <div class="row">
-        <!--
+        
         <div class="owl-two owl-carousel owl-theme">
           <div class="item-dergi">
             <div class="item-dergi-wrapper">
@@ -327,7 +327,7 @@
             </div>
           </div>
         </div>
-        -->
+      
       </div>
     </div>
 
@@ -639,7 +639,21 @@
           navText: [
             "<img src='img/dergiler/solOk.png'>",
             "<img src='img/dergiler/sagOk.png'>"
-          ]
+          ],
+          responsive:{
+            0: {
+              items: 1
+            },
+            500:{
+                items:2,
+            },
+            768:{
+                items:3,
+            },
+            992:{
+                items:4,
+            }
+        }
         });
       });
     </script>
