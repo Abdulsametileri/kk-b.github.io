@@ -52,6 +52,11 @@
       padding: initial;
       padding: 40px 42px 0px 35px;
     }
+    @media (max-width: $xs) {
+      padding: 0px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
 
     .duyuru-wrapper {
       width: 100%;
@@ -105,9 +110,10 @@
       padding-top: 30px; 
       padding-left: 26px;
       padding-bottom: 20px;
-      @media (max-width: $phone) {
+      @media (max-width: $xs) {
         padding-top: 0px;
         padding-left: 0px;
+        padding-bottom: 0px;
         text-align: center;
       }
     }

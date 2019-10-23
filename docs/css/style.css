@@ -414,6 +414,11 @@ a {
     .video-duyuru-container .duyuru-container {
       padding: initial;
       padding: 40px 42px 0px 35px; } }
+  @media (max-width: 576px) {
+    .video-duyuru-container .duyuru-container {
+      padding: 0px;
+      padding-top: 30px;
+      padding-bottom: 30px; } }
   .video-duyuru-container .duyuru-container .duyuru-wrapper {
     width: 100%;
     padding: 0;
@@ -453,10 +458,11 @@ a {
     padding-top: 30px;
     padding-left: 26px;
     padding-bottom: 20px; }
-    @media (max-width: 499px) {
+    @media (max-width: 576px) {
       .video-duyuru-container .duyuru-container .tumduyuruveilanlar {
         padding-top: 0px;
         padding-left: 0px;
+        padding-bottom: 0px;
         text-align: center; } }
 
 .hizmetler {
