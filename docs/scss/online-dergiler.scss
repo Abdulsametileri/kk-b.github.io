@@ -7,10 +7,14 @@
     font-weight: 500;
     line-height: 1.267;
     text-align: left;
+    @media (max-width: $xs) {
+      margin-left: 20px;
+    }
   }
   &-baslik-bold {
     @extend .online-dergiler-container-baslik;
     font-weight: 800;
+
   }
 
   .row {

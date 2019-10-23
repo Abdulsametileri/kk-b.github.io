@@ -285,6 +285,9 @@ a {
     font-weight: 500;
     line-height: 1.267;
     text-align: left; }
+    @media (max-width: 576px) {
+      .online-dergiler-container-baslik, .online-dergiler-container-baslik-bold, .video-duyuru-container-bold, .video-duyuru-container .video-baslik-bold, .video-duyuru-container .duyuru-baslik-bold, .bold-baslik, .footer .footer-baslik-bold, .video-duyuru-container .duyuru-baslik-normal, .normal-baslik, .footer .footer-baslik-normal {
+        margin-left: 20px; } }
   .online-dergiler-container-baslik-bold, .video-duyuru-container-bold, .video-duyuru-container .video-baslik-bold, .video-duyuru-container .duyuru-baslik-bold, .bold-baslik, .footer .footer-baslik-bold {
     font-weight: 800; }
   .online-dergiler-container .row {
@@ -338,6 +341,9 @@ a {
     font-weight: 500;
     line-height: 1.267;
     text-align: left; }
+    @media (max-width: 576px) {
+      .online-dergiler-container-baslik, .online-dergiler-container-baslik-bold, .video-duyuru-container-bold, .video-duyuru-container .video-baslik-bold, .video-duyuru-container .duyuru-baslik-bold, .bold-baslik, .footer .footer-baslik-bold, .video-duyuru-container .duyuru-baslik-normal, .normal-baslik, .footer .footer-baslik-normal {
+        margin-left: 20px; } }
   .online-dergiler-container-baslik-bold, .video-duyuru-container-bold, .video-duyuru-container .video-baslik-bold, .video-duyuru-container .duyuru-baslik-bold, .bold-baslik, .footer .footer-baslik-bold {
     font-weight: 800; }
   .online-dergiler-container .row {
@@ -479,6 +485,9 @@ a {
     font-weight: 500;
     line-height: 1.267;
     text-align: left; }
+    @media (max-width: 576px) {
+      .online-dergiler-container-baslik, .online-dergiler-container-baslik-bold, .video-duyuru-container-bold, .video-duyuru-container .video-baslik-bold, .video-duyuru-container .duyuru-baslik-bold, .bold-baslik, .footer .footer-baslik-bold, .video-duyuru-container .duyuru-baslik-normal, .normal-baslik, .footer .footer-baslik-normal {
+        margin-left: 20px; } }
   .online-dergiler-container-baslik-bold, .video-duyuru-container-bold, .video-duyuru-container .video-baslik-bold, .video-duyuru-container .duyuru-baslik-bold, .bold-baslik, .footer .footer-baslik-bold {
     font-weight: 800; }
   .online-dergiler-container .row {
