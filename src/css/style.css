@@ -419,3 +419,151 @@ a {
   position: relative;
   left: 92%;
   bottom: 15px; }
+
+.karamursel .header {
+  height: 325px;
+  position: relative;
+  background: url("../img/karamursel/header.png");
+  margin-bottom: 50px;
+  padding-right: 0px;
+  padding-left: 0px; }
+
+.karamursel .header-kesfet-text {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  line-height: 1.083;
+  text-align: center;
+  position: absolute;
+  right: 133px;
+  bottom: 65px; }
+
+.karamursel .karamursel-breadcrumb {
+  font-size: 14px;
+  color: #78c0e8;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.857;
+  text-align: left;
+  margin-bottom: 53px; }
+
+.karamursel .menu-container {
+  border: 1px solid #a9cbef;
+  border-radius: 10px;
+  background: #fafdff; }
+  .karamursel .menu-container ul {
+    list-style-image: url("../img/list-icon.png");
+    margin-top: 10px;
+    margin-left: 50px; }
+    .karamursel .menu-container ul li {
+      padding-top: 5px; }
+      .karamursel .menu-container ul li a {
+        color: #78c0e8;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 2.857;
+        text-transform: uppercase;
+        text-align: left;
+        text-decoration: none; }
+
+.karamursel .basgan-container {
+  border-radius: 10px;
+  background: #fbf239;
+  padding: 5px; }
+  .karamursel .basgan-container img {
+    margin-top: -15px; }
+  .karamursel .basgan-container .basgan-isim {
+    font-size: 18px;
+    color: #3a66af;
+    font-weight: 800;
+    text-align: center;
+    position: relative;
+    margin-top: 10px; }
+  .karamursel .basgan-container .basgan-unvan {
+    font-size: 11px;
+    color: #3a66af;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -5px; }
+  .karamursel .basgan-container ul {
+    margin-left: 50px; }
+    .karamursel .basgan-container ul li {
+      color: #3a66af;
+      text-align: start;
+      padding-top: 5px; }
+      .karamursel .basgan-container ul li a {
+        font-size: 14px;
+        color: #3a66af;
+        font-weight: 600;
+        line-height: 1.5;
+        position: absolute; }
+
+.karamursel .dergi-container {
+  border-radius: 10px;
+  background: #a7c8dc;
+  padding: 30px 10px 10px; }
+  .karamursel .dergi-container .dergi {
+    box-shadow: -10px 5px 5px -5px #698a9d;
+    margin-bottom: 0; }
+
+.karamursel .metin-container .metin-foto {
+  width: 100%;
+  height: 400px; }
+
+.karamursel .metin-container .metin-baslik {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.333;
+  letter-spacing: 0.75px; }
+
+.karamursel .metin-container .metin-alt-baslik {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.333;
+  letter-spacing: 0.75px; }
+
+.karamursel .metin-container .metin {
+  font-size: 14px;
+  color: #8f9091;
+  font-weight: 500;
+  line-height: 1.714; }
+
+.karamursel .galeri-container .galeri-baslik {
+  font-size: 18px;
+  color: #3a66af;
+  font-weight: bold;
+  line-height: 1.333; }
+
+.karamursel .galeri-container .galeri-foto-container {
+  position: relative; }
+  .karamursel .galeri-container .galeri-foto-container:hover .foto-buyuk {
+    opacity: 0.9; }
+  .karamursel .galeri-container .galeri-foto-container .galeri-fotolar {
+    width: 100%;
+    height: 100px;
+    display: block; }
+  .karamursel .galeri-container .galeri-foto-container .foto-buyuk {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    color: yellow;
+    background: #3a66af;
+    border: 1px solid #a9cbef;
+    font-weight: bold;
+    font-size: 8px;
+    text-decoration: none;
+    padding-top: 20px; }
+  .karamursel .galeri-container .galeri-foto-container .foto-buyuk:hover,
+  .karamursel .galeri-container .galeri-foto-container .foto-buyuk:visited,
+  .karamursel .galeri-container .galeri-foto-container .foto-buyuk:link,
+  .karamursel .galeri-container .galeri-foto-container .foto-buyuk:active {
+    text-decoration: none;
+    color: yellow; }
