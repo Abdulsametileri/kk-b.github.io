@@ -1,0 +1,95 @@
+@import 'online-dergiler.scss';
+
+.bold-baslik {
+  @extend .online-dergiler-container-baslik-bold; 
+}
+
+.normal-baslik {
+  @extend .online-dergiler-container-baslik;
+}
+
+.footer {
+  margin-top: 95px;
+
+  .footer-baslik-bold {
+    @extend .bold-baslik;
+  }
+  .footer-baslik-normal {
+    @extend .normal-baslik;
+  }
+
+  .footer-social-media {
+    text-align: end;
+  }
+
+  .footer-cizgi {
+    border: #9dd9fe 1px solid; 
+    width: 100%; 
+    margin-top: 48px; 
+    margin-bottom:40px;
+  }
+
+  .footer-bilgi-container {
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    width: 100%;
+  }
+
+  .footer-baslik {
+    font-size: 16.236px;
+    color: rgb(58, 102, 175);
+    font-weight: bold;
+    line-height: 2.217;
+    text-align: left;
+  }
+
+  .footer-baslik-detay {
+    margin: 0px;
+    font-size: 12px;
+    color: rgb(178, 180, 190) !important;
+    font-weight: bold;
+    line-height: 1.667;
+    text-align: left;
+    display: block;
+  }
+}
+
+.footer-telefon-container {
+  background-color: #f6f6f6;
+
+  .row {
+    height: 185px;
+  }
+    
+  .footer-telefon-baslik {
+    font-size: 12px;
+    color: rgb(178, 180, 190);
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .belediyeismitext,
+  .tumhaklarisaklidir {
+    font-size: 12px;
+    color: rgb(132, 135, 140);
+    font-weight: 700;
+  }
+
+  .belediyeismitext {
+    font-weight: 800;
+  }
+
+  .designedby {
+    font-size: 10px;
+    color: rgb(132, 135, 140);
+    font-weight: bold;
+    text-align: right;
+  }
+}
+
+.yukaricik {
+  position: relative;
+  left: 92%;
+  bottom: 15px;
+}

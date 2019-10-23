@@ -1,4 +1,3 @@
-@import url(hizmetler.css);
 * {
   box-sizing: border-box;
   -webkit-appearance: none;
@@ -204,13 +203,13 @@ a {
 
 .online-dergiler-container {
   margin-top: 76px; }
-  .online-dergiler-container-baslik, .online-dergiler-container-baslik-bold, .video-duyuru-container-bold, .video-duyuru-container .video-baslik-bold, .video-duyuru-container .duyuru-baslik-bold, .video-duyuru-container .duyuru-baslik-normal {
+  .online-dergiler-container-baslik, .online-dergiler-container-baslik-bold, .video-duyuru-container-bold, .video-duyuru-container .video-baslik-bold, .video-duyuru-container .duyuru-baslik-bold, .bold-baslik, .footer .footer-baslik-bold, .video-duyuru-container .duyuru-baslik-normal, .normal-baslik, .footer .footer-baslik-normal {
     font-size: 28.413px;
     color: #3a66af;
     font-weight: 500;
     line-height: 1.267;
     text-align: left; }
-  .online-dergiler-container-baslik-bold, .video-duyuru-container-bold, .video-duyuru-container .video-baslik-bold, .video-duyuru-container .duyuru-baslik-bold {
+  .online-dergiler-container-baslik-bold, .video-duyuru-container-bold, .video-duyuru-container .video-baslik-bold, .video-duyuru-container .duyuru-baslik-bold, .bold-baslik, .footer .footer-baslik-bold {
     font-weight: 800; }
   .online-dergiler-container .row {
     margin-top: 45px;
@@ -242,13 +241,13 @@ a {
 
 .online-dergiler-container {
   margin-top: 76px; }
-  .online-dergiler-container-baslik, .online-dergiler-container-baslik-bold, .video-duyuru-container-bold, .video-duyuru-container .video-baslik-bold, .video-duyuru-container .duyuru-baslik-bold, .video-duyuru-container .duyuru-baslik-normal {
+  .online-dergiler-container-baslik, .online-dergiler-container-baslik-bold, .video-duyuru-container-bold, .video-duyuru-container .video-baslik-bold, .video-duyuru-container .duyuru-baslik-bold, .bold-baslik, .footer .footer-baslik-bold, .video-duyuru-container .duyuru-baslik-normal, .normal-baslik, .footer .footer-baslik-normal {
     font-size: 28.413px;
     color: #3a66af;
     font-weight: 500;
     line-height: 1.267;
     text-align: left; }
-  .online-dergiler-container-baslik-bold, .video-duyuru-container-bold, .video-duyuru-container .video-baslik-bold, .video-duyuru-container .duyuru-baslik-bold {
+  .online-dergiler-container-baslik-bold, .video-duyuru-container-bold, .video-duyuru-container .video-baslik-bold, .video-duyuru-container .duyuru-baslik-bold, .bold-baslik, .footer .footer-baslik-bold {
     font-weight: 800; }
   .online-dergiler-container .row {
     margin-top: 45px;
@@ -320,3 +319,103 @@ a {
       font-weight: bold;
       line-height: 2.472;
       text-align: left; }
+
+.hizmetler {
+  margin-top: 90px; }
+  .hizmetler .hizmet-resim {
+    width: 100%;
+    height: 115px; }
+
+.online-dergiler-container {
+  margin-top: 76px; }
+  .online-dergiler-container-baslik, .online-dergiler-container-baslik-bold, .video-duyuru-container-bold, .video-duyuru-container .video-baslik-bold, .video-duyuru-container .duyuru-baslik-bold, .bold-baslik, .footer .footer-baslik-bold, .video-duyuru-container .duyuru-baslik-normal, .normal-baslik, .footer .footer-baslik-normal {
+    font-size: 28.413px;
+    color: #3a66af;
+    font-weight: 500;
+    line-height: 1.267;
+    text-align: left; }
+  .online-dergiler-container-baslik-bold, .video-duyuru-container-bold, .video-duyuru-container .video-baslik-bold, .video-duyuru-container .duyuru-baslik-bold, .bold-baslik, .footer .footer-baslik-bold {
+    font-weight: 800; }
+  .online-dergiler-container .row {
+    margin-top: 45px;
+    margin-bottom: 95px; }
+    .online-dergiler-container .row .img-dergi {
+      width: 208px !important;
+      height: 290px !important;
+      margin: 0 auto; }
+    .online-dergiler-container .row .owl-two .owl-nav .owl-next {
+      position: absolute;
+      top: -26%;
+      left: 97%;
+      height: 35px;
+      width: 35px; }
+    .online-dergiler-container .row .owl-two .owl-nav .owl-prev {
+      position: absolute;
+      top: -26%;
+      left: 93%;
+      height: 35px;
+      width: 35px; }
+    .online-dergiler-container .row .owl-two .item-dergi {
+      background-color: #a7c8dc !important; }
+      .online-dergiler-container .row .owl-two .item-dergi-wrapper:hover {
+        cursor: pointer;
+        background: url("../img/dergiler/ho.png"); }
+      .online-dergiler-container .row .owl-two .item-dergi-wrapper:hover img {
+        opacity: 0;
+        cursor: pointer; }
+
+.footer {
+  margin-top: 95px; }
+  .footer .footer-social-media {
+    text-align: end; }
+  .footer .footer-cizgi {
+    border: #9dd9fe 1px solid;
+    width: 100%;
+    margin-top: 48px;
+    margin-bottom: 40px; }
+  .footer .footer-bilgi-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%; }
+  .footer .footer-baslik {
+    font-size: 16.236px;
+    color: #3a66af;
+    font-weight: bold;
+    line-height: 2.217;
+    text-align: left; }
+  .footer .footer-baslik-detay {
+    margin: 0px;
+    font-size: 12px;
+    color: #b2b4be !important;
+    font-weight: bold;
+    line-height: 1.667;
+    text-align: left;
+    display: block; }
+
+.footer-telefon-container {
+  background-color: #f6f6f6; }
+  .footer-telefon-container .row {
+    height: 185px; }
+  .footer-telefon-container .footer-telefon-baslik {
+    font-size: 12px;
+    color: #b2b4be;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left; }
+  .footer-telefon-container .belediyeismitext,
+  .footer-telefon-container .tumhaklarisaklidir {
+    font-size: 12px;
+    color: #84878c;
+    font-weight: 700; }
+  .footer-telefon-container .belediyeismitext {
+    font-weight: 800; }
+  .footer-telefon-container .designedby {
+    font-size: 10px;
+    color: #84878c;
+    font-weight: bold;
+    text-align: right; }
+
+.yukaricik {
+  position: relative;
+  left: 92%;
+  bottom: 15px; }
