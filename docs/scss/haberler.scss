@@ -62,7 +62,8 @@
       display: inline-block;
       background: url('../img/haber/hover.png');
 
-      @media (max-width: $phone) {
+      @media (max-width: $phone), (max-width: $xs)
+       {
         background: initial;
         display: block;
         margin: 7px auto;

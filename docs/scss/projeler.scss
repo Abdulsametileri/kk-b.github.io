@@ -34,8 +34,9 @@
   .owl-one {
     height: 197px;
     max-width: 500px;
-    @media (max-width: $phone) {
-      height: initial;
+   
+    @media (max-width: $md) {
+      max-width: 300px;
     }
     .owl-nav {
       .owl-prev img{
