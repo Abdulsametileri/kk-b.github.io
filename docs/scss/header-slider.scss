@@ -5,7 +5,9 @@ $solSagOkBottom: 90px;
   height: 100%;
 
   @media (max-width: $phone) {
-    
+    img {
+      object-fit: cover;
+    } 
   }
 
   .owl-nav {
