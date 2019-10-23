@@ -68,9 +68,14 @@
 
   .baskan-card {
     @extend .projeler-card;
+
     background: url('../img/projeler/card2bg.png');
     background-repeat: no-repeat;
 
+    @media (max-width: $lg) {
+      background: initial;
+      background-color: white;
+    }
    
 
     &-baslik {
@@ -110,6 +115,4 @@
       
     }
   }
-
-
 }

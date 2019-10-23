@@ -62,7 +62,7 @@
       display: inline-block;
       background: url('../img/haber/hover.png');
 
-      @media (max-width: $phone)
+      @media (max-width: $xs)
        {
         background: initial;
         display: block;
@@ -75,12 +75,14 @@
         width: 100%;
         height: 100%;
         @media (max-width: $phone) {
-          width: initial;
-          height: initial;
+          
         }
         &:hover {
           opacity: 0;
           cursor: pointer;
+          @media (max-width: $xs) {
+            opacity: 1;
+          }
         }
       }
     }
