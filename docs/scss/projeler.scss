@@ -3,6 +3,11 @@
   width: 100%;
   height: 625px;
 
+  @media (max-width: $phone) {
+    margin: initial;
+    height: initial;
+  }
+
   &-card {
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
@@ -10,6 +15,11 @@
     height: 438px;
     margin-top: 110px;
     padding: 30px 30px 40px 20px;
+    @media (max-width: $phone) {
+      margin-top: 30px;
+      height: initial;
+      padding: 20px; 
+    }
   }
 
   &-baslik {
@@ -24,6 +34,9 @@
   .owl-one {
     height: 197px;
     max-width: 500px;
+    @media (max-width: $phone) {
+      height: initial;
+    }
     .owl-nav {
       .owl-prev img{
         position: absolute;
@@ -35,10 +48,21 @@
         right: 0px;
         top: 38%;
       }
+      @media (max-width: $phone) {
+        .owl-prev img {
+          top: 27%;
+        }
+        .owl-next img {
+          top: 27%;
+        }
+      }
     }
   }
 
   .proje-detay {
+    @media (max-width: $phone) {
+      
+    }
     &-baslik {
       margin-top: 20px;
       font-size: 20.295px;
@@ -46,11 +70,17 @@
       font-weight: bold;
       line-height: 1.774;
       text-align: left;
+      @media (max-width: $phone) {
+          margin: initial;
+      }
     }
     &-detay {
       font-size: 12px;
       color: rgb(145, 149, 164);
       width: 399.639px;
+      @media (max-width: $phone) {
+        width: initial;
+      }
     }
 
     .projelericintiklayiniz img {
@@ -62,6 +92,13 @@
     @extend .projeler-card;
     background: url('../img/projeler/card2bg.png');
     background-repeat: no-repeat;
+
+    @media (max-width: $phone) {
+      background: initial;
+      background-color: white;
+      height: initial;
+      margin-bottom: 25px;
+    }
 
     &-baslik {
       @extend .projeler-baslik;
@@ -80,6 +117,9 @@
         padding-left: 13px;
         li {
           margin-top: 15px; 
+          @media (max-width: $phone) {
+              margin-top: 5px;
+          }
         }
         a {
           font-size: 16px;
@@ -89,11 +129,18 @@
         }
         &:nth-child(1) {
           margin-top: 61px; //eziyor ilk child.
+          @media (max-width: $phone) {
+            margin-top: 10px;
+          }
         }
+
       }
     }
     .detaylaricintikla img{
       margin-top:135px;
+      @media (max-width: $phone) {
+        margin: initial;
+      }
     }
   }
 

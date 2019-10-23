@@ -178,12 +178,17 @@ a {
     @media (max-width: 499px) {
       .haberler-container .tumhaberlericintiklayin {
         margin: initial;
-        text-align: center; } }
+        text-align: center;
+        margin-bottom: 15px; } }
 
 .projeler {
   background: url("../img/orta-bg.png");
   width: 100%;
   height: 625px; }
+  @media (max-width: 499px) {
+    .projeler {
+      margin: initial;
+      height: initial; } }
   .projeler-card, .projeler .baskan-card {
     border-radius: 10px;
     background-color: white;
@@ -191,6 +196,11 @@ a {
     height: 438px;
     margin-top: 110px;
     padding: 30px 30px 40px 20px; }
+    @media (max-width: 499px) {
+      .projeler-card, .projeler .baskan-card {
+        margin-top: 30px;
+        height: initial;
+        padding: 20px; } }
   .projeler-baslik, .projeler .baskan-card-baslik {
     font-size: 29px;
     color: #3a66af;
@@ -201,6 +211,9 @@ a {
   .projeler .owl-one {
     height: 197px;
     max-width: 500px; }
+    @media (max-width: 499px) {
+      .projeler .owl-one {
+        height: initial; } }
     .projeler .owl-one .owl-nav .owl-prev img {
       position: absolute;
       left: 0px;
@@ -209,6 +222,11 @@ a {
       position: absolute;
       right: 0px;
       top: 38%; }
+    @media (max-width: 499px) {
+      .projeler .owl-one .owl-nav .owl-prev img {
+        top: 27%; }
+      .projeler .owl-one .owl-nav .owl-next img {
+        top: 27%; } }
   .projeler .proje-detay-baslik {
     margin-top: 20px;
     font-size: 20.295px;
@@ -216,15 +234,27 @@ a {
     font-weight: bold;
     line-height: 1.774;
     text-align: left; }
+    @media (max-width: 499px) {
+      .projeler .proje-detay-baslik {
+        margin: initial; } }
   .projeler .proje-detay-detay {
     font-size: 12px;
     color: #9195a4;
     width: 399.639px; }
+    @media (max-width: 499px) {
+      .projeler .proje-detay-detay {
+        width: initial; } }
   .projeler .proje-detay .projelericintiklayiniz img {
     margin-bottom: 8px; }
   .projeler .baskan-card {
     background: url("../img/projeler/card2bg.png");
     background-repeat: no-repeat; }
+    @media (max-width: 499px) {
+      .projeler .baskan-card {
+        background: initial;
+        background-color: white;
+        height: initial;
+        margin-bottom: 25px; } }
     .projeler .baskan-card-detay {
       margin-top: -15px;
       font-weight: 600;
@@ -235,6 +265,9 @@ a {
       padding-left: 13px; }
       .projeler .baskan-card-container-list li {
         margin-top: 15px; }
+        @media (max-width: 499px) {
+          .projeler .baskan-card-container-list li {
+            margin-top: 5px; } }
       .projeler .baskan-card-container-list a {
         font-size: 16px;
         color: #3a66af !important;
@@ -242,8 +275,14 @@ a {
         line-height: 1.5; }
       .projeler .baskan-card-container-list:nth-child(1) {
         margin-top: 61px; }
+        @media (max-width: 499px) {
+          .projeler .baskan-card-container-list:nth-child(1) {
+            margin-top: 10px; } }
     .projeler .baskan-card .detaylaricintikla img {
       margin-top: 135px; }
+      @media (max-width: 499px) {
+        .projeler .baskan-card .detaylaricintikla img {
+          margin: initial; } }
 
 .online-dergiler-container {
   margin-top: 76px; }
