@@ -546,6 +546,9 @@ a {
     margin-top: 50px;
     margin-bottom: 50px;
     width: 100%; }
+    @media (max-width: 576px) {
+      .footer .footer-bilgi-container {
+        padding: 30px; } }
   .footer .footer-baslik {
     font-size: 16.236px;
     color: #3a66af;
@@ -565,6 +568,9 @@ a {
   background-color: #f6f6f6; }
   .footer-telefon-container .row {
     height: 185px; }
+    @media (max-width: 576px) {
+      .footer-telefon-container .row {
+        height: 250px; } }
   .footer-telefon-container .footer-telefon-baslik {
     font-size: 12px;
     color: #b2b4be;
@@ -588,6 +594,18 @@ a {
   position: relative;
   left: 92%;
   bottom: 15px; }
+  @media (max-width: 992px) {
+    .yukaricik {
+      left: 90%; } }
+  @media (max-width: 768px) {
+    .yukaricik {
+      left: 85%; } }
+  @media (max-width: 576px) {
+    .yukaricik {
+      left: 80%; } }
+  @media (max-width: 499px) {
+    .yukaricik {
+      left: 70%; } }
 
 .karamursel .header {
   height: 325px;
