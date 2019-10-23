@@ -91,3 +91,107 @@ a {
         border: white 2px solid; }
       .header .owl-zero .owl-dots .active span {
         background: white; }
+
+.haberler-container {
+  margin-top: 49px; }
+  .haberler-container .haber-manset-resim {
+    width: 100%;
+    height: 100%; }
+  .haberler-container .haber-manset-detay {
+    width: 100%;
+    height: 100%;
+    padding-left: 45px;
+    padding-right: 65px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    border: #e0e0e0 1px solid; }
+    .haberler-container .haber-manset-detay-container .haber-manset-detay-baslik {
+      font-size: 30px;
+      color: #393939;
+      font-weight: bold;
+      line-height: 1.2; }
+    .haberler-container .haber-manset-detay-container .haber-manset-detay-detay {
+      font-size: 16px;
+      color: #393939;
+      font-weight: bold;
+      line-height: 1.5;
+      height: 60px; }
+    .haberler-container .haber-manset-detay-container .haber-manset-detay-tarih {
+      margin-top: 66px;
+      font-size: 14px;
+      font-family: "OpenSans";
+      color: #a7a7a2;
+      line-height: 1.714; }
+    .haberler-container .haber-manset-detay-container .devamicintiklayin img {
+      margin-top: 45px; }
+  .haberler-container .haberler {
+    margin-top: 28px; }
+    .haberler-container .haberler .haber-preview-wrapper {
+      display: inline-block;
+      background: url("../img/haber/hover.png"); }
+      .haberler-container .haberler .haber-preview-wrapper .haber-preview-resim {
+        width: 100%;
+        height: 100%; }
+        .haberler-container .haberler .haber-preview-wrapper .haber-preview-resim:hover {
+          opacity: 0;
+          cursor: pointer; }
+
+.projeler {
+  background: url("../img/orta-bg.png");
+  width: 100%;
+  height: 625px; }
+  .projeler-card, .projeler .baskan-card {
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+    height: 438px;
+    margin-top: 110px;
+    padding: 30px 30px 40px 20px; }
+  .projeler-baslik, .projeler .baskan-card-baslik {
+    font-size: 29px;
+    color: #3a66af;
+    font-weight: bold;
+    line-height: 1.236;
+    text-align: left;
+    z-index: 171; }
+  .projeler .owl-one {
+    height: 197px;
+    max-width: 500px; }
+    .projeler .owl-one .owl-nav .owl-prev img {
+      position: absolute;
+      left: 0px;
+      top: 38%; }
+    .projeler .owl-one .owl-nav .owl-next img {
+      position: absolute;
+      right: 0px;
+      top: 38%; }
+  .projeler .proje-detay-baslik {
+    margin-top: 20px;
+    font-size: 20.295px;
+    color: #585b6a;
+    font-weight: bold;
+    line-height: 1.774;
+    text-align: left; }
+  .projeler .proje-detay-detay {
+    font-size: 12px;
+    color: #9195a4;
+    width: 399.639px; }
+  .projeler .proje-detay .projelericintiklayiniz img {
+    margin-bottom: 8px; }
+  .projeler .baskan-card {
+    background: url("../img/projeler/card2bg.png");
+    background-repeat: no-repeat; }
+    .projeler .baskan-card-detay {
+      margin-top: -15px;
+      font-weight: 600;
+      font-size: 16.644px;
+      color: #3a66af; }
+    .projeler .baskan-card-container-list {
+      list-style-image: url("../img/projeler/bulletbg.png");
+      padding-left: 13px; }
+      .projeler .baskan-card-container-list li {
+        margin-top: 15px; }
+      .projeler .baskan-card-container-list:nth-child(1) {
+        margin-top: 61px; }
+    .projeler .baskan-card .detaylaricintikla img {
+      margin-top: 135px; }

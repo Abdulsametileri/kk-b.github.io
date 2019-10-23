@@ -1,0 +1,43 @@
+.haberler-container {
+  margin-top: 49px; }
+  .haberler-container .haber-manset-resim {
+    width: 100%;
+    height: 100%; }
+  .haberler-container .haber-manset-detay {
+    width: 100%;
+    height: 100%;
+    padding-left: 45px;
+    padding-right: 65px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    border: #e0e0e0 1px solid; }
+    .haberler-container .haber-manset-detay-container .haber-manset-detay-baslik {
+      font-size: 30px;
+      color: #393939;
+      font-weight: bold;
+      line-height: 1.2; }
+    .haberler-container .haber-manset-detay-container .haber-manset-detay-detay {
+      font-size: 16px;
+      color: #393939;
+      font-weight: bold;
+      line-height: 1.5;
+      height: 60px; }
+    .haberler-container .haber-manset-detay-container .haber-manset-detay-tarih {
+      margin-top: 66px;
+      font-size: 14px;
+      font-family: "OpenSans";
+      color: #a7a7a2;
+      line-height: 1.714; }
+    .haberler-container .haber-manset-detay-container .devamicintiklayin img {
+      margin-top: 45px; }
+  .haberler-container .haberler {
+    margin-top: 28px; }
+    .haberler-container .haberler .haber-preview-wrapper {
+      display: inline-block;
+      background: url("../img/haber/hover.png"); }
+      .haberler-container .haberler .haber-preview-wrapper .haber-preview-resim {
+        width: 100%;
+        height: 100%; }
+        .haberler-container .haberler .haber-preview-wrapper .haber-preview-resim:hover {
+          opacity: 0;
+          cursor: pointer; }

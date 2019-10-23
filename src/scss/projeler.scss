@@ -1,0 +1,96 @@
+.projeler {
+  background: url('../img/orta-bg.png');
+  width: 100%;
+  height: 625px;
+
+  &-card {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 438px;
+    margin-top: 110px;
+    padding: 30px 30px 40px 20px;
+  }
+
+  &-baslik {
+    font-size: 29px;
+    color: rgb(58, 102, 175);
+    font-weight: bold;
+    line-height: 1.236;
+    text-align: left;
+    z-index: 171;
+  }
+  
+  .owl-one {
+    height: 197px;
+    max-width: 500px;
+    .owl-nav {
+      .owl-prev img{
+        position: absolute;
+        left: 0px;
+        top: 38%;
+      }
+      .owl-next img {
+        position: absolute;
+        right: 0px;
+        top: 38%;
+      }
+    }
+  }
+
+  .proje-detay {
+    &-baslik {
+      margin-top: 20px;
+      font-size: 20.295px;
+      color: rgb(88, 91, 106);
+      font-weight: bold;
+      line-height: 1.774;
+      text-align: left;
+    }
+    &-detay {
+      font-size: 12px;
+      color: rgb(145, 149, 164);
+      width: 399.639px;
+    }
+
+    .projelericintiklayiniz img {
+      margin-bottom: 8px;
+    }
+  }
+
+  .baskan-card {
+    @extend .projeler-card;
+    background: url('../img/projeler/card2bg.png');
+    background-repeat: no-repeat;
+
+    &-baslik {
+      @extend .projeler-baslik;
+    }
+
+    &-detay {
+      margin-top: -15px;
+      font-weight: 600;
+      font-size: 16.644px;
+      color: rgb(58, 102, 175);
+    }
+
+    &-container {
+      &-list {
+        list-style-image: url('../img/projeler/bulletbg.png');
+        padding-left: 13px;
+        li {
+          margin-top: 15px; 
+        }
+
+        &:nth-child(1) {
+          margin-top: 61px; //eziyor ilk child.
+        }
+      }
+    }
+    .detaylaricintikla img{
+      margin-top:135px;
+    }
+  }
+
+
+}

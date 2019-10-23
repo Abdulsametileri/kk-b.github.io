@@ -1,0 +1,63 @@
+.haberler-container {
+  margin-top: 49px;
+
+  .haber-manset-resim {
+    width: 100%;
+    height: 100%;
+  }
+  .haber-manset-detay {
+    width: 100%;
+    height: 100%;
+    padding-left: 45px;
+    padding-right: 65px;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    border: #e0e0e0 1px solid;
+    &-container {
+      $namespace: ".haber-manset-detay";
+      #{$namespace}-baslik {
+        font-size: 30px;
+        color: rgb(57, 57, 57);
+        font-weight: bold;
+        line-height: 1.2;
+      }
+      #{$namespace}-detay {
+        font-size: 16px;
+        color: rgb(57, 57, 57);
+        font-weight: bold;
+        line-height: 1.5;
+        height: 60px;
+      }
+      #{$namespace}-tarih {
+        margin-top:66px;
+        font-size: 14px;
+        font-family: "OpenSans";
+        color: rgb(167, 167, 162);
+        line-height: 1.714;
+      }
+      .devamicintiklayin img {
+        margin-top:45px;
+      }
+    }
+  }
+  .haberler {
+    margin-top: 28px;
+
+    $namespace: '.haber-preview';
+    #{$namespace}-wrapper {
+      display: inline-block;
+      background: url('../img/haber/hover.png');
+
+      #{$namespace}-resim {
+        width: 100%;
+        height: 100%;
+        &:hover {
+          opacity: 0;
+          cursor: pointer;
+        }
+      }
+    }
+
+  }
+
+}

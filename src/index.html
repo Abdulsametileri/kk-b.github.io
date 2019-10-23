@@ -132,39 +132,36 @@
     </div>
 
 
-      <!-- HABER VE DETAYLAR -->
-
-    <div class="container">
-        <div class="row" style="margin-top:49px;">
-          <div class="col-sm">
-            <img
-              width="605px"
-              height="411px"
+    <!-- HABER VE DETAYLAR -->
+    <div class="container haberler-container">
+        <div class="row">
+          <div class="col-sm-7">
+            <img class="haber-manset-resim"
               src="img/haber/buyukBaslik.png"
-              alt=""
             />
           </div>
-          <div class="col-sm haber-border">
-            <div class="haber-container" style="margin-top:45px;">
-              <p class="haber-baslik">6 BİN KİŞİYE BALIK EKMEK İKRAMI</p>
-              <p class="haber-detay">
-                Karamürsel Belediyesi'nin düzenlediği Ereğli Balık Festivali
-                kapsamında dün 6 bin kişiye balık-ekmek ikramında bulunuldu.
-              </p>
-              <p class="haber-tarih" style="margin-top:66px;">19 Eylül 2019</p>
-              <a href="">
-                <img
-                  style="margin-top:45px;"
-                  src="img/haber/devam_icin_tiklayin.png"
-                  alt=""
-                />
-              </a>
+          <div class="col-sm-5">
+            <div class="haber-manset-detay">
+              <div class="haber-manset-detay-container">
+                <p class="haber-manset-detay-baslik">6 BİN KİŞİYE BALIK EKMEK İKRAMI</p>
+                <p class="haber-manset-detay-detay">
+                  Karamürsel Belediyesi'nin düzenlediği Ereğli Balık Festivali
+                  kapsamında dün 6 bin kişiye balık-ekmek ikramında bulunuldu.
+                </p>
+                <p class="haber-manset-detay-tarih" >19 Eylül 2019</p>
+                <a class="devamicintiklayin" href="">
+                  <img
+                    src="img/haber/devam_icin_tiklayin.png"
+                    alt=""
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="row" style="margin-top:28px">
-          <div class="col-sm ">
-            <div class="haber-image-wrapper">
+        <div class="row haberler">
+          <div class="col-sm">
+            <div class="haber-preview-wrapper">
               <img
                 class="haber-preview-resim"
                 src="img/haber/gorsel1.png"
@@ -172,8 +169,8 @@
               />
             </div>
           </div>
-          <div class="col-sm ">
-            <div class="haber-image-wrapper">
+          <div class="col-sm">
+            <div class="haber-preview-wrapper">
               <img
                 class="haber-preview-resim"
                 src="img/haber/gorsel2.png"
@@ -182,7 +179,7 @@
             </div>
           </div>
           <div class="col-sm ">
-            <div class="haber-image-wrapper">
+            <div class="haber-preview-wrapper">
               <img
                 class="haber-preview-resim"
                 src="img/haber/gorsel3.png"
@@ -191,7 +188,7 @@
             </div>
           </div>
           <div class="col-sm ">
-            <div class="haber-image-wrapper">
+            <div class="haber-preview-wrapper">
               <img
                 class="haber-preview-resim"
                 src="img/haber/gorsel4.png"
@@ -200,7 +197,7 @@
             </div>
           </div>
           <div class="col-sm ">
-            <div class="haber-image-wrapper">
+            <div class="haber-preview-wrapper">
               <img
                 class="haber-preview-resim"
                 src="img/haber/gorsel5.png"
@@ -209,7 +206,7 @@
             </div>
           </div>
           <div class="col-sm ">
-            <div class="haber-image-wrapper">
+            <div class="haber-preview-wrapper">
               <img
                 class="haber-preview-resim"
                 src="img/haber/gorsel6.png"
@@ -228,77 +225,67 @@
       </div>
 
       <!-- PROJELER FELAN -->
-      <div class="container-fluid proje p-0">
-          <div class="container ">
-            <div class="row"
-             style="flex-wrap:nowrap;">
+      <div class="container-fluid projeler">
+          <div class="container">
+            <div class="row">
               <div class="col">
-                <div class="proje-card">
-                  <p class="proje-baslik">PROJELER</p>
+                <div class="projeler-card">
+                  <p class="projeler-baslik">PROJELER</p>
+                  
                   <div class="owl-one owl-carousel owl-theme">
-                    <div class="item">
+                    <div class="item-proje">
                       <img src="img/projeler/proje1.png" alt="" />
                     </div>
-                    <div class="item">
+                    <div class="item-proje">
                       <img src="img/projeler/proje1.png" alt="" />
                     </div>
-                    <div class="item">
+                    <div class="item-proje">
                       <img src="img/projeler/proje1.png" alt="" />
                     </div>
-                    <div class="item">
+                    <div class="item-proje">
                       <img src="img/projeler/proje1.png" alt="" />
                     </div>
                   </div>
-                  <div>
-                    <p class="proje-detay-baslik" style="margin-top: 8px;">
-                      KENT MEYDANI
-                    </p>
-                    <p
-                      class="proje-detay-baslik-detay"
-                      style="margin-top: -12px;"
-                    >
+                  
+                  <div class="proje-detay">
+                    <p class="proje-detay-baslik">KENT MEYDANI </p>
+                    <p class="proje-detay-detay">
                       Kocaeli Büyükşehir Belediyesi’nin de desteğiyle ilçeye 5 bin
                       metrekarelik kent meydanı kazandırdık.
                     </p>
-                    <a href="">
+                    <a class="projelericintiklayiniz" href="">
                       <img
                         src="img/projeler/projelerinintiklayiniz.png"
-                        style="margin-top:4px;"
-                        alt=""
                       />
                     </a>
                   </div>
                 </div>
               </div>
               <div class="col">
-                <div class="proje-card proje-card2-ext">
-                  <p class="proje-baslik">İSMAİL YILDIRIM</p>
-                  <p
-                    class="proje-baslik-detay"
-                    style="margin-top: -15px; font-weight: 600;"
-                  >
+                <div class="baskan-card">
+                  <p class="baskan-card-baslik">İSMAİL YILDIRIM</p>
+                  <p class="baskan-card-detay">
                     KARAMÜRSEL BELEDİYE BAŞKANI
                   </p>
-                  <div id="card2-container">
-                    <ul id="card2-list">
-                      <li style="margin-top:61px;">
+                  <div id="baskan-card-container">
+                    <ul class="baskan-card-container-list">
+                      <li>
                         <a class="yan-basliklar">BİYOGRAFİ</a>
                       </li>
-                      <li style="margin-top:15px;">
+                      <li>
                         <a class="yan-basliklar">FOTOĞRAFLAR</a>
                       </li>
-                      <li style="margin-top:15px;">
+                      <li>
                         <a class="yan-basliklar">BAŞKANA MESAJ</a>
                       </li>
                     </ul>
-                    <a href="">
-                      <img
-                        style="margin-top:115px; "
-                        src="img/projeler/detaylaricintikla.png"
-                        alt=""
-                      />
-                    </a>
+                    
                   </div>
+                  <a class="detaylaricintikla" href="">
+                      <img
+                        src="img/projeler/detaylaricintikla.png"
+                      />
+                  </a>
                 </div>
               </div>
             </div>
