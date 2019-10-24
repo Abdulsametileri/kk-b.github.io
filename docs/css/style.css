@@ -564,20 +564,33 @@ a {
 
 .footer {
   margin-top: 95px; }
+  @media (max-width: 576px) {
+    .footer .footer-baslik-normal {
+      text-align: center; } }
+  @media (max-width: 576px) {
+    .footer .footer-sosyal-medya-baslik-conntainer {
+      display: none; } }
   .footer .footer-social-media {
     text-align: end; }
+    @media (max-width: 576px) {
+      .footer .footer-social-media {
+        text-align: center; } }
   .footer .footer-cizgi {
     border: #9dd9fe 1px solid;
     width: 100%;
     margin-top: 48px;
     margin-bottom: 40px; }
+    @media (max-width: 576px) {
+      .footer .footer-cizgi {
+        margin-bottom: 0px; } }
   .footer .footer-bilgi-container {
     margin-top: 50px;
     margin-bottom: 50px;
     width: 100%; }
     @media (max-width: 576px) {
       .footer .footer-bilgi-container {
-        padding: 30px; } }
+        padding: 30px;
+        margin-top: 0px; } }
   .footer .footer-baslik {
     font-size: 16.236px;
     color: #3a66af;

@@ -16,10 +16,22 @@
   }
   .footer-baslik-normal {
     @extend .normal-baslik;
+    @media (max-width: $xs) {
+      text-align: center;
+    }
+  }
+
+  .footer-sosyal-medya-baslik-conntainer {
+    @media (max-width: $xs) {
+      display: none;
+    }
   }
 
   .footer-social-media {
     text-align: end;
+    @media (max-width: $xs) {
+      text-align: center;
+    }
   }
 
   .footer-cizgi {
@@ -27,6 +39,9 @@
     width: 100%; 
     margin-top: 48px; 
     margin-bottom:40px;
+    @media (max-width: $xs) {
+      margin-bottom: 0px;
+    }
   }
 
   .footer-bilgi-container {
@@ -35,6 +50,7 @@
     width: 100%;
     @media (max-width: $xs) {
       padding: 30px;
+      margin-top: 0px;
     }
   }
 
