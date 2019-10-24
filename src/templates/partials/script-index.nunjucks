@@ -1,0 +1,46 @@
+  <script>
+    $(function () {
+      $('.owl-zero').owlCarousel({
+        loop: true,
+        nav: true,
+        dots: true,
+        items: 1,
+        navText: ["<img src='img/solOk.png'>", "<img src='img/sagOk.png'>"]
+      });
+
+      $('.owl-one').owlCarousel({
+        loop: true,
+        nav: true,
+        dots: false,
+        margin: 10,
+        nav: true,
+        items: 1,
+        navText: ["<img src='img/projeler/sol_ok_icon.png'>", "<img src='img/projeler/sag_ok_icon.png'>"]
+      });
+
+      $('.owl-two').owlCarousel({
+        loop: true,
+        nav: true,
+        dots: false,
+        margin: 25,
+        items: 4,
+        navText: [
+          "<img src='img/dergiler/solOk.png'>", "<img src='img/dergiler/sagOk.png'>"
+        ],
+        responsive: {
+          0: {
+            items: 1
+          },
+          500: {
+            items: 2
+          },
+          768: {
+            items: 3
+          },
+          992: {
+            items: 4
+          }
+        }
+      });
+    });
+  </script>
