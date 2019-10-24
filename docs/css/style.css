@@ -450,7 +450,8 @@ a {
       text-align: left; }
       @media (max-width: 576px) {
         .video-duyuru-container .duyuru-container .duyuru-wrapper .duyuru-baslik {
-          text-align: center; } }
+          text-align: center;
+          width: 100%; } }
     @media (max-width: 576px) {
       .video-duyuru-container .duyuru-container .duyuru-wrapper .tarih-row {
         justify-content: center; } }
