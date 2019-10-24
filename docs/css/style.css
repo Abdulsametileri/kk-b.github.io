@@ -22,27 +22,50 @@ a {
 
 .header {
   position: relative;
-  height: 560px; }
+  height: 560px;
+  /*
+  @media (max-width: $phone) {
+    .social-media {
+      justify-content: center;
+      .online-islemler {
+        margin: initial;
+      }
+      .links {
+        margin-top: 10px;
+      }
+    }      
+  }
+  */ }
   .header .social-media {
     justify-content: flex-end; }
     .header .social-media .online-islemler {
       margin-right: 32px; }
-  @media (max-width: 499px) {
-    .header .social-media {
-      justify-content: center; }
-      .header .social-media .online-islemler {
-        margin: initial; }
-      .header .social-media .links {
-        margin-top: 10px; } }
+    @media (max-width: 992px) {
+      .header .social-media {
+        display: none; } }
   .header .nav {
-    align-items: baseline;
-    justify-content: flex-end;
-    margin-top: 30px; }
-    @media (max-width: 499px), (max-width: 1200px) {
+    /*
+  align-items: baseline;
+  justify-content: flex-end;
+  margin-top:30px;
+  */
+    background-color: #3a66af; }
+    @media (min-width: 992px) {
       .header .nav {
-        justify-content: center; }
-        .header .nav .navbar-brand {
+        background-color: initial; } }
+    .header .nav #text-title {
+      margin: 0 auto;
+      color: white;
+      font-family: "Raleway";
+      font-weight: 700; }
+      @media (min-width: 992px) {
+        .header .nav #text-title {
           display: none; } }
+    .header .nav #hamburger-btn {
+      background-color: white; }
+    @media (max-width: 1200px) {
+      .header .nav .navbar-brand {
+        display: none; } }
     .header .nav .navbar-brand img {
       width: 141px;
       height: 135px; }
@@ -51,28 +74,30 @@ a {
       font-weight: 800;
       color: white;
       padding: 1rem 0.4rem; }
-    @media (max-width: 992px) {
-      .header .nav .aramaAlani {
-        display: none; } }
-    .header .nav .aramaAlani .aramaKutusu {
-      color: white;
-      width: 190px;
-      height: 32px;
-      font-size: 13px;
-      background-color: rgba(25, 52, 76, 0.5);
-      border: solid 1px;
-      font-weight: 500;
-      border-color: #7c8b9b;
-      font-family: inherit;
-      font-weight: bold;
-      padding-left: 20px;
-      margin-left: 30px; }
-    .header .nav .aramaAlani .aramaBtn {
-      display: flex;
-      border: none;
-      background: none;
-      margin-top: -23px;
-      margin-left: 175px; }
+    .header .nav .aramaAlani {
+      margin-top: 10px; }
+      @media (max-width: 992px) {
+        .header .nav .aramaAlani {
+          display: none; } }
+      .header .nav .aramaAlani .aramaKutusu {
+        color: white;
+        width: 190px;
+        height: 32px;
+        font-size: 13px;
+        background-color: rgba(25, 52, 76, 0.5);
+        border: solid 1px;
+        font-weight: 500;
+        border-color: #7c8b9b;
+        font-family: inherit;
+        font-weight: bold;
+        padding-left: 20px;
+        margin-left: 30px; }
+      .header .nav .aramaAlani .aramaBtn {
+        display: flex;
+        border: none;
+        background: none;
+        margin-top: -23px;
+        margin-left: 175px; }
   .header .baslik {
     position: relative;
     bottom: 140px;

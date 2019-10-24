@@ -9,8 +9,14 @@
     .online-islemler {
       margin-right: 32px;
     }
+    @media (max-width: $lg) {
+      display: none;
+    }
   }
 
+  
+
+  /*
   @media (max-width: $phone) {
     .social-media {
       justify-content: center;
@@ -22,6 +28,7 @@
       }
     }      
   }
+  */
 
   @import 'navbar.scss';
 
