@@ -19,7 +19,7 @@
     position: absolute;
     right: 133px;
     bottom: 65px;
-    @media (max-width: $xs) {
+    @media (max-width: $xs), (max-width: $lg) {
         display: none;
     }
   }

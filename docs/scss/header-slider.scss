@@ -27,7 +27,7 @@ $solSagOkBottom: 90px;
     right: $solSagOkUzaklik;
     bottom: 44px;
 
-    @media (max-width: $phone) {
+    @media (max-width: $xs) {
       right: 0;
       left: 0;
       margin: 0 auto;

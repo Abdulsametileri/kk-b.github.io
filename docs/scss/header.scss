@@ -32,7 +32,7 @@
     color: white;
     text-align: center;
     pointer-events: none;
-    @media (max-width: $phone) {
+    @media (max-width: $xs) {
       bottom: 225px;
     }
   }

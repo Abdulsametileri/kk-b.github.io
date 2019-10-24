@@ -27,6 +27,9 @@
   }
 
   .aramaAlani {
+    @media (max-width: $lg) {
+      display: none;
+    }
     .aramaKutusu {
       color: white;
       width: 190px;

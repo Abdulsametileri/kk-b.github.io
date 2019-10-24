@@ -51,6 +51,9 @@ a {
       font-weight: 800;
       color: white;
       padding: 1rem 0.4rem; }
+    @media (max-width: 992px) {
+      .header .nav .aramaAlani {
+        display: none; } }
     .header .nav .aramaAlani .aramaKutusu {
       color: white;
       width: 190px;
@@ -77,7 +80,7 @@ a {
     color: white;
     text-align: center;
     pointer-events: none; }
-    @media (max-width: 499px) {
+    @media (max-width: 576px) {
       .header .baslik {
         bottom: 225px; } }
   .header .owl-zero {
@@ -97,7 +100,7 @@ a {
       position: absolute;
       right: 100px;
       bottom: 44px; }
-      @media (max-width: 499px) {
+      @media (max-width: 576px) {
         .header .owl-zero .owl-dots {
           right: 0;
           left: 0;
@@ -627,7 +630,7 @@ a {
   position: absolute;
   right: 133px;
   bottom: 65px; }
-  @media (max-width: 576px) {
+  @media (max-width: 576px), (max-width: 992px) {
     .karamursel .header-kesfet-text {
       display: none; } }
 
