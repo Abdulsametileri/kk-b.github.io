@@ -5,7 +5,7 @@ const nunjucksRender = require('gulp-nunjucks-render');
 
 //compile SASS files into CSS files
 gulp.task('sass', () => {
-  return gulp.src('docs/scss/style.scss')
+  return gulp.src('src/scss/style.scss')
     .pipe(sass())
     .pipe(gulp.dest('docs/css/'))
     .pipe(browserSync.stream());
@@ -13,14 +13,14 @@ gulp.task('sass', () => {
 
 
 gulp.task('nunjucks', () => {
-  return gulp.src('app/pages/**/*.nunjucks')
+  return gulp.src('src/pages/**/*.nunjucks')
     // Renders template with nunjucks
     .pipe(nunjucksRender({
-      path: ['app/templates']
+      path: ['src/templates']
     }))
-    // output files in app folder  
+    // output files in src folder  
     .pipe(gulp.dest('docs/'))
-    // .pipe(gulp.dest('app/'))
+    // .pipe(gulp.dest('src/'))
     .pipe(browserSync.stream())
 });
 
@@ -33,8 +33,8 @@ gulp.task('serve', function() {
     server: 'docs/'
   });
 
-  gulp.watch('docs/scss/*.scss', gulp.series('sass'));
-  gulp.watch('app/**/*.nunjucks', gulp.parallel('nunjucks'));
+  gulp.watch('src/scss/*.scss', gulp.series('sass'));
+  gulp.watch('src/**/*.nunjucks', gulp.parallel('nunjucks'));
   // gulp.watch('docs/*.html').on('change', browserSync.reload);
 });
 
