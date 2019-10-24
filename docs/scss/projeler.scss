@@ -101,9 +101,10 @@
     }
 
     @media (max-width: $phone) {
-      //background: initial;
-      //background-color: white;
-      background-position-x: center;
+      background-size: contain;
+      background-position: center;
+      background-color: white;
+      background-position-y: 40%;
     }
 
     &-baslik {
@@ -120,7 +121,7 @@
     &-container {
       &-list {
         list-style-image: url('../img/projeler/bulletbg.png');
-        padding-left: 13px;
+        padding-left: 6px;
         li {
           margin-top: 15px; 
          
@@ -133,7 +134,13 @@
         }
         &:nth-child(1) {
           margin-top: 61px; //eziyor ilk child.
-          
+          @media (max-width: $phone) {
+          }
+        }
+        &:last-child {
+          @media (max-width: $phone) {
+            width: 10%;
+          }
         }
 
       }

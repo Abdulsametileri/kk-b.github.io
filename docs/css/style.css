@@ -289,7 +289,10 @@ a {
         background-repeat: no-repeat; } }
     @media (max-width: 499px) {
       .projeler .baskan-card {
-        background-position-x: center; } }
+        background-size: contain;
+        background-position: center;
+        background-color: white;
+        background-position-y: 40%; } }
     .projeler .baskan-card-detay {
       margin-top: -15px;
       font-weight: 600;
@@ -297,7 +300,7 @@ a {
       color: #3a66af; }
     .projeler .baskan-card-container-list {
       list-style-image: url("../img/projeler/bulletbg.png");
-      padding-left: 13px; }
+      padding-left: 6px; }
       .projeler .baskan-card-container-list li {
         margin-top: 15px; }
       .projeler .baskan-card-container-list a {
@@ -307,6 +310,9 @@ a {
         line-height: 1.5; }
       .projeler .baskan-card-container-list:nth-child(1) {
         margin-top: 61px; }
+      @media (max-width: 499px) {
+        .projeler .baskan-card-container-list:last-child {
+          width: 10%; } }
     .projeler .baskan-card .detaylaricintikla img {
       margin-top: 135px; }
       @media (max-width: 499px) {
