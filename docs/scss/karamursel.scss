@@ -19,7 +19,7 @@
     position: absolute;
     right: 133px;
     bottom: 65px;
-    @media (max-width: $phone) {
+    @media (max-width: $xs) {
         display: none;
     }
   }
@@ -107,6 +107,7 @@
     border-radius: 10px;
     background: #a7c8dc;
     padding: 30px 10px 10px;
+    
     .dergi {
       box-shadow: -10px 5px 5px -5px #698a9d;
       margin-bottom: 0;
@@ -117,6 +118,10 @@
     .metin-foto {
       width: 100%;
       height: 400px;
+      @media (max-width: $md) {
+        margin-top: 25px;
+        object-fit: cover;
+      }
     }
     .metin-baslik {
       font-weight: 800;
@@ -160,6 +165,10 @@
         width: 100%;
         height: 100px;
         display: block;
+        
+        @media (max-width: $xs) {
+          object-fit: contain;  
+        }
       }
       .foto-buyuk {
         transition: 0.5s ease;
