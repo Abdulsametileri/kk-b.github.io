@@ -1,0 +1,105 @@
+<div class="container footer">
+  <div class="row justify-content-between">
+    <div class="col-12 col-sm-6">
+      <p class="footer-sosyal-medya-baslik-conntainer">
+        <span class="footer-baslik-bold">SOSYAL </span>
+        <span class="footer-baslik-normal ml-1">MEDYA</span>
+      </p>
+    </div>
+    <div class="col-12 col-sm-6">
+      <div class="footer-social-media">
+        <a href="">
+          <img src="img/facebook.png" class="mr-1"/>
+        </a>
+
+        <a href="">
+          <img src="img/twitter.png" class="mr-1"/>
+        </a>
+
+        <a href="">
+          <img src="img/instegram.png" class="mr-1"/>
+        </a>
+        <a href="">
+          <img src="img/youtube.png"/>
+        </a>
+      </div>
+    </div>
+
+    <div class="row footer-cizgi"></div>
+
+    <div class="row footer-bilgi-container">
+      <div class="col-6 col-sm-3 col-md my-1">
+        <p class="footer-baslik">KARAMÜRSEL</p>
+        <a class="footer-baslik-detay">TARİHÇE</a>
+        <a class="footer-baslik-detay">SANAYİ</a>
+        <a class="footer-baslik-detay">NUFÜS</a>
+        <a class="footer-baslik-detay">ULAŞIM</a>
+        <a class="footer-baslik-detay">SPOR</a>
+      </div>
+      <div class="col-6 col-sm-3 col-md my-1">
+        <p class="footer-baslik">BAŞKANIMIZ</p>
+        <a class="footer-baslik-detay">ÖZGEÇMİŞİ</a>
+        <a class="footer-baslik-detay">FOTOĞRAFLARI</a>
+        <a class="footer-baslik-detay">BAŞKANA MESAJ</a>
+        <a class="footer-baslik-detay">PROJELER</a>
+      </div>
+      <div class="col-6 col-sm-3 col-md my-1">
+        <p class="footer-baslik">KURUMSAL</p>
+        <a class="footer-baslik-detay">BELEDİYE ENCÜMENİ</a>
+        <a class="footer-baslik-detay">BAŞKAN YARDIMCILARI</a>
+        <a class="footer-baslik-detay">MECLİS ÜYELERİ</a>
+        <a class="footer-baslik-detay">MÜDÜRLER</a>
+        <a class="footer-baslik-detay">MÜDÜRLÜKLER</a>
+        <a class="footer-baslik-detay">ORGANİZASYON ŞEMASI</a>
+      </div>
+      <div class="col-6 col-sm-3 col-md my-1">
+        <p class="footer-baslik">ONLİNE İŞLEMLER</p>
+        <a class="footer-baslik-detay">EVRAK SORGULAMA</a>
+        <a class="footer-baslik-detay">TAHSİLAT İŞLEMLERİ</a>
+        <a class="footer-baslik-detay">ARSA RAYİÇ DEĞERLERİ</a>
+        <a class="footer-baslik-detay">İNŞAAT MALİYET BEDELLERİ</a>
+        <a class="footer-baslik-detay">ÇEVRE TEMİZLİK TARİFELERİ</a>
+        <a class="footer-baslik-detay">HIZLI TAHSİLAT</a>
+      </div>
+      <div class="col-6 col-sm-3 col-md my-1">
+        <p class="footer-baslik">BİLGİ HİZMETLERİ</p>
+        <a class="footer-baslik-detay">VEFAT EDENLER</a>
+        <a class="footer-baslik-detay">NÖBETÇİ ECZANELER</a>
+        <a class="footer-baslik-detay">VAPUR SAATLERİ</a>
+        <a class="footer-baslik-detay">EVLENDİRME HİZMETLERİ</a>
+        <a class="footer-baslik-detay">FAALİYET RAPORLARI</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<a href="#scrollOnTop">
+  <img class="yukaricik" src="img/footer/yukaricik.png" alt=""/>
+</a>
+
+<div class="container-fluid footer-telefon-container">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-4">
+        <p class="footer-telefon-baslik">İletişim Merkezi</p>
+        <a href="tel:+902624521025">
+          <img src="img/footer/iletisimmerkezi.png" alt=""/>
+        </a>
+
+      </div>
+      <div class="col-12 col-md-4">
+        <p class="footer-telefon-baslik">Hizmet Masası</p>
+        <a href="tel:+902624524500">
+          <img src="img/footer/hizmetmasasi.png" alt=""/>
+        </a>
+      </div>
+      <div class="col-12 col-md-4">
+        <p style="text-align: right;">
+          <span class="tumhaklarisaklidir">TÜM HAKLARI SAKLIDIR</span>
+          <span class="belediyeismitext">KARAMÜRSEL BELEDİYESİ</span>
+        </p>
+        <p class="designedby">DESIGNED BY WART AJANS</p>
+      </div>
+    </div>
+  </div>
+</div>
