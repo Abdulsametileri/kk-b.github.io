@@ -13,6 +13,9 @@
     padding-top: 38px;
     padding-bottom: 38px;
     border: #e0e0e0 1px solid;
+    @media (max-width: $phone) {
+      border: none;
+    }
 
     @media (max-width: $phone) {
       padding: 5px;
@@ -56,6 +59,10 @@
   }
   .haberler {
     margin-top: 28px;
+
+    @media (max-width: $phone) {
+      display: none;
+    }
 
     $namespace: '.haber-preview';
     #{$namespace}-wrapper {

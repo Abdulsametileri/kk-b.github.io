@@ -151,6 +151,9 @@ a {
     border: #e0e0e0 1px solid; }
     @media (max-width: 499px) {
       .haberler-container .haber-manset-detay {
+        border: none; } }
+    @media (max-width: 499px) {
+      .haberler-container .haber-manset-detay {
         padding: 5px;
         text-align: center; } }
     .haberler-container .haber-manset-detay-container .haber-manset-detay-baslik {
@@ -181,6 +184,9 @@ a {
           margin-bottom: 10px; } }
   .haberler-container .haberler {
     margin-top: 28px; }
+    @media (max-width: 499px) {
+      .haberler-container .haberler {
+        display: none; } }
     .haberler-container .haberler .haber-preview-wrapper {
       display: inline-block;
       background: url("../img/haber/hover.png"); }
@@ -283,8 +289,7 @@ a {
         background-repeat: no-repeat; } }
     @media (max-width: 499px) {
       .projeler .baskan-card {
-        background: initial;
-        background-color: white; } }
+        background-position-x: center; } }
     .projeler .baskan-card-detay {
       margin-top: -15px;
       font-weight: 600;
@@ -304,6 +309,9 @@ a {
         margin-top: 61px; }
     .projeler .baskan-card .detaylaricintikla img {
       margin-top: 135px; }
+      @media (max-width: 499px) {
+        .projeler .baskan-card .detaylaricintikla img {
+          margin-top: 100px; } }
 
 .online-dergiler-container {
   margin-top: 76px; }

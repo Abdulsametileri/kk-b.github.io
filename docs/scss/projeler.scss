@@ -101,8 +101,9 @@
     }
 
     @media (max-width: $phone) {
-      background: initial;
-      background-color: white;
+      //background: initial;
+      //background-color: white;
+      background-position-x: center;
     }
 
     &-baslik {
@@ -139,7 +140,9 @@
     }
     .detaylaricintikla img{
       margin-top:135px;
-      
+      @media (max-width: $phone) {
+        margin-top: 100px;
+      }
     }
   }
 }
