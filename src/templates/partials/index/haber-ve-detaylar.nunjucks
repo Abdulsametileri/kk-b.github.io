@@ -1,0 +1,63 @@
+<div class="container haberler-container">
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-7">
+      <img class="haber-manset-resim" src="img/haber/buyukBaslik.png" />
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-5">
+      <div class="haber-manset-detay">
+        <div class="haber-manset-detay-container">
+          <p class="haber-manset-detay-baslik">
+            6 BİN KİŞİYE BALIK EKMEK İKRAMI
+          </p>
+          <p class="haber-manset-detay-detay">
+            Karamürsel Belediyesi'nin düzenlediği Ereğli Balık Festivali
+            kapsamında dün 6 bin kişiye balık-ekmek ikramında bulunuldu.
+          </p>
+          <p class="haber-manset-detay-tarih">19 Eylül 2019</p>
+          <a class="devamicintiklayin" href="">
+            <img src="img/haber/devam_icin_tiklayin.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row haberler ">
+    <div class="col-12 col-sm-4 col-md-4 col-lg-2 my-1">
+      <div class="haber-preview-wrapper">
+        <img class="haber-preview-resim" src="img/haber/gorsel1.png" alt="" />
+      </div>
+    </div>
+    <div class="col-12 col-sm-4 col-md-4 col-lg-2 my-1">
+      <div class="haber-preview-wrapper">
+        <img class="haber-preview-resim" src="img/haber/gorsel2.png" alt="" />
+      </div>
+    </div>
+    <div class="col-12 col-sm-4 col-md-4 col-lg-2 my-1">
+      <div class="haber-preview-wrapper">
+        <img class="haber-preview-resim" src="img/haber/gorsel3.png" alt="" />
+      </div>
+    </div>
+    <div class="col-12 col-sm-4 col-md-4 col-lg-2 my-1">
+      <div class="haber-preview-wrapper">
+        <img class="haber-preview-resim" src="img/haber/gorsel4.png" alt="" />
+      </div>
+    </div>
+    <div class="col-12 col-sm-4 col-md-4 col-lg-2 my-1">
+      <div class="haber-preview-wrapper">
+        <img class="haber-preview-resim" src="img/haber/gorsel5.png" alt="" />
+      </div>
+    </div>
+    <div class="col-12 col-sm-4 col-md-4 col-lg-2 my-1">
+      <div class="haber-preview-wrapper">
+        <img class="haber-preview-resim" src="img/haber/gorsel6.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <div class="row tumhaberlericintiklayin">
+    <div class="col-sm">
+      <a href="">
+        <img src="img/haber/tum_haberler_icin_tiklayin.png" alt="" />
+      </a>
+    </div>
+  </div>
+</div>

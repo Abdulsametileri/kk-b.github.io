@@ -1,0 +1,61 @@
+  <div class="container-fluid projeler">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="projeler-card">
+            <p class="projeler-baslik">PROJELER</p>
+
+            <div class="owl-one owl-carousel owl-theme">
+              <div class="item-proje">
+                <img src="img/projeler/proje1.png" alt=""/>
+              </div>
+              <div class="item-proje">
+                <img src="img/projeler/proje1.png" alt=""/>
+              </div>
+              <div class="item-proje">
+                <img src="img/projeler/proje1.png" alt=""/>
+              </div>
+              <div class="item-proje">
+                <img src="img/projeler/proje1.png" alt=""/>
+              </div>
+            </div>
+
+            <div class="proje-detay">
+              <p class="proje-detay-baslik">KENT MEYDANI</p>
+              <p class="proje-detay-detay">
+              Kocaeli Büyükşehir Belediyesi’nin de desteğiyle ilçeye 5 bin
+              metrekarelik kent meydanı kazandırdık.
+            </p>
+              <a class="projelericintiklayiniz" href="">
+                <img src="img/projeler/projelerinintiklayiniz.png"/>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="baskan-card">
+            <p class="baskan-card-baslik">İSMAİL YILDIRIM</p>
+            <p class="baskan-card-detay">
+            KARAMÜRSEL BELEDİYE BAŞKANI
+          </p>
+            <div id="baskan-card-container">
+              <ul class="baskan-card-container-list">
+                <li>
+                  <a>BİYOGRAFİ</a>
+                </li>
+                <li>
+                  <a>FOTOĞRAFLAR</a>
+                </li>
+                <li>
+                  <a>BAŞKANA MESAJ</a>
+                </li>
+              </ul>
+            </div>
+            <a class="detaylaricintikla" href="">
+              <img src="img/projeler/detaylaricintikla.png"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
