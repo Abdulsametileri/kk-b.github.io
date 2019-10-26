@@ -1,0 +1,10 @@
+<div id="scrollOnTop"></div>
+<div class="container-fluid header">
+
+  <!-- Header aynı kısım -->
+  {% include "partials/header.nunjucks" %}
+
+  <img class="cizgi" src="img/sari_cizgi.png"/>
+
+  <p class="header-kesfet-text">KARAMÜRSELİ KEŞFET</p>
+</div>

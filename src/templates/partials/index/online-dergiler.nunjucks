@@ -1,0 +1,37 @@
+  <div class="container online-dergiler-container">
+    <div class="row">
+      <span class="online-dergiler-container-baslik-bold">Online </span>
+      <span class="online-dergiler-container-baslik ml-1"> Dergiler</span>
+    </div>
+    <div class="row">
+
+      <div class="owl-two owl-carousel owl-theme">
+        <div class="item-dergi">
+          <div class="item-dergi-wrapper">
+            <img src="img/dergiler/dergi1.png" class="img-dergi" alt=""/>
+          </div>
+        </div>
+        <div class="item-dergi">
+          <div class="item-dergi-wrapper">
+            <img src="img/dergiler/dergi2.png" class="img-dergi" alt=""/>
+          </div>
+        </div>
+        <div class="item-dergi">
+          <div class="item-dergi-wrapper">
+            <img src="img/dergiler/dergi4.png" class="img-dergi" alt=""/>
+          </div>
+        </div>
+        <div class="item-dergi">
+          <div class="item-dergi-wrapper">
+            <img src="img/dergiler/dergi4.png" class="img-dergi" alt=""/>
+          </div>
+        </div>
+        <div class="item-dergi">
+          <div class="item-dergi-wrapper">
+            <img src="img/dergiler/dergi4.png" class="img-dergi" alt=""/>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>

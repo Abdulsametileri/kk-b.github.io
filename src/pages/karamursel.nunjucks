@@ -1,4 +1,3 @@
-<!-- index.njk -->
 {% extends "layout.nunjucks" %}
 
 {% block headKismi %}
@@ -9,244 +8,20 @@
 
   <body class="karamursel">
     <!-- HEADER KISMI-->
-    <div id="scrollOnTop"></div>
-    <div class="container-fluid header">
-
-      <!-- Header aynı kısım -->
-      {% include "partials/header.nunjucks" %}
-
-      <img class="cizgi" src="img/sari_cizgi.png"/>
-
-      <p class="header-kesfet-text">KARAMÜRSELİ KEŞFET</p>
-    </div>
+    {% include "partials/karamursel/karamursel-header.nunjucks" %}
 
     <div class="container">
 
       <p class="karamursel-breadcrumb">ANASAYFA > KARAMÜRSEL</p>
+
       <!--Orta kısım-->
       <div class="row">
         <!-- sol taraf-->
 
-        <div class="col-sm-6 col-md-3">
-          <!-- menü -->
-          <div class="row">
-            <div class="col">
-              <div class="menu-container">
-                <ul>
-                  <li>
-                    <a href="#">TARİHÇE</a>
-                  </li>
-                  <li>
-                    <a href="#">SANAYİ</a>
-                  </li>
-                  <li>
-                    <a href="#">NÜFUS</a>
-                  </li>
-                  <li>
-                    <a href="#">SPOR</a>
-                  </li>
-                  <li>
-                    <a href="#">ÇOĞRAFYA</a>
-                  </li>
-                  <li>
-                    <a href="#">FESTİVALLER</a>
-                  </li>
-                  <li>
-                    <a href="#">TURİZM</a>
-                  </li>
-                  <li>
-                    <a href="#">YEMEK KÜLTÜRÜ</a>
-                  </li>
-                  <li>
-                    <a href="#">ULAŞIM</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Başgan menü-->
-          <div class="row pt-5">
-            <div class="col">
-              <div class="basgan-container">
-                <img src="img/basgan.png" class="img-fluid">
-                <h4 class="basgan-isim">İSMAİL YILDIRIM</h4>
-                <h5 class="basgan-unvan">KARAMÜRSEL BELEDİYE BAŞKANI</h5>
-                <ul>
-                  <li>
-                    <a href="#">BİYOGRAFİ</a>
-                  </li>
-                  <li>
-                    <a href="#">FOTOĞRAFLAR</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- dergi -->
-          <div class="row pt-5">
-            <div class="col">
-              <div class="dergi-container">
-                <div class="owl-four owl-carousel owl-theme">
-                  <div class="item-dergi-aside">
-                    <img src="img/dergiler/dergi2.png" class="dergi" alt=""/>
-                  </div>
-                  <div class="item-dergi-aside">
-                    <img src="img/dergiler/dergi2.png" class="dergi" alt=""/>
-                  </div>
-                  <div class="item-dergi-aside">
-                    <img src="img/dergiler/dergi2.png" class="dergi" alt=""/>
-                  </div>
-                  <div class="item-dergi-aside">
-                    <img src="img/dergiler/dergi2.png" class="dergi" alt=""/>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
+        {% include "partials/karamursel/karamursel-sol-taraf.nunjucks" %}
 
         <!--sağ taraf-->
-        <div class="col-sm-6 col-md-9">
-          <!-- Metin-->
-
-          <div class="row pb-4">
-            <div class="col metin-container">
-              <img src="img/ust_foto.png" class="figure-img img-fluid metin-foto">
-              <h4 class="mt-4 metin-baslik">Kadîm Osmanlı Şehri, "Karamürsel" </h4>
-
-              <h5 class="metin-alt-baslik">“Adını, Kaptan-ı Derya Karamürsel'den Alan İlçe”</h5>
-              <br>
-              <p class="metin">Osmanlıların ilk kaptan-ı deryası, kahramanlığı ve gözüpekliği sebebiyle Orhan Gazi
-              tarafından "kara" lakabını alan Mürsel Paşa'nın fethettiği topraklar. Onun 1327'den sonra
-              donanmasıyla birlikte geldiği ve o tarihten bugüne kadar Karamürsel adı verilen bölge, bugün
-              daha
-              çok "Pehlivanlar Kenti" olarak bilinir. Gazanfer Bilge minder güreşinde, Aydın Demir ve Ahmet
-              Taşçı
-              ise yağlı güreşte, ilçenin yetiştirdiği ünlü sporculardır.
-            </p>
-              <p class="metin">
-              İzmit Körfezi'nin güney kıyısında yer alan ilçe, balık lokantaları ve Ereğli beldesindeki
-              balıkçıları ile olduğu kadar iç bölgelerde yer alan doğal dinlenme ve trekking alanlarıyla da
-              ünlüdür.
-            </p>
-              <p class="metin">
-              Bölgenin verimli topraklarında her türlü sebze ve meyve yetiştirmek mümkündür. Kiraz, şeftali ve
-              kestane en çok bilineneridir. Üreticiler sadece kente değil, diğer kentlere de önemli
-              miktarlarda
-              meyve ve sebze gönderir. Karamürsel sepetiyle tanınan bu yöremiz, sanayi tesislerinin kentte yer
-              almaması dolayısıyla nüfus artışının düşük oranlarda yaşandığı bir ilçedir.
-            </p>
-            </div>
-          </div>
-          <!-- Fotolar-->
-          <div class="row pt-5 pb-4 galeri-container">
-            <div class="col">
-              <div class="row">
-                <div class="col">
-                  <h4 class="mt-4 galeri-baslik">FOTOĞRAFLARLA KARAMÜRSEL</h4>
-                </div>
-              </div>
-              <div class="row ">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
-                  <div class="galeri-foto-container">
-                    <img src="img/foto-1.png" class="img-fluid galeri-fotolar">
-                    <a href="" class=foto-buyuk>
-                      <img src="img/foto-hover.png">
-                      <br><br>
-                    BÜYÜK HALİ İÇİN TIKLAYIN
-                  </a>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
-                  <div class="galeri-foto-container">
-                    <img src="img/foto-2.png" class="img-fluid galeri-fotolar">
-                    <a href="" class=foto-buyuk>
-                      <img src="img/foto-hover.png">
-                      <br><br>
-                    BÜYÜK HALİ İÇİN TIKLAYIN
-                  </a>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
-                  <div class="galeri-foto-container">
-                    <img src="img/foto-3.png" class="img-fluid galeri-fotolar">
-                    <a href="" class=foto-buyuk>
-                      <img src="img/foto-hover.png">
-                      <br><br>
-                    BÜYÜK HALİ İÇİN TIKLAYIN
-                  </a>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
-                  <div class="galeri-foto-container">
-                    <img src="img/foto-4.png" class="img-fluid galeri-fotolar">
-                    <a href="" class=foto-buyuk>
-                      <img src="img/foto-hover.png">
-                      <br><br>
-                    BÜYÜK HALİ İÇİN TIKLAYIN
-                  </a>
-                  </div>
-                </div>
-              </div>
-              <div class="row mt-3">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3  my-2">
-                  <div class="galeri-foto-container">
-                    <img src="img/foto-5.png" class="img-fluid galeri-fotolar">
-                    <a href="" class=foto-buyuk>
-                      <img src="img/foto-hover.png">
-                      <br><br>
-                    BÜYÜK HALİ İÇİN TIKLAYIN
-                  </a>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3  my-2">
-                  <div class="galeri-foto-container">
-                    <img src="img/foto-6.png" class="img-fluid galeri-fotolar">
-                    <a href="" class=foto-buyuk>
-                      <img src="img/foto-hover.png">
-                      <br><br>
-                    BÜYÜK HALİ İÇİN TIKLAYIN
-                  </a>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3  my-2">
-                  <div class="galeri-foto-container">
-                    <img src="img/foto-7.png" class="img-fluid galeri-fotolar">
-                    <a href="" class=foto-buyuk>
-                      <img src="img/foto-hover.png">
-                      <br><br>
-                    BÜYÜK HALİ İÇİN TIKLAYIN
-                  </a>
-                  </div>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-3  my-2">
-                  <div class="galeri-foto-container">
-                    <img src="img/foto-8.png" class="img-fluid galeri-fotolar">
-                    <a href="" class=foto-buyuk>
-                      <img src="img/foto-hover.png">
-                      <br><br>
-                    BÜYÜK HALİ İÇİN TIKLAYIN
-                  </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Video -->
-          <div class="row mt-5">
-            <div class="col">
-              <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MHCOCiE3YuQ" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
+        {% include "partials/karamursel/karamursel-sag-taraf.nunjucks" %}
       </div>
     </div>
 
@@ -254,18 +29,8 @@
     {% include "partials/footer.nunjucks" %}
 
     <!--SCRİPTLER-->
-
     {% include "partials/script.nunjucks" %}
+    {% include "partials/karamursel/karamursel-script.nunjucks" %}
 
-    <script>
-      $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        dots: false,
-        items: 1,
-        navText: ["<img src='img/dergiler/solOk.png'>", "<img src='img/dergiler/sagOk.png'>"]
-      })
-    </script>
-</body>
-  {% endblock %}
+  </body>
+{% endblock %}
