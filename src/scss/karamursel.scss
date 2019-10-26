@@ -3,6 +3,7 @@
     height: 325px;
     position: relative;
     background: url('../img/karamursel/header.png');
+    background-size: cover;
     @media (max-width: $phone) {
       background-size: cover;
     }
