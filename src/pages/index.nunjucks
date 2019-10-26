@@ -6,37 +6,7 @@
 
 {% block content %}
 
-  <div class="header">
-    <div id="scrollOnTop"></div>
-
-    <!-- Header aynı kısım -->
-    {% include "partials/header.nunjucks" %}
-
-    <div class="owl-zero owl-carousel owl-theme">
-      <div class="item-header">
-        <img src="img/header-bg.png" height="560px" alt=""/>
-      </div>
-      <div class="item-header">
-        <img src="img/header-bg.png" height="560px" alt=""/>
-      </div>
-      <div class="item-header">
-        <img src="img/header-bg.png" height="560px" alt=""/>
-      </div>
-    </div>
-
-    <div>
-      <div class="baslik">
-        <p style="font-size:24px; font-weight: 600; ">
-        Karamürsel Belediyesi
-      </p>
-        <p style="font-size:30px; font-family: 'Marck Script', cursive;">
-        " Huzurun Başkenti "
-      </p>
-      </div>
-
-      <img class="cizgi" src="img/sari_cizgi.png"/>
-    </div>
-  </div>
+  {% include "partials/index/index-header.nunjucks" %}
 
   <!-- HABER VE DETAYLAR -->
   {% include "partials/index/haber-ve-detaylar.nunjucks" %}

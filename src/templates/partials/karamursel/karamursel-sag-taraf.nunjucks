@@ -1,0 +1,140 @@
+<div class="col-sm-6 col-md-9">
+  <!-- Metin-->
+
+  <div class="row pb-4">
+    <div class="col metin-container">
+      <img src="img/ust_foto.png" class="figure-img img-fluid metin-foto">
+      <h4 class="mt-4 metin-baslik">Kadîm Osmanlı Şehri, "Karamürsel" </h4>
+
+      <h5 class="metin-alt-baslik">“Adını, Kaptan-ı Derya Karamürsel'den Alan İlçe”</h5>
+      <br>
+      <p class="metin">Osmanlıların ilk kaptan-ı deryası, kahramanlığı ve gözüpekliği sebebiyle Orhan Gazi
+              tarafından "kara" lakabını alan Mürsel Paşa'nın fethettiği topraklar. Onun 1327'den sonra
+              donanmasıyla birlikte geldiği ve o tarihten bugüne kadar Karamürsel adı verilen bölge, bugün
+              daha
+              çok "Pehlivanlar Kenti" olarak bilinir. Gazanfer Bilge minder güreşinde, Aydın Demir ve Ahmet
+              Taşçı
+              ise yağlı güreşte, ilçenin yetiştirdiği ünlü sporculardır.
+            </p>
+      <p class="metin">
+              İzmit Körfezi'nin güney kıyısında yer alan ilçe, balık lokantaları ve Ereğli beldesindeki
+              balıkçıları ile olduğu kadar iç bölgelerde yer alan doğal dinlenme ve trekking alanlarıyla da
+              ünlüdür.
+            </p>
+      <p class="metin">
+              Bölgenin verimli topraklarında her türlü sebze ve meyve yetiştirmek mümkündür. Kiraz, şeftali ve
+              kestane en çok bilineneridir. Üreticiler sadece kente değil, diğer kentlere de önemli
+              miktarlarda
+              meyve ve sebze gönderir. Karamürsel sepetiyle tanınan bu yöremiz, sanayi tesislerinin kentte yer
+              almaması dolayısıyla nüfus artışının düşük oranlarda yaşandığı bir ilçedir.
+            </p>
+    </div>
+  </div>
+
+  <!-- Fotolar-->
+  <div class="row pt-5 pb-4 galeri-container">
+    <div class="col">
+      <div class="row">
+        <div class="col">
+          <h4 class="mt-4 galeri-baslik">FOTOĞRAFLARLA KARAMÜRSEL</h4>
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
+          <div class="galeri-foto-container">
+            <img src="img/foto-1.png" class="img-fluid galeri-fotolar">
+            <a href="" class=foto-buyuk>
+              <img src="img/foto-hover.png">
+              <br><br>
+                    BÜYÜK HALİ İÇİN TIKLAYIN
+                  </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
+          <div class="galeri-foto-container">
+            <img src="img/foto-2.png" class="img-fluid galeri-fotolar">
+            <a href="" class=foto-buyuk>
+              <img src="img/foto-hover.png">
+              <br><br>
+                    BÜYÜK HALİ İÇİN TIKLAYIN
+                  </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
+          <div class="galeri-foto-container">
+            <img src="img/foto-3.png" class="img-fluid galeri-fotolar">
+            <a href="" class=foto-buyuk>
+              <img src="img/foto-hover.png">
+              <br><br>
+                    BÜYÜK HALİ İÇİN TIKLAYIN
+                  </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
+          <div class="galeri-foto-container">
+            <img src="img/foto-4.png" class="img-fluid galeri-fotolar">
+            <a href="" class=foto-buyuk>
+              <img src="img/foto-hover.png">
+              <br><br>
+                    BÜYÜK HALİ İÇİN TIKLAYIN
+                  </a>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3  my-2">
+          <div class="galeri-foto-container">
+            <img src="img/foto-5.png" class="img-fluid galeri-fotolar">
+            <a href="" class=foto-buyuk>
+              <img src="img/foto-hover.png">
+              <br><br>
+                    BÜYÜK HALİ İÇİN TIKLAYIN
+                  </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3  my-2">
+          <div class="galeri-foto-container">
+            <img src="img/foto-6.png" class="img-fluid galeri-fotolar">
+            <a href="" class=foto-buyuk>
+              <img src="img/foto-hover.png">
+              <br><br>
+                    BÜYÜK HALİ İÇİN TIKLAYIN
+                  </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3  my-2">
+          <div class="galeri-foto-container">
+            <img src="img/foto-7.png" class="img-fluid galeri-fotolar">
+            <a href="" class=foto-buyuk>
+              <img src="img/foto-hover.png">
+              <br><br>
+                    BÜYÜK HALİ İÇİN TIKLAYIN
+                  </a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3  my-2">
+          <div class="galeri-foto-container">
+            <img src="img/foto-8.png" class="img-fluid galeri-fotolar">
+            <a href="" class=foto-buyuk>
+              <img src="img/foto-hover.png">
+              <br><br>
+                    BÜYÜK HALİ İÇİN TIKLAYIN
+                  </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Video -->
+  <div class="row mt-5">
+    <div class="col">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MHCOCiE3YuQ" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+</div>
