@@ -275,6 +275,7 @@ a {
       right: 0px;
       top: 38%; }
   .projeler .proje-detay-baslik {
+    margin-top: 20px;
     font-size: 20.295px;
     color: #585b6a;
     font-weight: bold;
