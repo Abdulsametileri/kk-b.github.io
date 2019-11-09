@@ -29,9 +29,15 @@
     margin-top: -50px !important;
   }
 
+  @media(min-width: 992px) {
+    position: unset !important; //full high olsun diye aşağyıa bak, onu resetliyor.
+  }
+
   @media (max-width: $xl) {
     //justify-content: center;
-    
+    position: absolute;
+    width: 100%;
+    left: 0;
     .navbar-brand {
       display: none;
     }      

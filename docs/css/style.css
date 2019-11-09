@@ -67,9 +67,16 @@ a {
     @media (min-width: 1201px) {
       .header .nav {
         margin-top: -50px !important; } }
+    @media (min-width: 992px) {
+      .header .nav {
+        position: unset !important; } }
     @media (max-width: 1200px) {
-      .header .nav .navbar-brand {
-        display: none; } }
+      .header .nav {
+        position: absolute;
+        width: 100%;
+        left: 0; }
+        .header .nav .navbar-brand {
+          display: none; } }
     .header .nav .navbar-brand img {
       width: 141px;
       height: 135px; }
