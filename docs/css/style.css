@@ -283,7 +283,6 @@ a {
       right: 0px;
       top: 38%; }
   .projeler .proje-detay-baslik {
-    margin-top: 20px;
     font-size: 20.295px;
     color: #585b6a;
     font-weight: bold;
@@ -294,7 +293,13 @@ a {
         margin-top: 0px; } }
   .projeler .proje-detay-detay {
     font-size: 12px;
-    color: #9195a4; }
+    color: #9195a4;
+    font-family: "Raleway";
+    line-height: 1.333;
+    height: 27.554px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden; }
   .projeler .proje-detay .projelericintiklayiniz img {
     margin-bottom: 8px; }
     @media (max-width: 992px) {

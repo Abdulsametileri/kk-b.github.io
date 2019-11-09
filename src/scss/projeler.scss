@@ -57,9 +57,7 @@
   }
 
   .proje-detay {
-   
     &-baslik {
-      margin-top: 20px;
       font-size: 20.295px;
       color: rgb(88, 91, 106);
       font-weight: bold;
@@ -72,8 +70,12 @@
     &-detay {
       font-size: 12px;
       color: rgb(145, 149, 164);
-      //width: 399.639px;
-      
+      font-family: "Raleway";
+      line-height: 1.333;
+      height: 27.554px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
     }
 
     .projelericintiklayiniz img {
