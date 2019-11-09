@@ -152,7 +152,12 @@
           </p>
           <p class="haber-manset-detay-tarih">19 Eylül 2019</p>
           <a class="devamicintiklayin" href="">
-            <img src="img/haber/devam_icin_tiklayin.png" alt="" />
+            <div>
+              <img src="img/haber/sagaOkDevam.png" />
+              <span>Devamı İçin Tıklayınız</span>
+            </div>
+            
+            
           </a>
         </div>
       </div>
@@ -204,38 +209,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-6">
-          <div class="projeler-card">
-            <p class="projeler-baslik">PROJELER</p>
-
-            <div class="owl-one owl-carousel owl-theme">
-              <div class="item-proje">
-                <img src="img/projeler/proje1.png" alt=""/>
-              </div>
-              <div class="item-proje">
-                <img src="img/projeler/proje1.png" alt=""/>
-              </div>
-              <div class="item-proje">
-                <img src="img/projeler/proje1.png" alt=""/>
-              </div>
-              <div class="item-proje">
-                <img src="img/projeler/proje1.png" alt=""/>
-              </div>
-            </div>
-
-            <div class="proje-detay">
-              <p class="proje-detay-baslik">KENT MEYDANI</p>
-              <p class="proje-detay-detay">
-              Kocaeli Büyükşehir Belediyesi’nin de desteğiyle ilçeye 5 bin
-              metrekarelik kent meydanı kazandırdık.
-            </p>
-              <a class="projelericintiklayiniz" href="">
-                <img src="img/projeler/projelerinintiklayiniz.png"/>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <div class="baskan-card">
+        <div class="baskan-card">
             <p class="baskan-card-baslik">İSMAİL YILDIRIM</p>
             <p class="baskan-card-detay">
             KARAMÜRSEL BELEDİYE BAŞKANI
@@ -257,11 +231,50 @@
               <img src="img/projeler/detaylaricintikla.png"/>
             </a>
           </div>
+          
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="projeler-card">
+            <p class="projeler-baslik">PROJELER</p>
+            <div class="owl-one owl-carousel owl-theme">
+              <div class="item-proje"
+              id="proje-image-slider-2"
+               data-baslik="KENT MEYDANI" data-detay="Kocaeli Büyükşehir Belediyesi’nin de desteğiyle ilçeye 5 bin
+              metrekarelik kent meydanı kazandırdık." >
+                <img src="img/projeler/proje1.png"/>
+              </div>
+              <div class="item-proje"
+              id="proje-image-slider-3"
+              data-baslik="Balık Adası Düzenleme" data-detay="Balık Adası’nı bir cazibe merkezine dönüştürdük. 35 metre yüksekliğinde dev Türk bayrağının dalgalandığı, balık restoranlarının, balık satış reyonlarının ve kafelerin yer aldığı Balık Adası’nda 4 bin metrekarelik alanı da yeşil alan olarak değerlendirdik."
+              >
+                <img src="img/projeler/proje2.png"/>
+              </div>
+              <div class="item-proje"
+              data-baslik="Sahil Düzenlemesi" data-detay="Ereğli’den başlayan sahil şeridini Dereköy’e kadar uzattık. 11 kilometrelik sahil şeridinde irili ufaklı 9 plajın yanı sıra yürüyüş ve bisiklet yolları, kafe ve restoranlar, park ve çocuk oyun alanları, spor ve etkinlik sahaları yaparak, halkın hizmetine sunduk."
+              id="proje-image-slider-4">
+                <img src="img/projeler/proje3.png"/>
+              </div>
+              
+            </div>
+
+            <div class="proje-detay">
+              <p class="proje-detay-baslik" id="pd-baslik"></p>
+              <p class="proje-detay-detay" id="pd-detay" >
+              
+            </p>
+              <a class="projelericintiklayiniz" href="">
+                <img src="img/projeler/projelerinintiklayiniz.png"/>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
+<script>
+
+</script>
 
   <!-- ONLİNE DERGİLER -->
     <div class="container online-dergiler-container">
@@ -552,15 +565,25 @@
         navText: ["<img src='img/solOk.png'>", "<img src='img/sagOk.png'>"]
       });
 
-      $('.owl-one').owlCarousel({
+      var owlOne = $('.owl-one').owlCarousel({
         loop: true,
         nav: true,
         dots: false,
         margin: 10,
         nav: true,
         items: 1,
-        navText: ["<img src='img/projeler/sol_ok_icon.png'>", "<img src='img/projeler/sag_ok_icon.png'>"]
+        navText: ["<img src='img/projeler/sol_ok_icon.png'>", "<img src='img/projeler/sag_ok_icon.png'>"],
       });
+
+      owlOne.on('changed.owl.carousel', function(event) {
+          var id = '#proje-image-slider-' + event.item.index
+
+          var baslik = $(id).data('baslik')
+          var detay = $(id).data('detay')
+
+          $('#pd-baslik').text(baslik)
+          $('#pd-detay').text(detay)
+      })
 
       $('.owl-two').owlCarousel({
         loop: true,

@@ -9,7 +9,7 @@
 }
 
 .footer {
-  margin-top: 95px;
+  margin-top: 25px;
 
   .footer-baslik-bold {
     @extend .bold-baslik;
@@ -37,16 +37,15 @@
   .footer-cizgi {
     border: #9dd9fe 1px solid; 
     width: 100%; 
-    margin-top: 48px; 
-    margin-bottom:40px;
+    margin-top: 25px; 
     @media (max-width: $xs) {
       margin-bottom: 0px;
     }
   }
 
   .footer-bilgi-container {
-    margin-top: 50px; 
-    margin-bottom: 50px; 
+    margin-top: 25px; 
+    margin-bottom: 0px; 
     width: 100%;
     @media (max-width: $xs) {
       padding: 30px;

@@ -48,13 +48,33 @@
           margin-top: 40px;
         }
       }
-      .devamicintiklayin img {
-        margin-top:45px;
-        @media (max-width: $phone) {
-          margin: initial;
-          margin-bottom: 10px; 
+      .devamicintiklayin {
+        div {
+          border-radius: 6px;
+          background-color: rgb(232, 247, 255);
+          padding: 7px;
+          margin-top:45px;
         }
+        img {
+          @media (max-width: $phone) {
+            margin: initial;
+            margin-bottom: 10px; 
+          }
+          margin-left: 10px;
+        }
+        
+        span {
+          font-size: 16px;
+          font-family: "Raleway";
+          text-align: center;
+          margin-left: 10px;
+          color: rgb(105, 181, 238);
+          font-weight: bold;
+          line-height: 1.5;
+        }
+
       }
+
     }
   }
   .haberler {
@@ -97,7 +117,7 @@
 
   .tumhaberlericintiklayin {
     margin-top:35px; 
-    margin-bottom:77px;
+    //margin-bottom:77px;
     @media (max-width: $phone) {
       margin: initial;
       text-align: center;

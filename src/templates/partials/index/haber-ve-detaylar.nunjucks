@@ -15,7 +15,12 @@
           </p>
           <p class="haber-manset-detay-tarih">19 Eylül 2019</p>
           <a class="devamicintiklayin" href="">
-            <img src="img/haber/devam_icin_tiklayin.png" alt="" />
+            <div>
+              <img src="img/haber/sagaOkDevam.png" />
+              <span>Devamı İçin Tıklayınız</span>
+            </div>
+            
+            {# <img src="img/haber/devam_icin_tiklayin.png" alt="" /> #}
           </a>
         </div>
       </div>

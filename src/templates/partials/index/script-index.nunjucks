@@ -8,15 +8,25 @@
         navText: ["<img src='img/solOk.png'>", "<img src='img/sagOk.png'>"]
       });
 
-      $('.owl-one').owlCarousel({
+      var owlOne = $('.owl-one').owlCarousel({
         loop: true,
         nav: true,
         dots: false,
         margin: 10,
         nav: true,
         items: 1,
-        navText: ["<img src='img/projeler/sol_ok_icon.png'>", "<img src='img/projeler/sag_ok_icon.png'>"]
+        navText: ["<img src='img/projeler/sol_ok_icon.png'>", "<img src='img/projeler/sag_ok_icon.png'>"],
       });
+
+      owlOne.on('changed.owl.carousel', function(event) {
+          var id = '#proje-image-slider-' + event.item.index
+
+          var baslik = $(id).data('baslik')
+          var detay = $(id).data('detay')
+
+          $('#pd-baslik').text(baslik)
+          $('#pd-detay').text(detay)
+      })
 
       $('.owl-two').owlCarousel({
         loop: true,
