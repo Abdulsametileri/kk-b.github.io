@@ -11,16 +11,7 @@
     {% include "partials/karamursel/karamursel-header.nunjucks" %}
 
     <div class="container">
-
-      <p class="karamursel-breadcrumb">ANASAYFA > KARAMÜRSEL</p>
-
-      <!--Orta kısım-->
       <div class="row">
-        <!-- sol taraf-->
-
-        {% include "partials/karamursel/karamursel-sol-taraf.nunjucks" %}
-
-        <!--sağ taraf-->
         {% include "partials/karamursel/karamursel-sag-taraf.nunjucks" %}
       </div>
     </div>

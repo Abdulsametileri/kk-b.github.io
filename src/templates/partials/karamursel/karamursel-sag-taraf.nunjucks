@@ -1,4 +1,4 @@
-<div class="col-sm-6 col-md-9">
+<div class="col-sm-6 col-md-8 mx-auto">
   <!-- Metin-->
 
   <div class="row pb-4">
@@ -39,11 +39,14 @@
           <h4 class="mt-4 galeri-baslik">FOTOĞRAFLARLA KARAMÜRSEL</h4>
         </div>
       </div>
-      <div class="row ">
+      <div class="row">
+            <div class="row mt-3">
+
         <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
           <div class="galeri-foto-container">
-            <img src="img/foto-1.png" class="img-fluid galeri-fotolar">
-            <a href="" class=foto-buyuk>
+            <img id="image1" onclick="previewImg('image1')"
+             src="img/foto-buyuk-1.jpg" class="img-fluid galeri-fotolar"  >
+            <a  class="foto-buyuk"  style="pointer-events:none;">
               <img src="img/foto-hover.png">
               <br><br>
                     BÜYÜK HALİ İÇİN TIKLAYIN
@@ -51,9 +54,9 @@
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
-          <div class="galeri-foto-container">
-            <img src="img/foto-2.png" class="img-fluid galeri-fotolar">
-            <a href="" class=foto-buyuk>
+          <div class="galeri-foto-container" onclick="previewImg('image2')">
+            <img id="image2" src="img/foto-buyuk-2.jpg" class="img-fluid galeri-fotolar"  >
+            <a  class="foto-buyuk"  style="pointer-events:none;">
               <img src="img/foto-hover.png">
               <br><br>
                     BÜYÜK HALİ İÇİN TIKLAYIN
@@ -61,9 +64,9 @@
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
-          <div class="galeri-foto-container">
-            <img src="img/foto-3.png" class="img-fluid galeri-fotolar">
-            <a href="" class=foto-buyuk>
+          <div class="galeri-foto-container" onclick="previewImg('image3')">
+            <img id="image3" src="img/foto-buyuk-3.jpg" class="img-fluid galeri-fotolar"  >
+            <a  class="foto-buyuk"  style="pointer-events:none;">
               <img src="img/foto-hover.png">
               <br><br>
                     BÜYÜK HALİ İÇİN TIKLAYIN
@@ -71,21 +74,21 @@
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-3 my-2">
-          <div class="galeri-foto-container">
-            <img src="img/foto-4.png" class="img-fluid galeri-fotolar">
-            <a href="" class=foto-buyuk>
+          <div class="galeri-foto-container" onclick="previewImg('image4')">
+            <img id="image4" src="img/foto-buyuk-4.jpg" class="img-fluid galeri-fotolar"  >
+            <a  class="foto-buyuk"  style="pointer-events:none;">
               <img src="img/foto-hover.png">
               <br><br>
                     BÜYÜK HALİ İÇİN TIKLAYIN
                   </a>
           </div>
-        </div>
+      </div>
       </div>
       <div class="row mt-3">
         <div class="col-12 col-sm-12 col-md-6 col-lg-3  my-2">
-          <div class="galeri-foto-container">
-            <img src="img/foto-5.png" class="img-fluid galeri-fotolar">
-            <a href="" class=foto-buyuk>
+         <div class="galeri-foto-container" onclick="previewImg('image5')">
+            <img id="image5" src="img/foto-buyuk-5.jpg" class="img-fluid galeri-fotolar"  >
+            <a  class="foto-buyuk"  style="pointer-events:none;">
               <img src="img/foto-hover.png">
               <br><br>
                     BÜYÜK HALİ İÇİN TIKLAYIN
@@ -93,9 +96,9 @@
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-3  my-2">
-          <div class="galeri-foto-container">
-            <img src="img/foto-6.png" class="img-fluid galeri-fotolar">
-            <a href="" class=foto-buyuk>
+          <div class="galeri-foto-container" onclick="previewImg('image6')">
+            <img id="image6" src="img/foto-buyuk-6.jpg" class="img-fluid galeri-fotolar"  >
+            <a  class="foto-buyuk"  style="pointer-events:none;">
               <img src="img/foto-hover.png">
               <br><br>
                     BÜYÜK HALİ İÇİN TIKLAYIN
@@ -103,9 +106,9 @@
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-3  my-2">
-          <div class="galeri-foto-container">
-            <img src="img/foto-7.png" class="img-fluid galeri-fotolar">
-            <a href="" class=foto-buyuk>
+          <div class="galeri-foto-container" onclick="previewImg('image7')">
+            <img id="image7" src="img/foto-buyuk-7.jpg" class="img-fluid galeri-fotolar"  >
+            <a  class="foto-buyuk"  style="pointer-events:none;">
               <img src="img/foto-hover.png">
               <br><br>
                     BÜYÜK HALİ İÇİN TIKLAYIN
@@ -113,9 +116,9 @@
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-3  my-2">
-          <div class="galeri-foto-container">
-            <img src="img/foto-8.png" class="img-fluid galeri-fotolar">
-            <a href="" class=foto-buyuk>
+          <div class="galeri-foto-container" onclick="previewImg('image8')">
+            <img id="image8" src="img/foto-buyuk-8.jpg" class="img-fluid galeri-fotolar"  >
+            <a  class="foto-buyuk"  style="pointer-events:none;">
               <img src="img/foto-hover.png">
               <br><br>
                     BÜYÜK HALİ İÇİN TIKLAYIN
@@ -125,16 +128,21 @@
       </div>
     </div>
   </div>
-
-  <!-- Video -->
-  <div class="row mt-5">
-    <div class="col">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MHCOCiE3YuQ" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
-
 </div>
+
+<script src="viewer/viewer.js"></script>
+<script>
+  function previewImg(imageId) {
+    console.log('bismillah', imageId)
+    
+    const viewer = new Viewer(document.getElementById(imageId), {
+      toggleOnDblclick: false,
+      viewed() {
+        viewer.zoomTo(.5);
+      },
+    });
+  }
+
+ 
+
+</script>
