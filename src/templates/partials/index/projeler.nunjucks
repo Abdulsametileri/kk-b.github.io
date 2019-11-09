@@ -38,12 +38,12 @@
               </div>
               <div class="item-proje"
               id="proje-image-slider-3"
-              data-baslik="Balık Adası Düzenleme" data-detay="Balık Adası’nı bir cazibe merkezine dönüştürdük. 35 metre yüksekliğinde dev Türk bayrağının dalgalandığı, balık restoranlarının, balık satış reyonlarının ve kafelerin yer aldığı Balık Adası’nda 4 bin metrekarelik alanı da yeşil alan olarak değerlendirdik."
+              data-baslik="BALIK ADASI DÜZENLEME" data-detay="Balık Adası’nı bir cazibe merkezine dönüştürdük. 35 metre yüksekliğinde dev Türk bayrağının dalgalandığı, balık restoranlarının, balık satış reyonlarının ve kafelerin yer aldığı Balık Adası’nda 4 bin metrekarelik alanı da yeşil alan olarak değerlendirdik."
               >
                 <img src="img/projeler/proje2.png"/>
               </div>
               <div class="item-proje"
-              data-baslik="Sahil Düzenlemesi" data-detay="Ereğli’den başlayan sahil şeridini Dereköy’e kadar uzattık. 11 kilometrelik sahil şeridinde irili ufaklı 9 plajın yanı sıra yürüyüş ve bisiklet yolları, kafe ve restoranlar, park ve çocuk oyun alanları, spor ve etkinlik sahaları yaparak, halkın hizmetine sunduk."
+              data-baslik="SAHİL DÜZENLEMESİ" data-detay="Ereğli’den başlayan sahil şeridini Dereköy’e kadar uzattık. 11 kilometrelik sahil şeridinde irili ufaklı 9 plajın yanı sıra yürüyüş ve bisiklet yolları, kafe ve restoranlar, park ve çocuk oyun alanları, spor ve etkinlik sahaları yaparak, halkın hizmetine sunduk."
               id="proje-image-slider-4">
                 <img src="img/projeler/proje3.png"/>
               </div>
@@ -51,10 +51,9 @@
             </div>
 
             <div class="proje-detay">
-              <p class="proje-detay-baslik" id="pd-baslik"></p>
-              <p class="proje-detay-detay" id="pd-detay" >
-              
-            </p>
+              <p class="proje-detay-baslik" id="pd-baslik">KENT MEYDANI</p>
+              <p class="proje-detay-detay" id="pd-detay" >Kocaeli Büyükşehir Belediyesi’nin de desteğiyle ilçeye 5 bin
+              metrekarelik kent meydanı kazandırdık.</p>
               <a class="projelericintiklayiniz" href="">
                 <img src="img/projeler/projelerinintiklayiniz.png"/>
               </a>

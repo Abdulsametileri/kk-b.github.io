@@ -2,11 +2,11 @@
   box-sizing: border-box;
   -webkit-appearance: none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: "Raleway"; }
 
 html {
-  scroll-behavior: smooth;
-  font-family: "Raleway"; }
+  scroll-behavior: smooth; }
 
 a {
   text-decoration: none;
