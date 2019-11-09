@@ -92,7 +92,8 @@
           <li class="nav-item">
             <a class="nav-link" href="#">İLETİŞİM</a>
           </li>
-          <div class="aramaAlani">
+        </ul>
+        <div class="aramaAlani">
             <input class="aramaKutusu" type="text" placeholder="SİTE İÇİ ARA" />
             <button class="aramaBtn">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.423cm"
@@ -102,8 +103,6 @@
               </svg>
             </button>
           </div>
-        </ul>
-
       </div>
     </nav>
   </div>
@@ -255,7 +254,6 @@
     console.log('bismillah', imageId)
     
     const viewer = new Viewer(document.getElementById(imageId), {
-      toggleOnDblclick: false,
       viewed() {
         viewer.zoomTo(.5);
       },

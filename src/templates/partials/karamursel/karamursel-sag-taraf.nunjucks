@@ -136,7 +136,6 @@
     console.log('bismillah', imageId)
     
     const viewer = new Viewer(document.getElementById(imageId), {
-      toggleOnDblclick: false,
       viewed() {
         viewer.zoomTo(.5);
       },

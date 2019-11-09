@@ -25,8 +25,13 @@
     background-color: white;
   }
 
+  @media(min-width: 1201px) {
+    margin-top: -50px !important;
+  }
+
   @media (max-width: $xl) {
     //justify-content: center;
+    
     .navbar-brand {
       display: none;
     }      
@@ -47,10 +52,12 @@
   }
 
   .aramaAlani {
-    margin-top: 10px;
+    width: 190px;
+    height: 32px;
     @media (max-width: $lg) {
       display: none;
     }
+    
     .aramaKutusu {
       color: white;
       width: 190px;
