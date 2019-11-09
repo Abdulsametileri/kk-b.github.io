@@ -32,6 +32,13 @@
     @media (max-width: $xs) {
       text-align: center;
     }
+    a:hover {
+      display:inline-block;    
+      background: #9dd9fe;
+    }
+    img:hover{
+      opacity:0.5;
+    }
   }
 
   .footer-cizgi {

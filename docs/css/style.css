@@ -23,20 +23,7 @@ a {
 
 .header {
   position: relative;
-  height: 560px;
-  /*
-  @media (max-width: $phone) {
-    .social-media {
-      justify-content: center;
-      .online-islemler {
-        margin: initial;
-      }
-      .links {
-        margin-top: 10px;
-      }
-    }      
-  }
-  */ }
+  height: 560px; }
   .header .social-media {
     justify-content: flex-end; }
     .header .social-media .online-islemler {
@@ -44,6 +31,11 @@ a {
     @media (max-width: 992px) {
       .header .social-media {
         display: none; } }
+    .header .social-media .links a:hover {
+      display: inline-block;
+      background: #9dd9fe; }
+    .header .social-media .links img:hover {
+      opacity: 0.5; }
   .header .nav {
     /*
   align-items: baseline;
@@ -614,6 +606,11 @@ a {
     @media (max-width: 576px) {
       .footer .footer-social-media {
         text-align: center; } }
+    .footer .footer-social-media a:hover {
+      display: inline-block;
+      background: #9dd9fe; }
+    .footer .footer-social-media img:hover {
+      opacity: 0.5; }
   .footer .footer-cizgi {
     border: #9dd9fe 1px solid;
     width: 100%;

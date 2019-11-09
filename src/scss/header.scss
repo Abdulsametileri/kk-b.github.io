@@ -12,23 +12,18 @@
     @media (max-width: $lg) {
       display: none;
     }
+    .links {
+      a:hover {
+        display:inline-block;    
+        background: #9dd9fe;
+      }
+      img:hover{
+        opacity:0.5;
+      }
+    }
   }
 
   
-
-  /*
-  @media (max-width: $phone) {
-    .social-media {
-      justify-content: center;
-      .online-islemler {
-        margin: initial;
-      }
-      .links {
-        margin-top: 10px;
-      }
-    }      
-  }
-  */
 
   @import 'navbar.scss';
 
