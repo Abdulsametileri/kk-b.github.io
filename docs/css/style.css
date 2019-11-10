@@ -36,12 +36,15 @@ a {
       background: #9dd9fe; }
     .header .social-media .links img:hover {
       opacity: 0.5; }
+  .header .navbar-container {
+    justify-content: flex-end; }
   .header .nav {
     /*
   align-items: baseline;
   justify-content: flex-end;
   margin-top:30px;
   */
+    padding: 0;
     background-color: #3a66af; }
     @media (min-width: 992px) {
       .header .nav {
@@ -61,8 +64,9 @@ a {
         margin-top: -50px !important; } }
     @media (min-width: 992px) {
       .header .nav {
+        margin-top: -50px;
         position: unset !important; } }
-    @media (max-width: 1200px) {
+    @media (max-width: 991px) {
       .header .nav {
         position: absolute;
         width: 100%;
@@ -94,14 +98,13 @@ a {
         border-color: #7c8b9b;
         font-family: inherit;
         font-weight: bold;
-        padding-left: 20px;
-        margin-left: 30px; }
+        padding-left: 20px; }
       .header .nav .aramaAlani .aramaBtn {
         display: flex;
         border: none;
         background: none;
         margin-top: -23px;
-        margin-left: 175px; }
+        margin-left: 160px; }
   .header .baslik {
     position: relative;
     bottom: 140px;
