@@ -26,6 +26,7 @@
 
   @media(min-width: 992px) {
     position: unset !important; //full high olsun diye aşağyıa bak, onu resetliyor.
+    
   }
 
   @media (max-width: 1120px) {
@@ -38,7 +39,7 @@
     position: absolute;
     width: 100%;
     left: 0;
-        
+    padding: 10px !important;
   }
 
   .navbar-brand img {

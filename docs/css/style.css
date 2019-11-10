@@ -67,7 +67,8 @@ a {
       .header .nav {
         position: absolute;
         width: 100%;
-        left: 0; } }
+        left: 0;
+        padding: 10px !important; } }
     .header .nav .navbar-brand img {
       width: 141px;
       height: 135px; }
