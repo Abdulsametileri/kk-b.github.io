@@ -443,89 +443,90 @@ a {
 .video-duyuru-container-border, .video-duyuru-container .video-container, .video-duyuru-container .duyuru-container {
   border: #a9cbef 2px solid; }
 
-.video-duyuru-container .video-container {
-  padding: 40px 42px 0px 42px;
-  height: 90%; }
-  .video-duyuru-container .video-container iframe {
-    width: 100%;
-    height: 245px; }
-  .video-duyuru-container .video-container .video-baslik {
-    font-size: 14.563px;
-    color: #585b6a;
-    font-weight: bold;
-    line-height: 2.472;
-    text-align: left; }
-
-@media (max-width: 768px) {
-  .video-duyuru-container .duyuru-baslik-bold {
-    margin-top: 20px; } }
-
-@media (max-width: 768px) {
-  .video-duyuru-container .duyuru-baslik-normal {
-    margin-top: 20px; } }
-
-.video-duyuru-container .duyuru-container {
-  padding-top: 38px;
-  height: 90%; }
-  @media (max-width: 992px) {
-    .video-duyuru-container .duyuru-container {
-      padding: initial;
-      padding: 40px 42px 0px 35px; } }
-  @media (max-width: 576px) {
-    .video-duyuru-container .duyuru-container {
-      padding: 0px;
-      padding-top: 30px;
-      padding-bottom: 30px; } }
-  .video-duyuru-container .duyuru-container .duyuru-wrapper {
-    width: 100%;
-    padding: 0;
-    margin: 0; }
-    @media (max-width: 576px) {
-      .video-duyuru-container .duyuru-container .duyuru-wrapper {
-        text-align: center; } }
-    .video-duyuru-container .duyuru-container .duyuru-wrapper:hover {
-      background-color: #eff6fd;
+.video-duyuru-container {
+  margin-top: 40px; }
+  .video-duyuru-container .video-container {
+    padding: 40px 42px 0px 42px;
+    height: 90%; }
+    .video-duyuru-container .video-container iframe {
       width: 100%;
-      cursor: pointer; }
-    .video-duyuru-container .duyuru-container .duyuru-wrapper .duyuru-resim {
-      height: 72px;
-      width: 136px; }
-    .video-duyuru-container .duyuru-container .duyuru-wrapper .duyuru-baslik {
-      font-size: 12.483px;
-      color: #585b6a;
-      font-weight: bold;
-      line-height: 1.717;
-      text-align: left; }
-      @media (max-width: 576px) {
-        .video-duyuru-container .duyuru-container .duyuru-wrapper .duyuru-baslik {
-          text-align: center;
-          width: 100%; } }
-    @media (max-width: 576px) {
-      .video-duyuru-container .duyuru-container .duyuru-wrapper .tarih-row {
-        justify-content: center; } }
-    .video-duyuru-container .duyuru-container .duyuru-wrapper .duyuru-tarih {
+      height: 245px; }
+    .video-duyuru-container .video-container .video-baslik {
       font-size: 14.563px;
-      color: #a7a7a8;
+      color: #585b6a;
       font-weight: bold;
       line-height: 2.472;
       text-align: left; }
-      @media (max-width: 576px) {
-        .video-duyuru-container .duyuru-container .duyuru-wrapper .duyuru-tarih {
-          text-align: center; } }
-  .video-duyuru-container .duyuru-container .tumduyuruveilanlar {
-    padding-top: 30px;
-    padding-left: 26px;
-    padding-bottom: 20px; }
+  @media (max-width: 768px) {
+    .video-duyuru-container .duyuru-baslik-bold {
+      margin-top: 20px; } }
+  @media (max-width: 768px) {
+    .video-duyuru-container .duyuru-baslik-normal {
+      margin-top: 20px; } }
+  .video-duyuru-container .duyuru-container {
+    padding-top: 38px;
+    height: 90%; }
+    @media (max-width: 992px) {
+      .video-duyuru-container .duyuru-container {
+        padding: initial;
+        padding: 40px 42px 0px 35px; } }
     @media (max-width: 576px) {
-      .video-duyuru-container .duyuru-container .tumduyuruveilanlar {
-        padding-top: 0px;
-        padding-left: 0px;
-        padding-bottom: 0px;
-        text-align: center; } }
+      .video-duyuru-container .duyuru-container {
+        padding: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px; } }
+    .video-duyuru-container .duyuru-container .duyuru-wrapper {
+      width: 100%;
+      padding: 0;
+      margin: 0; }
+      @media (max-width: 576px) {
+        .video-duyuru-container .duyuru-container .duyuru-wrapper {
+          text-align: center; } }
+      .video-duyuru-container .duyuru-container .duyuru-wrapper:hover {
+        background-color: #eff6fd;
+        width: 100%;
+        cursor: pointer; }
+      .video-duyuru-container .duyuru-container .duyuru-wrapper .duyuru-resim {
+        height: 72px;
+        width: 136px; }
+      .video-duyuru-container .duyuru-container .duyuru-wrapper .duyuru-baslik {
+        font-size: 12.483px;
+        color: #585b6a;
+        font-weight: bold;
+        line-height: 1.717;
+        text-align: left; }
+        @media (max-width: 576px) {
+          .video-duyuru-container .duyuru-container .duyuru-wrapper .duyuru-baslik {
+            text-align: center;
+            width: 100%; } }
+      @media (max-width: 576px) {
+        .video-duyuru-container .duyuru-container .duyuru-wrapper .tarih-row {
+          justify-content: center; } }
+      .video-duyuru-container .duyuru-container .duyuru-wrapper .duyuru-tarih {
+        font-size: 14.563px;
+        color: #a7a7a8;
+        font-weight: bold;
+        line-height: 2.472;
+        text-align: left; }
+        @media (max-width: 576px) {
+          .video-duyuru-container .duyuru-container .duyuru-wrapper .duyuru-tarih {
+            text-align: center; } }
+    .video-duyuru-container .duyuru-container .tumduyuruveilanlar {
+      padding-top: 30px;
+      padding-left: 26px;
+      padding-bottom: 20px; }
+      @media (max-width: 576px) {
+        .video-duyuru-container .duyuru-container .tumduyuruveilanlar {
+          padding-top: 0px;
+          padding-left: 0px;
+          padding-bottom: 0px;
+          text-align: center; } }
 
-.hizmetler .hizmet-resim {
-  width: 100%;
-  height: 115px; }
+.hizmetler {
+  margin-top: 40px; }
+  .hizmetler .hizmet-resim {
+    width: 100%;
+    height: 115px; }
 
 .online-dergiler-container-baslik, .online-dergiler-container-baslik-bold, .video-duyuru-container-bold, .video-duyuru-container .video-baslik-bold, .video-duyuru-container .duyuru-baslik-bold, .bold-baslik, .footer .footer-baslik-bold, .video-duyuru-container .duyuru-baslik-normal, .normal-baslik, .footer .footer-baslik-normal {
   font-size: 28.413px;
@@ -577,7 +578,7 @@ a {
     cursor: pointer; }
 
 .footer {
-  margin-top: 25px; }
+  margin-top: 40px; }
   @media (max-width: 576px) {
     .footer .footer-baslik-normal {
       text-align: center; } }
