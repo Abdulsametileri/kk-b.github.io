@@ -223,8 +223,16 @@ a {
           @media (max-width: 576px) {
             .haberler-container .haberler .haber-preview-wrapper .haber-preview-resim:hover {
               opacity: 1; } }
+    .haberler-container .haberler .haber-preview-detay {
+      margin-top: 5px;
+      text-align: center;
+      font-size: 13px;
+      font-style: italic;
+      font-weight: 520;
+      color: gray; }
   .haberler-container .tumhaberlericintiklayin {
-    margin-top: 35px; }
+    margin-top: 38px;
+    margin-bottom: 40px; }
     @media (max-width: 499px) {
       .haberler-container .tumhaberlericintiklayin {
         margin: initial;
@@ -234,7 +242,7 @@ a {
 .projeler {
   background: url("../img/orta-bg.png");
   width: 100%;
-  height: 625px; }
+  height: 490px; }
   @media (max-width: 768px) {
     .projeler {
       height: initial;
@@ -244,7 +252,8 @@ a {
     background-color: white;
     width: 100%;
     height: 438px;
-    margin-top: 110px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding: 30px 30px 40px 20px; }
     @media (max-width: 768px) {
       .projeler-card, .projeler .baskan-card {
