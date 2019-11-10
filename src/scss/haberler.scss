@@ -88,6 +88,7 @@
     #{$namespace}-wrapper {
       display: inline-block;
       background: url('../img/haber/hover.png');
+      background-position: center;      
 
       @media (max-width: $xs)
        {
@@ -104,7 +105,7 @@
           
         }
         &:hover {
-          opacity: 0;
+          opacity: 0.3;
           cursor: pointer;
           @media (max-width: $xs) {
             opacity: 1;

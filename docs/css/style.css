@@ -206,7 +206,8 @@ a {
         display: none; } }
     .haberler-container .haberler .haber-preview-wrapper {
       display: inline-block;
-      background: url("../img/haber/hover.png"); }
+      background: url("../img/haber/hover.png");
+      background-position: center; }
       @media (max-width: 576px) {
         .haberler-container .haberler .haber-preview-wrapper {
           background: initial;
@@ -217,7 +218,7 @@ a {
         width: 100%;
         height: 100%; }
         .haberler-container .haberler .haber-preview-wrapper .haber-preview-resim:hover {
-          opacity: 0;
+          opacity: 0.3;
           cursor: pointer; }
           @media (max-width: 576px) {
             .haberler-container .haberler .haber-preview-wrapper .haber-preview-resim:hover {
