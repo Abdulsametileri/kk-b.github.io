@@ -25,7 +25,8 @@ a {
   position: relative;
   height: 560px; }
   .header .social-media {
-    justify-content: flex-end; }
+    justify-content: flex-end;
+    margin-bottom: 48px; }
     .header .social-media .online-islemler {
       margin-right: 32px; }
     @media (max-width: 992px) {
@@ -77,10 +78,17 @@ a {
       width: 141px;
       height: 135px; }
     .header .nav .nav-item .nav-link {
+      /*
       font-size: 13px;
       font-weight: 800;
       color: white;
-      padding: 1rem 0.4rem; }
+      padding: 1rem 0.4rem;
+      */
+      width: auto;
+      font-size: 13px;
+      color: white;
+      font-weight: bold;
+      line-height: 1.702; }
     .header .nav .aramaAlani {
       width: 190px;
       height: 32px; }
@@ -121,13 +129,15 @@ a {
       .header .owl-zero img {
         object-fit: cover; } }
     .header .owl-zero .owl-nav .owl-prev img {
-      position: absolute;
-      left: 100px;
-      bottom: 90px; }
+      /*position: absolute;
+      left: $solSagOkUzaklik;
+      bottom: $solSagOkBottom;*/ }
     .header .owl-zero .owl-nav .owl-next img {
+      /*
       position: absolute;
-      right: 100px;
-      bottom: 90px; }
+      right: $solSagOkUzaklik;
+      bottom: $solSagOkBottom;
+      */ }
     .header .owl-zero .owl-dots {
       position: absolute;
       right: 100px;
@@ -142,6 +152,36 @@ a {
         border: white 2px solid; }
       .header .owl-zero .owl-dots .active span {
         background: white; }
+    .header .owl-zero .owl-zero-nav-container {
+      z-index: 99;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 77%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0; }
+    .header .owl-zero .owl-zero-prev {
+      margin: 0 !important;
+      margin-left: 107px !important; }
+    .header .owl-zero .owl-zero-next {
+      margin: 0;
+      padding: 0; }
+  .header .owl-zero-nav-container {
+    z-index: 99;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 77%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0; }
+  .header .owl-zero-prev {
+    margin: 0 !important;
+    margin-left: 107px !important; }
+  .header .owl-zero-next {
+    margin: 0;
+    padding: 0; }
 
 .haberler-container {
   margin-top: 49px; }

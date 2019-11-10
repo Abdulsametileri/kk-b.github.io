@@ -10,17 +10,24 @@ $solSagOkBottom: 90px;
     } 
   }
 
+
+
+
   .owl-nav {
     .owl-prev img{
-      position: absolute;
+      /*position: absolute;
       left: $solSagOkUzaklik;
-      bottom: $solSagOkBottom;
+      bottom: $solSagOkBottom;*/
     }
     .owl-next img {
+      /*
       position: absolute;
       right: $solSagOkUzaklik;
       bottom: $solSagOkBottom;
+      */
     }
+    
+
   }
   .owl-dots {
     position: absolute;
@@ -42,6 +49,27 @@ $solSagOkBottom: 90px;
     .active span{
       background: white;
     }
+  }
+
+  .owl-zero-nav-container {
+    z-index: 99;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:77%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .owl-zero-prev {
+    margin: 0 !important;
+    margin-left: 107px !important;
+  }
+
+  .owl-zero-next {
+    margin: 0;
+    padding: 0;
   }
 }
 
