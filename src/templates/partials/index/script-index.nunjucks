@@ -10,7 +10,8 @@
 
       $('.owl-zero .owl-nav').addClass('container owl-zero-nav-container')
       $('.owl-zero .owl-nav .owl-prev').addClass('owl-zero-prev')
-      $('.owl-zero .owl-nav .owl-prev').addClass('owl-zero-next')
+      $('.owl-zero .owl-nav .owl-next').addClass('owl-zero-next')
+      $('.owl-zero .owl-dots').addClass('container owl-zero-nav-container owl-dots-ozel')
 
       var owlOne = $('.owl-one').owlCarousel({
         loop: true,

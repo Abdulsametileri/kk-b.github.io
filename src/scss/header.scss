@@ -4,7 +4,12 @@
 
   .social-media {
     justify-content: flex-end;
-    margin-bottom: 48px;
+    //margin-bottom: 50px;
+
+    @media (max-width: 1120px) {
+      margin-bottom: 50px;
+    }
+
     .online-islemler {
       margin-right: 32px;
     }
@@ -39,25 +44,6 @@
   @import 'header-slider.scss';
 
 
-  .owl-zero-nav-container {
-    z-index: 99;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top:77%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-  }
-
-  .owl-zero-prev {
-    margin: 0 !important;
-    margin-left: 107px !important;
-  }
-
-  .owl-zero-next {
-    margin: 0;
-    padding: 0;
-  }
+  
 
 }

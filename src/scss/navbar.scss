@@ -3,11 +3,6 @@
 }
 
 .nav {
-  /*
-  align-items: baseline;
-  justify-content: flex-end;
-  margin-top:30px;
-  */
   padding: 0;
   background-color: #3a66af;
   @media (min-width: $lg) {
@@ -28,25 +23,22 @@
     background-color: white;
   }
 
-  @media(min-width: 1201px) {
-    margin-top: -50px !important;
-  }
 
   @media(min-width: 992px) {
-    margin-top: -50px;
     position: unset !important; //full high olsun diye aşağyıa bak, onu resetliyor.
+  }
+
+  @media (max-width: 1120px) {
+    .navbar-brand {
+      display: none;
+    }  
   }
 
   @media (max-width: 991px) {
     position: absolute;
     width: 100%;
     left: 0;
-    .navbar-brand {
-      display: none;
-    }      
-  }
-
-  @media (max-width: $md) {
+        
   }
 
   .navbar-brand img {
@@ -62,7 +54,8 @@
       color: white;
       padding: 1rem 0.4rem;
       */
-      width: auto;
+      margin-right: .15rem!important;
+      margin-left: .15rem!important;
       font-size: 13px;
       color: rgb(255, 255, 255);
       font-weight: bold;
@@ -89,7 +82,6 @@
       font-family: inherit;
       font-weight: bold;
       padding-left: 20px;
-      //margin-left: 30px;
     }
 
     .aramaBtn {
