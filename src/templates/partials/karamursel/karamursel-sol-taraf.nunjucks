@@ -35,46 +35,4 @@
       </div>
     </div>
   </div>
-
-  <!-- Başgan menü-->
-  <div class="row pt-5">
-    <div class="col">
-      <div class="basgan-container">
-        <img src="img/basgan.png" class="img-fluid">
-        <h4 class="basgan-isim">İSMAİL YILDIRIM</h4>
-        <h5 class="basgan-unvan">KARAMÜRSEL BELEDİYE BAŞKANI</h5>
-        <ul>
-          <li>
-            <a href="#">BİYOGRAFİ</a>
-          </li>
-          <li>
-            <a href="#">FOTOĞRAFLAR</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <!-- dergi -->
-  <div class="row pt-5">
-    <div class="col">
-      <div class="dergi-container">
-        <div class="owl-four owl-carousel owl-theme">
-          <div class="item-dergi-aside">
-            <img src="img/dergiler/dergi2.png" class="dergi" alt=""/>
-          </div>
-          <div class="item-dergi-aside">
-            <img src="img/dergiler/dergi2.png" class="dergi" alt=""/>
-          </div>
-          <div class="item-dergi-aside">
-            <img src="img/dergiler/dergi2.png" class="dergi" alt=""/>
-          </div>
-          <div class="item-dergi-aside">
-            <img src="img/dergiler/dergi2.png" class="dergi" alt=""/>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
 </div>
