@@ -14,69 +14,71 @@
     font-weight: 800;
   }
 
+  .under {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+
+  .over {
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    z-index: -1;
+  }
+
   .row {
     margin-top: 45px;
 
     .img-dergi {
-      width: 208px !important;
-      height: 290px !important;
-      margin: 0 auto;
+      //width: 208px !important;
+      //height: 260px !important;
+      //margin: 0 auto;
     }
 
     .owl-two {
       .owl-nav {
         .owl-next {
           position: absolute;
-          top: -26%;
-          left: 97%;
-          height: 35px;
-          width: 35px;
+          top: 42%;
+          left: 94%;
         }
         .owl-prev {
           position: absolute;
-          top: -26%;
-          left: 93%;
-          height: 35px;
-          width: 35px;
+          top: 42%;
+          left: -15px;
         }
         @media (max-width: $lg) {
-            .owl-next {
-              left: 95%;
-            }
-            .owl-prev {
-              left: 89%;
-            }
+            
         }
         @media (max-width: $md) {
           .owl-next {
             left: 91%;
           }
-          .owl-prev {
-            left: 84%;
-          }
         }
         @media (max-width: $phone) {
           .owl-next {
-            left: 89%;
-          }
-          .owl-prev {
-            left: 77%;
+            left: 81%;
           }
         }
       }
+      
       .item-dergi {
-        background-color: #a7c8dc !important;
+        //background-color: #a7c8dc !important;
         &-wrapper {
           &:hover {
             cursor: pointer;
-            background: url("../img/dergiler/ho.png")
+            background: url("../img/dergiler/ho.png");
+            background-position: center;
           }
           &:hover img {
-            opacity: 0;
+            opacity: 0.3;
             cursor: pointer;
           }
         }
       }
+      
     }
 
   }

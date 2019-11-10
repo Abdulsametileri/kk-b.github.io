@@ -4,34 +4,35 @@
       <span class="online-dergiler-container-baslik ml-1"> DERGİLER</span>
     </div>
     <div class="row">
-
-      <div class="owl-two owl-carousel owl-theme">
+      <div class="col-6 col-md-6">
+        <div class="owl-two owl-carousel owl-theme">
         <div class="item-dergi">
           <div class="item-dergi-wrapper">
-            <img src="img/dergiler/dergi1.png" class="img-dergi" alt=""/>
+            <img src="img/dergiler/d1.png" class="img-dergi" alt=""/>
           </div>
         </div>
         <div class="item-dergi">
           <div class="item-dergi-wrapper">
-            <img src="img/dergiler/dergi2.png" class="img-dergi" alt=""/>
+            <img src="img/dergiler/d2.png" class="img-dergi" alt=""/>
           </div>
         </div>
         <div class="item-dergi">
           <div class="item-dergi-wrapper">
-            <img src="img/dergiler/dergi4.png" class="img-dergi" alt=""/>
+            <img src="img/dergiler/d3.png" class="img-dergi" alt=""/>
           </div>
         </div>
         <div class="item-dergi">
           <div class="item-dergi-wrapper">
-            <img src="img/dergiler/dergi4.png" class="img-dergi" alt=""/>
+            <img src="img/dergiler/d4.png" class="img-dergi" alt=""/>
           </div>
         </div>
-        <div class="item-dergi">
-          <div class="item-dergi-wrapper">
-            <img src="img/dergiler/dergi4.png" class="img-dergi" alt=""/>
-          </div>
-        </div>
+        
       </div>
+      </div>
+      <div class="col-6 col-md-6">
+        <p> Tasarım Gelicek </p>
+      </div>
+      
 
     </div>
   </div>

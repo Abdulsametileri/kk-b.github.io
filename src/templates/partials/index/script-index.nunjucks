@@ -33,22 +33,16 @@
         nav: true,
         dots: false,
         margin: 25,
-        items: 4,
+        items: 1,
         navText: [
           "<img src='img/dergiler/solOk.png'>", "<img src='img/dergiler/sagOk.png'>"
         ],
         responsive: {
-          0: {
+          768: {
             items: 1
           },
-          500: {
-            items: 2
-          },
-          768: {
-            items: 3
-          },
           992: {
-            items: 4
+            items: 2
           }
         }
       });
