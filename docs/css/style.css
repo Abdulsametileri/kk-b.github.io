@@ -170,6 +170,10 @@ a {
     .header .owl-zero .owl-dots-ozel {
       justify-content: flex-end;
       top: 88%; }
+      @media (max-width: 992px) {
+        .header .owl-zero .owl-dots-ozel {
+          margin-top: 30px;
+          justify-content: center; } }
 
 .haberler-container {
   margin-top: 49px; }

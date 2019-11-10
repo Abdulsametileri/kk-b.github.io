@@ -73,6 +73,12 @@ $solSagOkBottom: 90px;
   .owl-dots-ozel {
     justify-content: flex-end;
     top: 88%;
+
+    @media(max-width: $lg) {
+      margin-top: 30px;
+      justify-content: center;
+    }
+
   }
 
 }
