@@ -47,6 +47,61 @@ a {
     @media (min-width: 992px) {
       .header .nav {
         background-color: initial; } }
+    .header .nav .dropdown-toggle::after {
+      display: none; }
+    .header .nav #karamurselDuzMobil {
+      display: none; }
+      @media (max-width: 605px) {
+        .header .nav #karamurselDuzMobil {
+          display: initial; } }
+    @media (max-width: 605px) {
+      .header .nav #karamurselDropdownWeb {
+        display: none; } }
+    .header .nav .navbar-nav .show .dropdown-toggle {
+      color: #fbf239; }
+    .header .nav .dropdown-menu {
+      padding: 0;
+      margin: 0; }
+    .header .nav .dropdown .show {
+      margin-top: -21px;
+      margin-left: 10px;
+      border-radius: unset;
+      width: 570px; }
+      @media (min-width: 1200px) {
+        .header .nav .dropdown .show {
+          margin-top: 10px; } }
+      @media (max-width: 1120px) {
+        .header .nav .dropdown .show {
+          margin-top: 5px; } }
+    .header .nav .dropdown ul {
+      list-style-image: url("../img/list-icon.png"); }
+      .header .nav .dropdown ul .row {
+        margin: 0px; }
+        .header .nav .dropdown ul .row .col-md-6 {
+          border: 1px solid rgba(228, 228, 228, 0.561);
+          margin: 0px;
+          padding: 0px; }
+          .header .nav .dropdown ul .row .col-md-6:first-child {
+            border-right: none; }
+      .header .nav .dropdown ul .li-item {
+        border-bottom: 1px solid rgba(228, 228, 228, 0.561); }
+        .header .nav .dropdown ul .li-item li {
+          padding: 15px;
+          margin-left: 54px; }
+          .header .nav .dropdown ul .li-item li a {
+            margin-left: 10px;
+            font-size: 12px;
+            font-family: "Raleway";
+            color: #007fc5;
+            font-weight: bold;
+            line-height: 2.083;
+            text-align: left; }
+        .header .nav .dropdown ul .li-item:hover {
+          background-color: #fef5ce; }
+          .header .nav .dropdown ul .li-item:hover li {
+            list-style-image: url("../img/list-icon-hover.png"); }
+            .header .nav .dropdown ul .li-item:hover li a {
+              color: #282d65; }
     .header .nav #text-title {
       margin: 0 auto;
       color: white;
@@ -73,12 +128,6 @@ a {
       width: 141px;
       height: 135px; }
     .header .nav .nav-item .nav-link {
-      /*
-      font-size: 13px;
-      font-weight: 800;
-      color: white;
-      padding: 1rem 0.4rem;
-      */
       margin-right: 0.15rem !important;
       margin-left: 0.15rem !important;
       font-size: 13px;

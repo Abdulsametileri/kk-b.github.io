@@ -9,6 +9,100 @@
     background-color: initial;
   }
 
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  #karamurselDuzMobil {
+    display: none;
+    @media (max-width: 605px) {
+      display: initial;
+    }
+
+  }
+  #karamurselDropdownWeb {
+    @media (max-width: 605px) {
+      display: none;
+    }
+  }
+
+  .navbar-nav {
+    .show {
+      .dropdown-toggle {
+        color: #fbf239;
+      }
+    }
+  }
+
+  .dropdown-menu {
+    padding: 0;
+    margin: 0;
+  }
+
+  .dropdown {
+    
+    .show {
+      margin-top: -21px;
+      margin-left: 10px;
+      border-radius: unset;
+      width: 570px;
+
+      @media (min-width: 1200px) {
+        margin-top: 10px;
+      }
+      @media (max-width: 1120px) {
+        margin-top: 5px;
+      }
+    }
+    ul {
+      list-style-image: url('../img/list-icon.png');
+      
+      .row {
+        margin: 0px;
+        
+
+        .col-md-6 {
+          border: 1px solid rgba(228, 228, 228, 0.561);
+
+          &:first-child {
+            border-right: none;
+          }
+          margin: 0px;
+          padding: 0px;
+          
+        }
+      }
+     
+      
+      .li-item {
+        border-bottom: 1px solid rgba(228, 228, 228, 0.561);
+        li {
+          padding: 15px;
+          margin-left: 54px;
+          a {
+            margin-left: 10px;
+            font-size: 12px;
+            font-family: "Raleway";
+            color: rgb(0, 127, 197);
+            font-weight: bold;
+            line-height: 2.083;
+            text-align: left;
+          }
+        }
+        &:hover {
+          background-color: #fef5ce;
+          li {
+            list-style-image: url('../img/list-icon-hover.png');
+            a {
+              color: #282d65;
+            }
+          }
+        }
+      }
+      
+    }
+  }
+
   #text-title {
     @media (min-width: $lg) {
       display: none;
@@ -49,12 +143,6 @@
   
   .nav-item {
     .nav-link {
-      /*
-      font-size: 13px;
-      font-weight: 800;
-      color: white;
-      padding: 1rem 0.4rem;
-      */
       margin-right: .15rem!important;
       margin-left: .15rem!important;
       font-size: 13px;
