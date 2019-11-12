@@ -31,39 +31,15 @@
   .row {
     margin-top: 45px;
 
-    .img-dergi {
-      //width: 208px !important;
-      //height: 260px !important;
-      //margin: 0 auto;
-    }
-
     .owl-two {
       .owl-nav {
+        text-align: end;
         .owl-next {
-          position: absolute;
-          top: 42%;
-          left: 94%;
-        }
-        .owl-prev {
-          position: absolute;
-          top: 42%;
-          left: -15px;
-        }
-        @media (max-width: $lg) {
-            
-        }
-        @media (max-width: $md) {
-          .owl-next {
-            left: 91%;
-          }
-        }
-        @media (max-width: $phone) {
-          .owl-next {
-            left: 81%;
-          }
+          margin-right: 0px;
         }
       }
-      
+     
+
       .item-dergi {
         //background-color: #a7c8dc !important;
         &-wrapper {

@@ -463,20 +463,10 @@ a {
 
 .online-dergiler-container .row {
   margin-top: 45px; }
-  .online-dergiler-container .row .owl-two .owl-nav .owl-next {
-    position: absolute;
-    top: 42%;
-    left: 94%; }
-  .online-dergiler-container .row .owl-two .owl-nav .owl-prev {
-    position: absolute;
-    top: 42%;
-    left: -15px; }
-  @media (max-width: 768px) {
+  .online-dergiler-container .row .owl-two .owl-nav {
+    text-align: end; }
     .online-dergiler-container .row .owl-two .owl-nav .owl-next {
-      left: 91%; } }
-  @media (max-width: 499px) {
-    .online-dergiler-container .row .owl-two .owl-nav .owl-next {
-      left: 81%; } }
+      margin-right: 0px; }
   .online-dergiler-container .row .owl-two .item-dergi-wrapper:hover {
     cursor: pointer;
     background: url("../img/dergiler/ho.png");
@@ -512,20 +502,10 @@ a {
 
 .online-dergiler-container .row {
   margin-top: 45px; }
-  .online-dergiler-container .row .owl-two .owl-nav .owl-next {
-    position: absolute;
-    top: 42%;
-    left: 94%; }
-  .online-dergiler-container .row .owl-two .owl-nav .owl-prev {
-    position: absolute;
-    top: 42%;
-    left: -15px; }
-  @media (max-width: 768px) {
+  .online-dergiler-container .row .owl-two .owl-nav {
+    text-align: end; }
     .online-dergiler-container .row .owl-two .owl-nav .owl-next {
-      left: 91%; } }
-  @media (max-width: 499px) {
-    .online-dergiler-container .row .owl-two .owl-nav .owl-next {
-      left: 81%; } }
+      margin-right: 0px; }
   .online-dergiler-container .row .owl-two .item-dergi-wrapper:hover {
     cursor: pointer;
     background: url("../img/dergiler/ho.png");
@@ -649,20 +629,10 @@ a {
 
 .online-dergiler-container .row {
   margin-top: 45px; }
-  .online-dergiler-container .row .owl-two .owl-nav .owl-next {
-    position: absolute;
-    top: 42%;
-    left: 94%; }
-  .online-dergiler-container .row .owl-two .owl-nav .owl-prev {
-    position: absolute;
-    top: 42%;
-    left: -15px; }
-  @media (max-width: 768px) {
+  .online-dergiler-container .row .owl-two .owl-nav {
+    text-align: end; }
     .online-dergiler-container .row .owl-two .owl-nav .owl-next {
-      left: 91%; } }
-  @media (max-width: 499px) {
-    .online-dergiler-container .row .owl-two .owl-nav .owl-next {
-      left: 81%; } }
+      margin-right: 0px; }
   .online-dergiler-container .row .owl-two .item-dergi-wrapper:hover {
     cursor: pointer;
     background: url("../img/dergiler/ho.png");
