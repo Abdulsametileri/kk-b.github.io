@@ -28,9 +28,11 @@
     z-index: -1;
   }
 
-  .row {
+  .dergi-dundenbugun-row {
     margin-top: 45px;
+  }
 
+  .row {
     .owl-two {
       .owl-nav {
         text-align: end;
@@ -38,7 +40,6 @@
           margin-right: 0px;
         }
       }
-     
 
       .item-dergi {
         //background-color: #a7c8dc !important;
@@ -55,6 +56,62 @@
         }
       }
       
+    }
+
+    .dundenbugune-container {
+      border: #a9cbef 2px solid; margin: 0px; padding-bottom: 29px;
+
+
+      @media (max-width: 1200px) {
+        padding-bottom: 9px;
+      }
+
+    }
+      
+    .owl-dunden-bugune {
+
+      .owl-item-active {
+        border: #a9cbef 2px solid;
+        padding-bottom: 10px;
+        margin: 0;
+      }
+
+      .dunden-bugune-text {
+          margin: 0;
+          margin-top: 14px;
+          margin-bottom: 5px;
+          margin-left: 5px;
+          font-size: 14.563px;
+          color: rgb(167, 200, 220);
+          font-weight: bold;
+          text-align: left;
+      }
+
+      .dunden-bugune-baslik {
+          margin: 0;
+          margin-top: 30px;
+          margin-bottom: 5px;
+          margin-left: 5px;
+          font-size: 20.295px;
+          color: rgb(88, 91, 106);
+          font-weight: bold;
+          text-align: left;
+      }
+
+      .tumuicintiklayiniz {
+        margin-top: 37px;
+        width: initial;
+        float: right;
+      }
+
+
+      .owl-nav {
+        border: none;
+        text-align: end;
+        .owl-next {
+          margin-right: 0px;
+        }
+      }
     }
 
   }

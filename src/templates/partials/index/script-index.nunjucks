@@ -44,12 +44,23 @@
         ],
         responsive: {
           768: {
-            items: 1
+            items: 2
           },
           992: {
             items: 2
           }
         }
+      });
+
+      $('.owl-dunden-bugune').owlCarousel({
+        loop: true,
+        nav: true,
+        dots: false,
+        items: 1,
+        margin:25,
+        navText: [
+          "<img src='img/dergiler/solOk.png'>", "<img src='img/dergiler/sagOk.png'>"
+        ],
       });
     });
   </script>
