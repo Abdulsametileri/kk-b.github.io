@@ -41,7 +41,14 @@ a {
     .header .social-media .links img:hover {
       opacity: 0.5; }
   .header .navbar-container {
-    justify-content: flex-end; }
+    justify-content: flex-end;
+    margin-top: -30px; }
+  .header .nav-logo {
+    display: block;
+    margin-right: 38px; }
+    @media (max-width: 1120px) {
+      .header .nav-logo {
+        display: none; } }
   .header .nav {
     padding: 0;
     background-color: #3a66af; }
@@ -116,22 +123,14 @@ a {
     @media (min-width: 992px) {
       .header .nav {
         position: unset !important; } }
-    @media (max-width: 1120px) {
-      .header .nav .navbar-brand {
-        display: none; } }
     @media (max-width: 991px) {
       .header .nav {
         position: absolute;
         width: 100%;
         left: 0;
         padding: 10px !important; } }
-    .header .nav .navbar-brand img {
-      width: 141px;
-      height: 135px; }
     .header .nav .nav-item .nav-link {
-      margin-right: 0.15rem !important;
-      margin-left: 0.15rem !important;
-      font-size: 13px;
+      font-size: 14px;
       color: white;
       font-weight: bold;
       line-height: 1.702; }
@@ -145,7 +144,7 @@ a {
         color: white;
         width: 190px;
         height: 32px;
-        font-size: 13px;
+        font-size: 14px;
         background-color: rgba(25, 52, 76, 0.5);
         border: solid 1px;
         font-weight: 500;
@@ -204,16 +203,19 @@ a {
           justify-content: space-around; } }
     .header .owl-zero .owl-zero-prev {
       margin: 0 !important;
-      margin-left: 80px !important; }
-      @media (max-width: 1200px) {
-        .header .owl-zero .owl-zero-prev {
-          margin-left: -60px !important; } }
-      @media (max-width: 1120px) {
-        .header .owl-zero .owl-zero-prev {
-          margin-left: 40px !important; } }
-      @media (max-width: 990px) {
-        .header .owl-zero .owl-zero-prev {
-          margin-left: 0px !important; } }
+      /* margin-left: 80px !important;
+
+    @media (max-width: 1200px) {
+      margin-left: -60px !important;
+    }
+    @media (max-width: 1120px) {
+      margin-left: 40px !important;
+    }
+    @media (max-width: 990px) {
+      margin-left: 0px !important;
+    } */ }
+      .header .owl-zero .owl-zero-prev img {
+        margin-left: 13px; }
     .header .owl-zero .owl-zero-next {
       margin: 0 !important;
       padding: 0 !important; }

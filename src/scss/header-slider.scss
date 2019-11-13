@@ -52,7 +52,11 @@ $solSagOkBottom: 90px;
 
   .owl-zero-prev {
     margin: 0 !important;
-    margin-left: 80px !important;
+
+    img {
+      margin-left: 13px;
+    }
+    /* margin-left: 80px !important;
 
     @media (max-width: 1200px) {
       margin-left: -60px !important;
@@ -62,7 +66,7 @@ $solSagOkBottom: 90px;
     }
     @media (max-width: 990px) {
       margin-left: 0px !important;
-    }
+    } */
   }
 
   .owl-zero-next {

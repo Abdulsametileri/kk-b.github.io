@@ -1,6 +1,17 @@
 .navbar-container {
   justify-content:flex-end;
+  margin-top: -30px;
 }
+
+.nav-logo {
+  display: block;
+  margin-right: 38px;
+  @media (max-width: 1120px) {
+      display: none;
+  }
+}
+
+
 
 .nav {
   padding: 0;
@@ -123,11 +134,6 @@
     
   }
 
-  @media (max-width: 1120px) {
-    .navbar-brand {
-      display: none;
-    }  
-  }
 
   @media (max-width: 991px) {
     position: absolute;
@@ -136,16 +142,18 @@
     padding: 10px !important;
   }
 
-  .navbar-brand img {
-    width: 141px;
-    height: 135px;
+  
+
+  .nav-logo img {
+    //width: 141px;
+    //height: 135px;
   }
   
   .nav-item {
     .nav-link {
-      margin-right: .15rem!important;
-      margin-left: .15rem!important;
-      font-size: 13px;
+      //margin-right: .15rem!important;
+      //margin-left: .15rem!important;
+      font-size: 14px;
       color: rgb(255, 255, 255);
       font-weight: bold;
       line-height: 1.702;
@@ -163,7 +171,7 @@
       color: white;
       width: 190px;
       height: 32px;
-      font-size: 13px;
+      font-size: 14px;
       background-color: rgba(25, 52, 76, .5);
       border: solid 1px;
       font-weight: 500;
