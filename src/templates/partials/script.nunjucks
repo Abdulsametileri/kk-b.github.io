@@ -13,3 +13,14 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
+    <script>
+    $('#karamurselDropdownWeb').hover(function() {
+      $('#karamurselDropdownWeb').addClass('show')
+      $(this).find('.dropdown-menu').addClass('show').stop(true, true).delay(100).fadeIn(500);
+    }, function() {
+      $('#karamurselDropdownWeb').removeClass('show')
+      $(this).find('.dropdown-menu').removeClass('show').stop(true, true).delay(100).fadeOut(500);
+    });
+
+    </script>
