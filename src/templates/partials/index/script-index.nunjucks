@@ -1,12 +1,22 @@
   <script>
     $(function () {
-      $('.owl-zero').owlCarousel({
+      var owlZero = $('.owl-zero').owlCarousel({
         loop: true,
         nav: true,
         dots: true,
         items: 1,
         navText: ["<img src='img/solOk.png'>", "<img src='img/sagOk.png'>"]
       });
+
+      owlZero.on('changed.owl.carousel', function(event) {
+          console.log(event.item.index)
+          var id = '#header-image-slider-' + event.item.index
+          var baslik = $(id).data('baslik')
+
+          console.log(baslik)
+          $('#header-slider-baslik-p').text(baslik)
+      })
+
 
       $('.owl-zero .owl-nav').addClass('container owl-zero-nav-container')
       $('.owl-zero .owl-nav .owl-prev').addClass('owl-zero-prev')
@@ -24,7 +34,6 @@
       });
 
       owlOne.on('changed.owl.carousel', function(event) {
-          console.log("e",event.target)
           var id = '#proje-image-slider-' + event.item.index
 
           var baslik = $(id).data('baslik')

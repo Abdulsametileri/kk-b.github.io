@@ -5,20 +5,32 @@
     {% include "partials/header.nunjucks" %}
 
     <div class="owl-zero owl-carousel owl-theme">
-      <div class="item-header">
+      <div id="header-image-slider-4"  class="item-header" data-baslik="Karamürsel Belediyesi">
         <img src="img/header-bg.png" height="560px" alt=""/>
       </div>
-      <div class="item-header">
-        <img src="img/header-bg.png" height="560px" alt=""/>
+      <div id="header-image-slider-5" class="item-header" data-baslik="Gürgenlik Diriliş Kampı">
+        <img src="img/header-slider/gurgenlik-dirilis-kampi.jpg" height="560px" alt=""/>
       </div>
-      <div class="item-header">
-        <img src="img/header-bg.png" height="560px" alt=""/>
+      <div id="header-image-slider-6"  class="item-header" data-baslik="Söz Verdik Ve Yaptık">
+        <img src="img/header-slider/sozverdikyaptık.png" height="560px" alt=""/>
+      </div>
+      <div id="header-image-slider-7" class="item-header" data-baslik="Aşıklar Tepesi" >
+        <img src="img/header-slider/asiklar-tepesi.jpg" height="560px" alt=""/>
+      </div>
+      <div id="header-image-slider-8" class="item-header" data-baslik="Karamürsel Yeni Terminal">
+        <img src="img/header-slider/karamursel-terminal.jpg" height="560px" alt=""/>
+      </div>
+      <div id="header-image-slider-9" class="item-header" data-baslik="Gökçetepe Çim Halı Saha Spor Tesisleri">
+        <img src="img/header-slider/gokcetepe-cim-saha-tesisleri.jpg" height="560px" alt=""/>
+      </div>
+      <div id="header-image-slider-10" class="item-header" data-baslik="Kızderbent Düğün Salonu">
+        <img src="img/header-slider/karamursel-derbent-dugun-salonu.jpg" height="560px" alt=""/>
       </div>
     </div>
 
     <div>
-      <div class="baslik">
-        <p style="font-size:24px; font-weight: 600; ">
+      <div id="header-slider-baslik" class="baslik">
+        <p id="header-slider-baslik-p" style="font-size:24px; font-weight: 600; ">
         Karamürsel Belediyesi
       </p>
         <p style="font-size:30px; font-family: 'Marck Script', cursive;">
