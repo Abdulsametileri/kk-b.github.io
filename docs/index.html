@@ -80,8 +80,8 @@
               <a class="nav-link" href="./karamursel.html">KARAMÜRSEL</a>
             </li> 
             <li class="nav-item dropdown" id="karamurselDropdownWeb" >
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-               role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="./karamursel.html" id="navbarDropdown"
+               data-hover="dropdown" >
                 KARAMÜRSEL
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -694,11 +694,15 @@
     <script>
 
     $('#karamurselDropdownWeb').hover(function() {
-      $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(500);
+      $('#karamurselDropdownWeb').addClass('show')
+      $(this).find('.dropdown-menu').addClass('show').stop(true, true).delay(100).fadeIn(500);
     }, function() {
-      $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(500);
+      $('#karamurselDropdownWeb').removeClass('show')
+      $(this).find('.dropdown-menu').removeClass('show').stop(true, true).delay(100).fadeOut(500);
     });
 
+    $('#karamurselDropdownWeb').click(function() {
+    })
 
     $(function () {
       var owlZero = $('.owl-zero').owlCarousel({
