@@ -43,10 +43,18 @@ a {
   .header .navbar-container {
     justify-content: flex-end;
     margin-top: -30px; }
-  .header .nav-logo {
-    display: block;
-    margin-right: 38px; }
+    @media (max-width: 1200px) {
+      .header .navbar-container {
+        margin-top: 30px; } }
     @media (max-width: 1120px) {
+      .header .navbar-container {
+        margin-top: -20px; } }
+    @media (max-width: 991px) {
+      .header .navbar-container {
+        margin-top: 0px; } }
+  .header .nav-logo {
+    margin-right: 38px; }
+    @media (max-width: 1200px) {
       .header .nav-logo {
         display: none; } }
   .header .nav {
@@ -55,6 +63,8 @@ a {
     @media (min-width: 992px) {
       .header .nav {
         background-color: initial; } }
+    .header .nav .navbar-nav {
+      align-items: center; }
     .header .nav .dropdown-toggle::after {
       display: none; }
     .header .nav #karamurselDuzMobil {

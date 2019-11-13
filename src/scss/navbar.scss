@@ -1,14 +1,24 @@
 .navbar-container {
   justify-content:flex-end;
   margin-top: -30px;
+  @media (max-width: 1200px) {
+      margin-top: 30px;
+  }
+  @media (max-width: 1120px) {
+    margin-top: -20px;
+  }
+  @media(max-width: 991px) {
+    margin-top: 0px;
+  }
 }
 
 .nav-logo {
-  display: block;
   margin-right: 38px;
-  @media (max-width: 1120px) {
+  
+  @media (max-width: 1200px) {
       display: none;
   }
+  
 }
 
 
@@ -18,6 +28,10 @@
   background-color: #3a66af;
   @media (min-width: $lg) {
     background-color: initial;
+  }
+
+  .navbar-nav {
+    align-items: center
   }
 
   .dropdown-toggle::after {
