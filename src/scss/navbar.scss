@@ -12,6 +12,14 @@
   }
 }
 
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 5px;
+      padding-left: .5rem;
+  }
+}
+
+
 .nav-logo {
   margin-right: 38px;
   
@@ -159,8 +167,7 @@
   
 
   .nav-logo img {
-    //width: 141px;
-    //height: 135px;
+    
   }
   
   .nav-item {
