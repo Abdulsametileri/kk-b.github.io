@@ -2,7 +2,7 @@
   <div id="scrollOnTop"></div>
 
   <!-- Header aynı kısım -->
-  {# {% include "partials/header.nunjucks" %} #}
+  {% include "partials/header.nunjucks" %}
 
   <div class="owl-zero owl-carousel owl-theme">
     <div id="header-image-slider-4" 
