@@ -176,7 +176,13 @@ a {
       .header .baslik {
         bottom: 225px; } }
   .header .owl-zero {
-    height: 100%; }
+    height: 100%;
+    background-color: black; }
+    .header .owl-zero .item-header {
+      height: 560px;
+      background-position: center center;
+      background-size: contain;
+      background-repeat: no-repeat; }
     @media (max-width: 576px) {
       .header .owl-zero img {
         object-fit: cover; } }
@@ -1045,3 +1051,7 @@ a {
   .karamursel .galeri-container .galeri-foto-container .foto-buyuk:active {
     text-decoration: none;
     color: yellow; }
+
+.swiper-container {
+  width: 100%;
+  height: 570px; }

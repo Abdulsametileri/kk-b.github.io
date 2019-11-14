@@ -1,6 +1,20 @@
+{#   <script>
+  $(document).ready(function () {
+  //initialize swiper when document ready
+  var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true
+  })
+});
+  </script>
+   #}
   <script>
 
     $(function () {
+
+  
+     
       var owlZero = $('.owl-zero').owlCarousel({
         loop: true,
         nav: true,
@@ -8,7 +22,7 @@
         items: 1,
         navText: ["<img src='img/solOk.png'>", "<img src='img/sagOk.png'>"]
       });
-
+      
       owlZero.on('changed.owl.carousel', function(event) {
           console.log(event.item.index)
           var id = '#header-image-slider-' + event.item.index
@@ -18,12 +32,11 @@
           $('#header-slider-baslik-p').text(baslik)
       })
 
-
       $('.owl-zero .owl-nav').addClass('container owl-zero-nav-container')
       $('.owl-zero .owl-nav .owl-prev').addClass('owl-zero-prev')
       $('.owl-zero .owl-nav .owl-next').addClass('owl-zero-next')
       $('.owl-zero .owl-dots').addClass('container owl-zero-nav-container owl-dots-ozel')
-
+      
       var owlOne = $('.owl-one').owlCarousel({
         loop: true,
         nav: true,

@@ -1,45 +1,60 @@
-  <div class="header">
-    <div id="scrollOnTop"></div>
+<div class="header">
+  <div id="scrollOnTop"></div>
 
-    <!-- Header aynı kısım -->
-    {% include "partials/header.nunjucks" %}
+  <!-- Header aynı kısım -->
+  {# {% include "partials/header.nunjucks" %} #}
 
-    <div class="owl-zero owl-carousel owl-theme">
-      <div id="header-image-slider-4" 
-              style="background-image: url(img/sliderdeneme.jpg);background-size: cover;height: 501px;"
-       class="item-header" data-baslik="Karamürsel Belediyesi">
-      </div>
-      <div id="header-image-slider-5"
-              style="background-image: url(img/header-slider/gurgenlik-dirilis-kampi.jpg);background-size: cover;height: 501px;"
-       class="item-header" data-baslik="Gürgenlik Diriliş Kampı">
-      </div>
-      <div id="header-image-slider-6"  class="item-header" data-baslik="Söz Verdik Ve Yaptık">
-        <img src="img/header-slider/sozverdikyaptık.png" height="560px" alt=""/>
-      </div>
-      <div id="header-image-slider-7" class="item-header" data-baslik="Aşıklar Tepesi" >
-        <img src="img/header-slider/asiklar-tepesi.jpg" height="560px" alt=""/>
-      </div>
-      <div id="header-image-slider-8" class="item-header" data-baslik="Karamürsel Yeni Terminal">
-        <img src="img/header-slider/karamursel-terminal.jpg" height="560px" alt=""/>
-      </div>
-      <div id="header-image-slider-9" class="item-header" data-baslik="Gökçetepe Çim Halı Saha Spor Tesisleri">
-        <img src="img/header-slider/gokcetepe-cim-saha-tesisleri.jpg" height="560px" alt=""/>
-      </div>
-      <div id="header-image-slider-10" class="item-header" data-baslik="Kızderbent Düğün Salonu">
-        <img src="img/header-slider/karamursel-derbent-dugun-salonu.jpg" height="560px" alt=""/>
-      </div>
-    </div>
-
-    <div>
-      <div id="header-slider-baslik" class="baslik">
-        <p id="header-slider-baslik-p" style="font-size:24px; font-weight: 600; ">
+  <div class="owl-zero owl-carousel owl-theme">
+    <div id="header-image-slider-4" 
+              style="background-image: url(img/sliderdeneme.jpg);"
+              class="item-header" data-baslik="Karamürsel Belediyesi"></div>
+    <div id="header-image-slider-5"
+              style="background-image: url(img/header-slider/gurgenlik-dirilis-kampi.jpg);"
+       class="item-header" data-baslik="Gürgenlik Diriliş Kampı"></div>
+    <div id="header-image-slider-6" 
+    style="background-image: url(img/header-slider/sozverdikyaptık.png);" 
+            class="item-header" data-baslik="Söz Verdik Ve Yaptık"></div>
+    <div id="header-image-slider-7" 
+    style="background-image: url(img/header-slider/asiklar-tepesi.jpg)"
+      class="item-header" data-baslik="Aşıklar Tepesi" ></div>
+    <div id="header-image-slider-8" 
+    style="background-image: url(img/header-slider/karamursel-terminal.jpg)"
+      class="item-header" data-baslik="Karamürsel Yeni Terminal"></div>
+    <div id="header-image-slider-9"
+    style="background-image: url(img/header-slider/gokcetepe-cim-saha-tesisleri.jpg)"
+      class="item-header" data-baslik="Gökçetepe Çim Halı Saha Spor Tesisleri"></div>
+    <div id="header-image-slider-10" 
+    style="background-image: url(img/header-slider/karamursel-derbent-dugun-salonu.jpg)"
+      class="item-header" data-baslik="Kızderbent Düğün Salonu"></div>
+  </div>
+  <div>
+    <div id="header-slider-baslik" class="baslik">
+      <p id="header-slider-baslik-p" style="font-size:24px; font-weight: 600; ">
         Karamürsel Belediyesi
       </p>
-        <p style="font-size:30px; font-family: 'Marck Script', cursive;">
+      <p style="font-size:30px; font-family: 'Marck Script', cursive;">
         " Huzurun Başkenti "
       </p>
+    </div>
+
+    <img class="cizgi" src="img/sari_cizgi.png"/>
+  </div>
+
+  {#    <div class="swiper-container">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image: url(img/sliderdeneme.jpg)"></div>
+          <div class="swiper-slide" style="background-image: url(img/header-slider/gurgenlik-dirilis-kampi.jpg)"> </div>
+          <div class="swiper-slide" style="background-image: url(img/header-slider/sozverdikyaptık.png);"></div>
+          <div class="swiper-slide" style="background-image: url(img/header-slider/asiklar-tepesi.jpg)" ></div>
+          <div class="swiper-slide" style="background-image: url(img/header-slider/karamursel-terminal.jpg)"></div>
+          <div class="swiper-slide" style="background-image: url(img/header-slider/gokcetepe-cim-saha-tesisleri.jpg)"></div>
+          <div class="swiper-slide" style="background-image: url(img/header-slider/karamursel-derbent-dugun-salonu.jpg)"></div>
       </div>
 
-      <img class="cizgi" src="img/sari_cizgi.png"/>
-    </div>
-  </div>
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div> #}
+
+</div>

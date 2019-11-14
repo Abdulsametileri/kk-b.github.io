@@ -3,6 +3,14 @@ $solSagOkBottom: 90px;
 
 .owl-zero {
   height: 100%;
+  background-color: black;
+
+  .item-header {
+    height: 560px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
   @media (max-width: $xs) {
     img {
