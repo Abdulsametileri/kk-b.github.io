@@ -6,7 +6,7 @@
 
     <div class="owl-zero owl-carousel owl-theme">
       <div id="header-image-slider-4" 
-              style="background-image: url(img/header-bg.png);background-size: cover;height: 501px;"
+              style="background-image: url(img/sliderdeneme.jpg);background-size: cover;height: 501px;"
        class="item-header" data-baslik="Karamürsel Belediyesi">
       </div>
       <div id="header-image-slider-5"
