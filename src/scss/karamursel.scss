@@ -1,6 +1,6 @@
 .karamursel {
   .header {
-    height: 325px;
+    //height: 325px;
     position: relative;
     background: url('../img/karamursel/header.png');
     background-size: cover;
@@ -16,15 +16,20 @@
     left: 0;
     right: 0;
     bottom: 65px;
+    @media (max-width: 576px) {
+      bottom: 25px;
+      right: 17px;
+    }
   }
   .header-kesfet-text {
     font-size: 24px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     line-height: 1.083;
-    @media (max-width: $xs), (max-width: $lg) {
-        display: none;
+    @media (max-width: $lg) {
+        font-size: 20px;
     }
+    
   }
 
   .karamursel-breadcrumb {

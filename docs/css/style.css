@@ -906,7 +906,6 @@ a {
       left: 70%; } }
 
 .karamursel .header {
-  height: 325px;
   position: relative;
   background: url("../img/karamursel/header.png");
   background-size: cover;
@@ -922,15 +921,19 @@ a {
   left: 0;
   right: 0;
   bottom: 65px; }
+  @media (max-width: 576px) {
+    .karamursel .header-kesfet-text-wrapper {
+      bottom: 25px;
+      right: 17px; } }
 
 .karamursel .header-kesfet-text {
   font-size: 24px;
   color: white;
   font-weight: bold;
   line-height: 1.083; }
-  @media (max-width: 576px), (max-width: 992px) {
+  @media (max-width: 992px) {
     .karamursel .header-kesfet-text {
-      display: none; } }
+      font-size: 20px; } }
 
 .karamursel .karamursel-breadcrumb {
   font-size: 14px;
