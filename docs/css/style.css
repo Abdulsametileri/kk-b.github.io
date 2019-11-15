@@ -906,6 +906,7 @@ a {
       left: 70%; } }
 
 .karamursel .header {
+  height: 325px;
   position: relative;
   background: url("../img/karamursel/header.png");
   background-size: cover;
