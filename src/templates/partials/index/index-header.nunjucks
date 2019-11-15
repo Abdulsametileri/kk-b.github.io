@@ -55,7 +55,7 @@
 
       <div class="container navigate-container">
         <div class="swiper-button-prev-uniq" style=" background: url(img/solOk.png);" ></div>
-        <div class="swiper-button-next-uniq" style=" background: url(/img/sagOk.png);"></div>
+        <div class="swiper-button-next-uniq" style=" background: url(img/sagOk.png);"></div>
       </div>
       
     </div>  
