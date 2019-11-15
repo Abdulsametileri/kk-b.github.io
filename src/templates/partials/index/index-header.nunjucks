@@ -54,8 +54,8 @@
       <div class="swiper-pagination container dots"></div>
 
       <div class="container navigate-container">
-        <div class="swiper-button-prev-uniq"></div>
-        <div class="swiper-button-next-uniq"></div>
+        <div class="swiper-button-prev-uniq" style=" background: url(img/solOk.png);" ></div>
+        <div class="swiper-button-next-uniq" style=" background: url(/img/sagOk.png);"></div>
       </div>
       
     </div>  
