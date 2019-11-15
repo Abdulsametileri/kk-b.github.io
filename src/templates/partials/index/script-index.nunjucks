@@ -4,16 +4,19 @@
     var mySwiper = new Swiper ('.swiper-container', {
       // Optional parameters
       direction: 'horizontal',
-      loop: true
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next-uniq',
+        prevEl: '.swiper-button-prev-uniq',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
     })
     mySwiper.on('slideChange', function () {
-      
       var slider =$('.swiper-slide-active')[0]
-      console.log(slider.id) 
-
       var baslik = $("#" + slider.id).data('baslik')
-
-      console.log(baslik)
       $('#slider-title').text(baslik)
     });
   });
@@ -22,9 +25,6 @@
   <script>
 
     $(function () {
-
-  
-     
       var owlZero = $('.owl-zero').owlCarousel({
         loop: true,
         nav: true,

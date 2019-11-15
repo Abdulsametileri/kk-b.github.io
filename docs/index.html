@@ -191,8 +191,12 @@
           <div id="slider7" data-baslik="Kızderbent Düğün Salonu" class="swiper-slide" style="background-image: url(img/header-slider/karamursel-derbent-dugun-salonu.jpg)"></div>
       </div>
 
-      <div class="swiper-pagination"></div>
+      <div class="swiper-pagination container dots"></div>
 
+      <div class="container navigate-container">
+        <div class="swiper-button-prev-uniq"></div>
+        <div class="swiper-button-next-uniq"></div>
+      </div>
       
     </div>  
 
@@ -710,16 +714,19 @@
     var mySwiper = new Swiper ('.swiper-container', {
       // Optional parameters
       direction: 'horizontal',
-      loop: true
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next-uniq',
+        prevEl: '.swiper-button-prev-uniq',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
     })
     mySwiper.on('slideChange', function () {
-      
       var slider =$('.swiper-slide-active')[0]
-      console.log(slider.id) 
-
       var baslik = $("#" + slider.id).data('baslik')
-
-      console.log(baslik)
       $('#slider-title').text(baslik)
     });
   });
@@ -728,9 +735,6 @@
   <script>
 
     $(function () {
-
-  
-     
       var owlZero = $('.owl-zero').owlCarousel({
         loop: true,
         nav: true,

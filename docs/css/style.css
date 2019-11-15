@@ -1069,6 +1069,12 @@ a {
     text-decoration: none;
     color: yellow; }
 
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+  content: '' !important; }
+
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+  content: '' !important; }
+
 .swiper-container {
   width: 100%;
   height: 100%;
@@ -1080,6 +1086,51 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden; }
+  .swiper-container .navigate-container {
+    z-index: 99;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 77%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0; }
+    @media (max-width: 990px) {
+      .swiper-container .navigate-container {
+        justify-content: space-around; } }
+    .swiper-container .navigate-container .swiper-button-prev-uniq {
+      z-index: 1;
+      width: 34px;
+      height: 24px;
+      background: url("/img/solOk.png");
+      background-repeat: no-repeat;
+      margin-left: 35px; }
+      @media (max-width: 992px) {
+        .swiper-container .navigate-container .swiper-button-prev-uniq {
+          margin: initial; } }
+    .swiper-container .navigate-container .swiper-button-next-uniq {
+      z-index: 1;
+      width: 34px;
+      height: 24px;
+      background: url("/img/sagOk.png");
+      background-repeat: no-repeat; }
+  .swiper-container .dots {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding: 0;
+    left: 0;
+    right: 0;
+    bottom: 50px !important; }
+    .swiper-container .dots span {
+      background: initial;
+      border: white 2px solid;
+      margin: 2px;
+      padding: 0px;
+      height: 10px !important;
+      width: 10px !important; }
+    .swiper-container .dots .swiper-pagination-bullet-active {
+      background-color: white; }
 
 #slider-baslik-container {
   text-align: center;

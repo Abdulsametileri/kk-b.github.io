@@ -51,10 +51,13 @@
           <div id="slider7" data-baslik="Kızderbent Düğün Salonu" class="swiper-slide" style="background-image: url(img/header-slider/karamursel-derbent-dugun-salonu.jpg)"></div>
       </div>
 
-      <div class="swiper-pagination"></div>
+      <div class="swiper-pagination container dots"></div>
 
-      {# <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div> #}
+      <div class="container navigate-container">
+        <div class="swiper-button-prev-uniq"></div>
+        <div class="swiper-button-next-uniq"></div>
+      </div>
+      
     </div>  
 
     <div id="slider-baslik-container" >
