@@ -35,6 +35,11 @@
       justify-content: space-around;
     }
 
+    @media (max-width: $phone) {
+      justify-content: space-between;
+      top: 56%;
+    }
+
     .swiper-button-prev-uniq {
       z-index: 1;
       width: 34px;
@@ -63,6 +68,14 @@
     left: 0;
     right: 0;
     bottom: 50px !important;
+
+    @media (max-width: 992px) {
+      justify-content: center;
+    }
+
+    @media (max-width: 576px) {
+      bottom: 20px !important;
+    }
 
     span {
       background: initial;

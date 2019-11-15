@@ -1098,6 +1098,10 @@ a {
     @media (max-width: 990px) {
       .swiper-container .navigate-container {
         justify-content: space-around; } }
+    @media (max-width: 499px) {
+      .swiper-container .navigate-container {
+        justify-content: space-between;
+        top: 56%; } }
     .swiper-container .navigate-container .swiper-button-prev-uniq {
       z-index: 1;
       width: 34px;
@@ -1122,6 +1126,12 @@ a {
     left: 0;
     right: 0;
     bottom: 50px !important; }
+    @media (max-width: 992px) {
+      .swiper-container .dots {
+        justify-content: center; } }
+    @media (max-width: 576px) {
+      .swiper-container .dots {
+        bottom: 20px !important; } }
     .swiper-container .dots span {
       background: initial;
       border: white 2px solid;
