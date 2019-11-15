@@ -157,7 +157,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#">BİLGİ HİZMETLERİ</a>
             </li>
-            <li class="nav-item" style="margin-right: 60px;">
+            <li class="nav-item" id="iletisim">
               <a class="nav-link" href="#">İLETİŞİM</a>
             </li>
           </ul>
@@ -178,44 +178,34 @@
 </div>
 <!-- AYNI BİRİŞ -->
 
-  <div class="owl-zero owl-carousel owl-theme">
-    <div id="header-image-slider-4" 
-              style="background-image: url(img/sliderdeneme.jpg);"
-              class="item-header" data-baslik="Karamürsel Belediyesi"></div>
-    <div id="header-image-slider-5"
-              style="background-image: url(img/header-slider/gurgenlik-dirilis-kampi.jpg);"
-       class="item-header" data-baslik="Gürgenlik Diriliş Kampı"></div>
-    <div id="header-image-slider-6" 
-    style="background-image: url(img/header-slider/sozverdikyaptık.png);" 
-            class="item-header" data-baslik="Söz Verdik Ve Yaptık"></div>
-    <div id="header-image-slider-7" 
-    style="background-image: url(img/header-slider/asiklar-tepesi.jpg)"
-      class="item-header" data-baslik="Aşıklar Tepesi" ></div>
-    <div id="header-image-slider-8" 
-    style="background-image: url(img/header-slider/karamursel-terminal.jpg)"
-      class="item-header" data-baslik="Karamürsel Yeni Terminal"></div>
-    <div id="header-image-slider-9"
-    style="background-image: url(img/header-slider/gokcetepe-cim-saha-tesisleri.jpg)"
-      class="item-header" data-baslik="Gökçetepe Çim Halı Saha Spor Tesisleri"></div>
-    <div id="header-image-slider-10" 
-    style="background-image: url(img/header-slider/karamursel-derbent-dugun-salonu.jpg)"
-      class="item-header" data-baslik="Kızderbent Düğün Salonu"></div>
-  </div>
-  <div>
-    <div id="header-slider-baslik" class="baslik">
-      <p id="header-slider-baslik-p" style="font-size:24px; font-weight: 600; ">
+  
+
+   <div class="swiper-container">
+      <div class="swiper-wrapper">
+          <div id="slider1" data-baslik="Karamürsel Belediyesi" class="swiper-slide" style="background-image: url(img/header-bg.png)"></div>
+          <div id="slider2" data-baslik="Gürgenlik Diriliş Kampı" class="swiper-slide" style="background-image: url(img/header-slider/gurgenlik-dirilis-kampi.jpg)"> </div>
+          <div id="slider3" data-baslik="Söz Verdik Ve Yaptık" class="swiper-slide" style="background-image: url(img/header-slider/sozverdikyaptık.png);"></div>
+          <div id="slider4" data-baslik="Aşıklar Tepesi" class="swiper-slide" style="background-image: url(img/header-slider/asiklar-tepesi.jpg)" ></div>
+          <div id="slider5" data-baslik="Karamürsel Yeni Terminal" class="swiper-slide" style="background-image: url(img/header-slider/karamursel-terminal.jpg)"></div>
+          <div id="slider6" data-baslik="Gökçetepe Çim Halı Saha Spor Tesisleri" class="swiper-slide" style="background-image: url(img/header-slider/gokcetepe-cim-saha-tesisleri.jpg)"></div>
+          <div id="slider7" data-baslik="Kızderbent Düğün Salonu" class="swiper-slide" style="background-image: url(img/header-slider/karamursel-derbent-dugun-salonu.jpg)"></div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+      
+    </div>  
+
+    <div id="slider-baslik-container" >
+      <p id="slider-title" >
         Karamürsel Belediyesi
       </p>
-      <p style="font-size:30px; font-family: 'Marck Script', cursive;">
+      <p id="sekilliyazi">
         " Huzurun Başkenti "
       </p>
     </div>
 
     <img class="cizgi" src="img/sari_cizgi.png"/>
-  </div>
-
-  
-
 </div>
 
   <!-- HABER VE DETAYLAR -->
@@ -714,7 +704,27 @@
 
 <script src="js/swiper.min.js"></script>
 
-  
+     <script>
+  $(document).ready(function () {
+  //initialize swiper when document ready
+    var mySwiper = new Swiper ('.swiper-container', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true
+    })
+    mySwiper.on('slideChange', function () {
+      
+      var slider =$('.swiper-slide-active')[0]
+      console.log(slider.id) 
+
+      var baslik = $("#" + slider.id).data('baslik')
+
+      console.log(baslik)
+      $('#slider-title').text(baslik)
+    });
+  });
+  </script>
+   
   <script>
 
     $(function () {

@@ -10,6 +10,8 @@ $solSagOkBottom: 90px;
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
+
+   
   }
 
   @media (max-width: $xs) {
@@ -22,6 +24,8 @@ $solSagOkBottom: 90px;
     position: absolute;
     right: $solSagOkUzaklik;
     bottom: 44px;
+
+    
 
     @media (max-width: $xs) {
       right: 0;
@@ -90,6 +94,7 @@ $solSagOkBottom: 90px;
       margin-top: 30px;
       justify-content: center;
     }
+   
 
   }
 

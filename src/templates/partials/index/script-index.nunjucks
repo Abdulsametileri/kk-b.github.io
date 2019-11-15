@@ -1,14 +1,24 @@
-{#   <script>
+   <script>
   $(document).ready(function () {
   //initialize swiper when document ready
-  var mySwiper = new Swiper ('.swiper-container', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true
-  })
-});
+    var mySwiper = new Swiper ('.swiper-container', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true
+    })
+    mySwiper.on('slideChange', function () {
+      
+      var slider =$('.swiper-slide-active')[0]
+      console.log(slider.id) 
+
+      var baslik = $("#" + slider.id).data('baslik')
+
+      console.log(baslik)
+      $('#slider-title').text(baslik)
+    });
+  });
   </script>
-   #}
+   
   <script>
 
     $(function () {
