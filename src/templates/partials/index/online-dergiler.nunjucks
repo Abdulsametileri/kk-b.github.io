@@ -41,14 +41,14 @@
         <div class="row dundenbugune-container" >
           <div class="col-6 col-md-6 col-lg-6">
             <div>
-                <p class="dunden-bugune-text">ÖNCE</p>
+                <p class="dunden-bugune-text">ÖNCESİ</p>
                 <img src="img/dundenbugune/db_once1.png"  alt=""/>
                 <p class="dunden-bugune-baslik">BELEDİYE BİNASI</p>
               </div>
           </div>
           <div class="col-6 col-md-6 col-lg-6">
              <div>
-                <p class="dunden-bugune-text">SONRA</p>
+                <p class="dunden-bugune-text">SONRASI</p>
                 <img src="img/dundenbugune/db_sonra1.png"  alt=""/>
                 <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
               </div>
@@ -58,53 +58,19 @@
          <div class="row dundenbugune-container"  >
           <div class="col-6">
             <div>
-                <p class="dunden-bugune-text">ÖNCE</p>
+                <p class="dunden-bugune-text">ÖNCESİ</p>
                 <img src="img/dundenbugune/db_once1.png"  alt=""/>
                 <p class="dunden-bugune-baslik">BELEDİYE BİNASI</p>
               </div>
           </div>
           <div class="col-6">
              <div>
-                <p class="dunden-bugune-text">SONRA</p>
+                <p class="dunden-bugune-text">SONRASI</p>
                 <img src="img/dundenbugune/db_sonra1.png"  alt=""/>
                 <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
               </div>
           </div>
         </div>
-        
-           {# <div class="item-dunden-bugune" >
-              <div>
-                <p class="dunden-bugune-text">ÖNCE</p>
-                <img src="img/dundenbugune/db_once1.png"  alt=""/>
-                <p class="dunden-bugune-baslik">BELEDİYE BİNASI</p>
-              </div>
-          </div>
-
-          <div class="item-dunden-bugune" >
-              <div>
-                <p class="dunden-bugune-text">SONRA</p>
-                <img src="img/dundenbugune/db_sonra1.png"  alt=""/>
-                <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
-              </div>
-        </div> #}
-        
-        
-       {# 
-        <div class="item-dunden-bugune">
-            <div>
-              <p class="dunden-bugune-text">ÖNCE</p>
-              <img src="img/dundenbugune/db_once1.png"  alt=""/>
-              <p class="dunden-bugune-baslik">BELEDİYE BİNASI</p>
-            </div>
-        </div>
-        <div class="item-dunden-bugune">
-            <div>
-              <p class="dunden-bugune-text">SONRA</p>
-              <img src="img/dundenbugune/db_sonra1.png"  alt=""/>
-              <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
-            </div>
-        </div> #}
-        
       </div>
 
     </div>
