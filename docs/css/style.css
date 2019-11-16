@@ -964,46 +964,6 @@ a {
         text-align: left;
         text-decoration: none; }
 
-.karamursel .basgan-container {
-  border-radius: 10px;
-  background: #fbf239;
-  padding: 5px; }
-  .karamursel .basgan-container img {
-    margin-top: -15px; }
-  .karamursel .basgan-container .basgan-isim {
-    font-size: 18px;
-    color: #3a66af;
-    font-weight: 800;
-    text-align: center;
-    position: relative;
-    margin-top: 10px; }
-  .karamursel .basgan-container .basgan-unvan {
-    font-size: 11px;
-    color: #3a66af;
-    font-weight: 600;
-    text-align: center;
-    margin-top: -5px; }
-  .karamursel .basgan-container ul {
-    margin-left: 50px; }
-    .karamursel .basgan-container ul li {
-      color: #3a66af;
-      text-align: start;
-      padding-top: 5px; }
-      .karamursel .basgan-container ul li a {
-        font-size: 14px;
-        color: #3a66af;
-        font-weight: 600;
-        line-height: 1.5;
-        position: absolute; }
-
-.karamursel .dergi-container {
-  border-radius: 10px;
-  background: #a7c8dc;
-  padding: 30px 10px 10px; }
-  .karamursel .dergi-container .dergi {
-    box-shadow: -10px 5px 5px -5px #698a9d;
-    margin-bottom: 0; }
-
 .karamursel .metin-container .metin-foto {
   width: 100%;
   height: 400px; }
@@ -1046,7 +1006,7 @@ a {
     display: block; }
     @media (max-width: 576px) {
       .karamursel .galeri-container .galeri-foto-container .galeri-fotolar {
-        object-fit: contain; } }
+        object-fit: cover; } }
   .karamursel .galeri-container .galeri-foto-container .foto-buyuk {
     transition: 0.5s ease;
     opacity: 0;
