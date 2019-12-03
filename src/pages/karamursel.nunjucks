@@ -23,6 +23,7 @@
         {% include "partials/karamursel/karamursel-sag-taraf.nunjucks" %}
       </div>
     </div>
+    </div>
 
     <!-- FOOTER -->
     {% include "partials/footer.nunjucks" %}
