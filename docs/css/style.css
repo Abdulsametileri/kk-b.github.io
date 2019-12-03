@@ -511,12 +511,23 @@ a {
   cursor: pointer; }
 
 .online-dergiler-container .row .dundenbugune-container {
+  height: 313px;
   border: #a9cbef 2px solid;
   margin: 0px;
-  padding-bottom: 29px; }
+  padding-bottom: 16px; }
   @media (max-width: 1200px) {
     .online-dergiler-container .row .dundenbugune-container {
       padding-bottom: 9px; } }
+  .online-dergiler-container .row .dundenbugune-container img {
+    width: 100%;
+    height: 160px; }
+    @media (max-width: 576px) {
+      .online-dergiler-container .row .dundenbugune-container img {
+        width: 100%;
+        height: initial; } }
+  .online-dergiler-container .row .dundenbugune-container .tumuicintiklayiniz {
+    width: initial;
+    height: initial; }
 
 .online-dergiler-container .row .owl-dunden-bugune .owl-item-active {
   border: #a9cbef 2px solid;
@@ -597,12 +608,23 @@ a {
   cursor: pointer; }
 
 .online-dergiler-container .row .dundenbugune-container {
+  height: 313px;
   border: #a9cbef 2px solid;
   margin: 0px;
-  padding-bottom: 29px; }
+  padding-bottom: 16px; }
   @media (max-width: 1200px) {
     .online-dergiler-container .row .dundenbugune-container {
       padding-bottom: 9px; } }
+  .online-dergiler-container .row .dundenbugune-container img {
+    width: 100%;
+    height: 160px; }
+    @media (max-width: 576px) {
+      .online-dergiler-container .row .dundenbugune-container img {
+        width: 100%;
+        height: initial; } }
+  .online-dergiler-container .row .dundenbugune-container .tumuicintiklayiniz {
+    width: initial;
+    height: initial; }
 
 .online-dergiler-container .row .owl-dunden-bugune .owl-item-active {
   border: #a9cbef 2px solid;
@@ -771,12 +793,23 @@ a {
   cursor: pointer; }
 
 .online-dergiler-container .row .dundenbugune-container {
+  height: 313px;
   border: #a9cbef 2px solid;
   margin: 0px;
-  padding-bottom: 29px; }
+  padding-bottom: 16px; }
   @media (max-width: 1200px) {
     .online-dergiler-container .row .dundenbugune-container {
       padding-bottom: 9px; } }
+  .online-dergiler-container .row .dundenbugune-container img {
+    width: 100%;
+    height: 160px; }
+    @media (max-width: 576px) {
+      .online-dergiler-container .row .dundenbugune-container img {
+        width: 100%;
+        height: initial; } }
+  .online-dergiler-container .row .dundenbugune-container .tumuicintiklayiniz {
+    width: initial;
+    height: initial; }
 
 .online-dergiler-container .row .owl-dunden-bugune .owl-item-active {
   border: #a9cbef 2px solid;
