@@ -1,0 +1,22 @@
+<div class="col-6 form-bilgi-container form-border" >
+  <div class="form-content">
+    <p class="baslik">İLETİŞİM FORMU</p>
+
+    <input style="margin-top: 50px;"
+      class="form-control" placeholder="Adınız - Soyadınız" >
+
+    <input type="email" class="form-control" placeholder="E-Mail Adresiniz">
+
+    <div style="position: relative;">
+      <input class="form-control error" placeholder="Lütfen Telefon Numaranızı giriniz">  
+      <span class="invalid-x">x</span>
+    </div>
+
+    <input class="form-control" placeholder="Konu">
+
+    <textarea class="form-control" placeholder="Mesajınız" rows="12"></textarea>
+
+    <button type="button" class="btn btn-gonder" onclick="formuGonder(event);" >GÖNDER</button>
+  </div>
+</div>
+

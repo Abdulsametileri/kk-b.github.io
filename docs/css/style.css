@@ -1322,13 +1322,61 @@ a {
     text-decoration: none;
     color: yellow; }
 
+.form-content {
+  margin-top: 45px;
+  margin-left: 40px;
+  margin-right: 40px; }
+  .form-content input, .form-content textarea {
+    border: 1px solid #b5cbff;
+    font-family: "Raleway";
+    margin-top: 20px;
+    font-size: 12.551px; }
+  .form-content .form-control::-webkit-input-placeholder {
+    font-size: 12.551px;
+    font-family: "Raleway";
+    color: #6e98b3;
+    font-weight: bold;
+    line-height: 1.2; }
+  .form-content .btn-gonder {
+    background-color: #ffed00;
+    width: 300px;
+    margin-top: 25px;
+    font-size: 16px;
+    font-family: "Raleway";
+    color: #545646;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 10px; }
+  .form-content .error-text, .form-content input.error::-webkit-input-placeholder, .form-content .invalid-x {
+    font-size: 12.551px;
+    font-family: "Raleway";
+    color: #fb2121;
+    font-weight: bold;
+    line-height: 1.2; }
+  .form-content input.error {
+    border: 1px solid #ff3737; }
+  .form-content .invalid-x {
+    z-index: 1;
+    position: absolute;
+    right: 20px;
+    top: 8px; }
+
 .iletisim .header {
   margin-bottom: 30px; }
 
 .iletisim .karamursel-breadcrumb {
   margin-bottom: 15px; }
 
-.iletisim .google-map #map {
-  width: 100%;
-  height: 355px;
-  background-color: grey; }
+.iletisim .form-bilgi-container {
+  height: 655px;
+  margin-bottom: 40px; }
+  .iletisim .form-bilgi-container .baslik {
+    font-size: 21.66px;
+    font-family: "Raleway";
+    color: #447999;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left; }
+
+.iletisim .form-border {
+  border: 1px solid #b5cbff; }

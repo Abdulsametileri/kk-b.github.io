@@ -195,19 +195,48 @@
 
     <div class="container">
       <p class="karamursel-breadcrumb">ANASAYFA > İLETİŞİM</p>
-      
-
-<div class="row google-map">
+      <div class="row google-map">
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1512.6108417317284!2d29.6158586!3d40.6911151!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7aba168cb7826cee!2sKaramUrsel%20Belediyesi!5e0!3m2!1sen!2str!4v1575620234391!5m2!1sen!2str"
      width="100%" height="355" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 </div>
 
 
+
+      <div class="row" style="justify-content: space-between; margin-top: 30px;">
+        <div class="col-6 form-bilgi-container form-border" >
+  <div class="form-content">
+    <p class="baslik">İLETİŞİM FORMU</p>
+
+    <input style="margin-top: 50px;"
+      class="form-control" placeholder="Adınız - Soyadınız" >
+
+    <input type="email" class="form-control" placeholder="E-Mail Adresiniz">
+
+    <div style="position: relative;">
+      <input class="form-control error" placeholder="Lütfen Telefon Numaranızı giriniz">  
+      <span class="invalid-x">x</span>
+    </div>
+
+    <input class="form-control" placeholder="Konu">
+
+    <textarea class="form-control" placeholder="Mesajınız" rows="12"></textarea>
+
+    <button type="button" class="btn btn-gonder" onclick="formuGonder(event);" >GÖNDER</button>
+  </div>
+</div>
+
+
+        <div class="col-5 form-bilgi-container" style="background-color: gray;"  >
+  <p>İLETİSİM BİLGİ VE DİGER BİLGİLER</p>
+</div>
+
+
+      </div>
+
+
     </div>
 
     
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -225,6 +254,12 @@
     crossorigin="anonymous"></script>
 
 <script src="js/swiper.min.js"></script>
+    <script>
+  function formuGonder(e) {
+    e.preventDefault();
+    console.log('sadas')
+  }
+</script>
   </body>
 
   </body>

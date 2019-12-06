@@ -1,0 +1,6 @@
+<script>
+  function formuGonder(e) {
+    e.preventDefault();
+    console.log('sadas')
+  }
+</script>

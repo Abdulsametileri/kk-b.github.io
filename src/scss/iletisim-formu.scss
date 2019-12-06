@@ -1,0 +1,59 @@
+.form-content {
+  margin-top: 45px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+  input, textarea {
+    border: 1px solid #b5cbff;
+    font-family: "Raleway";
+    margin-top: 20px;
+    font-size: 12.551px;
+  }
+  input::-webkit-input-placeholder {
+      font-size: 12.551px;
+      font-family: "Raleway";
+      color: rgb(110, 152, 179);
+      font-weight: bold;
+      line-height: 1.2;
+  }
+
+  .btn-gonder {
+    background-color: #ffed00;
+    width: 300px;
+    margin-top: 25px;
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(84, 86, 70);
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 10px;
+  }
+  
+
+  //input error kısım
+  .error-text {
+    font-size: 12.551px;
+    font-family: "Raleway";
+    color: rgb(251, 33, 33);
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  input.error {
+    border: 1px solid #ff3737; //https://www.templatemonster.com/help/how-to-change-the-placeholder-text-color-of-an-input.html
+  }
+  input.error::-webkit-input-placeholder {
+    @extend .error-text
+  }
+  .invalid-x {
+    z-index: 1;
+    position: absolute;
+    right: 20px;
+    top: 8px;
+    @extend .error-text
+  }
+}
+
+.form-border {
+  border: 1px solid #b5cbff;
+}

@@ -16,11 +16,17 @@
     <div class="container">
       <p class="karamursel-breadcrumb">ANASAYFA > İLETİŞİM</p>
       {% include "partials/iletisim/googlemap.nunjucks" %}
+
+      <div class="row" style="justify-content: space-between; margin-top: 30px;">
+        {% include "partials/iletisim/iletisim-formu.nunjucks" %}
+        {% include "partials/iletisim/iletisim-bilgi.nunjucks" %}
+      </div>
+
+
     </div>
 
     
-
-
     {% include "partials/script.nunjucks" %}
+    {% include "partials/iletisim/iletisim-script.nunjucks" %}
   </body>
 {% endblock %}
