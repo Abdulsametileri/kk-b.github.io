@@ -943,13 +943,26 @@ a {
 .karamursel .header, .iletisim .header {
   height: 325px;
   position: relative;
-  background-size: cover;
+  /* background-size: cover;
+    @media (max-width: $phone) {
+      background-size: cover;
+    } */
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  overflow: hidden;
   margin-bottom: 50px;
   padding-right: 0px;
   padding-left: 0px; }
+  @media (max-width: 825px) {
+    .karamursel .header, .iletisim .header {
+      height: 300px; } }
+  @media (max-width: 600px) {
+    .karamursel .header, .iletisim .header {
+      height: 250px; } }
   @media (max-width: 499px) {
     .karamursel .header, .iletisim .header {
-      background-size: cover; } }
+      height: 230px; } }
 
 .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper {
   position: absolute;
@@ -1169,13 +1182,26 @@ a {
 .karamursel .header, .iletisim .header {
   height: 325px;
   position: relative;
-  background-size: cover;
+  /* background-size: cover;
+    @media (max-width: $phone) {
+      background-size: cover;
+    } */
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  overflow: hidden;
   margin-bottom: 50px;
   padding-right: 0px;
   padding-left: 0px; }
+  @media (max-width: 825px) {
+    .karamursel .header, .iletisim .header {
+      height: 300px; } }
+  @media (max-width: 600px) {
+    .karamursel .header, .iletisim .header {
+      height: 250px; } }
   @media (max-width: 499px) {
     .karamursel .header, .iletisim .header {
-      background-size: cover; } }
+      height: 230px; } }
 
 .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper {
   position: absolute;
