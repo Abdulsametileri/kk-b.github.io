@@ -6,6 +6,7 @@
 
 
 {% block content %}
+
   <body class="karamursel">
     {% set headerTitle = 'İLETİŞİM' %}
     {% set headerResimYol = '../img/iletisim/iletisimarkaplan.png' %}
@@ -16,6 +17,6 @@
       <p class="karamursel-breadcrumb">ANASAYFA > İLETİŞİM</p>
     </div>
 
-
+    {% include "partials/script.nunjucks" %}
   </body>
 {% endblock %}
