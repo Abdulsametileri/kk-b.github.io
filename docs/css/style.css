@@ -1322,5 +1322,13 @@ a {
     text-decoration: none;
     color: yellow; }
 
+.iletisim .header {
+  margin-bottom: 30px; }
+
 .iletisim .karamursel-breadcrumb {
   margin-bottom: 15px; }
+
+.iletisim .google-map #map {
+  width: 100%;
+  height: 355px;
+  background-color: grey; }

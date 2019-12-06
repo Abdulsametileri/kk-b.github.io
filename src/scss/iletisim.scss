@@ -3,10 +3,22 @@
 .iletisim {
   @extend .karamursel;
 
-  
+  .header {
+    margin-bottom: 30px;
+  }
 
   .karamursel-breadcrumb {
     margin-bottom: 15px;
   }
+
+  .google-map {
+    #map {
+      width: 100%;
+      height: 355px;
+      background-color: grey;
+    }
+  }
+
+
 }
 
