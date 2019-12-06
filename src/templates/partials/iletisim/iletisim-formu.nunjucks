@@ -2,10 +2,6 @@
   <div class="form-content">
     <p class="baslik">İLETİŞİM FORMU</p>
 
-    {# <input style="margin-top: 50px;"
-      id="ad-soyad-input" 
-      class="ad-soyad form-control" placeholder="Adınız - Soyadınız" > #}
-
     <div style="position: relative;">
       <input 
         style="margin-top: 50px;"
@@ -53,7 +49,6 @@
     </div>
 
     <button type="button" class="btn btn-gonder" onclick="formuGonder(event);">GÖNDER</button>
-
 
   </div>
 </div>
