@@ -7,7 +7,7 @@
 
 {% block content %}
 
-  <body class="karamursel">
+  <body class="iletisim">
     {% set headerTitle = 'İLETİŞİM' %}
     {% set headerResimYol = '../img/iletisim/iletisimarkaplan.png' %}
     {% set sayfaId = "7" %}
@@ -15,7 +15,11 @@
 
     <div class="container">
       <p class="karamursel-breadcrumb">ANASAYFA > İLETİŞİM</p>
+      {% include "partials/iletisim/googlemap.nunjucks" %}
     </div>
+
+    
+
 
     {% include "partials/script.nunjucks" %}
   </body>

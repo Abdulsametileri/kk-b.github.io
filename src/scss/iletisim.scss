@@ -1,0 +1,10 @@
+@import 'karamursel.scss';
+
+.iletisim {
+  @extend .karamursel;
+
+  .karamursel-breadcrumb {
+    margin-bottom: 15px;
+  }
+}
+

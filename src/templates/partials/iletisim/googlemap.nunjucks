@@ -1,0 +1,13 @@
+<style>
+  #map {
+    width: 100%;
+    height: 355px;
+    background-color: grey;
+  }
+</style>
+
+<div class="row">
+    <!--The div element for the map -->
+    <div id="map"></div>
+</div>
+

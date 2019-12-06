@@ -940,7 +940,7 @@ a {
     .yukaricik {
       left: 70%; } }
 
-.karamursel .header {
+.karamursel .header, .iletisim .header {
   height: 325px;
   position: relative;
   background-size: cover;
@@ -948,29 +948,29 @@ a {
   padding-right: 0px;
   padding-left: 0px; }
   @media (max-width: 499px) {
-    .karamursel .header {
+    .karamursel .header, .iletisim .header {
       background-size: cover; } }
 
-.karamursel .header-kesfet-text-wrapper {
+.karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 65px; }
   @media (max-width: 576px) {
-    .karamursel .header-kesfet-text-wrapper {
+    .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper {
       bottom: 25px;
       right: 17px; } }
 
-.karamursel .header-kesfet-text {
+.karamursel .header-kesfet-text, .iletisim .header-kesfet-text {
   font-size: 24px;
   color: white;
   font-weight: bold;
   line-height: 1.083; }
   @media (max-width: 992px) {
-    .karamursel .header-kesfet-text {
+    .karamursel .header-kesfet-text, .iletisim .header-kesfet-text {
       font-size: 20px; } }
 
-.karamursel .karamursel-breadcrumb {
+.karamursel .karamursel-breadcrumb, .iletisim .karamursel-breadcrumb {
   font-size: 14px;
   color: #78c0e8;
   font-weight: bold;
@@ -979,17 +979,17 @@ a {
   text-align: left;
   margin-bottom: 53px; }
 
-.karamursel .menu-container {
+.karamursel .menu-container, .iletisim .menu-container {
   border: 1px solid #a9cbef;
   border-radius: 10px;
   background: #fafdff; }
-  .karamursel .menu-container ul {
+  .karamursel .menu-container ul, .iletisim .menu-container ul {
     list-style-image: url("../img/list-icon.png");
     margin-top: 10px;
     margin-left: 50px; }
-    .karamursel .menu-container ul li {
+    .karamursel .menu-container ul li, .iletisim .menu-container ul li {
       padding-top: 5px; }
-      .karamursel .menu-container ul li a {
+      .karamursel .menu-container ul li a, .iletisim .menu-container ul li a {
         color: #78c0e8;
         font-weight: 700;
         font-size: 14px;
@@ -998,50 +998,50 @@ a {
         text-align: left;
         text-decoration: none; }
 
-.karamursel .metin-container .metin-foto {
+.karamursel .metin-container .metin-foto, .iletisim .metin-container .metin-foto {
   width: 100%;
   height: 400px; }
   @media (max-width: 768px) {
-    .karamursel .metin-container .metin-foto {
+    .karamursel .metin-container .metin-foto, .iletisim .metin-container .metin-foto {
       margin-top: 25px;
       object-fit: cover; } }
 
-.karamursel .metin-container .metin-baslik {
+.karamursel .metin-container .metin-baslik, .iletisim .metin-container .metin-baslik {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.333;
   letter-spacing: 0.75px; }
 
-.karamursel .metin-container .metin-alt-baslik {
+.karamursel .metin-container .metin-alt-baslik, .iletisim .metin-container .metin-alt-baslik {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.333;
   letter-spacing: 0.75px; }
 
-.karamursel .metin-container .metin {
+.karamursel .metin-container .metin, .iletisim .metin-container .metin {
   font-size: 14px;
   color: #8f9091;
   font-weight: 500;
   line-height: 1.714; }
 
-.karamursel .galeri-container .galeri-baslik {
+.karamursel .galeri-container .galeri-baslik, .iletisim .galeri-container .galeri-baslik {
   font-size: 18px;
   color: #3a66af;
   font-weight: bold;
   line-height: 1.333; }
 
-.karamursel .galeri-container .galeri-foto-container {
+.karamursel .galeri-container .galeri-foto-container, .iletisim .galeri-container .galeri-foto-container {
   position: relative; }
-  .karamursel .galeri-container .galeri-foto-container:hover .foto-buyuk {
+  .karamursel .galeri-container .galeri-foto-container:hover .foto-buyuk, .iletisim .galeri-container .galeri-foto-container:hover .foto-buyuk {
     opacity: 0.9; }
-  .karamursel .galeri-container .galeri-foto-container .galeri-fotolar {
+  .karamursel .galeri-container .galeri-foto-container .galeri-fotolar, .iletisim .galeri-container .galeri-foto-container .galeri-fotolar {
     width: 100%;
     height: 100px;
     display: block; }
     @media (max-width: 576px) {
-      .karamursel .galeri-container .galeri-foto-container .galeri-fotolar {
+      .karamursel .galeri-container .galeri-foto-container .galeri-fotolar, .iletisim .galeri-container .galeri-foto-container .galeri-fotolar {
         object-fit: cover; } }
-  .karamursel .galeri-container .galeri-foto-container .foto-buyuk {
+  .karamursel .galeri-container .galeri-foto-container .foto-buyuk, .iletisim .galeri-container .galeri-foto-container .foto-buyuk {
     transition: 0.5s ease;
     opacity: 0;
     position: absolute;
@@ -1060,10 +1060,13 @@ a {
     font-size: 8px;
     text-decoration: none;
     padding-top: 20px; }
-  .karamursel .galeri-container .galeri-foto-container .foto-buyuk:hover,
+  .karamursel .galeri-container .galeri-foto-container .foto-buyuk:hover, .iletisim .galeri-container .galeri-foto-container .foto-buyuk:hover,
   .karamursel .galeri-container .galeri-foto-container .foto-buyuk:visited,
+  .iletisim .galeri-container .galeri-foto-container .foto-buyuk:visited,
   .karamursel .galeri-container .galeri-foto-container .foto-buyuk:link,
-  .karamursel .galeri-container .galeri-foto-container .foto-buyuk:active {
+  .iletisim .galeri-container .galeri-foto-container .foto-buyuk:link,
+  .karamursel .galeri-container .galeri-foto-container .foto-buyuk:active,
+  .iletisim .galeri-container .galeri-foto-container .foto-buyuk:active {
     text-decoration: none;
     color: yellow; }
 
@@ -1162,3 +1165,136 @@ a {
     @media (max-width: 576px) {
       #slider-baslik-container #sekilliyazi {
         font-size: 30px; } }
+
+.karamursel .header, .iletisim .header {
+  height: 325px;
+  position: relative;
+  background-size: cover;
+  margin-bottom: 50px;
+  padding-right: 0px;
+  padding-left: 0px; }
+  @media (max-width: 499px) {
+    .karamursel .header, .iletisim .header {
+      background-size: cover; } }
+
+.karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 65px; }
+  @media (max-width: 576px) {
+    .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper {
+      bottom: 25px;
+      right: 17px; } }
+
+.karamursel .header-kesfet-text, .iletisim .header-kesfet-text {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  line-height: 1.083; }
+  @media (max-width: 992px) {
+    .karamursel .header-kesfet-text, .iletisim .header-kesfet-text {
+      font-size: 20px; } }
+
+.karamursel .karamursel-breadcrumb, .iletisim .karamursel-breadcrumb {
+  font-size: 14px;
+  color: #78c0e8;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.857;
+  text-align: left;
+  margin-bottom: 53px; }
+
+.karamursel .menu-container, .iletisim .menu-container {
+  border: 1px solid #a9cbef;
+  border-radius: 10px;
+  background: #fafdff; }
+  .karamursel .menu-container ul, .iletisim .menu-container ul {
+    list-style-image: url("../img/list-icon.png");
+    margin-top: 10px;
+    margin-left: 50px; }
+    .karamursel .menu-container ul li, .iletisim .menu-container ul li {
+      padding-top: 5px; }
+      .karamursel .menu-container ul li a, .iletisim .menu-container ul li a {
+        color: #78c0e8;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 2.857;
+        text-transform: uppercase;
+        text-align: left;
+        text-decoration: none; }
+
+.karamursel .metin-container .metin-foto, .iletisim .metin-container .metin-foto {
+  width: 100%;
+  height: 400px; }
+  @media (max-width: 768px) {
+    .karamursel .metin-container .metin-foto, .iletisim .metin-container .metin-foto {
+      margin-top: 25px;
+      object-fit: cover; } }
+
+.karamursel .metin-container .metin-baslik, .iletisim .metin-container .metin-baslik {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.333;
+  letter-spacing: 0.75px; }
+
+.karamursel .metin-container .metin-alt-baslik, .iletisim .metin-container .metin-alt-baslik {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.333;
+  letter-spacing: 0.75px; }
+
+.karamursel .metin-container .metin, .iletisim .metin-container .metin {
+  font-size: 14px;
+  color: #8f9091;
+  font-weight: 500;
+  line-height: 1.714; }
+
+.karamursel .galeri-container .galeri-baslik, .iletisim .galeri-container .galeri-baslik {
+  font-size: 18px;
+  color: #3a66af;
+  font-weight: bold;
+  line-height: 1.333; }
+
+.karamursel .galeri-container .galeri-foto-container, .iletisim .galeri-container .galeri-foto-container {
+  position: relative; }
+  .karamursel .galeri-container .galeri-foto-container:hover .foto-buyuk, .iletisim .galeri-container .galeri-foto-container:hover .foto-buyuk {
+    opacity: 0.9; }
+  .karamursel .galeri-container .galeri-foto-container .galeri-fotolar, .iletisim .galeri-container .galeri-foto-container .galeri-fotolar {
+    width: 100%;
+    height: 100px;
+    display: block; }
+    @media (max-width: 576px) {
+      .karamursel .galeri-container .galeri-foto-container .galeri-fotolar, .iletisim .galeri-container .galeri-foto-container .galeri-fotolar {
+        object-fit: cover; } }
+  .karamursel .galeri-container .galeri-foto-container .foto-buyuk, .iletisim .galeri-container .galeri-foto-container .foto-buyuk {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    color: yellow;
+    background: #3a66af;
+    border: 1px solid #a9cbef;
+    font-weight: bold;
+    font-size: 8px;
+    text-decoration: none;
+    padding-top: 20px; }
+  .karamursel .galeri-container .galeri-foto-container .foto-buyuk:hover, .iletisim .galeri-container .galeri-foto-container .foto-buyuk:hover,
+  .karamursel .galeri-container .galeri-foto-container .foto-buyuk:visited,
+  .iletisim .galeri-container .galeri-foto-container .foto-buyuk:visited,
+  .karamursel .galeri-container .galeri-foto-container .foto-buyuk:link,
+  .iletisim .galeri-container .galeri-foto-container .foto-buyuk:link,
+  .karamursel .galeri-container .galeri-foto-container .foto-buyuk:active,
+  .iletisim .galeri-container .galeri-foto-container .foto-buyuk:active {
+    text-decoration: none;
+    color: yellow; }
+
+.iletisim .karamursel-breadcrumb {
+  margin-bottom: 15px; }
