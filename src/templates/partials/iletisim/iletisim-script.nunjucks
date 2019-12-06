@@ -1,6 +1,38 @@
 <script>
+
+  function inputDegisim(e) {
+    const value = e.target.value
+    const id = e.target.id
+    validate(id, value)
+  }
+
+
   function formuGonder(e) {
     e.preventDefault();
-    console.log('sadas')
+
+    adSoyad = $("#ad-soyad").val();
+    email = $("#email").val();
+    telefon = $("#telefon").val();
+    konu = $("#konu").val();
+    mesaj = $("#mesaj").val();
+    
+    validate("ad-soyad", adSoyad)
+    validate("email", email)
+    validate("telefon", telefon)
+    validate("konu", konu)
+    validate("mesaj", mesaj)
   }
+
+  function validate(id, value) {
+    if (value) {
+      $("#" + id).removeClass('error')
+      $("#" + id + "-error-icon").css("display", "none");
+    }
+    else {
+      $("#" + id).addClass('error')
+      $("#" + id + "-error-icon").css("display", "block");
+    }
+  }
+
+
 </script>
