@@ -9,7 +9,7 @@
     margin-top: 20px;
     font-size: 12.551px;
   }
-  input::-webkit-input-placeholder {
+  .form-control::-webkit-input-placeholder {
       font-size: 12.551px;
       font-family: "Raleway";
       color: rgb(110, 152, 179);
@@ -39,12 +39,20 @@
     line-height: 1.2;
   }
 
-  input.error {
+
+  .error{
     border: 1px solid #ff3737; //https://www.templatemonster.com/help/how-to-change-the-placeholder-text-color-of-an-input.html
   }
+
+
   input.error::-webkit-input-placeholder {
     @extend .error-text
   }
+
+  textarea.error::-webkit-input-placeholder {
+    @extend .error-text
+  }
+
   .invalid-x {
     z-index: 1;
     position: absolute;

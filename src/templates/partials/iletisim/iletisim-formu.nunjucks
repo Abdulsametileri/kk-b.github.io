@@ -4,19 +4,38 @@
 
     <input style="margin-top: 50px;"
       class="form-control" placeholder="Adınız - Soyadınız" >
+    <div style="display:none; position: relative;">
+      <input style="margin-top: 50px;"class="form-control error" placeholder="Adınız - Soyadınızı giriniz" >      
+      <span class="invalid-x">x</span>
+    </div>
 
     <input type="email" class="form-control" placeholder="E-Mail Adresiniz">
+    <div style="display:none; position: relative;">
+      <input type="email" class="form-control error" placeholder="E-Mail Adresinizi giriniz">
+      <span class="invalid-x">x</span>
+    </div>
 
-    <div style="position: relative;">
+    <input class="form-control" placeholder="Lütfen Telefon Numaranız">  
+    <div style="display:none; position: relative;">
       <input class="form-control error" placeholder="Lütfen Telefon Numaranızı giriniz">  
       <span class="invalid-x">x</span>
     </div>
 
     <input class="form-control" placeholder="Konu">
+    <div style="display:none; position: relative;">
+      <input class="form-control error" placeholder="Konuyu giriniz">
+      <span class="invalid-x">x</span>
+    </div>
 
-    <textarea class="form-control" placeholder="Mesajınız" rows="12"></textarea>
+    <textarea class="form-control" placeholder="Mesajınız" rows="12"></textarea> 
+    <div style="display:none; position: relative;">
+      <textarea class="form-control error" placeholder="Mesajınız" rows="12"></textarea> 
+      <span class="invalid-x">x</span>
+    </div>
 
-    <button type="button" class="btn btn-gonder" onclick="formuGonder(event);" >GÖNDER</button>
+    <button type="button" class="btn btn-gonder" onclick="formuGonder(event);">GÖNDER</button>
+
+
   </div>
 </div>
 

@@ -1,5 +1,4 @@
 @import 'karamursel.scss';
-@import 'iletisim-formu.scss';
 
 .iletisim {
   @extend .karamursel;
@@ -26,7 +25,7 @@
       text-align: left;
     }
 
-    @extend .iletisim-formu
+    @import 'iletisim-formu.scss';
   }
 }
 
