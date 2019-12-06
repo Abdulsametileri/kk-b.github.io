@@ -513,7 +513,16 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 
-<script>
+<script src="js/swiper.min.js"></script>
+    <script>
+  $('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    dots: false,
+    items: 1,
+    navText: ["<img src='img/dergiler/solOk.png'>", "<img src='img/dergiler/sagOk.png'>"]
+  })
   $('#karamurselDropdownWeb').hover(function () {
     $('#karamurselDropdownWeb').addClass('show')
     $(this)
@@ -531,18 +540,6 @@
       .delay(100)
       .fadeOut(500);
   });
-</script>
-
-<script src="js/swiper.min.js"></script>
-    <script>
-  $('.owl-carousel').owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: true,
-    dots: false,
-    items: 1,
-    navText: ["<img src='img/dergiler/solOk.png'>", "<img src='img/dergiler/sagOk.png'>"]
-  })
 </script>
 
   </body>
