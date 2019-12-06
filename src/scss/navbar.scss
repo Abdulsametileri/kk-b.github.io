@@ -74,6 +74,12 @@
     }
   }
 
+  .nav-item {
+    .active {
+      color: #fbf239 !important;
+    }
+  }
+
   .dropdown-menu {
     padding: 0;
     margin: 0;

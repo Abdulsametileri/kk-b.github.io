@@ -1,0 +1,15 @@
+{% extends "layout.nunjucks" %}
+
+{% block headKismi %}
+  {% include "partials/head.nunjucks" %}
+{% endblock %}
+
+
+{% block content %}
+  <body class="karamursel">
+    {% set headerTitle = 'İLETİŞİM' %}
+    {% set headerResimYol = '../img/iletisim/iletisimarkaplan.png' %}
+    {% set sayfaId = "7" %}
+    {% include "partials/karamursel-header.nunjucks" %}
+  </body>
+{% endblock %}

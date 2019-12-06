@@ -1,13 +1,14 @@
 <div id="scrollOnTop"></div>
-<div class="container-fluid header">
-
+<div class="container-fluid header" style="background: url('{{headerResimYol}}');">
   <!-- Header aynı kısım -->
+
+  {% set sayfaId = sayfaId %}
   {% include "partials/header.nunjucks" %}
 
   <img class="cizgi" src="img/sari_cizgi.png"/>
   <div class="header-kesfet-text-wrapper">
     <div class="container" style="text-align: right; padding: 0;">
-      <p class="header-kesfet-text">KARAMÜRSELİ KEŞFET</p>
+      <p class="header-kesfet-text">{{headerTitle}}</p>
     </div>
   </div>
 </div>

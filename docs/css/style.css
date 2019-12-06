@@ -98,6 +98,8 @@ a {
         display: none; } }
     .header .nav .navbar-nav .show .dropdown-toggle {
       color: #fbf239; }
+    .header .nav .nav-item .active {
+      color: #fbf239 !important; }
     .header .nav .dropdown-menu {
       padding: 0;
       margin: 0; }
@@ -941,7 +943,6 @@ a {
 .karamursel .header {
   height: 325px;
   position: relative;
-  background: url("../img/karamursel/header.png");
   background-size: cover;
   margin-bottom: 50px;
   padding-right: 0px;

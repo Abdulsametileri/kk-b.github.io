@@ -8,7 +8,10 @@
 
   <body class="karamursel">
     <!-- HEADER KISMI-->
-    {% include "partials/karamursel/karamursel-header.nunjucks" %}
+    {% set headerTitle = 'KARAMÜRSELİ KEŞFET' %}
+    {% set headerResimYol = "../img/karamursel/header.png" %}
+    {% set sayfaId = "2" %}
+    {% include "partials/karamursel-header.nunjucks" %}
 
     <div class="container">
       <p class="karamursel-breadcrumb">ANASAYFA > KARAMÜRSEL</p>
