@@ -526,7 +526,7 @@ a {
     @media (max-width: 576px) {
       .online-dergiler-container .row .dundenbugune-container img {
         width: 100%;
-        height: initial; } }
+        height: 100px; } }
   .online-dergiler-container .row .dundenbugune-container .tumuicintiklayiniz {
     width: initial;
     height: initial; }
@@ -623,7 +623,7 @@ a {
     @media (max-width: 576px) {
       .online-dergiler-container .row .dundenbugune-container img {
         width: 100%;
-        height: initial; } }
+        height: 100px; } }
   .online-dergiler-container .row .dundenbugune-container .tumuicintiklayiniz {
     width: initial;
     height: initial; }
@@ -808,7 +808,7 @@ a {
     @media (max-width: 576px) {
       .online-dergiler-container .row .dundenbugune-container img {
         width: 100%;
-        height: initial; } }
+        height: 100px; } }
   .online-dergiler-container .row .dundenbugune-container .tumuicintiklayiniz {
     width: initial;
     height: initial; }
