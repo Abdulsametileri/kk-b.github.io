@@ -9,7 +9,7 @@
   <body class="karamursel">
     <!-- HEADER KISMI-->
     {% set headerTitle = 'KARAMÜRSELİ KEŞFET' %}
-    {% set headerResimYol = "../img/karamursel/header.png" %}
+    {% set headerResimYol = "/img/karamursel/header.png" %}
     {% set sayfaId = "2" %}
     {% include "partials/karamursel-header.nunjucks" %}
 

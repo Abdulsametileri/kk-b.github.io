@@ -10,7 +10,7 @@
 
   <body class="iletisim">
     {% set headerTitle = 'İLETİŞİM' %}
-    {% set headerResimYol = '../img/iletisim/iletisimarkaplan.png' %}
+    {% set headerResimYol = '/img/iletisim/iletisimarkaplan.png' %}
     {% set sayfaId = "7" %}
     {% include "partials/karamursel-header.nunjucks" %}
 
