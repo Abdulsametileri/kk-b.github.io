@@ -1,6 +1,5 @@
 <div id="scrollOnTop"></div>
 <div class="container-fluid header" style="background: url('{{headerResimYol}}');">
-  <!-- Header aynı kısım -->
 
   {% set sayfaId = sayfaId %}
   {% include "partials/header.nunjucks" %}

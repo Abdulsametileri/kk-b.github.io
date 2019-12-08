@@ -47,8 +47,7 @@
               href="./karamursel.html">KARAMÜRSEL</a>
             </li> 
             <li class="nav-item dropdown" id="karamurselDropdownWeb" >
-              <a class="nav-link dropdown-toggle {% if sayfaId === '2' %}active{% endif %} " 
-              
+              <a class="nav-link dropdown-toggle {% if sayfaId === '2' %}active{% endif %}" 
               href="./karamursel.html" id="navbarDropdown"
                data-hover="dropdown" >
                 KARAMÜRSEL

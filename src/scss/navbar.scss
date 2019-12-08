@@ -55,13 +55,13 @@
 
   #karamurselDuzMobil {
     display: none;
-    @media (max-width: 605px) {
+    @media (max-width: 992px) {
       display: initial;
     }
 
   }
   #karamurselDropdownWeb {
-    @media (max-width: 605px) {
+    @media (max-width: 992px) {
       display: none;
     }
   }
