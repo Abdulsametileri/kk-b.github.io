@@ -1,5 +1,5 @@
 <div class="col-md-12 col-lg-7 form-bilgi-container form-border" >
-  <div style="display: none;" class="form-content">
+  <div id="form-normal"   class="form-content">
     <p class="baslik">İLETİŞİM FORMU</p>
 
     <div style="position: relative;">
@@ -51,7 +51,7 @@
     <button type="button" class="btn btn-gonder" onclick="formuGonder(event);">GÖNDER</button>
   </div>
 
-  <div class="form-content form-gonderildi">
+  <div style="display: none;" id="form-success" class="form-content form-gonderildi">
     <img src="img/iletisim/iletisim-iletildi.png">
   </div>
 

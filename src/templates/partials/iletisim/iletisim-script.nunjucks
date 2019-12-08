@@ -6,6 +6,28 @@
     validate(id, value)
   }
 
+  function validateEmail(mail) {
+    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail))
+    {
+      return (true)
+    }
+    alert("Girdiğiniz email adresi geçersiz.")
+    return (false)
+  }
+
+  function validatePhone(phone)
+  {
+    var phoneNo = /^\d{11}$/;
+    if(phoneNo.test(phone)){
+        return true;
+    }
+    else
+    {
+      alert("Girdiğiniz telefon numarası geçersiz.");
+      return false;
+    }
+  }
+
 
   function formuGonder(e) {
     e.preventDefault();
@@ -21,6 +43,20 @@
     validate("telefon", telefon)
     validate("konu", konu)
     validate("mesaj", mesaj)
+
+    if (adSoyad && email && telefon && konu && mesaj) {
+      if (!validateEmail(email)) return;
+      
+      if (!validatePhone(telefon)) return;
+
+      $("#form-success").css("display", "block");
+      $("#form-normal").css("display", "none");
+
+      setTimeout(function(){ 
+        $("#form-success").css("display", "none");
+        $("#form-normal").css("display", "block");
+      }, 1000);
+    }
   }
 
   function validate(id, value) {
