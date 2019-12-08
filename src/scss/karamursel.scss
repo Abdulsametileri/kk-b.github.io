@@ -10,8 +10,8 @@
     background-position: center center !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    overflow: hidden;
-    /* @media (max-width: 825px) {
+    overflow: initial;
+    @media (max-width: 825px) {
       height: 300px;
     }
   
@@ -21,7 +21,7 @@
   
     @media (max-width: $phone) {
       height: 230px;
-    } */
+    } 
     margin-bottom: 50px;
     padding-right: 0px;
     padding-left: 0px;
