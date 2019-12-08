@@ -1,34 +1,12 @@
 <div class="container online-dergiler-container">
   <div class="row dergi-dundenbugun-row">
     <div class="col-12 col-md-12 col-lg-6">
-      
-    </div>
-
-    <div class="col-12 col-md-12 col-lg-6">
       <div class="row" style="margin: 0px; margin-bottom: 30px;" >
         <span class="online-dergiler-container-baslik-bold">DÜNDEN</span>
         <span class="online-dergiler-container-baslik ml-1"> BUGÜNE</span>
       </div>
 
       <div class="owl-dunden-bugune owl-carousel owl-theme">
-
-        {# <div class="row dundenbugune-container" >
-          <div class="col-6 col-md-6 col-lg-6">
-            <div>
-                <p class="dunden-bugune-text">ÖNCESİ</p>
-                <img src="img/dundenbugune/db_once1.png"  alt=""/>
-                <p class="dunden-bugune-baslik">BELEDİYE BİNASI</p>
-              </div>
-          </div>
-          <div class="col-6 col-md-6 col-lg-6">
-             <div>
-                <p class="dunden-bugune-text">SONRASI</p>
-                <img src="img/dundenbugune/db_sonra1.png"  alt=""/>
-                <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
-              </div>
-          </div>
-        </div> #}
-
         <div class="row dundenbugune-container"  >
           <div class="col-6">
             <div>
@@ -201,7 +179,10 @@
 
 
       </div>
+    </div>
 
+    <div class="col-12 col-md-12 col-lg-6">
+      
     </div>
 
   </div>

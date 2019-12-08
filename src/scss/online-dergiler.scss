@@ -36,18 +36,23 @@
 
   .row {
     .dundenbugune-container {
-      height: 313px;
-      border: #a9cbef 2px solid; margin: 0px; padding-bottom: 16px;
-
+      height: 330px;
+      border: #a9cbef 2px solid; 
+      margin: 0px; 
+      padding-bottom: 16px;
 
       @media (max-width: 1200px) {
-        padding-bottom: 9px;
+        padding-bottom: 15px;
+      }
+      @media(max-width: $phone) {
+        padding-bottom: 0px;
+        height: 270px;
       }
 
       img {
         width: 100%;
         height: 160px;
-        @media (max-width: $xs) {
+        @media (max-width: $phone) {
           width: 100%;
           height: 100px;
         }
@@ -70,7 +75,7 @@
 
       .dunden-bugune-text {
           margin: 0;
-          margin-top: 14px;
+          margin-top: 35px;
           margin-bottom: 5px;
           margin-left: 5px;
           font-size: 14.563px;
