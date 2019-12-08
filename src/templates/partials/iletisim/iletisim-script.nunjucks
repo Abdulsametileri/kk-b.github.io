@@ -48,6 +48,13 @@
       
       if (!validatePhone(telefon)) return;
 
+      var response = grecaptcha.getResponse();
+      if(response.length == 0) {
+        alert('Ben robot değilim işaretleyin')
+        return;
+      }
+
+
       $("#form-success").css("display", "block");
       $("#form-normal").css("display", "none");
 
