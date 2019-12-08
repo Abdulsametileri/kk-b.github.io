@@ -1,4 +1,56 @@
-<div class="col-5 form-bilgi-container" style="background-color: gray;"  >
-  <p>İLETİSİM BİLGİ VE DİGER BİLGİLER</p>
+<div class="col-md-12 col-lg-4 form-bilgi-container"  >
+
+  <div class="row iletisim-bilgi-row" >
+    <div class="col-12" style="background-color: #e0f3ff;">
+      <div class="iletisim-bilgi">
+        <p class="baslik">İLETİŞİM BİLGİLERİ</p>
+        <hr class="baslik-alt-cizgi">
+
+        <a  href="https://goo.gl/maps/JMxhGeTHiVSdgQXW8">
+          <img src="img/iletisim/iletisim-adres.png" />
+        </a>
+        
+        <div style="position:relative; margin-top:15px;">
+          <img src="img/iletisim/iletisim-telefon.png" alt=""/>
+          <a style="margin-left:12px;" class="telefon-text" href="tel:+902624521025">0 (262) 452 1025</a> <br>
+          <a style="margin-left:50px; position: absolute; top: 29px;" class="telefon-text" href="tel:+902624521221">0 (262) 452 1221</a> <br>
+          <a style="margin-left:50px; position: absolute; top: 50px;" class="telefon-text" href="tel:+902624525400">0 (262) 452 5400</a> <br>
+        </div>
+
+        <div>
+          <img src="img/iletisim/iletisim-fax.png" />
+          <a style="margin-left:12px;" class="telefon-text" href="tel:+902624521389">0 (262) 452 1389 </a>
+        </div>
+        <a  href="mailto:karamurselbelediye@hs01.kep.tr">
+          <img src="img/iletisim/iletisim-mail.png" />
+        </a>
+        <br>
+        <a  href="mailto:info@karamursel.bel.tr">
+          <img src="img/iletisim/iletisim-info-mail.png" />
+        </a>
+        <br>
+        <a  href="mailto:muhasebe@karamursel.bel.tr">
+          <img src="img/iletisim/iletisim-muhasebe.png" />
+        </a>
+        <br>
+        <a  href="mailto:zabita@karamursel.bel.tr">
+          <img src="img/iletisim/iletisim-zabita.png" />
+        </a>
+        <br>
+        <a  href="mailto:hizmet@karamursel.bel.tr">
+          <img src="img/iletisim/iletisim-hizmet.png" />
+        </a>
+      </div>
+      
+    </div>
+    <div class="col-12 mt-3" style="background-color: #f9f1c2;">
+      <div class="diger-bilgiler">
+        <p class="baslik">DİĞER BİLGİLER</p>
+        <img src="img/iletisim/postaceki.png" />
+        <img class="pt-3" src="img/iletisim/vergi-dairesi.png" />
+      </div>
+    </div>
+  </div>
+
 </div>
 

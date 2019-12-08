@@ -2,6 +2,7 @@
 
 {% block headKismi %}
   {% include "partials/head.nunjucks" %}
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 {% endblock %}
 
 

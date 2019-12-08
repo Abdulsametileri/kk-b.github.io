@@ -2,6 +2,10 @@
   margin-top: 45px;
   margin-left: 40px;
   margin-right: 40px;
+  @media (max-width: $phone) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 
   input, textarea {
     border: 1px solid #b5cbff;
@@ -27,6 +31,10 @@
     font-weight: bold;
     line-height: 1.2;
     padding: 10px;
+    @media (max-width: $lg) {
+      width: 100%;
+      margin-bottom: 30px;
+    }
   }
   
 
@@ -62,6 +70,3 @@
   }
 }
 
-.form-border {
-  border: 1px solid #b5cbff;
-}

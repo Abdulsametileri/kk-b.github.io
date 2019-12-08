@@ -1329,7 +1329,6 @@ a {
   margin-bottom: 15px; }
 
 .iletisim .form-bilgi-container {
-  height: 655px;
   margin-bottom: 40px; }
   .iletisim .form-bilgi-container .baslik {
     font-size: 21.66px;
@@ -1342,6 +1341,10 @@ a {
     margin-top: 45px;
     margin-left: 40px;
     margin-right: 40px; }
+    @media (max-width: 499px) {
+      .iletisim .form-bilgi-container .form-content {
+        margin-left: 0px;
+        margin-right: 0px; } }
     .iletisim .form-bilgi-container .form-content input, .iletisim .form-bilgi-container .form-content textarea {
       border: 1px solid #b5cbff;
       font-family: "Raleway";
@@ -1363,6 +1366,10 @@ a {
       font-weight: bold;
       line-height: 1.2;
       padding: 10px; }
+      @media (max-width: 992px) {
+        .iletisim .form-bilgi-container .form-content .btn-gonder {
+          width: 100%;
+          margin-bottom: 30px; } }
     .iletisim .form-bilgi-container .form-content .error-text, .iletisim .form-bilgi-container .form-content input.error::-webkit-input-placeholder, .iletisim .form-bilgi-container .form-content textarea.error::-webkit-input-placeholder, .iletisim .form-bilgi-container .form-content .invalid-x {
       font-size: 12.551px;
       font-family: "Raleway";
@@ -1376,5 +1383,45 @@ a {
       position: absolute;
       right: 20px;
       top: 8px; }
-  .iletisim .form-bilgi-container .form-border {
-    border: 1px solid #b5cbff; }
+  .iletisim .form-bilgi-container .iletisim-bilgi-row {
+    margin-left: -60px; }
+    @media (max-width: 992px) {
+      .iletisim .form-bilgi-container .iletisim-bilgi-row {
+        margin-left: -15px; } }
+    @media (max-width: 499px) {
+      .iletisim .form-bilgi-container .iletisim-bilgi-row {
+        margin: 0px; } }
+  .iletisim .form-bilgi-container .iletisim-bilgi {
+    margin-top: 45px;
+    margin-left: 40px;
+    margin-right: 40px; }
+    @media (max-width: 499px) {
+      .iletisim .form-bilgi-container .iletisim-bilgi {
+        margin-left: 0px;
+        margin-right: 0px; } }
+    .iletisim .form-bilgi-container .iletisim-bilgi .baslik-alt-cizgi {
+      background-color: #447999;
+      opacity: 0.102;
+      height: 2px; }
+    .iletisim .form-bilgi-container .iletisim-bilgi .telefon-text {
+      font-size: 14px;
+      font-family: 'Open Sans';
+      font-style: bold;
+      color: #447999;
+      line-height: 1.2;
+      text-align: left; }
+  .iletisim .form-bilgi-container .diger-bilgiler {
+    margin-top: 45px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 46px; }
+    @media (max-width: 499px) {
+      .iletisim .form-bilgi-container .diger-bilgiler {
+        margin-left: 0px;
+        margin-right: 0px; } }
+
+.iletisim .form-border {
+  border: 1px solid #b5cbff; }
+  @media (max-width: 499px) {
+    .iletisim .form-border {
+      border: none; } }

@@ -13,7 +13,6 @@
 
   
   .form-bilgi-container {
-    height: 655px;
     margin-bottom: 40px;
 
     .baslik {
@@ -26,6 +25,14 @@
     }
 
     @import 'iletisim-formu.scss';
+    @import 'iletisim-bilgi.scss';
+    @import 'iletisim-digerbilgiler.scss';
+  }
+  .form-border {
+    border: 1px solid #b5cbff;
+    @media (max-width: $phone) {
+      border: none;
+    }
   }
 }
 
