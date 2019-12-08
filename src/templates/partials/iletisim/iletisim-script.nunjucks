@@ -54,7 +54,12 @@
       setTimeout(function(){ 
         $("#form-success").css("display", "none");
         $("#form-normal").css("display", "block");
-      }, 1000);
+        $("#ad-soyad").val('')
+        $("#email").val('');
+        $("#telefon").val('');
+        $("#konu").val('');
+        $("#mesaj").val('');
+      }, 2000);
     }
   }
 
