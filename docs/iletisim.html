@@ -247,10 +247,17 @@
         <textarea 
         id="mesaj"
         oninput="inputDegisim(event);"
-        class="form-control" placeholder="Mesajınız" rows="16"></textarea> 
+        class="form-control" placeholder="Mesajınız" rows="12"></textarea> 
 
       <span id="mesaj-error-icon" style="display: none;"  class="invalid-x">x</span>
     </div>
+
+    <div class="g-recaptcha" 
+      data-sitekey="6LeuscYUAAAAAAIIw6eO4JzBM_6aMJ7GxVHRaC95" 
+      data-callback="verifyRecaptchaCallback" 
+      data-expired-callback="expiredRecaptchaCallback"></div>
+    <input class="form-control d-none" data-recaptcha="true" required data-error="Captcha tamamlayın.">
+
 
     <button type="button" class="btn btn-gonder" onclick="formuGonder(event);">GÖNDER</button>
   </div>
@@ -576,6 +583,8 @@ $('#karamurselDropdownWeb').hover(function () {
 
 
 </script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+
   </body>
 
   </body>
