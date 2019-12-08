@@ -182,7 +182,19 @@
     </div>
 
     <div class="col-12 col-md-12 col-lg-6">
-      
+      <p class="video-baslik-bold">
+        VİDEOLAR
+      </p>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/m7Hps4MFets" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="video-baslik">BAŞKAN YILDIRIM PROJELERİNİ AÇIKLIYOR</p>
+
+        <a href="">
+          <img style="padding-top: 0px; padding-bottom: 10px;" src="img/video-duyuru/videolaricintiklayiniz.png"
+            alt=""/>
+        </a>
+      </div>
     </div>
 
   </div>
