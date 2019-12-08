@@ -54,7 +54,6 @@
         return;
       }
 
-
       $("#form-success").css("display", "block");
       $("#form-normal").css("display", "none");
 
@@ -66,6 +65,7 @@
         $("#telefon").val('');
         $("#konu").val('');
         $("#mesaj").val('');
+        grecaptcha.reset();
       }, 2000);
     }
   }
