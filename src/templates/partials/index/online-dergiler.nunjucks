@@ -1,33 +1,7 @@
 <div class="container online-dergiler-container">
   <div class="row dergi-dundenbugun-row">
     <div class="col-12 col-md-12 col-lg-6">
-      <div class="row" style="margin: 0px; margin-bottom: 30px;">
-        <span class="online-dergiler-container-baslik-bold">ONLİNE</span>
-        <span class="online-dergiler-container-baslik ml-1"> DERGİLER</span>
-      </div>
-      <div class="owl-two owl-carousel owl-theme">
-        <div class="item-dergi">
-          <div class="item-dergi-wrapper">
-            <img src="img/dergiler/d1.png" class="img-dergi" alt=""/>
-          </div>
-        </div>
-        <div class="item-dergi">
-          <div class="item-dergi-wrapper">
-            <img src="img/dergiler/d2.png" class="img-dergi" alt=""/>
-          </div>
-        </div>
-        <div class="item-dergi">
-          <div class="item-dergi-wrapper">
-            <img src="img/dergiler/d3.png" class="img-dergi" alt=""/>
-          </div>
-        </div>
-        <div class="item-dergi">
-          <div class="item-dergi-wrapper">
-            <img src="img/dergiler/d4.png" class="img-dergi" alt=""/>
-          </div>
-        </div>
-
-      </div>
+      
     </div>
 
     <div class="col-12 col-md-12 col-lg-6">

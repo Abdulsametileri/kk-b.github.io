@@ -6,7 +6,7 @@
     line-height: 1.267;
     text-align: left;
     @media (max-width: $xs) {
-      margin-left: 20px;
+      //margin-left: 20px;
     }
   }
   &-baslik-bold {
@@ -32,32 +32,9 @@
     margin-top: 45px;
   }
 
+  
+
   .row {
-    .owl-two {
-      .owl-nav {
-        text-align: end;
-        .owl-next {
-          margin-right: 0px;
-        }
-      }
-
-      .item-dergi {
-        //background-color: #a7c8dc !important;
-        &-wrapper {
-          &:hover {
-            cursor: pointer;
-            background: url("../img/dergiler/ho.png");
-            background-position: center;
-          }
-          &:hover img {
-            opacity: 0.3;
-            cursor: pointer;
-          }
-        }
-      }
-      
-    }
-
     .dundenbugune-container {
       height: 313px;
       border: #a9cbef 2px solid; margin: 0px; padding-bottom: 16px;
@@ -128,8 +105,31 @@
         }
       }
     }
-
   }
 
 
+}
+.owl-two {
+  .owl-nav {
+    text-align: end;
+    .owl-next {
+      margin-right: 0px;
+    }
+  }
+
+  .item-dergi {
+    //background-color: #a7c8dc !important;
+    &-wrapper {
+      &:hover {
+        cursor: pointer;
+        background: url("../img/dergiler/ho.png");
+        background-position: center;
+      }
+      &:hover img {
+        opacity: 0.3;
+        cursor: pointer;
+      }
+    }
+  }
+  
 }
