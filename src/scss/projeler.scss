@@ -25,10 +25,12 @@
   &-baslik {
     font-size: 29px;
     color: rgb(58, 102, 175);
-    font-weight: bold;
     line-height: 1.236;
     text-align: left;
-    z-index: 171;
+  }
+  &-baslik-bold {
+    @extend .projeler-baslik;
+    font-weight: 800;
   }
   
   .owl-one {
@@ -46,12 +48,19 @@
       .owl-prev img{
         position: absolute;
         left: 0px;
-        top: 38%;
+        top: 30%;
+        @media (min-width: $lg) {
+          top:50%;
+        }
+
       }
       .owl-next img {
         position: absolute;
         right: 0px;
-        top: 38%;
+        top: 30%;
+        @media (min-width: $lg) {
+          top:50%;
+        }
       }
       
     }

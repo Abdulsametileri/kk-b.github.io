@@ -378,13 +378,13 @@ a {
         margin: initial;
         height: initial;
         margin-top: 10px; } }
-  .projeler-baslik, .projeler .baskan-card-baslik {
+  .projeler-baslik, .projeler-baslik-bold, .projeler .baskan-card-baslik {
     font-size: 29px;
     color: #3a66af;
-    font-weight: bold;
     line-height: 1.236;
-    text-align: left;
-    z-index: 171; }
+    text-align: left; }
+  .projeler-baslik-bold {
+    font-weight: 800; }
   .projeler .owl-one {
     height: 197px;
     max-width: 500px; }
@@ -397,11 +397,17 @@ a {
     .projeler .owl-one .owl-nav .owl-prev img {
       position: absolute;
       left: 0px;
-      top: 38%; }
+      top: 30%; }
+      @media (min-width: 992px) {
+        .projeler .owl-one .owl-nav .owl-prev img {
+          top: 50%; } }
     .projeler .owl-one .owl-nav .owl-next img {
       position: absolute;
       right: 0px;
-      top: 38%; }
+      top: 30%; }
+      @media (min-width: 992px) {
+        .projeler .owl-one .owl-nav .owl-next img {
+          top: 50%; } }
   .projeler .proje-detay-baslik {
     margin-top: 20px;
     font-size: 20.295px;
