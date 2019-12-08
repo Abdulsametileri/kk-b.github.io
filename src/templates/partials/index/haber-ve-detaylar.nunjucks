@@ -4,26 +4,28 @@
       <img class="haber-manset-resim" src="img/haber/buyukBaslik.png" />
     </div>
     <div class="col-sm-12 col-md-12 col-lg-5">
-      <div class="haber-manset-detay">
-        <div class="haber-manset-detay-container">
-          <p class="haber-manset-detay-baslik">
-            6 BİN KİŞİYE BALIK EKMEK İKRAMI
+       <div class="baskan-card">
+          <p class="baskan-card-baslik">İSMAİL YILDIRIM</p>
+          <p class="baskan-card-detay">
+            KARAMÜRSEL BELEDİYE BAŞKANI
           </p>
-          <p class="haber-manset-detay-detay">
-            Karamürsel Belediyesi'nin düzenlediği Ereğli Balık Festivali
-            kapsamında dün 6 bin kişiye balık-ekmek ikramında bulunuldu.
-          </p>
-          <p class="haber-manset-detay-tarih">19 Eylül 2019</p>
-          <a class="devamicintiklayin" href="">
-            <div>
-              <img src="img/haber/sagaOkDevam.png" />
-              <span>Devamı İçin Tıklayınız</span>
-            </div>
-            
-            {# <img src="img/haber/devam_icin_tiklayin.png" alt="" /> #}
+          <div id="baskan-card-container">
+            <ul class="baskan-card-container-list">
+              <li>
+                <a>BİYOGRAFİ</a>
+              </li>
+              <li>
+                <a>FOTOĞRAFLAR</a>
+              </li>
+              <li>
+                <a>BAŞKANA MESAJ</a>
+              </li>
+            </ul>
+          </div>
+          <a class="detaylaricintikla" href="">
+            <img src="img/projeler/detaylaricintikla.png"/>
           </a>
         </div>
-      </div>
     </div>
   </div>
   <div class="row haberler ">
