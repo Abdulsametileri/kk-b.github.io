@@ -1,4 +1,12 @@
    <script>
+      $(".haber-preview-resim").hover((e) => {
+        $("#haber-manset-img").attr("src", e.target.src)
+        $("#haber-manset-aciklama").text(e.target.alt)
+      })
+   </script>
+
+   
+   <script>
   $(document).ready(function () {
   //initialize swiper when document ready
     var mySwiper = new Swiper ('.swiper-container', {
@@ -98,3 +106,4 @@
       });
     });
   </script>
+
