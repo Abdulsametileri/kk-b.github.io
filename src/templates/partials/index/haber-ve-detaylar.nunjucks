@@ -6,7 +6,7 @@
         <img id="haber-manset-img" class="haber-manset-resim" src="img/haber/gorsel1.png" />
         <div style="cursor: pointer;">
           <h3  id="haber-manset-aciklama" >6 BİN KİŞİYE BALIK EKMEK İKRAMI</h3>
-          <img src="img/haber/sagMaviOk.png" style="z-index: 99;
+          <img id="haber-manset-aciklama-ok" src="img/haber/sagMaviOk.png" style="z-index: 99;
     top: 94%;
     right: 25px;
     position: absolute;" alt="">

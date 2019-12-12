@@ -28,6 +28,11 @@
     font-weight: bold;
     color: #007fc5;
   }
+  #haber-manset-aciklama-ok {
+    @media (max-width: $phone) {
+      display: none;
+    }
+  }
   .haber-manset-detay {
     width: 100%;
     height: 100%;

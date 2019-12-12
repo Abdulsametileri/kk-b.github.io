@@ -287,6 +287,9 @@ a {
     /* color: #e8f7ff; */
     font-weight: bold;
     color: #007fc5; }
+  @media (max-width: 499px) {
+    .haberler-container #haber-manset-aciklama-ok {
+      display: none; } }
   .haberler-container .haber-manset-detay {
     width: 100%;
     height: 100%;
