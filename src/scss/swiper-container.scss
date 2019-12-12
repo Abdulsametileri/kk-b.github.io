@@ -26,7 +26,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top:77%;
+    top:64%;
     display: flex;
     justify-content: space-between;
     padding: 0;
@@ -67,7 +67,7 @@
     padding: 0;
     left: 0;
     right: 0;
-    bottom: 50px !important;
+    bottom: 24px !important;
 
     @media (max-width: 992px) {
       justify-content: center;
@@ -86,8 +86,13 @@
       width: 10px !important;
     }
 
+    .swiper-pagination-bullet {
+      border: 2px white solid;
+    }
+
     .swiper-pagination-bullet-active {
       background-color: white;
+      opacity: 1;
     }
 
   }

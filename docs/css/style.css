@@ -23,7 +23,7 @@ a {
 
 .header {
   position: relative;
-  height: 560px; }
+  height: 420px; }
   @media (max-width: 1035px) {
     .header {
       height: 456px; } }
@@ -1617,7 +1617,7 @@ a {
     position: absolute;
     left: 0;
     right: 0;
-    top: 77%;
+    top: 64%;
     display: flex;
     justify-content: space-between;
     padding: 0; }
@@ -1649,7 +1649,7 @@ a {
     padding: 0;
     left: 0;
     right: 0;
-    bottom: 50px !important; }
+    bottom: 24px !important; }
     @media (max-width: 992px) {
       .swiper-container .dots {
         justify-content: center; } }
@@ -1663,8 +1663,11 @@ a {
       padding: 0px;
       height: 10px !important;
       width: 10px !important; }
+    .swiper-container .dots .swiper-pagination-bullet {
+      border: 2px white solid; }
     .swiper-container .dots .swiper-pagination-bullet-active {
-      background-color: white; }
+      background-color: white;
+      opacity: 1; }
 
 #slider-baslik-container {
   text-align: center;
