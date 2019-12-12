@@ -20,6 +20,8 @@
   <!--videolar duyuru ilanlar-->
   {# {% include "partials/index/videolar-duyuru-ilanlar.nunjucks" %} #}
 
+  {% include "partials/index/karamurseli-kesfet.nunjucks" %}
+
   <!-- hizmetler -->
   {% include "partials/index/hizmetler.nunjucks" %}
 
