@@ -9,29 +9,52 @@
           </p>
           <div class="owl-one owl-carousel owl-theme">
             <div class="item-proje"
-                id="proje-image-slider-2"
-                data-baslik="KENT MEYDANI" data-detay="Kocaeli Büyükşehir Belediyesi’nin de desteğiyle ilçeye 5 bin
-                metrekarelik kent meydanı kazandırdık." >
-              <img src="img/projeler/proje1.png"/>
-            </div>
-            <div class="item-proje"
                 id="proje-image-slider-3"
-                data-baslik="BALIK ADASI DÜZENLEME" data-detay="Balık Adası’nı bir cazibe merkezine dönüştürdük. 35 metre yüksekliğinde dev Türk bayrağının dalgalandığı, balık restoranlarının, balık satış reyonlarının ve kafelerin yer aldığı Balık Adası’nda 4 bin metrekarelik alanı da yeşil alan olarak değerlendirdik."
-                >
-              <img src="img/projeler/proje2.png"/>
+                data-baslik="DENİZCİLİK MÜZESİ" 
+                data-detay="Kocaeli Büyükşehir Belediyesi ile ortaklaşa yapacağımız Denizcilik Müzesi, Osmanlı Devleti’nin ilk tersanesinin kurulduğu, ilk savaş gemisinin yapıldığı, ilk ‘kaptan-ı derya’ unvanına sahip denizcisi Karamürsel Alp Bey’in fethettiği ilçemizin köklü tarihini gözler önüne serecek." >
+              <img src="img/projeler/proje1.jpg"/>
             </div>
             <div class="item-proje"
-                data-baslik="SAHİL DÜZENLEMESİ" data-detay="Ereğli’den başlayan sahil şeridini Dereköy’e kadar uzattık. 11 kilometrelik sahil şeridinde irili ufaklı 9 plajın yanı sıra yürüyüş ve bisiklet yolları, kafe ve restoranlar, park ve çocuk oyun alanları, spor ve etkinlik sahaları yaparak, halkın hizmetine sunduk."
-                id="proje-image-slider-4">
-              <img src="img/projeler/proje3.png"/>
+                id="proje-image-slider-4"
+                data-baslik="DEREKÖY SPOR KOMPLEKSİ" 
+                data-detay="Dereköy’de inşa edeceğimiz spor kompleksinde çocuklarımız ve gençlerimiz diledikleri sporu yapma imkanı bulacak. İsteyen ata sporumuz güreşle ilgilenecek, isteyen futbol oynayacak, isteyen fitness yapacak."
+                >
+              <img src="img/projeler/proje2.jpg"/>
+            </div>
+            <div class="item-proje"
+            id="proje-image-slider-5"
+                data-baslik="GENÇLİK MERKEZİ" 
+                data-detay="Geleceğimizin teminatı gençlerimizi kötü
+alışkanlıklardan uzak tutmak, farkındalığı yüksek,
+eğitimli, ahlaklı, çalışkan ve sorumluluk sahibi bireyler
+olarak yetiştirebilmek amacıyla sahile büyük bir Gençlik
+Merkezi yapacağız."
+                >
+              <img src="img/projeler/proje3.jpg"/>
+            </div>
+
+            <div class="item-proje"
+                data-baslik="BUZ PATENİ PİSTİ" 
+                data-detay="İlçemizdeki çocukları ve gençleri
+buz pateniyle tanıştıracağız, sadece
+kış aylarında değil yazın da buzda
+kaymanın keyfini yaşatacağız."
+                id="proje-image-slider-6">
+              <img src="img/projeler/proje4.jpg"/>
+            </div>
+
+            <div class="item-proje"
+                data-baslik="AMİRAL TAŞ MEKTEP" 
+                data-detay="Daha önce seçim beyannamemizde yer alan ancak yönetmeliğin gecikmesi nedeniyle hayata geçiremediğimiz Amiral Karamürsel İlkokulu’nu ilk açıldığı tarih olan 1923 yılındaki günlerine geri döndüreceğiz, taş mektep projesine uygun olarak yeniden inşa edeceğiz."
+                id="proje-image-slider-7">
+              <img src="img/projeler/proje5.jpg"/>
             </div>
 
           </div>
 
           <div class="proje-detay">
-            <p class="proje-detay-baslik" id="pd-baslik">KENT MEYDANI</p>
-            <p class="proje-detay-detay" id="pd-detay" >Kocaeli Büyükşehir Belediyesi’nin de desteğiyle ilçeye 5 bin
-                metrekarelik kent meydanı kazandırdık.</p>
+            <p class="proje-detay-baslik" id="pd-baslik">DENİZCİLİK MÜZESİ</p>
+            <p class="proje-detay-detay" id="pd-detay" >Kocaeli Büyükşehir Belediyesi ile ortaklaşa yapacağımız Denizcilik Müzesi, Osmanlı Devleti’nin ilk tersanesinin kurulduğu, ilk savaş gemisinin yapıldığı, ilk ‘kaptan-ı derya’ unvanına sahip denizcisi Karamürsel Alp Bey’in fethettiği ilçemizin köklü tarihini gözler önüne serecek.</p>
             <a class="projelericintiklayiniz" href="">
               <img src="img/projeler/projelerinintiklayiniz.png"/>
             </a>

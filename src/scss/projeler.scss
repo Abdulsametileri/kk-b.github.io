@@ -86,9 +86,11 @@
       font-family: "Raleway";
       line-height: 1.333;
       height: 27.554px;
-      text-overflow: ellipsis;
-      white-space: nowrap;
       overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 2;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
     }
 
     .projelericintiklayiniz img {

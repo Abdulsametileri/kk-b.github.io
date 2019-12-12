@@ -66,8 +66,13 @@
       });
 
       owlOne.on('changed.owl.carousel', function(event) {
-          var id = '#proje-image-slider-' + event.item.index
-
+          let eventItemId = 0;
+          if (event.item.index === 8)
+            eventItemId = 3
+          else
+            eventItemId = event.item.index
+            
+          var id = '#proje-image-slider-' + eventItemId
           var baslik = $(id).data('baslik')
           var detay = $(id).data('detay')
 

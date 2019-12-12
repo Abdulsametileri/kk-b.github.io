@@ -260,7 +260,7 @@ a {
           justify-content: center; } }
 
 .haberler-container {
-  padding-top: 49px;
+  padding-top: 35px;
   background-color: white; }
   .haberler-container .haber-manset-resim {
     width: 100%;
@@ -750,9 +750,11 @@ a {
     font-family: "Raleway";
     line-height: 1.333;
     height: 27.554px;
+    overflow: hidden;
     text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden; }
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical; }
   .projeler .proje-detay .projelericintiklayiniz img {
     margin-bottom: 8px; }
     @media (max-width: 992px) {
