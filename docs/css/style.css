@@ -579,9 +579,13 @@ a {
 
 .online-dergiler-container .row .owl-dunden-bugune .owl-nav {
   border: none;
-  text-align: end; }
+  position: absolute;
+  width: 100%;
+  top: 34%; }
+  .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-prev {
+    float: left; }
   .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-next {
-    margin-right: 0px; }
+    float: right; }
 
 .owl-two .owl-nav {
   text-align: end; }
@@ -884,9 +888,13 @@ a {
 
 .online-dergiler-container .row .owl-dunden-bugune .owl-nav {
   border: none;
-  text-align: end; }
+  position: absolute;
+  width: 100%;
+  top: 34%; }
+  .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-prev {
+    float: left; }
   .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-next {
-    margin-right: 0px; }
+    float: right; }
 
 .owl-two .owl-nav {
   text-align: end; }
@@ -1068,9 +1076,13 @@ a {
 
 .online-dergiler-container .row .owl-dunden-bugune .owl-nav {
   border: none;
-  text-align: end; }
+  position: absolute;
+  width: 100%;
+  top: 34%; }
+  .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-prev {
+    float: left; }
   .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-next {
-    margin-right: 0px; }
+    float: right; }
 
 .owl-two .owl-nav {
   text-align: end; }
@@ -1340,9 +1352,13 @@ a {
 
 .online-dergiler-container .row .owl-dunden-bugune .owl-nav {
   border: none;
-  text-align: end; }
+  position: absolute;
+  width: 100%;
+  top: 34%; }
+  .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-prev {
+    float: left; }
   .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-next {
-    margin-right: 0px; }
+    float: right; }
 
 .owl-two .owl-nav {
   text-align: end; }

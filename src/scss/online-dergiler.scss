@@ -104,9 +104,17 @@
 
       .owl-nav {
         border: none;
-        text-align: end;
+        //text-align: end;
+        position: absolute;
+        width: 100%;
+        top: 34%;
+
+        .owl-prev {
+          float: left;
+        }
+
         .owl-next {
-          margin-right: 0px;
+          float:right;
         }
       }
     }
