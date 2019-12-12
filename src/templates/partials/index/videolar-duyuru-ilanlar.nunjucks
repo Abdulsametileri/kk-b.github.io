@@ -1,7 +1,7 @@
 <div class="container video-duyuru-container">
   <div class="row">
     <div class="col-sm col-md-12 col-lg-6 my-3">
-      <p class="video-baslik-bold">
+      <p class="video-baslik-bold" style="margin-top: 40px;">
         VİDEOLAR
       </p>
       <div class="video-container">
@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="col-sm col-md-12  col-lg-6 my-3">
-      <p>
+      <p style="margin-top: 40px;">
         <span class="duyuru-baslik-bold">DUYURU </span>
         <span class="duyuru-baslik-normal ml-1">İLANLAR</span>
       </p>
