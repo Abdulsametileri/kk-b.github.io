@@ -265,6 +265,15 @@ a {
   .haberler-container .haber-manset-resim {
     width: 100%;
     height: 410px; }
+    @media (max-width: 1199px) {
+      .haberler-container .haber-manset-resim {
+        height: 366px; } }
+    @media (max-width: 1004px) {
+      .haberler-container .haber-manset-resim {
+        height: 360px; } }
+    @media (max-width: 499px) {
+      .haberler-container .haber-manset-resim {
+        height: initial; } }
   .haberler-container #haber-manset-aciklama {
     position: absolute;
     top: 90%;
@@ -399,11 +408,8 @@ a {
     height: 410px;
     position: relative;
     background-position-y: bottom;
-    /* @media (max-width: $lg) {
-      background: initial;
-      background-color: white;
-    }
-    
+    background-repeat: no-repeat;
+    /*
     @media (max-width: $md) {
       margin-top: 20px;
       background: url('../img/projeler/card2bg.png');
@@ -416,6 +422,30 @@ a {
       background-color: white;
       background-position-y: 40%;
     } */ }
+    @media (max-width: 1199px) {
+      .haberler-container .baskan-card {
+        height: 372px; } }
+    @media (max-width: 1004px) {
+      .haberler-container .baskan-card {
+        height: 366px; } }
+    @media (max-width: 992px) and (min-width: 768px) {
+      .haberler-container .baskan-card {
+        background-position-y: unset;
+        background-size: cover;
+        margin-top: 30px; } }
+    @media (max-width: 768px) and (min-width: 501px) {
+      .haberler-container .baskan-card {
+        margin-top: 30px;
+        height: 432px; } }
+    @media (max-width: 500px) {
+      .haberler-container .baskan-card {
+        margin-top: 30px; } }
+    @media (max-width: 499px) {
+      .haberler-container .baskan-card {
+        margin-top: 60px;
+        background-size: contain;
+        background-color: white;
+        background-position-y: 53%; } }
     .haberler-container .baskan-card-baslik {
       font-size: 29px;
       color: #3a66af;
@@ -426,6 +456,15 @@ a {
       font-weight: 800;
       padding-top: 25px;
       padding-left: 25px; }
+      @media (max-width: 768px) {
+        .haberler-container .baskan-card-baslik {
+          background-color: initial; } }
+      @media (max-width: 576px) {
+        .haberler-container .baskan-card-baslik {
+          background-color: #fbf239; } }
+      @media (max-width: 499px) {
+        .haberler-container .baskan-card-baslik {
+          background-color: #fbf239; } }
     .haberler-container .baskan-card-detay {
       padding-left: 25px;
       margin-top: -15px;
@@ -455,7 +494,7 @@ a {
       padding-left: 20px; }
       @media (max-width: 499px) {
         .haberler-container .baskan-card .detaylaricintikla img {
-          margin-top: 100px; } }
+          margin-top: -8px; } }
 
 .online-dergiler-container-baslik, .online-dergiler-container-baslik-bold, .video-baslik-bold, .video-duyuru-container-bold, .duyuru-baslik-bold, .video-duyuru-container .video-baslik-bold, .video-duyuru-container .duyuru-baslik-bold, .bold-baslik, .footer .footer-baslik-bold, .duyuru-baslik-normal, .video-duyuru-container .duyuru-baslik-normal, .normal-baslik, .footer .footer-baslik-normal {
   font-size: 28.413px;
