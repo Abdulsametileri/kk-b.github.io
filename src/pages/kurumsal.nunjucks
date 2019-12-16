@@ -1,0 +1,86 @@
+{% extends "layout.nunjucks" %}
+
+{% block headKismi %}
+  {% include "partials/head.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+  <div class="kurumsal">
+    <!-- HEADER KISMI-->
+    {% set headerTitle = 'KURUMSAL' %}
+    {% set headerResimYol = "img/kurumsal/kurumsal.png" %}
+    {% set sayfaId = "4" %}
+    {% include "partials/karamursel-header.nunjucks" %}
+
+    <div class="container">
+      <p class="karamursel-breadcrumb">ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; BAŞKANIMIZ</p>
+
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          {% set items = [
+            {
+              title: "BAŞKAN",
+              href: "#",
+              class: ""
+            },
+            {
+              title: "BAŞKAN YARDIMCILARI",
+              href: "#",
+              class: ""
+            },
+            {
+              title: "MECLİS ÜYELERİ",
+              href: "#",
+              class: ""
+            },
+            {
+              title: "ENCÜMEN ÜYELERİ",
+              href: "#",
+              class: ""
+            },
+            {
+              title: "MÜDÜRLÜKLER",
+              href: "#",
+              class: ""
+            },
+            {
+              title: "MÜDÜRLER",
+              href: "#",
+              class: ""
+            },
+            {
+              title: "MUHTARLAR",
+              href: "#",
+              class: ""
+            }
+          ] %}
+          {% include "partials/mavi-bar-menu.nunjucks" %}
+        </div>
+
+        <div class="col-sm-6 col-md-9">
+          <div class="row pb-4">
+              {% set calisanlar = [ 'img/kurumsal/1.png',
+              'img/kurumsal/2.png',
+              'img/kurumsal/3.png',
+              'img/kurumsal/4.png',
+              'img/kurumsal/5.png',
+              'img/kurumsal/6.png',
+              'img/kurumsal/7.png',
+              'img/kurumsal/8.png' ] %}
+              {% include "partials/kurumsal/calisanlar.nunjucks" %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top: 130px; margin-bottom: 80px;">
+      {% include "partials/index/hizmetler.nunjucks" %}
+    </div>
+    
+    <!-- FOOTER -->
+    {% include "partials/footer.nunjucks" %}
+
+    <!--SCRİPTLER-->
+    {% include "partials/script.nunjucks" %}
+  </div>
+{% endblock %}
