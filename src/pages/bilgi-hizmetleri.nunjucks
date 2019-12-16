@@ -15,31 +15,91 @@
     <div class="container">
       <p class="karamursel-breadcrumb">ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; BİLGİ HİZMETLERİ</p>
 
+      {% set images = [
+        {
+          text: 'NÖBETÇİ ECZANELER',
+          src: 'e.png'
+        }, 
+        {
+          text: 'VEFAT EDENLER',
+          src: 'vefat.png'
+        },
+        {
+          text: 'VAPUR SAATLERİ',
+          src: 'vapur.png'
+        },
+        {
+          text: 'FAALİYET RAPORLARI',
+          src: 'faaliyet.png'
+        },
+        {
+          text: 'MECLİS TOPLANTILARI',
+          src: 'meclis.png'
+        },
+        {
+          text: '',
+          src: 'cimer.png'
+        },
+        {
+          text: 'SPORTİF HİZMETLER',
+          src: 'sportif.png'
+        },
+        {
+          text: 'ATIK / MOLOZ TOPLAMA HİZMETİ',
+          src: 'atikmoloz.png'
+        },
+        {
+          text: 'SALON HİZMETLERİ',
+          src: 'salon.png'
+        },
+        {
+          text: 'EL SANATLARI VE BECERİ KURSLARI',
+          src: 'elsanatlari.png'
+        },
+        {
+          text: 'EVLENDİRME HİZMETLERİ',
+          src: 'evlendirme.png'
+        },
+        {
+          text: 'CENAZE HİZMETLERİ',
+          src: 'cenaze.png'
+        }
+      ] %}
 
-        <div class="img-container">
+      <div class="row">
+        {% for image in images %}
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
+            <div class="img-container">
+              <img src="img/bilgi-hizmetleri/{{image.src}}">
+              <p>{{image.text}}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+
+      {# <div class="img-container">
           <img src="img/bilgi-hizmetleri/elsanatlari.png">
           <p>EL SANATLARI VE  BECERİ KURSLARI</p>
-        </div>
+        </div> #}
 
-        {# <div class="row">
+      {# <div class="row">
             <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1 bilg-img">
                 <img class="hizmet-resim under" src="img/hizmetler/vapursaat.png" alt=""/>
                 <img class="hizmet-resim over"  src="img/bilgi-hizmetleri/img-hover.png" alt=""/>
             </div>
         </div> #}
 
-
-      </div>
     </div>
-
-    <div style="margin-top: 130px; margin-bottom: 80px;">
-      {% include "partials/index/hizmetler.nunjucks" %}
-    </div>
-    
-    <!-- FOOTER -->
-    {% include "partials/footer.nunjucks" %}
-
-    <!--SCRİPTLER-->
-    {% include "partials/script.nunjucks" %}
   </div>
+
+  <div style="margin-top: 430px; margin-bottom: 80px;">
+    {% include "partials/index/hizmetler.nunjucks" %}
+  </div>
+
+  <!-- FOOTER -->
+  {% include "partials/footer.nunjucks" %}
+
+  <!--SCRİPTLER-->
+  {% include "partials/script.nunjucks" %}
+</div>
 {% endblock %}
