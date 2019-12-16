@@ -28,7 +28,7 @@
               class: ""
             }, {
               title: "BAŞKANA MESAJ",
-              href: "#",
+              href: "./iletisim.html",
               class: ""
             }
           ] %}
