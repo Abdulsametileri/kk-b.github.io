@@ -1,0 +1,50 @@
+@import 'karamursel.scss';
+.bilgi-hizmetleri {
+  @extend .karamursel;
+
+  
+
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #c1e5f9;
+    align-content: center;
+    justify-content: center;
+    height: 115px;
+    width: 160px;
+
+    &:hover {
+      background-color: #007fc5;
+      img {
+        filter: brightness(0) invert(1);
+      }
+      p{
+        color: #c1e5f9;
+      }
+    }
+
+    img {
+      object-fit: contain;
+      padding-top: 25px;
+      
+    }
+
+    p {
+      font-size: 12px;
+      font-family: "Raleway";
+      color: #007fc5;
+      font-weight: bold;
+      line-height: 1.167;
+      text-align: center;
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 12px;
+     
+    }
+
+  }
+
+
+
+}

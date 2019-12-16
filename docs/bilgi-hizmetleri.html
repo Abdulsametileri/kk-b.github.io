@@ -22,18 +22,17 @@
 
 <link rel="stylesheet" href="css/swiper.min.css">
 <title>Karamürsel Belediyesi</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
   </head>
   <body>
     
-
-  <body class="iletisim">
+  <div class="bilgi-hizmetleri">
+    <!-- HEADER KISMI-->
     
     
     
     <div id="scrollOnTop"></div>
-<div class="container-fluid header" style="background: url('img/iletisim/iletisimarkaplan.png');">
+<div class="container-fluid header" style="background: url('img/bilgi-hizmetleri/bilgihizmetleri.png');">
 
   
   <!-- AYNI BASLANGIC -->
@@ -161,10 +160,10 @@
               <a class="nav-link" href="#">PROJELER</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="./bilgi-hizmetleri.html">BİLGİ HİZMETLERİ</a>
+              <a class="nav-link active" href="./bilgi-hizmetleri.html">BİLGİ HİZMETLERİ</a>
             </li>
             <li class="nav-item" id="iletisim">
-              <a class="nav-link active" href="./iletisim.html">İLETİŞİM</a>
+              <a class="nav-link " href="./iletisim.html">İLETİŞİM</a>
             </li>
           </ul>
           <div class="aramaAlani">
@@ -187,146 +186,27 @@
   <img class="cizgi" src="img/sari_cizgi.png"/>
   <div class="header-kesfet-text-wrapper">
     <div class="container" style="text-align: right; padding: 0;">
-      <p class="header-kesfet-text">İLETİŞİM</p>
+      <p class="header-kesfet-text">BAŞKANIMIZ</p>
     </div>
   </div>
 </div>
 
     <div class="container">
-      <p class="karamursel-breadcrumb">ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; İLETİŞİM</p>
-      <div class="row google-map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1512.6108417317284!2d29.6158586!3d40.6911151!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7aba168cb7826cee!2sKaramUrsel%20Belediyesi!5e0!3m2!1sen!2str!4v1575620234391!5m2!1sen!2str"
-     width="100%" height="355" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-</div>
+      <p class="karamursel-breadcrumb">ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; BİLGİ HİZMETLERİ</p>
 
 
+        <div class="img-container">
+          <img src="img/bilgi-hizmetleri/elsanatlari.png">
+          <p>EL SANATLARI VE  BECERİ KURSLARI</p>
+        </div>
 
-      <div class="row" style="justify-content: space-between; margin-top: 30px;">
-        <div class="col-md-12 col-lg-7 form-bilgi-container form-border" >
-  <div id="form-normal"   class="form-content">
-    <p class="baslik">İLETİŞİM FORMU</p>
-
-    <div style="position: relative;">
-      <input 
-        style="margin-top: 50px;"
-        id="ad-soyad"
-        oninput="inputDegisim(event);"
-        class="form-control" 
-        placeholder="Adınız - Soyadınızı giriniz" >      
-      <span id="ad-soyad-error-icon" style="display: none;"  class="invalid-x">x</span>
-    </div>
-
-    <div style="position: relative;">
-      <input 
-        id="email"
-        oninput="inputDegisim(event);"
-        class="form-control" 
-        placeholder="E-Mail Adresiniz" >      
-      <span id="email-error-icon" style="display: none;"  class="invalid-x">x</span>
-    </div>
-
-    <div style="position: relative;">
-      <input 
-        id="telefon"
-        oninput="inputDegisim(event);"
-        class="form-control" 
-        placeholder="Lütfen Telefon Numaranızı giriniz" >      
-      <span id="telefon-error-icon" style="display: none;"  class="invalid-x">x</span>
-    </div>
-
-    <div style="position: relative;">
-      <input 
-        id="konu"
-        oninput="inputDegisim(event);"
-        class="form-control" 
-        placeholder="Konuyu giriniz" >      
-      <span id="konu-error-icon" style="display: none;"  class="invalid-x">x</span>
-    </div>
-
-    <div style="position: relative;">
-        <textarea 
-        id="mesaj"
-        oninput="inputDegisim(event);"
-        class="form-control" placeholder="Mesajınız" rows="12"></textarea> 
-
-      <span id="mesaj-error-icon" style="display: none;"  class="invalid-x">x</span>
-    </div>
-
-    <div class="g-recaptcha" 
-      data-sitekey="6LeuscYUAAAAAAIIw6eO4JzBM_6aMJ7GxVHRaC95" 
-      data-callback="verifyRecaptchaCallback" 
-      data-expired-callback="expiredRecaptchaCallback"></div>
-    <input class="form-control d-none" data-recaptcha="true" required data-error="Captcha tamamlayın.">
-
-
-    <button type="button" class="btn btn-gonder" onclick="formuGonder(event);">GÖNDER</button>
-  </div>
-
-  <div style="display: none;" id="form-success" class="form-content form-gonderildi">
-    <img src="img/iletisim/iletisim-iletildi.png">
-  </div>
-</div>
-
-
-        <div class="col-md-12 col-lg-4 form-bilgi-container"  >
-
-  <div class="row iletisim-bilgi-row" >
-    <div class="col-12" style="background-color: #e0f3ff;">
-      <div class="iletisim-bilgi">
-        <p class="baslik">İLETİŞİM BİLGİLERİ</p>
-        <hr class="baslik-alt-cizgi">
-
-        <a  href="https://goo.gl/maps/JMxhGeTHiVSdgQXW8">
-          <img src="img/iletisim/iletisim-adres.png" />
-        </a>
         
-        <div style="position:relative; margin-top:15px;">
-          <img src="img/iletisim/iletisim-telefon.png" alt=""/>
-          <a style="margin-left:12px;" class="telefon-text" href="tel:+902624521025">0 (262) 452 1025</a> <br>
-          <a style="margin-left:50px; position: absolute; top: 29px;" class="telefon-text" href="tel:+902624521221">0 (262) 452 1221</a> <br>
-          <a style="margin-left:50px; position: absolute; top: 50px;" class="telefon-text" href="tel:+902624525400">0 (262) 452 5400</a> <br>
-        </div>
 
-        <div>
-          <img src="img/iletisim/iletisim-fax.png" />
-          <a style="margin-left:12px;" class="telefon-text" href="tel:+902624521389">0 (262) 452 1389 </a>
-        </div>
-        <a  href="mailto:karamurselbelediye@hs01.kep.tr">
-          <img src="img/iletisim/iletisim-mail.png" />
-        </a>
-        <br>
-        <a  href="mailto:info@karamursel.bel.tr">
-          <img src="img/iletisim/iletisim-info-mail.png" />
-        </a>
-        <br>
-        <a  href="mailto:muhasebe@karamursel.bel.tr">
-          <img src="img/iletisim/iletisim-muhasebe.png" />
-        </a>
-        <br>
-        <a  href="mailto:zabita@karamursel.bel.tr">
-          <img src="img/iletisim/iletisim-zabita.png" />
-        </a>
-        <br>
-        <a  href="mailto:hizmet@karamursel.bel.tr">
-          <img src="img/iletisim/iletisim-hizmet.png" />
-        </a>
-      </div>
-      
-    </div>
-    <div class="col-12 mt-3" style="background-color: #f9f1c2;">
-      <div class="diger-bilgiler">
-        <p class="baslik">DİĞER BİLGİLER</p>
-        <img src="img/iletisim/postaceki.png" />
-        <img class="pt-3" src="img/iletisim/vergi-dairesi.png" />
+
       </div>
     </div>
-  </div>
 
-</div>
-
-
-      </div>
-
+    <div style="margin-top: 130px; margin-bottom: 80px;">
         <div class="container hizmetler">
     <div class="row">
       <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
@@ -360,8 +240,9 @@
     </div>
   </div>
 
-    
     </div>
+    
+    <!-- FOOTER -->
     <div class="container footer">
   <div class="row justify-content-between">
     <div class="col-12 col-sm-6">
@@ -467,7 +348,8 @@
     </div>
   </div>
 </div>
-    
+
+    <!--SCRİPTLER-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -505,94 +387,7 @@ $('#karamurselDropdownWeb').hover(function () {
   });
 </script>
 
-    <script>
-
-  function inputDegisim(e) {
-    const value = e.target.value
-    const id = e.target.id
-    validate(id, value)
-  }
-
-  function validateEmail(mail) {
-    if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail))
-    {
-      return (true)
-    }
-    alert("Girdiğiniz email adresi geçersiz.")
-    return (false)
-  }
-
-  function validatePhone(phone)
-  {
-    var phoneNo = /^\d{11}$/;
-    if(phoneNo.test(phone)){
-        return true;
-    }
-    else
-    {
-      alert("Girdiğiniz telefon numarası geçersiz.");
-      return false;
-    }
-  }
-
-  function formuGonder(e) {
-    e.preventDefault();
-
-    adSoyad = $("#ad-soyad").val();
-    email = $("#email").val();
-    telefon = $("#telefon").val();
-    konu = $("#konu").val();
-    mesaj = $("#mesaj").val();
-    
-    validate("ad-soyad", adSoyad)
-    validate("email", email)
-    validate("telefon", telefon)
-    validate("konu", konu)
-    validate("mesaj", mesaj)
-
-    if (adSoyad && email && telefon && konu && mesaj) {
-      if (!validateEmail(email)) return;
-      
-      if (!validatePhone(telefon)) return;
-
-      var response = grecaptcha.getResponse();
-      if(response.length == 0) {
-        alert('Ben robot değilim işaretleyin')
-        return;
-      }
-
-      $("#form-success").css("display", "block");
-      $("#form-normal").css("display", "none");
-
-      setTimeout(function(){ 
-        $("#form-success").css("display", "none");
-        $("#form-normal").css("display", "block");
-        $("#ad-soyad").val('')
-        $("#email").val('');
-        $("#telefon").val('');
-        $("#konu").val('');
-        $("#mesaj").val('');
-        grecaptcha.reset();
-      }, 2000);
-    }
-  }
-
-  function validate(id, value) {
-    if (value) {
-      $("#" + id).removeClass('error')
-      $("#" + id + "-error-icon").css("display", "none");
-    }
-    else {
-      $("#" + id).addClass('error')
-      $("#" + id + "-error-icon").css("display", "block");
-    }
-  }
-
-
-</script>
-  <script src='https://www.google.com/recaptcha/api.js'></script>
-
-  </body>
+  </div>
 
   </body>
 </html>

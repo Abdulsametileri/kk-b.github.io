@@ -1,0 +1,45 @@
+{% extends "layout.nunjucks" %}
+
+{% block headKismi %}
+  {% include "partials/head.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+  <div class="bilgi-hizmetleri">
+    <!-- HEADER KISMI-->
+    {% set headerTitle = 'BAŞKANIMIZ' %}
+    {% set headerResimYol = "img/bilgi-hizmetleri/bilgihizmetleri.png" %}
+    {% set sayfaId = "6" %}
+    {% include "partials/karamursel-header.nunjucks" %}
+
+    <div class="container">
+      <p class="karamursel-breadcrumb">ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; BİLGİ HİZMETLERİ</p>
+
+
+        <div class="img-container">
+          <img src="img/bilgi-hizmetleri/elsanatlari.png">
+          <p>EL SANATLARI VE  BECERİ KURSLARI</p>
+        </div>
+
+        {# <div class="row">
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1 bilg-img">
+                <img class="hizmet-resim under" src="img/hizmetler/vapursaat.png" alt=""/>
+                <img class="hizmet-resim over"  src="img/bilgi-hizmetleri/img-hover.png" alt=""/>
+            </div>
+        </div> #}
+
+
+      </div>
+    </div>
+
+    <div style="margin-top: 130px; margin-bottom: 80px;">
+      {% include "partials/index/hizmetler.nunjucks" %}
+    </div>
+    
+    <!-- FOOTER -->
+    {% include "partials/footer.nunjucks" %}
+
+    <!--SCRİPTLER-->
+    {% include "partials/script.nunjucks" %}
+  </div>
+{% endblock %}
