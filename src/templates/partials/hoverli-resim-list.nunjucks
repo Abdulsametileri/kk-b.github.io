@@ -1,0 +1,24 @@
+{% for item in items %}
+  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+    <div class="galeri-foto-container" onclick="previewImg('{{item.id}}')">
+      <img id="{{item.id}}" src="{{item.src}}" class="img-fluid galeri-fotolar"  >
+      <a  class="foto-buyuk"  style="pointer-events:none;">
+        <img src="img/foto-hover.png">
+        <br><br>
+                  BÜYÜK HALİ İÇİN TIKLAYIN
+                </a>
+    </div>  
+  </div>
+{% endfor %}
+
+ <script src="viewer/viewer.js"></script>
+  <script>
+    function previewImg(imageId) {
+      console.log(imageId)
+      const viewer = new Viewer(document.getElementById(imageId), {
+        viewed() {
+          viewer.zoomTo(1);
+        }
+      });
+    }
+  </script>

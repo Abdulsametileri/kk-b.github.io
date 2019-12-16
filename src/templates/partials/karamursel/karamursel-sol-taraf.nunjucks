@@ -1,38 +1,12 @@
 <div class="col-sm-6 col-md-3">
-  <!-- menü -->
-  <div class="row">
-    <div class="col">
-      <div class="menu-container">
-        <ul>
-          <li>
-            <a href="#">TARİHÇE</a>
-          </li>
-          <li>
-            <a href="#">SANAYİ</a>
-          </li>
-          <li>
-            <a href="#">NÜFUS</a>
-          </li>
-          <li>
-            <a href="#">SPOR</a>
-          </li>
-          <li>
-            <a href="#">ÇOĞRAFYA</a>
-          </li>
-          <li>
-            <a href="#">FESTİVALLER</a>
-          </li>
-          <li>
-            <a href="#">TURİZM</a>
-          </li>
-          <li>
-            <a href="#">YEMEK KÜLTÜRÜ</a>
-          </li>
-          <li>
-            <a href="#">ULAŞIM</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  {% set items = [{ title: "TARİHÇE", href: "#" },
+                  { title: "SANAYİ", href: "#" },
+                  { title: "NÜFUS", href: "#" },
+                  { title: "SPOR", href: "#" },
+                  { title: "COĞRAFYA", href: "#" },
+                  { title: "FESTİVALLER", href: "#" },
+                  { title: "TURİZM", href: "#" },
+                  { title: "YEMEK KÜLTÜRÜ", href: "#" },
+                  { title: "ULAŞIM", href: "#" }] %}
+  {% include "partials/mavi-bar-menu.nunjucks" %}
 </div>

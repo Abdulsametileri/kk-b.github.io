@@ -133,7 +133,6 @@
   <script src="viewer/viewer.js"></script>
   <script>
     function previewImg(imageId) {
-      console.log('bismillah', imageId)
 
       const viewer = new Viewer(document.getElementById(imageId), {
         viewed() {

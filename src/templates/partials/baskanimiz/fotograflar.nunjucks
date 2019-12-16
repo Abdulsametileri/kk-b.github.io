@@ -1,0 +1,89 @@
+<div class="galeri-container">
+
+  {% set items = [
+    {
+      id: "image1",
+      src: "img/baskanimiz/fotograflar/1.png"
+    },
+    {
+      id: "image2",
+      src: "img/baskanimiz/fotograflar/2.png"
+    },
+    {
+      id: "image3",
+      src: "img/baskanimiz/fotograflar/3.png"
+    },
+    {
+      id: "image4",
+      src: "img/baskanimiz/fotograflar/4.png"
+    },
+    {
+      id: "image5",
+      src: "img/baskanimiz/fotograflar/5.png"
+    },
+    {
+      id: "image6",
+      src: "img/baskanimiz/fotograflar/6.png"
+    },
+    {
+      id: "image7",
+      src: "img/baskanimiz/fotograflar/7.png"
+    },
+    {
+      id: "image8",
+      src: "img/baskanimiz/fotograflar/8.png"
+    },
+    {
+      id: "image9",
+      src: "img/baskanimiz/fotograflar/9.png"
+    },
+    {
+      id: "image10",
+      src: "img/baskanimiz/fotograflar/10.png"
+    },
+    {
+      id: "image11",
+      src: "img/baskanimiz/fotograflar/11.png"
+    },
+    {
+      id: "image12",
+      src: "img/baskanimiz/fotograflar/12.png"
+    },
+    {
+      id: "image13",
+      src: "img/baskanimiz/fotograflar/13.png"
+    },
+    {
+      id: "image14",
+      src: "img/baskanimiz/fotograflar/14.png"
+    },
+    {
+      id: "image15",
+      src: "img/baskanimiz/fotograflar/15.png"
+    },
+    {
+      id: "image16",
+      src: "img/baskanimiz/fotograflar/16.png"
+    },
+    {
+      id: "image17",
+      src: "img/baskanimiz/fotograflar/17.png"
+    },
+    {
+      id: "image18",
+      src: "img/baskanimiz/fotograflar/18.png"
+    },
+    {
+      id: "image19",
+      src: "img/baskanimiz/fotograflar/19.png"
+    },
+    {
+      id: "image20",
+      src: "img/baskanimiz/fotograflar/20.png"
+    }
+  ]%}
+  <div class="row">
+    {% include "partials/hoverli-resim-list.nunjucks" %}
+  </div>
+</div>
+

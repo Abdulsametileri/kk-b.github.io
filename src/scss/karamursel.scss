@@ -57,7 +57,7 @@
     margin-bottom: 53px;
   }
 
-  .menu-container {
+  /* .menu-container {
     border: 1px solid #a9cbef;
     border-radius: 10px;
     background: #fafdff;
@@ -80,19 +80,12 @@
         }
       }
     }
-  }
+  } */
 
   
 
   .metin-container {
-    .metin-foto {
-      width: 100%;
-      height: 400px;
-      @media (max-width: $md) {
-        margin-top: 25px;
-        object-fit: cover;
-      }
-    }
+    
     .metin-baslik {
       font-weight: 800;
       font-size: 18px;
@@ -112,61 +105,6 @@
       color: rgb(143, 144, 145);
       font-weight: 500;
       line-height: 1.714;
-    }
-  }
-
-  .galeri-container {
-    .galeri-baslik {
-      font-size: 18px;
-      color: rgb(58, 102, 175);
-      font-weight: bold;
-      line-height: 1.333;
-    }
-    .galeri-foto-container {
-      position: relative;
-
-      &:hover {
-        .foto-buyuk {
-          opacity: 0.9;
-        }
-      }
-
-      .galeri-fotolar {
-        width: 100%;
-        height: 100px;
-        display: block;
-        
-        @media (max-width: $xs) {
-          object-fit: cover;  
-        }
-      }
-      .foto-buyuk {
-        transition: 0.5s ease;
-        opacity: 0;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100px;
-        width: 100%;
-        text-align: center;
-        align-content: center;
-        color: yellow;
-        background: #3a66af;
-        border: 1px solid #a9cbef;
-        font-weight: bold;
-        font-size: 8px;
-        text-decoration: none;
-        padding-top: 20px;
-      }
-      .foto-buyuk:hover,
-      .foto-buyuk:visited,
-      .foto-buyuk:link,
-      .foto-buyuk:active {
-        text-decoration: none;
-        color: yellow;
-      }
     }
   }
 }

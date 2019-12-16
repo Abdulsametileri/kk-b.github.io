@@ -1,0 +1,20 @@
+@import 'karamursel.scss';
+
+.baskanimiz {
+  @extend .karamursel;
+
+  .baskan-metin-baslik {
+    font-size: 24px;
+    font-family: "Raleway";
+    color: rgb(143, 144, 145);
+    font-weight: bold;
+    line-height: 1.292;
+  }
+  .baskan-metin {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(143, 144, 145);
+    line-height: 1.714;
+  }
+
+}

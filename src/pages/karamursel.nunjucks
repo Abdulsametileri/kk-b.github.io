@@ -14,7 +14,7 @@
     {% include "partials/karamursel-header.nunjucks" %}
 
     <div class="container">
-      <p class="karamursel-breadcrumb">ANASAYFA > KARAMÜRSEL</p>
+      <p class="karamursel-breadcrumb">ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; KARAMÜRSEL</p>
 
       <!--Orta kısım-->
       <div class="row">

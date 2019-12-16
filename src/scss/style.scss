@@ -27,6 +27,9 @@ a {
   width: 100%;
 }
 @import 'variables.scss';
+
+@import 'partials-global.scss';
+
 @import 'header.scss';
 @import 'haberler.scss';
 @import 'projeler.scss';
@@ -38,3 +41,4 @@ a {
 @import 'swiper-container.scss';
 @import 'iletisim.scss';
 @import 'index-karamurselikesfet.scss';
+@import 'baskanimiz.scss'; 

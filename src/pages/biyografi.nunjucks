@@ -1,0 +1,52 @@
+{% extends "layout.nunjucks" %}
+
+{% block headKismi %}
+  {% include "partials/head.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+  <div class="baskanimiz">
+    <!-- HEADER KISMI-->
+    {% set headerTitle = 'BAŞKANIMIZ' %}
+    {% set headerResimYol = "img/baskanimiz/baskanimiz.png" %}
+    {% set sayfaId = "3" %}
+    {% include "partials/karamursel-header.nunjucks" %}
+
+    <div class="container">
+      <p class="karamursel-breadcrumb">ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; BAŞKANIMIZ</p>
+
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          {% set items = [
+            {
+              title: "BİYOGRAFİ",
+              href: "./biyografi.html",
+              class: "active"
+            }, {
+              title: "FOTOĞRAFLAR",
+              href: "./fotograflar.html",
+              class: ""
+            }, {
+              title: "BAŞKANA MESAJ",
+              href: "#",
+              class: ""
+            }
+          ] %}
+          {% include "partials/mavi-bar-menu.nunjucks" %}
+        </div>
+
+        <div class="col-sm-6 col-md-9">
+          <div class="row pb-4">
+            {% include "partials/baskanimiz/biyografi.nunjucks" %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    {% include "partials/footer.nunjucks" %}
+
+    <!--SCRİPTLER-->
+    {% include "partials/script.nunjucks" %}
+  </div>
+{% endblock %}
