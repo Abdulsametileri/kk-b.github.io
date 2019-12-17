@@ -1,0 +1,22 @@
+.bilgi-hizmetleri-detay {
+  #breadcrumb-text {
+    white-space: pre;
+    overflow: hidden;
+  }
+  #detay-img {
+    width: 100%;
+  }
+  #detay-baslik {
+    font-size: 24px;
+    color: rgb(143, 144, 145);
+    font-weight: bold;
+    line-height: 1.292;
+    margin-top: 52px;
+    margin-bottom: 35px;
+  }
+  #detay-aciklama {
+    font-size: 14px;
+    color: rgb(143, 144, 145);
+    line-height: 1.714;
+  }
+}

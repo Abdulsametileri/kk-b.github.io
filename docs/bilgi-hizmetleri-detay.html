@@ -28,7 +28,7 @@
     
   <body onload="getUrl();">
 
-    <div class="bilgi-hizmetleri">
+    <div class="bilgi-hizmetleri bilgi-hizmetleri-detay" >
       <!-- HEADER KISMI-->
       
       
@@ -194,121 +194,12 @@
 </div>
 
       <div class="container">
-        <p class="karamursel-breadcrumb">ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; BİLGİ HİZMETLERİ</p>
+        <p id="breadcrumb-text" class="karamursel-breadcrumb">ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; BİLGİ HİZMETLERİ &nbsp;&nbsp;&nbsp; SALON HİZMETLERİ</p>
 
+        <img id="detay-img" src="">
+        <p id="detay-baslik"></p>
+        <p id="detay-aciklama"></p>
         
-
-        <div class="row" id="bilgi-hizmet-menu">
-          
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
-              <a href="./bilgi-hizmetleri-detay.html?index=1">
-                <div class="img-container">
-                  <img src="img/bilgi-hizmetleri/e.png">
-                  <p>NÖBETÇİ ECZANELER</p>
-                </div>
-              </a>
-            </div>
-          
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
-              <a href="./bilgi-hizmetleri-detay.html?index=1">
-                <div class="img-container">
-                  <img src="img/bilgi-hizmetleri/vefat.png">
-                  <p>VEFAT EDENLER</p>
-                </div>
-              </a>
-            </div>
-          
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
-              <a href="./bilgi-hizmetleri-detay.html?index=1">
-                <div class="img-container">
-                  <img src="img/bilgi-hizmetleri/vapur.png">
-                  <p>VAPUR SAATLERİ</p>
-                </div>
-              </a>
-            </div>
-          
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
-              <a href="./bilgi-hizmetleri-detay.html?index=1">
-                <div class="img-container">
-                  <img src="img/bilgi-hizmetleri/faaliyet.png">
-                  <p>FAALİYET RAPORLARI</p>
-                </div>
-              </a>
-            </div>
-          
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
-              <a href="./bilgi-hizmetleri-detay.html?index=1">
-                <div class="img-container">
-                  <img src="img/bilgi-hizmetleri/meclis.png">
-                  <p>MECLİS TOPLANTILARI</p>
-                </div>
-              </a>
-            </div>
-          
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
-              <a href="./bilgi-hizmetleri-detay.html?index=1">
-                <div class="img-container">
-                  <img src="img/bilgi-hizmetleri/cimer.png">
-                  <p></p>
-                </div>
-              </a>
-            </div>
-          
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
-              <a href="./bilgi-hizmetleri-detay.html?index=1">
-                <div class="img-container">
-                  <img src="img/bilgi-hizmetleri/sportif.png">
-                  <p>SPORTİF HİZMETLER</p>
-                </div>
-              </a>
-            </div>
-          
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
-              <a href="./bilgi-hizmetleri-detay.html?index=1">
-                <div class="img-container">
-                  <img src="img/bilgi-hizmetleri/atikmoloz.png">
-                  <p>ATIK / MOLOZ TOPLAMA HİZMETİ</p>
-                </div>
-              </a>
-            </div>
-          
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
-              <a href="./bilgi-hizmetleri-detay.html?index=1">
-                <div class="img-container">
-                  <img src="img/bilgi-hizmetleri/salonhizmetleri.png">
-                  <p>SALON HİZMETLERİ</p>
-                </div>
-              </a>
-            </div>
-          
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
-              <a href="./bilgi-hizmetleri-detay.html?index=1">
-                <div class="img-container">
-                  <img src="img/bilgi-hizmetleri/elsanatlari.png">
-                  <p>EL SANATLARI VE BECERİ KURSLARI</p>
-                </div>
-              </a>
-            </div>
-          
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
-              <a href="./bilgi-hizmetleri-detay.html?index=1">
-                <div class="img-container">
-                  <img src="img/bilgi-hizmetleri/evlendirme.png">
-                  <p>EVLENDİRME HİZMETLERİ</p>
-                </div>
-              </a>
-            </div>
-          
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
-              <a href="./bilgi-hizmetleri-detay.html?index=1">
-                <div class="img-container">
-                  <img src="img/bilgi-hizmetleri/cenaze.png">
-                  <p>CENAZE HİZMETLERİ</p>
-                </div>
-              </a>
-            </div>
-          
-        </div>
 
       </div>
     </div>
@@ -497,19 +388,59 @@ $('#karamurselDropdownWeb').hover(function () {
 
     <script>
       function getUrl() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const myParam = urlParams.get('asd');
 
-        if (myParam && myParam) {
-          $('#bilgi-hizmet-content').css('display', 'flex')
-          $('#bilgi-hizmet-menu').css('display', 'none')
-        }
-        else {
-          $('#bilgi-hizmet-content').css('display', 'none')
-          $('#bilgi-hizmet-menu').css('display', 'flex')
-        }
-        console.log(myParam)
-        console.log(images)
+        images = [
+          {
+            text: 'NÖBETÇİ ECZANELER',
+            src: 'e.png',
+            detayImg: 'img/bilgi-hizmetleri/salonhizmetleri-detay.png',
+            baslik: 'Belediye Kültür Merkezi',
+            detay: "Nikah, düğün ve diğer cemiyetleriniz için belediyemiz Kültür Merkezi hizmetinizdedir. Kayıt ve Rezervasyon işlemleri için Belediye Ana Hizmet Binası / İş Yeri Açma ve Ruhsat Müdürlüğü'müze müraacat edebilirsiniz."
+          },
+          {
+            text: 'VEFAT EDENLER',
+            src: 'vefat.png'
+          }, {
+            text: 'VAPUR SAATLERİ',
+            src: 'vapur.png'
+          }, {
+            text: 'FAALİYET RAPORLARI',
+            src: 'faaliyet.png'
+          }, {
+            text: 'MECLİS TOPLANTILARI',
+            src: 'meclis.png'
+          }, {
+            text: '',
+            src: 'cimer.png'
+          }, {
+            text: 'SPORTİF HİZMETLER',
+            src: 'sportif.png'
+          }, {
+            text: 'ATIK / MOLOZ TOPLAMA HİZMETİ',
+            src: 'atikmoloz.png'
+          }, {
+            text: 'SALON HİZMETLERİ',
+            src: 'salonhizmetleri.png'
+          }, {
+            text: 'EL SANATLARI VE BECERİ KURSLARI',
+            src: 'elsanatlari.png'
+          }, {
+            text: 'EVLENDİRME HİZMETLERİ',
+            src: 'evlendirme.png'
+          }, {
+            text: 'CENAZE HİZMETLERİ',
+            src: 'cenaze.png'
+          }
+        ]
+        const urlParams = new URLSearchParams(window.location.search);
+        const index = urlParams.get('index') - 1;
+        $('#detay-img').attr("src", images[index].detayImg)
+        $('#detay-baslik').text(images[index].baslik)
+        $('#detay-aciklama').text(images[index].detay)
+
+        let breadcrumbTitle = "ANASAYFA  >   BİLGİ HİZMETLERİ  >   "
+        console.log(breadcrumbTitle)
+        $('#breadcrumb-text').text(breadcrumbTitle + images[index].text)
       }
     </script>
   </div>

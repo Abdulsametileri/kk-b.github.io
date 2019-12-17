@@ -7,7 +7,7 @@
 {% block content %}
   <body onload="getUrl();">
 
-    <div class="bilgi-hizmetleri">
+    <div class="bilgi-hizmetleri bilgi-hizmetleri-detay" >
       <!-- HEADER KISMI-->
       {% set headerTitle = 'BİLGİ HİZMETLERİ' %}
       {% set headerResimYol = "img/bilgi-hizmetleri/bilgihizmetleri.png" %}
@@ -15,16 +15,36 @@
       {% include "partials/karamursel-header.nunjucks" %}
 
       <div class="container">
-        <p class="karamursel-breadcrumb">ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; BİLGİ HİZMETLERİ</p>
+        <p id="breadcrumb-text" class="karamursel-breadcrumb">ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; BİLGİ HİZMETLERİ &nbsp;&nbsp;&nbsp; SALON HİZMETLERİ</p>
 
-        {% set images = [
+        <img id="detay-img" src="">
+        <p id="detay-baslik"></p>
+        <p id="detay-aciklama"></p>
+        
+
+      </div>
+    </div>
+
+    <div style="margin-top: 430px; margin-bottom: 80px;">
+      {% include "partials/index/hizmetler.nunjucks" %}
+    </div>
+
+    <!-- FOOTER -->
+    {% include "partials/footer.nunjucks" %}
+
+    <!--SCRİPTLER-->
+    {% include "partials/script.nunjucks" %}
+
+    <script>
+      function getUrl() {
+
+        images = [
           {
-            id: 1,
             text: 'NÖBETÇİ ECZANELER',
             src: 'e.png',
             detayImg: 'img/bilgi-hizmetleri/salonhizmetleri-detay.png',
             baslik: 'Belediye Kültür Merkezi',
-            detay: 'Nikah, düğün ve diğer cemiyetleriniz için belediyemiz Kültür Me'
+            detay: "Nikah, düğün ve diğer cemiyetleriniz için belediyemiz Kültür Merkezi hizmetinizdedir. Kayıt ve Rezervasyon işlemleri için Belediye Ana Hizmet Binası / İş Yeri Açma ve Ruhsat Müdürlüğü'müze müraacat edebilirsiniz."
           },
           {
             text: 'VEFAT EDENLER',
@@ -60,49 +80,16 @@
             text: 'CENAZE HİZMETLERİ',
             src: 'cenaze.png'
           }
-        ] %}
-
-        <div class="row" id="bilgi-hizmet-menu">
-          {% for image in images %}
-            <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
-              <a href="./bilgi-hizmetleri-detay.html?index=1">
-                <div class="img-container">
-                  <img src="img/bilgi-hizmetleri/{{image.src}}">
-                  <p>{{image.text}}</p>
-                </div>
-              </a>
-            </div>
-          {% endfor %}
-        </div>
-
-      </div>
-    </div>
-
-    <div style="margin-top: 430px; margin-bottom: 80px;">
-      {% include "partials/index/hizmetler.nunjucks" %}
-    </div>
-
-    <!-- FOOTER -->
-    {% include "partials/footer.nunjucks" %}
-
-    <!--SCRİPTLER-->
-    {% include "partials/script.nunjucks" %}
-
-    <script>
-      function getUrl() {
+        ]
         const urlParams = new URLSearchParams(window.location.search);
-        const myParam = urlParams.get('asd');
+        const index = urlParams.get('index') - 1;
+        $('#detay-img').attr("src", images[index].detayImg)
+        $('#detay-baslik').text(images[index].baslik)
+        $('#detay-aciklama').text(images[index].detay)
 
-        if (myParam && myParam) {
-          $('#bilgi-hizmet-content').css('display', 'flex')
-          $('#bilgi-hizmet-menu').css('display', 'none')
-        }
-        else {
-          $('#bilgi-hizmet-content').css('display', 'none')
-          $('#bilgi-hizmet-menu').css('display', 'flex')
-        }
-        console.log(myParam)
-        console.log(images)
+        let breadcrumbTitle = "ANASAYFA  >   BİLGİ HİZMETLERİ  >   "
+        console.log(breadcrumbTitle)
+        $('#breadcrumb-text').text(breadcrumbTitle + images[index].text)
       }
     </script>
   </div>

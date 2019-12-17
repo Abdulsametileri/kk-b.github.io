@@ -2490,6 +2490,7 @@ a {
   height: 115px;
   width: 160px; }
   .bilgi-hizmetleri .img-container:hover {
+    cursor: pointer;
     background-color: #007fc5; }
     .bilgi-hizmetleri .img-container:hover img {
       filter: brightness(0) invert(1); }
@@ -2509,3 +2510,23 @@ a {
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 12px; }
+
+.bilgi-hizmetleri-detay #breadcrumb-text {
+  white-space: pre;
+  overflow: hidden; }
+
+.bilgi-hizmetleri-detay #detay-img {
+  width: 100%; }
+
+.bilgi-hizmetleri-detay #detay-baslik {
+  font-size: 24px;
+  color: #8f9091;
+  font-weight: bold;
+  line-height: 1.292;
+  margin-top: 52px;
+  margin-bottom: 35px; }
+
+.bilgi-hizmetleri-detay #detay-aciklama {
+  font-size: 14px;
+  color: #8f9091;
+  line-height: 1.714; }
