@@ -1,0 +1,31 @@
+{% extends "layout.nunjucks" %}
+
+{% block headKismi %}
+  {% include "partials/head.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+
+  <body class="projeler-sayfasi">
+    {% set headerTitle = 'PROJELER' %}
+    {% set headerResimYol = 'img/projeler-menu/projeler.png' %}
+    {% set sayfaId = "5" %}
+    {% include "partials/karamursel-header.nunjucks" %}
+
+    <div class="container">
+      <p class="karamursel-breadcrumb">ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; PROJELER &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; SÖZ VERDİK, YAPTIK</p>
+
+      <div class="row">
+        
+      </div>
+
+      <div style="margin-top: 345px; margin-bottom: 80px;">
+        {% include "partials/index/hizmetler.nunjucks" %}
+      </div>
+    </div>
+    {% include "partials/footer.nunjucks" %}
+
+    {% include "partials/script.nunjucks" %}
+    {% include "partials/iletisim/iletisim-script.nunjucks" %}
+  </body>
+{% endblock %}

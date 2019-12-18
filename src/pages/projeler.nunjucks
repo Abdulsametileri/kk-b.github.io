@@ -20,7 +20,7 @@
           {% set items = [
             {
               title: "SÖZ VERDİK, YAPTIK",
-              href: "#",
+              href: "./sozverdikveyaptik.html",
               class: ""
             }, {
               title: "YENİ PROJELER",
@@ -39,7 +39,6 @@
           <a href="">
             <img class="projeler-tema-resim" style="margin-top: 15px;" src="img/projeler-menu/yeniprojeler.png" alt="">
           </a>
-          
         </div>
       </div>
 
