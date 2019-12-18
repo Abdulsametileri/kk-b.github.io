@@ -1614,7 +1614,7 @@ a {
     .yukaricik {
       left: 70%; } }
 
-.karamursel, .iletisim, .baskanimiz, .kurumsal, .bilgi-hizmetleri {
+.karamursel, .iletisim, .baskanimiz, .kurumsal, .bilgi-hizmetleri, .projeler-sayfasi {
   /* .menu-container {
     border: 1px solid #a9cbef;
     border-radius: 10px;
@@ -1639,7 +1639,7 @@ a {
       }
     }
   } */ }
-  .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+  .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
     height: 325px;
     position: relative;
     /* background-size: cover;
@@ -1654,32 +1654,32 @@ a {
     padding-right: 0px;
     padding-left: 0px; }
     @media (max-width: 825px) {
-      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
         height: 300px; } }
     @media (max-width: 600px) {
-      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
         height: 250px; } }
     @media (max-width: 499px) {
-      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
         height: 230px; } }
-  .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper {
+  .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper, .projeler-sayfasi .header-kesfet-text-wrapper {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 65px; }
     @media (max-width: 576px) {
-      .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper {
+      .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper, .projeler-sayfasi .header-kesfet-text-wrapper {
         bottom: 25px;
         right: 17px; } }
-  .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text {
+  .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text, .projeler-sayfasi .header-kesfet-text {
     font-size: 24px;
     color: white;
     font-weight: bold;
     line-height: 1.083; }
     @media (max-width: 992px) {
-      .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text {
+      .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text, .projeler-sayfasi .header-kesfet-text {
         font-size: 20px; } }
-  .karamursel .karamursel-breadcrumb, .iletisim .karamursel-breadcrumb, .baskanimiz .karamursel-breadcrumb, .kurumsal .karamursel-breadcrumb, .bilgi-hizmetleri .karamursel-breadcrumb {
+  .karamursel .karamursel-breadcrumb, .iletisim .karamursel-breadcrumb, .baskanimiz .karamursel-breadcrumb, .kurumsal .karamursel-breadcrumb, .bilgi-hizmetleri .karamursel-breadcrumb, .projeler-sayfasi .karamursel-breadcrumb {
     font-size: 14px;
     color: #78c0e8;
     font-weight: bold;
@@ -1687,17 +1687,17 @@ a {
     line-height: 1.857;
     text-align: left;
     margin-bottom: 53px; }
-  .karamursel .metin-container .metin-baslik, .iletisim .metin-container .metin-baslik, .baskanimiz .metin-container .metin-baslik, .kurumsal .metin-container .metin-baslik, .bilgi-hizmetleri .metin-container .metin-baslik {
+  .karamursel .metin-container .metin-baslik, .iletisim .metin-container .metin-baslik, .baskanimiz .metin-container .metin-baslik, .kurumsal .metin-container .metin-baslik, .bilgi-hizmetleri .metin-container .metin-baslik, .projeler-sayfasi .metin-container .metin-baslik {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.333;
     letter-spacing: 0.75px; }
-  .karamursel .metin-container .metin-alt-baslik, .iletisim .metin-container .metin-alt-baslik, .baskanimiz .metin-container .metin-alt-baslik, .kurumsal .metin-container .metin-alt-baslik, .bilgi-hizmetleri .metin-container .metin-alt-baslik {
+  .karamursel .metin-container .metin-alt-baslik, .iletisim .metin-container .metin-alt-baslik, .baskanimiz .metin-container .metin-alt-baslik, .kurumsal .metin-container .metin-alt-baslik, .bilgi-hizmetleri .metin-container .metin-alt-baslik, .projeler-sayfasi .metin-container .metin-alt-baslik {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.333;
     letter-spacing: 0.75px; }
-  .karamursel .metin-container .metin, .iletisim .metin-container .metin, .baskanimiz .metin-container .metin, .kurumsal .metin-container .metin, .bilgi-hizmetleri .metin-container .metin {
+  .karamursel .metin-container .metin, .iletisim .metin-container .metin, .baskanimiz .metin-container .metin, .kurumsal .metin-container .metin, .bilgi-hizmetleri .metin-container .metin, .projeler-sayfasi .metin-container .metin {
     font-size: 14px;
     color: #8f9091;
     font-weight: 500;
@@ -1802,7 +1802,7 @@ a {
       #slider-baslik-container #sekilliyazi {
         font-size: 30px; } }
 
-.karamursel, .iletisim, .baskanimiz, .kurumsal, .bilgi-hizmetleri {
+.karamursel, .iletisim, .baskanimiz, .kurumsal, .bilgi-hizmetleri, .projeler-sayfasi {
   /* .menu-container {
     border: 1px solid #a9cbef;
     border-radius: 10px;
@@ -1827,7 +1827,7 @@ a {
       }
     }
   } */ }
-  .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+  .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
     height: 325px;
     position: relative;
     /* background-size: cover;
@@ -1842,32 +1842,32 @@ a {
     padding-right: 0px;
     padding-left: 0px; }
     @media (max-width: 825px) {
-      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
         height: 300px; } }
     @media (max-width: 600px) {
-      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
         height: 250px; } }
     @media (max-width: 499px) {
-      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
         height: 230px; } }
-  .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper {
+  .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper, .projeler-sayfasi .header-kesfet-text-wrapper {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 65px; }
     @media (max-width: 576px) {
-      .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper {
+      .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper, .projeler-sayfasi .header-kesfet-text-wrapper {
         bottom: 25px;
         right: 17px; } }
-  .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text {
+  .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text, .projeler-sayfasi .header-kesfet-text {
     font-size: 24px;
     color: white;
     font-weight: bold;
     line-height: 1.083; }
     @media (max-width: 992px) {
-      .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text {
+      .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text, .projeler-sayfasi .header-kesfet-text {
         font-size: 20px; } }
-  .karamursel .karamursel-breadcrumb, .iletisim .karamursel-breadcrumb, .baskanimiz .karamursel-breadcrumb, .kurumsal .karamursel-breadcrumb, .bilgi-hizmetleri .karamursel-breadcrumb {
+  .karamursel .karamursel-breadcrumb, .iletisim .karamursel-breadcrumb, .baskanimiz .karamursel-breadcrumb, .kurumsal .karamursel-breadcrumb, .bilgi-hizmetleri .karamursel-breadcrumb, .projeler-sayfasi .karamursel-breadcrumb {
     font-size: 14px;
     color: #78c0e8;
     font-weight: bold;
@@ -1875,17 +1875,17 @@ a {
     line-height: 1.857;
     text-align: left;
     margin-bottom: 53px; }
-  .karamursel .metin-container .metin-baslik, .iletisim .metin-container .metin-baslik, .baskanimiz .metin-container .metin-baslik, .kurumsal .metin-container .metin-baslik, .bilgi-hizmetleri .metin-container .metin-baslik {
+  .karamursel .metin-container .metin-baslik, .iletisim .metin-container .metin-baslik, .baskanimiz .metin-container .metin-baslik, .kurumsal .metin-container .metin-baslik, .bilgi-hizmetleri .metin-container .metin-baslik, .projeler-sayfasi .metin-container .metin-baslik {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.333;
     letter-spacing: 0.75px; }
-  .karamursel .metin-container .metin-alt-baslik, .iletisim .metin-container .metin-alt-baslik, .baskanimiz .metin-container .metin-alt-baslik, .kurumsal .metin-container .metin-alt-baslik, .bilgi-hizmetleri .metin-container .metin-alt-baslik {
+  .karamursel .metin-container .metin-alt-baslik, .iletisim .metin-container .metin-alt-baslik, .baskanimiz .metin-container .metin-alt-baslik, .kurumsal .metin-container .metin-alt-baslik, .bilgi-hizmetleri .metin-container .metin-alt-baslik, .projeler-sayfasi .metin-container .metin-alt-baslik {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.333;
     letter-spacing: 0.75px; }
-  .karamursel .metin-container .metin, .iletisim .metin-container .metin, .baskanimiz .metin-container .metin, .kurumsal .metin-container .metin, .bilgi-hizmetleri .metin-container .metin {
+  .karamursel .metin-container .metin, .iletisim .metin-container .metin, .baskanimiz .metin-container .metin, .kurumsal .metin-container .metin, .bilgi-hizmetleri .metin-container .metin, .projeler-sayfasi .metin-container .metin {
     font-size: 14px;
     color: #8f9091;
     font-weight: 500;
@@ -2201,7 +2201,7 @@ a {
   background-repeat: no-repeat;
   background-position: center; }
 
-.karamursel, .iletisim, .baskanimiz, .kurumsal, .bilgi-hizmetleri {
+.karamursel, .iletisim, .baskanimiz, .kurumsal, .bilgi-hizmetleri, .projeler-sayfasi {
   /* .menu-container {
     border: 1px solid #a9cbef;
     border-radius: 10px;
@@ -2226,7 +2226,7 @@ a {
       }
     }
   } */ }
-  .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+  .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
     height: 325px;
     position: relative;
     /* background-size: cover;
@@ -2241,32 +2241,32 @@ a {
     padding-right: 0px;
     padding-left: 0px; }
     @media (max-width: 825px) {
-      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
         height: 300px; } }
     @media (max-width: 600px) {
-      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
         height: 250px; } }
     @media (max-width: 499px) {
-      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
         height: 230px; } }
-  .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper {
+  .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper, .projeler-sayfasi .header-kesfet-text-wrapper {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 65px; }
     @media (max-width: 576px) {
-      .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper {
+      .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper, .projeler-sayfasi .header-kesfet-text-wrapper {
         bottom: 25px;
         right: 17px; } }
-  .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text {
+  .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text, .projeler-sayfasi .header-kesfet-text {
     font-size: 24px;
     color: white;
     font-weight: bold;
     line-height: 1.083; }
     @media (max-width: 992px) {
-      .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text {
+      .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text, .projeler-sayfasi .header-kesfet-text {
         font-size: 20px; } }
-  .karamursel .karamursel-breadcrumb, .iletisim .karamursel-breadcrumb, .baskanimiz .karamursel-breadcrumb, .kurumsal .karamursel-breadcrumb, .bilgi-hizmetleri .karamursel-breadcrumb {
+  .karamursel .karamursel-breadcrumb, .iletisim .karamursel-breadcrumb, .baskanimiz .karamursel-breadcrumb, .kurumsal .karamursel-breadcrumb, .bilgi-hizmetleri .karamursel-breadcrumb, .projeler-sayfasi .karamursel-breadcrumb {
     font-size: 14px;
     color: #78c0e8;
     font-weight: bold;
@@ -2274,17 +2274,17 @@ a {
     line-height: 1.857;
     text-align: left;
     margin-bottom: 53px; }
-  .karamursel .metin-container .metin-baslik, .iletisim .metin-container .metin-baslik, .baskanimiz .metin-container .metin-baslik, .kurumsal .metin-container .metin-baslik, .bilgi-hizmetleri .metin-container .metin-baslik {
+  .karamursel .metin-container .metin-baslik, .iletisim .metin-container .metin-baslik, .baskanimiz .metin-container .metin-baslik, .kurumsal .metin-container .metin-baslik, .bilgi-hizmetleri .metin-container .metin-baslik, .projeler-sayfasi .metin-container .metin-baslik {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.333;
     letter-spacing: 0.75px; }
-  .karamursel .metin-container .metin-alt-baslik, .iletisim .metin-container .metin-alt-baslik, .baskanimiz .metin-container .metin-alt-baslik, .kurumsal .metin-container .metin-alt-baslik, .bilgi-hizmetleri .metin-container .metin-alt-baslik {
+  .karamursel .metin-container .metin-alt-baslik, .iletisim .metin-container .metin-alt-baslik, .baskanimiz .metin-container .metin-alt-baslik, .kurumsal .metin-container .metin-alt-baslik, .bilgi-hizmetleri .metin-container .metin-alt-baslik, .projeler-sayfasi .metin-container .metin-alt-baslik {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.333;
     letter-spacing: 0.75px; }
-  .karamursel .metin-container .metin, .iletisim .metin-container .metin, .baskanimiz .metin-container .metin, .kurumsal .metin-container .metin, .bilgi-hizmetleri .metin-container .metin {
+  .karamursel .metin-container .metin, .iletisim .metin-container .metin, .baskanimiz .metin-container .metin, .kurumsal .metin-container .metin, .bilgi-hizmetleri .metin-container .metin, .projeler-sayfasi .metin-container .metin {
     font-size: 14px;
     color: #8f9091;
     font-weight: 500;
@@ -2303,7 +2303,7 @@ a {
   color: #8f9091;
   line-height: 1.714; }
 
-.karamursel, .iletisim, .baskanimiz, .kurumsal, .bilgi-hizmetleri {
+.karamursel, .iletisim, .baskanimiz, .kurumsal, .bilgi-hizmetleri, .projeler-sayfasi {
   /* .menu-container {
     border: 1px solid #a9cbef;
     border-radius: 10px;
@@ -2328,7 +2328,7 @@ a {
       }
     }
   } */ }
-  .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+  .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
     height: 325px;
     position: relative;
     /* background-size: cover;
@@ -2343,32 +2343,32 @@ a {
     padding-right: 0px;
     padding-left: 0px; }
     @media (max-width: 825px) {
-      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
         height: 300px; } }
     @media (max-width: 600px) {
-      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
         height: 250px; } }
     @media (max-width: 499px) {
-      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
         height: 230px; } }
-  .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper {
+  .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper, .projeler-sayfasi .header-kesfet-text-wrapper {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 65px; }
     @media (max-width: 576px) {
-      .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper {
+      .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper, .projeler-sayfasi .header-kesfet-text-wrapper {
         bottom: 25px;
         right: 17px; } }
-  .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text {
+  .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text, .projeler-sayfasi .header-kesfet-text {
     font-size: 24px;
     color: white;
     font-weight: bold;
     line-height: 1.083; }
     @media (max-width: 992px) {
-      .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text {
+      .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text, .projeler-sayfasi .header-kesfet-text {
         font-size: 20px; } }
-  .karamursel .karamursel-breadcrumb, .iletisim .karamursel-breadcrumb, .baskanimiz .karamursel-breadcrumb, .kurumsal .karamursel-breadcrumb, .bilgi-hizmetleri .karamursel-breadcrumb {
+  .karamursel .karamursel-breadcrumb, .iletisim .karamursel-breadcrumb, .baskanimiz .karamursel-breadcrumb, .kurumsal .karamursel-breadcrumb, .bilgi-hizmetleri .karamursel-breadcrumb, .projeler-sayfasi .karamursel-breadcrumb {
     font-size: 14px;
     color: #78c0e8;
     font-weight: bold;
@@ -2376,23 +2376,23 @@ a {
     line-height: 1.857;
     text-align: left;
     margin-bottom: 53px; }
-  .karamursel .metin-container .metin-baslik, .iletisim .metin-container .metin-baslik, .baskanimiz .metin-container .metin-baslik, .kurumsal .metin-container .metin-baslik, .bilgi-hizmetleri .metin-container .metin-baslik {
+  .karamursel .metin-container .metin-baslik, .iletisim .metin-container .metin-baslik, .baskanimiz .metin-container .metin-baslik, .kurumsal .metin-container .metin-baslik, .bilgi-hizmetleri .metin-container .metin-baslik, .projeler-sayfasi .metin-container .metin-baslik {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.333;
     letter-spacing: 0.75px; }
-  .karamursel .metin-container .metin-alt-baslik, .iletisim .metin-container .metin-alt-baslik, .baskanimiz .metin-container .metin-alt-baslik, .kurumsal .metin-container .metin-alt-baslik, .bilgi-hizmetleri .metin-container .metin-alt-baslik {
+  .karamursel .metin-container .metin-alt-baslik, .iletisim .metin-container .metin-alt-baslik, .baskanimiz .metin-container .metin-alt-baslik, .kurumsal .metin-container .metin-alt-baslik, .bilgi-hizmetleri .metin-container .metin-alt-baslik, .projeler-sayfasi .metin-container .metin-alt-baslik {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.333;
     letter-spacing: 0.75px; }
-  .karamursel .metin-container .metin, .iletisim .metin-container .metin, .baskanimiz .metin-container .metin, .kurumsal .metin-container .metin, .bilgi-hizmetleri .metin-container .metin {
+  .karamursel .metin-container .metin, .iletisim .metin-container .metin, .baskanimiz .metin-container .metin, .kurumsal .metin-container .metin, .bilgi-hizmetleri .metin-container .metin, .projeler-sayfasi .metin-container .metin {
     font-size: 14px;
     color: #8f9091;
     font-weight: 500;
     line-height: 1.714; }
 
-.karamursel, .iletisim, .baskanimiz, .kurumsal, .bilgi-hizmetleri {
+.karamursel, .iletisim, .baskanimiz, .kurumsal, .bilgi-hizmetleri, .projeler-sayfasi {
   /* .menu-container {
     border: 1px solid #a9cbef;
     border-radius: 10px;
@@ -2417,7 +2417,7 @@ a {
       }
     }
   } */ }
-  .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+  .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
     height: 325px;
     position: relative;
     /* background-size: cover;
@@ -2432,32 +2432,32 @@ a {
     padding-right: 0px;
     padding-left: 0px; }
     @media (max-width: 825px) {
-      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
         height: 300px; } }
     @media (max-width: 600px) {
-      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
         height: 250px; } }
     @media (max-width: 499px) {
-      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header {
+      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
         height: 230px; } }
-  .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper {
+  .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper, .projeler-sayfasi .header-kesfet-text-wrapper {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 65px; }
     @media (max-width: 576px) {
-      .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper {
+      .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper, .projeler-sayfasi .header-kesfet-text-wrapper {
         bottom: 25px;
         right: 17px; } }
-  .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text {
+  .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text, .projeler-sayfasi .header-kesfet-text {
     font-size: 24px;
     color: white;
     font-weight: bold;
     line-height: 1.083; }
     @media (max-width: 992px) {
-      .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text {
+      .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text, .projeler-sayfasi .header-kesfet-text {
         font-size: 20px; } }
-  .karamursel .karamursel-breadcrumb, .iletisim .karamursel-breadcrumb, .baskanimiz .karamursel-breadcrumb, .kurumsal .karamursel-breadcrumb, .bilgi-hizmetleri .karamursel-breadcrumb {
+  .karamursel .karamursel-breadcrumb, .iletisim .karamursel-breadcrumb, .baskanimiz .karamursel-breadcrumb, .kurumsal .karamursel-breadcrumb, .bilgi-hizmetleri .karamursel-breadcrumb, .projeler-sayfasi .karamursel-breadcrumb {
     font-size: 14px;
     color: #78c0e8;
     font-weight: bold;
@@ -2465,17 +2465,17 @@ a {
     line-height: 1.857;
     text-align: left;
     margin-bottom: 53px; }
-  .karamursel .metin-container .metin-baslik, .iletisim .metin-container .metin-baslik, .baskanimiz .metin-container .metin-baslik, .kurumsal .metin-container .metin-baslik, .bilgi-hizmetleri .metin-container .metin-baslik {
+  .karamursel .metin-container .metin-baslik, .iletisim .metin-container .metin-baslik, .baskanimiz .metin-container .metin-baslik, .kurumsal .metin-container .metin-baslik, .bilgi-hizmetleri .metin-container .metin-baslik, .projeler-sayfasi .metin-container .metin-baslik {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.333;
     letter-spacing: 0.75px; }
-  .karamursel .metin-container .metin-alt-baslik, .iletisim .metin-container .metin-alt-baslik, .baskanimiz .metin-container .metin-alt-baslik, .kurumsal .metin-container .metin-alt-baslik, .bilgi-hizmetleri .metin-container .metin-alt-baslik {
+  .karamursel .metin-container .metin-alt-baslik, .iletisim .metin-container .metin-alt-baslik, .baskanimiz .metin-container .metin-alt-baslik, .kurumsal .metin-container .metin-alt-baslik, .bilgi-hizmetleri .metin-container .metin-alt-baslik, .projeler-sayfasi .metin-container .metin-alt-baslik {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.333;
     letter-spacing: 0.75px; }
-  .karamursel .metin-container .metin, .iletisim .metin-container .metin, .baskanimiz .metin-container .metin, .kurumsal .metin-container .metin, .bilgi-hizmetleri .metin-container .metin {
+  .karamursel .metin-container .metin, .iletisim .metin-container .metin, .baskanimiz .metin-container .metin, .kurumsal .metin-container .metin, .bilgi-hizmetleri .metin-container .metin, .projeler-sayfasi .metin-container .metin {
     font-size: 14px;
     color: #8f9091;
     font-weight: 500;
@@ -2530,3 +2530,99 @@ a {
   font-size: 14px;
   color: #8f9091;
   line-height: 1.714; }
+
+.karamursel, .iletisim, .baskanimiz, .kurumsal, .bilgi-hizmetleri, .projeler-sayfasi {
+  /* .menu-container {
+    border: 1px solid #a9cbef;
+    border-radius: 10px;
+    background: #fafdff;
+
+    ul {
+      list-style-image: url('../img/list-icon.png');
+      margin-top: 10px;
+      margin-left: 50px;
+
+      li {
+        padding-top: 5px;
+        a {
+          color: rgb(120, 192, 232);
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 2.857;
+          text-transform: uppercase;
+          text-align: left;
+          text-decoration: none;
+        }
+      }
+    }
+  } */ }
+  .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
+    height: 325px;
+    position: relative;
+    /* background-size: cover;
+    @media (max-width: $phone) {
+      background-size: cover;
+    } */
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    overflow: initial;
+    margin-bottom: 50px;
+    padding-right: 0px;
+    padding-left: 0px; }
+    @media (max-width: 825px) {
+      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
+        height: 300px; } }
+    @media (max-width: 600px) {
+      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
+        height: 250px; } }
+    @media (max-width: 499px) {
+      .karamursel .header, .iletisim .header, .baskanimiz .header, .kurumsal .header, .bilgi-hizmetleri .header, .projeler-sayfasi .header {
+        height: 230px; } }
+  .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper, .projeler-sayfasi .header-kesfet-text-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 65px; }
+    @media (max-width: 576px) {
+      .karamursel .header-kesfet-text-wrapper, .iletisim .header-kesfet-text-wrapper, .baskanimiz .header-kesfet-text-wrapper, .kurumsal .header-kesfet-text-wrapper, .bilgi-hizmetleri .header-kesfet-text-wrapper, .projeler-sayfasi .header-kesfet-text-wrapper {
+        bottom: 25px;
+        right: 17px; } }
+  .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text, .projeler-sayfasi .header-kesfet-text {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    line-height: 1.083; }
+    @media (max-width: 992px) {
+      .karamursel .header-kesfet-text, .iletisim .header-kesfet-text, .baskanimiz .header-kesfet-text, .kurumsal .header-kesfet-text, .bilgi-hizmetleri .header-kesfet-text, .projeler-sayfasi .header-kesfet-text {
+        font-size: 20px; } }
+  .karamursel .karamursel-breadcrumb, .iletisim .karamursel-breadcrumb, .baskanimiz .karamursel-breadcrumb, .kurumsal .karamursel-breadcrumb, .bilgi-hizmetleri .karamursel-breadcrumb, .projeler-sayfasi .karamursel-breadcrumb {
+    font-size: 14px;
+    color: #78c0e8;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.857;
+    text-align: left;
+    margin-bottom: 53px; }
+  .karamursel .metin-container .metin-baslik, .iletisim .metin-container .metin-baslik, .baskanimiz .metin-container .metin-baslik, .kurumsal .metin-container .metin-baslik, .bilgi-hizmetleri .metin-container .metin-baslik, .projeler-sayfasi .metin-container .metin-baslik {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.333;
+    letter-spacing: 0.75px; }
+  .karamursel .metin-container .metin-alt-baslik, .iletisim .metin-container .metin-alt-baslik, .baskanimiz .metin-container .metin-alt-baslik, .kurumsal .metin-container .metin-alt-baslik, .bilgi-hizmetleri .metin-container .metin-alt-baslik, .projeler-sayfasi .metin-container .metin-alt-baslik {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.333;
+    letter-spacing: 0.75px; }
+  .karamursel .metin-container .metin, .iletisim .metin-container .metin, .baskanimiz .metin-container .metin, .kurumsal .metin-container .metin, .bilgi-hizmetleri .metin-container .metin, .projeler-sayfasi .metin-container .metin {
+    font-size: 14px;
+    color: #8f9091;
+    font-weight: 500;
+    line-height: 1.714; }
+
+.projeler-sayfasi .menu-container {
+  padding-bottom: 40px; }
+
+.projeler-sayfasi .projeler-tema-resim {
+  width: 100%;
+  cursor: pointer; }

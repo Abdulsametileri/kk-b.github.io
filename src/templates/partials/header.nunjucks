@@ -120,7 +120,7 @@
               <a class="nav-link {% if sayfaId === '4' %}active{% endif %}" href="./kurumsal.html">KURUMSAL</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PROJELER</a>
+              <a class="nav-link {% if sayfaId === '5' %}active{% endif %}" href="./projeler.html">PROJELER</a>
             </li>
             <li class="nav-item">
               <a class="nav-link {% if sayfaId === '6' %}active{% endif %}" href="./bilgi-hizmetleri.html">BİLGİ HİZMETLERİ</a>

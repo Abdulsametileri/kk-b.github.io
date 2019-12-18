@@ -1,0 +1,14 @@
+@import 'karamursel.scss';
+.projeler-sayfasi{
+  @extend .karamursel;
+
+  .menu-container {
+    padding-bottom: 40px;
+  }
+
+  .projeler-tema-resim {
+    width: 100%;
+    cursor: pointer;
+  }
+
+}
