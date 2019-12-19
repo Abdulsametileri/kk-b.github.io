@@ -2626,3 +2626,17 @@ a {
 .projeler-sayfasi .projeler-tema-resim {
   width: 100%;
   cursor: pointer; }
+
+.projeler-sayfasi .proje-detay-baslik {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-family: "Raleway";
+  color: #007fc5;
+  font-weight: bold; }
+
+.projeler-sayfasi .proje-detay-aciklama {
+  font-size: 14px;
+  font-family: "Raleway";
+  color: #bcbcbc;
+  line-height: 1.286; }

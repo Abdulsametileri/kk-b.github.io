@@ -11,4 +11,20 @@
     cursor: pointer;
   }
 
+  .proje-detay-baslik {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: "Raleway";
+    color: rgb(0, 127, 197);
+    font-weight: bold;
+  }
+
+  .proje-detay-aciklama {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(188, 188, 188);
+    line-height: 1.286;
+  }
+
 }

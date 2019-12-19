@@ -1,0 +1,8 @@
+<img src={{proje.projeImgSrc}} alt="" style="width: 100%;">
+<p class="proje-detay-baslik">{{proje.baslik}}</p>
+<p class="proje-detay-aciklama">
+  {{proje.aciklama}}
+</p>
+<a href="" style="cursor: pointer;">
+  <img src="img/projeler-menu/devamicintiklayiniz.png" alt="" >
+</a>
