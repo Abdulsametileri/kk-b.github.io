@@ -63,7 +63,7 @@
         {% endfor %}
       </div>
 
-      <div style="margin-top: 230px; margin-bottom: 80px;">
+      <div style="margin-top: 190px; margin-bottom: 80px;">
         {% include "partials/index/hizmetler.nunjucks" %}
       </div>
     </div>
