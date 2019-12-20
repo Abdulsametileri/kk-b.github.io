@@ -1,0 +1,44 @@
+{% extends "layout.nunjucks" %}
+
+{% block headKismi %}
+  {% include "partials/head.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+
+  <body class="projeler-detay-sayfasi">
+    {% set headerTitle = 'PROJELER' %}
+    {% set headerResimYol = 'img/projeler-menu/projeler.png' %}
+    {% set sayfaId = "5" %}
+    {% include "partials/karamursel-header.nunjucks" %}
+
+    <div class="container">
+      <p class="karamursel-breadcrumb">
+        ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; PROJELER &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; SÖZ VERDİK, YAPTIK &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; KENT MEYDANI
+      </p>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-5">
+          <img src="img/projeler-menu/proje1.png" style="width: 100%; padding-top:3px;" alt="">
+        </div>
+
+        <div class="col-sm-12 col-md-5">
+          <p class="proje-detay-baslik">KENT MEYDANI</p>
+          <p class="proje-detay-aciklama">
+            Kocaeli Büyükşehir Belediyesi’nin de desteğiyle ilçeye 5 bin metrekarelik kent meydanı kazandırdık. Kent meydanında çok modern bir belediye hizmet binasının yanı sıra dükkanlar, 270 araçlık kapalı otopark, nikah salonu ve sinema salonları bulunuyor.
+  <br><br>
+2014 yerel seçimleri öncesinde verdiğimiz sözü tuttuk, Kocaeli Büyükşehir Belediyesi’nin de desteğiyle ilçeye 5 bin metrekarelik kent meydanı kazandırdık. Kent meydanında çok modern bir belediye hizmet binasının yanı sıra dükkanlar, 270 araçlık kapalı otopark, nikah salonu ve sinema salonları bulunuyor. Dal-Çık projesinin tamamlanmasıyla birlikte kent meydanı daha da büyüyecek, ilçenin iki yakası bir araya gelecek.
+          </p>
+        </div>
+      </div>
+
+      <div style="margin-top: 250px; margin-bottom: 80px;">
+        {% include "partials/index/hizmetler.nunjucks" %}
+      </div>
+    </div>
+    {% include "partials/footer.nunjucks" %}
+
+    {% include "partials/script.nunjucks" %}
+    {% include "partials/iletisim/iletisim-script.nunjucks" %}
+  </body>
+{% endblock %}

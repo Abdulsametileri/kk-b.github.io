@@ -1,23 +1,17 @@
 @import 'karamursel.scss';
-.projeler-sayfasi{
+.projeler-detay-sayfasi{
   @extend .karamursel;
 
-  .menu-container {
-    padding-bottom: 40px;
-  }
-
-  .projeler-tema-resim {
-    width: 100%;
-    cursor: pointer;
-  }
+  
 
   .proje-detay-baslik {
-    margin-top: 15px;
-    margin-bottom: 15px;
     font-size: 18px;
     font-family: "Raleway";
     color: rgb(0, 127, 197);
     font-weight: bold;
+    @media (max-width: $xs) {
+      margin-top: 10px;
+    }
   }
 
   .proje-detay-aciklama {
@@ -27,7 +21,6 @@
     line-height: 1.286;
   }
 
-  //bunun altı proje-detay sayfasının cssleridir.
 
   
 

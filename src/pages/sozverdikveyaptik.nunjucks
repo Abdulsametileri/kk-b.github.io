@@ -55,7 +55,7 @@
       <div class="row">
         {% for proje in projeler %}
             <div class="col-sm-12 col-md-6 col-lg-4 " style="padding-bottom: 80px">
-              <a href="">
+              <a href="./proje-detay.html">
                 {% include "partials/projeler/proje.nunjucks" %}
               </a>
           </div>
