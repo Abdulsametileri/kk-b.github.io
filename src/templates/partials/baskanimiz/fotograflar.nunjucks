@@ -3,83 +3,103 @@
   {% set items = [
     {
       id: "image1",
-      src: "img/baskanimiz/fotograflar/1.png"
+      src: "img/baskanimiz/fotograflar/1.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image2",
-      src: "img/baskanimiz/fotograflar/2.png"
+      src: "img/baskanimiz/fotograflar/2.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image3",
-      src: "img/baskanimiz/fotograflar/3.png"
+      src: "img/baskanimiz/fotograflar/3.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image4",
-      src: "img/baskanimiz/fotograflar/4.png"
+      src: "img/baskanimiz/fotograflar/4.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image5",
-      src: "img/baskanimiz/fotograflar/5.png"
+      src: "img/baskanimiz/fotograflar/5.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image6",
-      src: "img/baskanimiz/fotograflar/6.png"
+      src: "img/baskanimiz/fotograflar/6.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image7",
-      src: "img/baskanimiz/fotograflar/7.png"
+      src: "img/baskanimiz/fotograflar/7.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image8",
-      src: "img/baskanimiz/fotograflar/8.png"
+      src: "img/baskanimiz/fotograflar/8.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image9",
-      src: "img/baskanimiz/fotograflar/9.png"
+      src: "img/baskanimiz/fotograflar/9.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image10",
-      src: "img/baskanimiz/fotograflar/10.png"
+      src: "img/baskanimiz/fotograflar/10.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image11",
-      src: "img/baskanimiz/fotograflar/11.png"
+      src: "img/baskanimiz/fotograflar/11.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image12",
-      src: "img/baskanimiz/fotograflar/12.png"
+      src: "img/baskanimiz/fotograflar/12.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image13",
-      src: "img/baskanimiz/fotograflar/13.png"
+      src: "img/baskanimiz/fotograflar/13.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image14",
-      src: "img/baskanimiz/fotograflar/14.png"
+      src: "img/baskanimiz/fotograflar/14.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image15",
-      src: "img/baskanimiz/fotograflar/15.png"
+      src: "img/baskanimiz/fotograflar/15.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image16",
-      src: "img/baskanimiz/fotograflar/16.png"
+      src: "img/baskanimiz/fotograflar/16.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image17",
-      src: "img/baskanimiz/fotograflar/17.png"
+      src: "img/baskanimiz/fotograflar/17.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image18",
-      src: "img/baskanimiz/fotograflar/18.png"
+      src: "img/baskanimiz/fotograflar/18.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image19",
-      src: "img/baskanimiz/fotograflar/19.png"
+      src: "img/baskanimiz/fotograflar/19.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     },
     {
       id: "image20",
-      src: "img/baskanimiz/fotograflar/20.png"
+      src: "img/baskanimiz/fotograflar/20.png",
+      class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
     }
   ]%}
   <div class="row">

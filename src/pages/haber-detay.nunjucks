@@ -7,7 +7,7 @@
 {% block content %}
   <body onload="getUrl();">
 
-    <div class="bilgi-hizmetleri">
+    <div class="haber-detay-sayfasi">
       <!-- HEADER KISMI-->
       {% set headerTitle = 'BİLGİ HİZMETLERİ' %}
       {% set headerResimYol = "img/bilgi-hizmetleri/bilgihizmetleri.png" %}
@@ -17,8 +17,98 @@
       <div class="container">
         <p class="karamursel-breadcrumb">ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; HABERLER &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 6 BİN KİŞİYE BALIK-EKMEK İKRAMI</p>
 
+        <img style="padding-bottom: 40px;" src="img/haber-detay/balikekmekdetay.png" style="width: 100%;">
+
+        <p class="haber-detay-baslik">6 BİN KİŞİYE BALIK-EKMEK İKRAMI</p>
+        <p class="haber-detay-aciklama">
+        
+          Karamürsel Belediyesi’nin düzenlediği Ereğli Balık Festivali kapsamında dün 6 bin kişiye balık-ekmek ikramında bulunuldu
+          <br><br>
+
+          Karamürsel Belediyesi’nin, denizlerde av yasağının sona ermesi nedeniyle düzenlediği Ereğli Balık Festivali bu yıl da çok renkli görüntülere sahne oldu. Türkiye’nin en önemli balık satış merkezlerinden biri olan Ereğli’de gerçekleştirilen festival, iskeleye kurulan dev mangalların yakılmasıyla başladı. Balık kokusu etrafı sarmaya başlayınca, mangalların önünde uzun kuyruklar oluştu. Karamürsel Belediyesi’nin ikram ettiği balık-ekmekleri alan vatandaşlar, sahildeki çay bahçelerinde ya da parklarda oturarak afiyetle yedi.
+          <br><br>
+          <span class="haber-detay-baslik-baslik">6 BİN KİŞİLİK İKRAM</span>
+
+          <br><br>
+          Cuma namazından çıkan Karamürsel Belediye Başkanı İsmail Yıldırım da mangalların başına geçerek balık pişirdi ve vatandaşlara ikram etti. Başkanın elinden balık-ekmek almanın mutluluğunu yaşayan vatandaşlar bir yandan da başkan ile fotoğraf çektirmeye çalıştı. Festival için çevre ilçelerden hatta illerden gelenler dahi vardı. Karamürsel Belediyesi’nin, Ereğli Balık Festivali kapsamında 6 bin kişiye balık-ekmek ikramında bulunduğu öğrenildi.
+          <br><br>
+          <span class="haber-detay-baslik-baslik">IRMAK ARICI EĞLENDİRDİ</span>
+          <br><br>
+          Ereğli Balık Festivali akşam da genç sanatçı Irmak Arıcı konseriyle devam etti. Ereğli’de deniz kenarına kurulan sahnenin etrafını saatler öncesinden dolduran vatandaşlar, Irmak Arıcı’nın seslendirdiği birbirinden güzel şarkılara hep bir ağızdan eşlik etti. Konser arasında sahneye çıkan Karamürsel Belediye Başkanı İsmail Yıldırım öncelikle halkın 30 Ağustos Zafer Bayramı’nı kutladı, ardından genç sanatçıya katılımından ötürü teşekkür etti.
+          <br><br>
+          <span class="haber-detay-baslik-baslik">TAHİR BAŞKANA TEŞEKKÜR</span>
+          <br><br>
+          30 Ağustos Zafer Bayramı’nın öneminden bahsettikten sonra av yasağının son ermesi nedeniyle denizlere açılmaya hazırlanan balıkçılara ‘rastgele’ diyen Başkan Yıldırım, konserin organizasyonunu yapan Ereğli’nin evladı, Kocaeli Büyükşehir Belediye Başkanı Doç.Dr. Tahir Büyükakın’a ve emeği geçen herkese teşekkür etti. Konser alanını dolduran gençler, geç saatlere kadar gönüllerince eğlendi.
+          <br><br>
+        </p>
+
+        <p class="haber-detay-baslik" style="font-size: 18px;">İLGİLİ FOTOĞRAFLAR</p>
+        <div class="galeri-container">
+          <div class="row">
+            {% set items = [
+              {
+                id: "image1",
+                src: "img/haber-detay/1.png",
+                class: 'col-6 col-sm-4 col-md-3 col-lg-2 my-1'
+              },
+              {
+                id: "image2",
+                src: "img/haber-detay/2.png",
+                class: 'col-6 col-sm-4 col-md-3 col-lg-2 my-1'
+              },
+              {
+                id: "image3",
+                src: "img/haber-detay/3.png",
+                class: 'col-6 col-sm-4 col-md-3 col-lg-2 my-1'
+              },
+              {
+                id: "image4",
+                src: "img/haber-detay/4.png",
+                class: 'col-6 col-sm-4 col-md-3 col-lg-2 my-1 '
+              },
+              {
+                id: "image4",
+                src: "img/haber-detay/5.png",
+                class: 'col-6 col-sm-4 col-md-3 col-lg-2 my-1 '
+              },
+              {
+                id: "image1",
+                src: "img/haber-detay/6.png",
+                class: 'col-6 col-sm-4 col-md-3 col-lg-2 my-1 '
+              },
+              {
+                id: "image2",
+                src: "img/haber-detay/7.png",
+                class: 'col-6 col-sm-4 col-md-3 col-lg-2 my-1'
+              },
+              {
+                id: "image3",
+                src: "img/haber-detay/8.png",
+                class: 'col-6 col-sm-4 col-md-3 col-lg-2 my-1'
+              },
+              {
+                id: "image4",
+                src: "img/haber-detay/9.png",
+                class: 'col-6 col-sm-4 col-md-3 col-lg-2 my-1'
+              },
+              {
+                id: "image4",
+                src: "img/haber-detay/10.png",
+                class: 'col-6 col-sm-4 col-md-3 col-lg-2 my-1'
+              }
+              
+              ]%}
+
+              
+            
+            {% include "partials/hoverli-resim-list.nunjucks" %}
+            
+          </div>
+        </div>
+        
       </div>
     </div>
+      
 
     <div style="margin-top: 60px; margin-bottom: 80px;">
       {% include "partials/index/hizmetler.nunjucks" %}

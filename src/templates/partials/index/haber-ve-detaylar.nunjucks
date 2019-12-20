@@ -2,17 +2,19 @@
   <div class="container haberler-container">
   <div class="row">
     <div class="col-sm-12 col-md-12 col-lg-7">
+    <a href="./haber-detay.html">
       <div style="position: relative;">
         <img id="haber-manset-img" class="haber-manset-resim" src="img/haber/gorsel1.png" />
         <div style="cursor: pointer;">
           <h3  id="haber-manset-aciklama" >6 BİN KİŞİYE BALIK EKMEK İKRAMI</h3>
           <img id="haber-manset-aciklama-ok" src="img/haber/sagMaviOk.png" style="z-index: 99;
-    top: 94%;
-    right: 25px;
-    position: absolute;" alt="">
+            top: 94%;
+            right: 25px;
+            position: absolute;" alt="">
         </div>
         
       </div>
+      </a>
     </div>
     <div class="col-sm-12 col-md-12 col-lg-5">
        <div class="baskan-card">

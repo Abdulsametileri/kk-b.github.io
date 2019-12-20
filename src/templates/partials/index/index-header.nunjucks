@@ -63,7 +63,11 @@
           <div id="slider10" class="swiper-slide" style="background-image: url(img/header-slider/10.jpg)"></div>
  #}
 
-          <div id="slider11" class="swiper-slide" style="background-image: url(img/header-slider/11.jpg)"></div>
+
+            <div id="slider11" class="swiper-slide"
+           style="background-image: url(img/header-slider/11.jpg)">
+           </div>
+
           <div id="slider12" class="swiper-slide" style="background-image: url(img/header-slider/12.jpg)"></div>
           <div id="slider13" class="swiper-slide" style="background-image: url(img/header-slider/13.jpg)"></div>
           <div id="slider14" class="swiper-slide" style="background-image: url(img/header-slider/14.jpg)"></div>
