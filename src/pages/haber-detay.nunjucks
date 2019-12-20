@@ -9,9 +9,9 @@
 
     <div class="haber-detay-sayfasi">
       <!-- HEADER KISMI-->
-      {% set headerTitle = 'BİLGİ HİZMETLERİ' %}
-      {% set headerResimYol = "img/bilgi-hizmetleri/bilgihizmetleri.png" %}
-      {% set sayfaId = "6" %}
+      {% set headerTitle = 'HABERLER' %}
+      {% set headerResimYol = "img/haber-detay/haberler-bg.png" %}
+      {% set sayfaId = "1" %}
       {% include "partials/karamursel-header.nunjucks" %}
 
       <div class="container">
