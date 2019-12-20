@@ -7,8 +7,8 @@
 {% block content %}
   <div class="baskanimiz">
     <!-- HEADER KISMI-->
-    {% set headerTitle = 'BAŞKANIMIZ' %}
-    {% set headerResimYol = "img/baskanimiz/baskanimiz.png" %}
+    {% set headerTitle = 'FOTOĞRAFLAR' %}
+    {% set headerResimYol = "img/baskanimiz/fotograflar-baskan.jpg" %}
     {% set sayfaId = "3" %}
     {% include "partials/karamursel-header.nunjucks" %}
 
