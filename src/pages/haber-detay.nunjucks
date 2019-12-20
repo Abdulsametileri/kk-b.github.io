@@ -17,7 +17,7 @@
       <div class="container">
         <p class="karamursel-breadcrumb">ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; HABERLER &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 6 BİN KİŞİYE BALIK-EKMEK İKRAMI</p>
 
-        <img style="padding-bottom: 40px;" src="img/haber-detay/balikekmekdetay.png" style="width: 100%;">
+        <img style="padding-bottom: 40px; width: 100%;" src="img/haber-detay/balikekmekdetay.png" style="width: 100%;">
 
         <p class="haber-detay-baslik">6 BİN KİŞİYE BALIK-EKMEK İKRAMI</p>
         <p class="haber-detay-aciklama">
