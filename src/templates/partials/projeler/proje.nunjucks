@@ -3,6 +3,6 @@
 <p class="proje-detay-aciklama">
   {{proje.aciklama}}
 </p>
-<a href="" style="cursor: pointer;">
+<a href="./proje-detay.html" style="cursor: pointer;">
   <img src="img/projeler-menu/devamicintiklayiniz.png" alt="" >
 </a>

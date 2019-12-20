@@ -1,0 +1,35 @@
+{% extends "layout.nunjucks" %}
+
+{% block headKismi %}
+  {% include "partials/head.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+  <body onload="getUrl();">
+
+    <div class="bilgi-hizmetleri">
+      <!-- HEADER KISMI-->
+      {% set headerTitle = 'BİLGİ HİZMETLERİ' %}
+      {% set headerResimYol = "img/bilgi-hizmetleri/bilgihizmetleri.png" %}
+      {% set sayfaId = "6" %}
+      {% include "partials/karamursel-header.nunjucks" %}
+
+      <div class="container">
+        <p class="karamursel-breadcrumb">ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; HABERLER &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 6 BİN KİŞİYE BALIK-EKMEK İKRAMI</p>
+
+      </div>
+    </div>
+
+    <div style="margin-top: 60px; margin-bottom: 80px;">
+      {% include "partials/index/hizmetler.nunjucks" %}
+    </div>
+
+    <!-- FOOTER -->
+    {% include "partials/footer.nunjucks" %}
+
+    <!--SCRİPTLER-->
+    {% include "partials/script.nunjucks" %}
+
+  </div>
+</body>
+{% endblock %}
