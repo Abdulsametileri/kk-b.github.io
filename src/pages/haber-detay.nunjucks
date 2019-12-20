@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block content %}
-  <body onload="getUrl();">
+  <body>
 
     <div class="haber-detay-sayfasi">
       <!-- HEADER KISMI-->
