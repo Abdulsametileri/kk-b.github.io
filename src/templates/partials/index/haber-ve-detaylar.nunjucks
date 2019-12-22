@@ -33,7 +33,7 @@
                 </li>
               </ul>
             </div>
-            <a href="https://wa.me/+05524544140" style="padding-left: 25px;">
+            <a href="https://api.whatsapp.com/send?phone=+905524544140" style="padding-left: 25px;">
               <img src="img/haber/whatsapp-iletisim.png" alt="" />
             </a>
           </div>
