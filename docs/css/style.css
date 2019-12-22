@@ -603,6 +603,12 @@ a {
   top: 10px;
   z-index: -1; }
 
+.online-dergiler-container #dunden-bugune-swiper {
+  height: 340px; }
+  @media (max-width: 499px) {
+    .online-dergiler-container #dunden-bugune-swiper {
+      height: 290px; } }
+
 .online-dergiler-container .row .dundenbugune-container {
   height: 340px;
   border: #a9cbef 2px solid;
@@ -622,59 +628,28 @@ a {
       .online-dergiler-container .row .dundenbugune-container img {
         width: 100%;
         height: 100px; } }
+  .online-dergiler-container .row .dundenbugune-container .dunden-bugune-baslik {
+    background-color: #ecf7ff;
+    font-size: 16.644px;
+    font-family: "Raleway";
+    color: #477fc2;
+    font-weight: bold;
+    line-height: 2.163;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top: 30px;
+    width: 100%; }
+  .online-dergiler-container .row .dundenbugune-container .dunden-bugune-text {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 14.563px;
+    color: #a7c8dc;
+    font-weight: bold;
+    text-align: left; }
   .online-dergiler-container .row .dundenbugune-container .tumuicintiklayiniz {
     width: initial;
-    height: initial; }
-
-.online-dergiler-container .row .owl-dunden-bugune .owl-item-active {
-  border: #a9cbef 2px solid;
-  padding-bottom: 10px;
-  margin: 0; }
-
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik {
-  background-color: #ecf7ff;
-  font-size: 16.644px;
-  font-family: "Raleway";
-  color: #477fc2;
-  font-weight: bold;
-  line-height: 2.163;
-  padding: 5px;
-  padding-left: 20px;
-  margin-top: 30px; }
-
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-text {
-  padding-left: 10px;
-  padding-top: 10px;
-  font-size: 14.563px;
-  color: #a7c8dc;
-  font-weight: bold;
-  text-align: left; }
-
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik-yedek {
-  margin: 0;
-  margin-top: 30px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  font-size: 20.295px;
-  color: #585b6a;
-  font-weight: bold;
-  text-align: left; }
-
-.online-dergiler-container .row .owl-dunden-bugune .tumuicintiklayiniz {
-  margin-top: 5px;
-  width: initial;
-  float: right; }
-
-.online-dergiler-container .row .owl-dunden-bugune .owl-nav {
-  border: none;
-  position: absolute;
-  width: 100%;
-  top: 40%; }
-  .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-prev {
-    margin: 0px;
-    float: left; }
-  .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-next {
-    margin: 0px;
+    height: initial;
+    margin-top: 5px;
     float: right; }
 
 .owl-two .owl-nav {
@@ -920,6 +895,12 @@ a {
   top: 10px;
   z-index: -1; }
 
+.online-dergiler-container #dunden-bugune-swiper {
+  height: 340px; }
+  @media (max-width: 499px) {
+    .online-dergiler-container #dunden-bugune-swiper {
+      height: 290px; } }
+
 .online-dergiler-container .row .dundenbugune-container {
   height: 340px;
   border: #a9cbef 2px solid;
@@ -939,59 +920,28 @@ a {
       .online-dergiler-container .row .dundenbugune-container img {
         width: 100%;
         height: 100px; } }
+  .online-dergiler-container .row .dundenbugune-container .dunden-bugune-baslik {
+    background-color: #ecf7ff;
+    font-size: 16.644px;
+    font-family: "Raleway";
+    color: #477fc2;
+    font-weight: bold;
+    line-height: 2.163;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top: 30px;
+    width: 100%; }
+  .online-dergiler-container .row .dundenbugune-container .dunden-bugune-text {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 14.563px;
+    color: #a7c8dc;
+    font-weight: bold;
+    text-align: left; }
   .online-dergiler-container .row .dundenbugune-container .tumuicintiklayiniz {
     width: initial;
-    height: initial; }
-
-.online-dergiler-container .row .owl-dunden-bugune .owl-item-active {
-  border: #a9cbef 2px solid;
-  padding-bottom: 10px;
-  margin: 0; }
-
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik {
-  background-color: #ecf7ff;
-  font-size: 16.644px;
-  font-family: "Raleway";
-  color: #477fc2;
-  font-weight: bold;
-  line-height: 2.163;
-  padding: 5px;
-  padding-left: 20px;
-  margin-top: 30px; }
-
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-text {
-  padding-left: 10px;
-  padding-top: 10px;
-  font-size: 14.563px;
-  color: #a7c8dc;
-  font-weight: bold;
-  text-align: left; }
-
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik-yedek {
-  margin: 0;
-  margin-top: 30px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  font-size: 20.295px;
-  color: #585b6a;
-  font-weight: bold;
-  text-align: left; }
-
-.online-dergiler-container .row .owl-dunden-bugune .tumuicintiklayiniz {
-  margin-top: 5px;
-  width: initial;
-  float: right; }
-
-.online-dergiler-container .row .owl-dunden-bugune .owl-nav {
-  border: none;
-  position: absolute;
-  width: 100%;
-  top: 40%; }
-  .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-prev {
-    margin: 0px;
-    float: left; }
-  .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-next {
-    margin: 0px;
+    height: initial;
+    margin-top: 5px;
     float: right; }
 
 .owl-two .owl-nav {
@@ -1116,6 +1066,12 @@ a {
   top: 10px;
   z-index: -1; }
 
+.online-dergiler-container #dunden-bugune-swiper {
+  height: 340px; }
+  @media (max-width: 499px) {
+    .online-dergiler-container #dunden-bugune-swiper {
+      height: 290px; } }
+
 .online-dergiler-container .row .dundenbugune-container {
   height: 340px;
   border: #a9cbef 2px solid;
@@ -1135,59 +1091,28 @@ a {
       .online-dergiler-container .row .dundenbugune-container img {
         width: 100%;
         height: 100px; } }
+  .online-dergiler-container .row .dundenbugune-container .dunden-bugune-baslik {
+    background-color: #ecf7ff;
+    font-size: 16.644px;
+    font-family: "Raleway";
+    color: #477fc2;
+    font-weight: bold;
+    line-height: 2.163;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top: 30px;
+    width: 100%; }
+  .online-dergiler-container .row .dundenbugune-container .dunden-bugune-text {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 14.563px;
+    color: #a7c8dc;
+    font-weight: bold;
+    text-align: left; }
   .online-dergiler-container .row .dundenbugune-container .tumuicintiklayiniz {
     width: initial;
-    height: initial; }
-
-.online-dergiler-container .row .owl-dunden-bugune .owl-item-active {
-  border: #a9cbef 2px solid;
-  padding-bottom: 10px;
-  margin: 0; }
-
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik {
-  background-color: #ecf7ff;
-  font-size: 16.644px;
-  font-family: "Raleway";
-  color: #477fc2;
-  font-weight: bold;
-  line-height: 2.163;
-  padding: 5px;
-  padding-left: 20px;
-  margin-top: 30px; }
-
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-text {
-  padding-left: 10px;
-  padding-top: 10px;
-  font-size: 14.563px;
-  color: #a7c8dc;
-  font-weight: bold;
-  text-align: left; }
-
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik-yedek {
-  margin: 0;
-  margin-top: 30px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  font-size: 20.295px;
-  color: #585b6a;
-  font-weight: bold;
-  text-align: left; }
-
-.online-dergiler-container .row .owl-dunden-bugune .tumuicintiklayiniz {
-  margin-top: 5px;
-  width: initial;
-  float: right; }
-
-.online-dergiler-container .row .owl-dunden-bugune .owl-nav {
-  border: none;
-  position: absolute;
-  width: 100%;
-  top: 40%; }
-  .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-prev {
-    margin: 0px;
-    float: left; }
-  .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-next {
-    margin: 0px;
+    height: initial;
+    margin-top: 5px;
     float: right; }
 
 .owl-two .owl-nav {
@@ -1401,6 +1326,12 @@ a {
   top: 10px;
   z-index: -1; }
 
+.online-dergiler-container #dunden-bugune-swiper {
+  height: 340px; }
+  @media (max-width: 499px) {
+    .online-dergiler-container #dunden-bugune-swiper {
+      height: 290px; } }
+
 .online-dergiler-container .row .dundenbugune-container {
   height: 340px;
   border: #a9cbef 2px solid;
@@ -1420,59 +1351,28 @@ a {
       .online-dergiler-container .row .dundenbugune-container img {
         width: 100%;
         height: 100px; } }
+  .online-dergiler-container .row .dundenbugune-container .dunden-bugune-baslik {
+    background-color: #ecf7ff;
+    font-size: 16.644px;
+    font-family: "Raleway";
+    color: #477fc2;
+    font-weight: bold;
+    line-height: 2.163;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top: 30px;
+    width: 100%; }
+  .online-dergiler-container .row .dundenbugune-container .dunden-bugune-text {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 14.563px;
+    color: #a7c8dc;
+    font-weight: bold;
+    text-align: left; }
   .online-dergiler-container .row .dundenbugune-container .tumuicintiklayiniz {
     width: initial;
-    height: initial; }
-
-.online-dergiler-container .row .owl-dunden-bugune .owl-item-active {
-  border: #a9cbef 2px solid;
-  padding-bottom: 10px;
-  margin: 0; }
-
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik {
-  background-color: #ecf7ff;
-  font-size: 16.644px;
-  font-family: "Raleway";
-  color: #477fc2;
-  font-weight: bold;
-  line-height: 2.163;
-  padding: 5px;
-  padding-left: 20px;
-  margin-top: 30px; }
-
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-text {
-  padding-left: 10px;
-  padding-top: 10px;
-  font-size: 14.563px;
-  color: #a7c8dc;
-  font-weight: bold;
-  text-align: left; }
-
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik-yedek {
-  margin: 0;
-  margin-top: 30px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  font-size: 20.295px;
-  color: #585b6a;
-  font-weight: bold;
-  text-align: left; }
-
-.online-dergiler-container .row .owl-dunden-bugune .tumuicintiklayiniz {
-  margin-top: 5px;
-  width: initial;
-  float: right; }
-
-.online-dergiler-container .row .owl-dunden-bugune .owl-nav {
-  border: none;
-  position: absolute;
-  width: 100%;
-  top: 40%; }
-  .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-prev {
-    margin: 0px;
-    float: left; }
-  .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-next {
-    margin: 0px;
+    height: initial;
+    margin-top: 5px;
     float: right; }
 
 .owl-two .owl-nav {
@@ -2085,6 +1985,12 @@ a {
   top: 10px;
   z-index: -1; }
 
+.online-dergiler-container #dunden-bugune-swiper {
+  height: 340px; }
+  @media (max-width: 499px) {
+    .online-dergiler-container #dunden-bugune-swiper {
+      height: 290px; } }
+
 .online-dergiler-container .row .dundenbugune-container {
   height: 340px;
   border: #a9cbef 2px solid;
@@ -2104,59 +2010,28 @@ a {
       .online-dergiler-container .row .dundenbugune-container img {
         width: 100%;
         height: 100px; } }
+  .online-dergiler-container .row .dundenbugune-container .dunden-bugune-baslik {
+    background-color: #ecf7ff;
+    font-size: 16.644px;
+    font-family: "Raleway";
+    color: #477fc2;
+    font-weight: bold;
+    line-height: 2.163;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top: 30px;
+    width: 100%; }
+  .online-dergiler-container .row .dundenbugune-container .dunden-bugune-text {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 14.563px;
+    color: #a7c8dc;
+    font-weight: bold;
+    text-align: left; }
   .online-dergiler-container .row .dundenbugune-container .tumuicintiklayiniz {
     width: initial;
-    height: initial; }
-
-.online-dergiler-container .row .owl-dunden-bugune .owl-item-active {
-  border: #a9cbef 2px solid;
-  padding-bottom: 10px;
-  margin: 0; }
-
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik {
-  background-color: #ecf7ff;
-  font-size: 16.644px;
-  font-family: "Raleway";
-  color: #477fc2;
-  font-weight: bold;
-  line-height: 2.163;
-  padding: 5px;
-  padding-left: 20px;
-  margin-top: 30px; }
-
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-text {
-  padding-left: 10px;
-  padding-top: 10px;
-  font-size: 14.563px;
-  color: #a7c8dc;
-  font-weight: bold;
-  text-align: left; }
-
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik-yedek {
-  margin: 0;
-  margin-top: 30px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  font-size: 20.295px;
-  color: #585b6a;
-  font-weight: bold;
-  text-align: left; }
-
-.online-dergiler-container .row .owl-dunden-bugune .tumuicintiklayiniz {
-  margin-top: 5px;
-  width: initial;
-  float: right; }
-
-.online-dergiler-container .row .owl-dunden-bugune .owl-nav {
-  border: none;
-  position: absolute;
-  width: 100%;
-  top: 40%; }
-  .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-prev {
-    margin: 0px;
-    float: left; }
-  .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-next {
-    margin: 0px;
+    height: initial;
+    margin-top: 5px;
     float: right; }
 
 .owl-two .owl-nav {

@@ -1,245 +1,106 @@
 <div class="container online-dergiler-container">
   <div class="row dergi-dundenbugun-row">
-    <div class="col-12 col-md-12 col-lg-6">
-        <div class="row" style="margin: 0px; margin-bottom: 30px; margin-top: 40px;" >
-          <span class="online-dergiler-container-baslik-bold">DÜNDEN</span>
-          <span class="online-dergiler-container-baslik ml-1"> BUGÜNE</span>
-        </div>
 
-        {% set items = [
+    <div class="col-12 col-md-12 col-lg-6">
+      {% set items = [
           {
+            id: 'dunden-bugune-1',
             baslik: '4 Temmuz İlköğretim Okulu',
             onceImg: 'img/dundenbugune/4temmuzonce.jpg',
             sonraImg: 'img/dundenbugune/4temmuzsonra.jpg'
           },
           {
+            id: 'dunden-bugune-2',
             baslik: 'Altınkemer Kumsalı',
             onceImg: 'img/dundenbugune/altinkemeronce.jpg',
             sonraImg: 'img/dundenbugune/altinkemersonra.jpg'
           },
           {
+            id: 'dunden-bugune-3',
             baslik: 'Altınkemer Plajı',
             onceImg: 'img/dundenbugune/altinkemerplajonce.jpg',
             sonraImg: 'img/dundenbugune/altinkemerplajsonra.jpg'
           },
           {
+            id: 'dunden-bugune-4',
             baslik: 'Balık Adası',
             onceImg: 'img/dundenbugune/balikadasionce.jpg',
             sonraImg: 'img/dundenbugune/balikadasisonra.jpg'
           },
           {
+            id: 'dunden-bugune-5',
             baslik: 'İhsaniye-Hayriye Yolu',
             onceImg: 'img/dundenbugune/ihsaniyehayrionce.jpg',
             sonraImg: 'img/dundenbugune/ihsaniyehayrisonra.jpg'
           },
           {
+            id: 'dunden-bugune-6',
             baslik: 'İznik Yolu',
             onceImg: 'img/dundenbugune/iznikeski.jpg',
             sonraImg: 'img/dundenbugune/iznikyeni.jpg'
           },
           {
+            id: 'dunden-bugune-7',
             baslik: 'İznik Yolu Kavşağı',
             onceImg: 'img/dundenbugune/iznikyolonce.jpg',
             sonraImg: 'img/dundenbugune/iznikyolsonra.JPG'
           },
           {
+            id: 'dunden-bugune-8',
             baslik: 'Kara Mürsel Bey Anıtı',
             onceImg: 'img/dundenbugune/kmanitonce.jpg',
             sonraImg: 'img/dundenbugune/kmanitsonra.jpg'
           },
           {
+            id: 'dunden-bugune-9',
             baslik: 'Karamürsel İskelesi',
             onceImg: 'img/dundenbugune/kionce.jpg',
             sonraImg: 'img/dundenbugune/kisonra.jpg'
           },
           {
+            id: 'dunden-bugune-10',
             baslik: 'Mavi Bayraklı Plaj',
             onceImg: 'img/dundenbugune/mavibayrakonce.jpg',
             sonraImg: 'img/dundenbugune/mavibayraksonra.jpg'
           }
         ]%}
-
-        <div class="owl-dunden-bugune owl-carousel owl-theme">
-            {% for item in items %},
-              <div class="row dundenbugune-container">
-                  <div class="col-12">
-                    
+      <div class="row" style="margin: 0px; margin-bottom: 30px; margin-top: 40px;" >
+        <span class="online-dergiler-container-baslik-bold">DÜNDEN</span>
+        <span class="online-dergiler-container-baslik ml-1"> BUGÜNE</span>
+      </div>
+      <div id="dunden-bugune-swiper" 
+           class="swiper-container" >
+        <div class="swiper-wrapper">
+          {% for item in items %}
+            <div id="{{item.id}}" class="row dundenbugune-container swiper-slide">
+              <div class="col-12">
+                <p class="dunden-bugune-baslik">{{item.baslik}}</p>
+                <div class="row">
+                  <div class="col-6">
+                    <div>
+                      <img src="{{item.onceImg}}"  alt=""/>
+                      <p class="dunden-bugune-text">ÖNCE</p>
+                    </div>
                   </div>
+                  <div class="col-6">
+                    <div>
+                      <img src="{{item.sonraImg}}"  alt=""/>
+                      <p class="dunden-bugune-text">SONRA</p>
+                      <a href="">
+                        <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
-            {% endfor %}
+            </div>
+          {% endfor %}
         </div>
+        
+        <div class="swiper-button-prev dunden-bugune-prev" style="right: 5px;"><img src="img/projeler/sol_ok_icon.png" alt=""></div>
+        <div class="swiper-button-next dunden-bugune-next" style="right: 5px;"><img src="img/projeler/sag_ok_icon.png" alt=""></div>
+      </div>
     </div>
-          {# <div class="col-6">
-            <div>
-                <img class="dunden-bugune-img" src="img/dundenbugune/4temmuzonce.jpg"  alt=""/>
-                <p class="dunden-bugune-text">ÖNCE</p>
-              </div>
-          </div>
-          <div class="col-6">
-             <div>
-                <img class="dunden-bugune-img" src="img/dundenbugune/4temmuzsonra.jpg"  alt=""/>
-                <p class="dunden-bugune-text">SONRA</p>
-                <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
-              </div>
-          </div>
-        </div>
-
-        <div class="row dundenbugune-container"  >
-          <div class="col-6">
-            <div>
-                <p class="dunden-bugune-text">ÖNCESİ</p>
-                <img src="img/dundenbugune/altinkemeronce.jpg"  alt=""/>
-                <p class="dunden-bugune-baslik">Altınkemer Kumsalı</p>
-              </div>
-          </div>
-          <div class="col-6">
-             <div>
-                <p class="dunden-bugune-text">SONRASI</p>
-                <img src="img/dundenbugune/altinkemersonra.jpg"  alt=""/>
-                <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
-              </div>
-          </div>
-        </div>
-
-        <div class="row dundenbugune-container"  >
-          <div class="col-6">
-            <div>
-                <p class="dunden-bugune-text">ÖNCESİ</p>
-                <img src="img/dundenbugune/altinkemerplajonce.jpg"  alt=""/>
-                <p class="dunden-bugune-baslik">Altınkemer Plajı</p>
-              </div>
-          </div>
-          <div class="col-6">
-             <div>
-                <p class="dunden-bugune-text">SONRASI</p>
-                <img src="img/dundenbugune/altinkemerplajsonra.jpg"  alt=""/>
-                <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
-              </div>
-          </div>
-        </div>
-
-        <div class="row dundenbugune-container"  >
-          <div class="col-6">
-            <div>
-                <p class="dunden-bugune-text">ÖNCESİ</p>
-                <img src="img/dundenbugune/balikadasionce.jpg"  alt=""/>
-                <p class="dunden-bugune-baslik">Balık Adası</p>
-              </div>
-          </div>
-          <div class="col-6">
-             <div>
-                <p class="dunden-bugune-text">SONRASI</p>
-                <img src="img/dundenbugune/balikadasisonra.jpg"  alt=""/>
-                <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
-              </div>
-          </div>
-        </div>
-
-        <div class="row dundenbugune-container"  >
-          <div class="col-6">
-            <div>
-                <p class="dunden-bugune-text">ÖNCESİ</p>
-                <img src="img/dundenbugune/ihsaniyehayrionce.jpg"  alt=""/>
-                <p class="dunden-bugune-baslik">İhsaniye-Hayriye Yolu</p>
-              </div>
-          </div>
-          <div class="col-6">
-             <div>
-                <p class="dunden-bugune-text">SONRASI</p>
-                <img src="img/dundenbugune/ihsaniyehayrisonra.jpg"  alt=""/>
-                <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
-              </div>
-          </div>
-        </div>
-
-        <div class="row dundenbugune-container"  >
-          <div class="col-6">
-            <div>
-                <p class="dunden-bugune-text">ÖNCESİ</p>
-                <img src="img/dundenbugune/iznikeski.jpg"  alt=""/>
-                <p class="dunden-bugune-baslik">İznik Yolu</p>
-              </div>
-          </div>
-          <div class="col-6">
-             <div>
-                <p class="dunden-bugune-text">SONRASI</p>
-                <img src="img/dundenbugune/iznikyeni.jpg"  alt=""/>
-                <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
-              </div>
-          </div>
-        </div>
-
-        <div class="row dundenbugune-container"  >
-          <div class="col-6">
-            <div>
-                <p class="dunden-bugune-text">ÖNCESİ</p>
-                <img src="img/dundenbugune/iznikyolonce.jpg"  alt=""/>
-                <p class="dunden-bugune-baslik">İznik Yolu Kavşağı</p>
-              </div>
-          </div>
-          <div class="col-6">
-             <div>
-                <p class="dunden-bugune-text">SONRASI</p>
-                <img src="img/dundenbugune/iznikyolsonra.JPG"  alt=""/>
-                <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
-              </div>
-          </div>
-        </div>
-
-        <div class="row dundenbugune-container"  >
-          <div class="col-6">
-            <div>
-                <p class="dunden-bugune-text">ÖNCESİ</p>
-                <img src="img/dundenbugune/kmanitonce.jpg"  alt=""/>
-                <p class="dunden-bugune-baslik">Kara Mürsel Bey Anıtı</p>
-              </div>
-          </div>
-          <div class="col-6">
-             <div>
-                <p class="dunden-bugune-text">SONRASI</p>
-                <img src="img/dundenbugune/kmanitsonra.jpg"  alt=""/>
-                <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
-              </div>
-          </div>
-        </div>
-
-        <div class="row dundenbugune-container"  >
-          <div class="col-6">
-            <div>
-                <p class="dunden-bugune-text">ÖNCESİ</p>
-                <img src="img/dundenbugune/kionce.jpg"  alt=""/>
-                <p class="dunden-bugune-baslik">Karamürsel İskelesi</p>
-              </div>
-          </div>
-          <div class="col-6">
-             <div>
-                <p class="dunden-bugune-text">SONRASI</p>
-                <img src="img/dundenbugune/kisonra.jpg"  alt=""/>
-                <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
-              </div>
-          </div>
-        </div>
-
-        <div class="row dundenbugune-container"  >
-          <div class="col-6">
-            <div>
-                <p class="dunden-bugune-text">ÖNCESİ</p>
-                <img src="img/dundenbugune/mavibayrakonce.jpg"  alt=""/>
-                <p class="dunden-bugune-baslik">Mavi Bayraklı Plaj</p>
-              </div>
-          </div>
-          <div class="col-6">
-             <div>
-                <p class="dunden-bugune-text">SONRASI</p>
-                <img src="img/dundenbugune/mavibayraksonra.jpg"  alt=""/>
-                <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
-              </div>
-          </div>
-        </div>
- #}
-
-   
- 
 
     <div class="col-12 col-md-12 col-lg-6">
       <p class="video-baslik-bold" style="margin-top: 40px;">
