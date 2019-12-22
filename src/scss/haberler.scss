@@ -190,7 +190,7 @@
   }
 
   .baskan-card {
-    background: url('../img/haber/baskan-bg.png');
+    background: url('../img/haber/baskan-mavi-gorsel.png');
     background-size: contain;
     height: 410px;
     position: relative;
@@ -242,11 +242,11 @@
 
     &-baslik {
       font-size: 29px;
-      color: rgb(58, 102, 175);
+      color: white;
       line-height: 1.236;
       text-align: left;
       width: 100%;
-      background-color: #fbf239;
+      background-color: #52a2e3;
       font-weight: 800;
       padding-top: 25px;
       padding-left: 25px;
@@ -254,10 +254,10 @@
         background-color: initial;
       }
       @media (max-width: $xs){
-        background-color: #fbf239;
+        background-color: #52a2e3;
       }
       @media (max-width: $phone) {
-        background-color: #fbf239;
+        background-color: #52a2e3;
       }
     }
 
@@ -266,7 +266,7 @@
       margin-top: -15px;
       font-weight: 600;
       font-size: 15.644px;
-      color: rgb(58, 102, 175);
+      color: white;
     }
 
     &-container {
@@ -286,7 +286,7 @@
           line-height: 1.5;
         }
         &:nth-child(1) {
-          margin-top: 61px; //eziyor ilk child.
+          margin-top: 64px; //eziyor ilk child.
           @media (max-width: $phone) {
           }
         }

@@ -480,7 +480,7 @@ a {
     font-weight: bold;
     text-align: left; }
   .haberler-container .baskan-card {
-    background: url("../img/haber/baskan-bg.png");
+    background: url("../img/haber/baskan-mavi-gorsel.png");
     background-size: contain;
     height: 410px;
     position: relative;
@@ -525,11 +525,11 @@ a {
         background-position-y: 53%; } }
     .haberler-container .baskan-card-baslik {
       font-size: 29px;
-      color: #3a66af;
+      color: white;
       line-height: 1.236;
       text-align: left;
       width: 100%;
-      background-color: #fbf239;
+      background-color: #52a2e3;
       font-weight: 800;
       padding-top: 25px;
       padding-left: 25px; }
@@ -538,16 +538,16 @@ a {
           background-color: initial; } }
       @media (max-width: 576px) {
         .haberler-container .baskan-card-baslik {
-          background-color: #fbf239; } }
+          background-color: #52a2e3; } }
       @media (max-width: 499px) {
         .haberler-container .baskan-card-baslik {
-          background-color: #fbf239; } }
+          background-color: #52a2e3; } }
     .haberler-container .baskan-card-detay {
       padding-left: 25px;
       margin-top: -15px;
       font-weight: 600;
       font-size: 15.644px;
-      color: #3a66af; }
+      color: white; }
     .haberler-container .baskan-card-container {
       padding-left: 32px; }
       .haberler-container .baskan-card-container-list {
@@ -561,7 +561,7 @@ a {
           font-weight: bold;
           line-height: 1.5; }
         .haberler-container .baskan-card-container-list:nth-child(1) {
-          margin-top: 61px; }
+          margin-top: 64px; }
         @media (max-width: 499px) {
           .haberler-container .baskan-card-container-list:last-child {
             width: 10%; } }

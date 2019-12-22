@@ -18,34 +18,65 @@
     </div>
     <div class="col-sm-12 col-md-12 col-lg-5">
        <div class="baskan-card">
-          
           <div>
             <p class="baskan-card-baslik">İSMAİL YILDIRIM</p>
-          <p class="baskan-card-detay">
-            KARAMÜRSEL BELEDİYE BAŞKANI
-          </p>
-          <div class="baskan-card-container">
-            <ul class="baskan-card-container-list">
-              <li>
-                <a>BİYOGRAFİ</a>
-              </li>
-              <li>
-                <a>FOTOĞRAFLAR</a>
-              </li>
-              <li>
-                <a>BAŞKANA MESAJ</a>
-              </li>
-            </ul>
-          </div>
-          <a class="detaylaricintikla" href="">
-            <img src="img/projeler/detaylaricintikla.png"/>
-          </a>
+            <p class="baskan-card-detay">
+              KARAMÜRSEL BELEDİYE BAŞKANI
+            </p>
+            <div class="baskan-card-container">
+              <ul class="baskan-card-container-list">
+                <li>
+                  <a>BİYOGRAFİ</a>
+                </li>
+                <li>
+                  <a>FOTOĞRAFLAR</a>
+                </li>
+              </ul>
+            </div>
+            <a style="padding-left: 25px;">
+              <img src="img/haber/whatsapp-iletisim.png" alt="" />
+            </a>
           </div>
         </div>
     </div>
   </div>
   <div class="row haberler">
-    <div class="col-12 col-sm-4 col-md-4 col-lg-2 my-1">
+    {% set haberler = [
+        {
+          src: 'img/haber/gorsel1.png',
+          baslik: '6 BİN KİŞİYE BALIK İKRAMI ŞENLİĞİ' 
+        },
+        {
+          src: 'img/haber/gorsel2.png',
+          baslik: 'AÇIK SU YÜZME ŞAMPİYONASI'
+        },
+        {
+          src: 'img/haber/gorsel3.png',
+          baslik: '30 AĞUSTOS ZAFER BAYRAMI KUTLAMASI'
+        },
+        {
+          src: 'img/haber/gorsel4.png',
+          baslik: '4 TEMMUZ KARAMÜRSEL ŞENLİKLERİ'
+        },
+        {
+          src: 'img/haber/gorsel5.png',
+          baslik: '19 MAYIS GENÇLİK VE SPOR BAYRAMI'
+        },
+        {
+          src: 'img/haber/gorsel6.png',
+          baslik: 'KOMEK SERGİSİ BAŞLADI'
+        }
+    ]%}
+    {% for haber in haberler %}
+      <div class="col-12 col-sm-4 col-md-4 col-lg-2 my-1">
+        <div class="haber-preview-wrapper">
+          <img class="haber-preview-resim" src='{{haber.src}}' alt='{{haber.baslik}}' />
+        </div>
+        <p class="haber-preview-detay">{{haber.baslik}}</p>
+      </div>
+    {% endfor %}
+
+    {# <div class="col-12 col-sm-4 col-md-4 col-lg-2 my-1">
       <div class="haber-preview-wrapper">
         <img class="haber-preview-resim" src="img/haber/gorsel1.png" alt="6 BİN KİŞİYE BALIK İKRAMI ŞENLİĞİ" />
       </div>
@@ -80,7 +111,7 @@
         <img class="haber-preview-resim" src="img/haber/gorsel6.png" alt="KOMEK SERGİSİ BAŞLADI" />
       </div>
       <p class="haber-preview-detay">KOMEK SERGİSİ BAŞLADI</p>
-    </div>
+    </div> #}
   </div>
   <div class="row tumhaberlericintiklayin">
     <div class="col-sm">
