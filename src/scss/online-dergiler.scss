@@ -14,26 +14,14 @@
     font-weight: 800;
   }
 
-  .under {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-  }
 
-  .over {
-    position: absolute;
-    left: 5px;
-    top: 10px;
-    z-index: -1;
-  }
 
   .dergi-dundenbugun-row {
     //margin-top: 45px;
   }
 
   #dunden-bugune-swiper {
-    height: 340px;
+    height: 355px;
     @media(max-width: $phone) {
       height: 290px;
     }
@@ -41,7 +29,7 @@
 
   .row {
     .dundenbugune-container {
-      height: 340px;
+      height: 355px;
       border: #a9cbef 2px solid; 
       margin: 0px; 
       padding-bottom: 16px;
@@ -93,7 +81,87 @@
       }
   
     }
-     
+    .duyuru-container {
+      border: #a9cbef 2px solid; 
+      padding-top: 38px;
+      height: 355px;
+
+  
+      @media (max-width: $lg) {
+        padding: initial;
+        padding: 40px 42px 0px 35px;
+      }
+      @media (max-width: $xs) {
+        padding: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 500px;
+      }
+  
+      .duyuru-wrapper {
+        width: 100%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        margin: 0;
+  
+        @media (max-width: $xs) {
+          text-align: center;
+        }
+  
+        &:hover {
+          background-color: #eff6fd;
+          width: 100%;
+          cursor: pointer;
+        }
+  
+        .duyuru-resim {
+          height:72px;
+          width:136px;
+        }
+        .duyuru-baslik {
+          margin-bottom: 0px;
+          font-size: 12.483px;
+          color: rgb(88, 91, 106);
+          font-weight: bold;
+          line-height: 1.717;
+          text-align: left;
+          @media (max-width: $xs) {
+            text-align: center;
+            width: 100%;
+          }
+        }
+  
+        .tarih-row {
+          @media (max-width: $xs) {
+            justify-content: center;
+          }
+        }
+  
+        .duyuru-tarih {
+          font-size: 14.563px;
+          color: rgb(167, 167, 168);
+          font-weight: bold;
+          text-align: left;
+          margin-bottom: 0px;
+          @media (max-width: $xs) {
+            text-align: center;
+          }
+        }
+      }
+  
+      .tumduyuruveilanlar {
+        //padding-top: 30px; 
+        //padding-left: 26px;
+        //padding-bottom: 20px;
+        @media (max-width: $xs) {
+          padding-top: 0px;
+          padding-left: 0px;
+          padding-bottom: 0px;
+          text-align: center;
+        }
+      }
+  
+    }
   }
 }
 .owl-two {
@@ -120,7 +188,7 @@
   }
   
 }
-
+/* 
 .video-duyuru-container-border {
   border: #a9cbef 2px solid;
 }
@@ -240,3 +308,4 @@
   }
 
 }
+ */

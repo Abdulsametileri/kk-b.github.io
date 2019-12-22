@@ -47,7 +47,7 @@
   .duyuru-container {
     @extend .video-duyuru-container-border;
     padding-top: 38px;
-    height: 90%;
+    height: 355px;
 
     @media (max-width: $lg) {
       padding: initial;
