@@ -92,5 +92,5 @@
       </p>
     </div> #}
 
-    <img class="cizgi" src="img/sari_cizgi.png"/>
+    {# <img class="cizgi" src="img/sari_cizgi.png"/> #}
 </div>

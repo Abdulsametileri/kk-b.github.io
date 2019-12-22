@@ -127,7 +127,8 @@ a {
         display: none; } }
     .header .social-media .links a:hover {
       display: inline-block;
-      background: #9dd9fe; }
+      background: #9dd9fe;
+      opacity: 1; }
     .header .social-media .links img:hover {
       opacity: 0.5; }
   .header .navbar-container {
@@ -1537,7 +1538,8 @@ a {
         text-align: center; } }
     .footer .footer-social-media a:hover {
       display: inline-block;
-      background: #9dd9fe; }
+      background: #9dd9fe;
+      opacity: 1; }
     .footer .footer-social-media img:hover {
       opacity: 0.5; }
   .footer .footer-cizgi {
