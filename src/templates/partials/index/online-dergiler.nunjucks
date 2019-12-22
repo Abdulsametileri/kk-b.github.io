@@ -1,24 +1,84 @@
 <div class="container online-dergiler-container">
   <div class="row dergi-dundenbugun-row">
     <div class="col-12 col-md-12 col-lg-6">
-      <div class="row" style="margin: 0px; margin-bottom: 30px; margin-top: 40px;" >
-        <span class="online-dergiler-container-baslik-bold">DÜNDEN</span>
-        <span class="online-dergiler-container-baslik ml-1"> BUGÜNE</span>
-      </div>
+        <div class="row" style="margin: 0px; margin-bottom: 30px; margin-top: 40px;" >
+          <span class="online-dergiler-container-baslik-bold">DÜNDEN</span>
+          <span class="online-dergiler-container-baslik ml-1"> BUGÜNE</span>
+        </div>
 
-      <div class="owl-dunden-bugune owl-carousel owl-theme">
-        <div class="row dundenbugune-container"  >
-          <div class="col-6">
+        {% set items = [
+          {
+            baslik: '4 Temmuz İlköğretim Okulu',
+            onceImg: 'img/dundenbugune/4temmuzonce.jpg',
+            sonraImg: 'img/dundenbugune/4temmuzsonra.jpg'
+          },
+          {
+            baslik: 'Altınkemer Kumsalı',
+            onceImg: 'img/dundenbugune/altinkemeronce.jpg',
+            sonraImg: 'img/dundenbugune/altinkemersonra.jpg'
+          },
+          {
+            baslik: 'Altınkemer Plajı',
+            onceImg: 'img/dundenbugune/altinkemerplajonce.jpg',
+            sonraImg: 'img/dundenbugune/altinkemerplajsonra.jpg'
+          },
+          {
+            baslik: 'Balık Adası',
+            onceImg: 'img/dundenbugune/balikadasionce.jpg',
+            sonraImg: 'img/dundenbugune/balikadasisonra.jpg'
+          },
+          {
+            baslik: 'İhsaniye-Hayriye Yolu',
+            onceImg: 'img/dundenbugune/ihsaniyehayrionce.jpg',
+            sonraImg: 'img/dundenbugune/ihsaniyehayrisonra.jpg'
+          },
+          {
+            baslik: 'İznik Yolu',
+            onceImg: 'img/dundenbugune/iznikeski.jpg',
+            sonraImg: 'img/dundenbugune/iznikyeni.jpg'
+          },
+          {
+            baslik: 'İznik Yolu Kavşağı',
+            onceImg: 'img/dundenbugune/iznikyolonce.jpg',
+            sonraImg: 'img/dundenbugune/iznikyolsonra.JPG'
+          },
+          {
+            baslik: 'Kara Mürsel Bey Anıtı',
+            onceImg: 'img/dundenbugune/kmanitonce.jpg',
+            sonraImg: 'img/dundenbugune/kmanitsonra.jpg'
+          },
+          {
+            baslik: 'Karamürsel İskelesi',
+            onceImg: 'img/dundenbugune/kionce.jpg',
+            sonraImg: 'img/dundenbugune/kisonra.jpg'
+          },
+          {
+            baslik: 'Mavi Bayraklı Plaj',
+            onceImg: 'img/dundenbugune/mavibayrakonce.jpg',
+            sonraImg: 'img/dundenbugune/mavibayraksonra.jpg'
+          }
+        ]%}
+
+        <div class="owl-dunden-bugune owl-carousel owl-theme">
+            {% for item in items %},
+              <div class="row dundenbugune-container">
+                  <div class="col-12">
+                    
+                  </div>
+              </div>
+            {% endfor %}
+        </div>
+    </div>
+          {# <div class="col-6">
             <div>
-                <p class="dunden-bugune-text">ÖNCESİ</p>
-                <img src="img/dundenbugune/4temmuzonce.jpg"  alt=""/>
-                <p class="dunden-bugune-baslik">4 Temmuz İlkögretim Okulu</p>
+                <img class="dunden-bugune-img" src="img/dundenbugune/4temmuzonce.jpg"  alt=""/>
+                <p class="dunden-bugune-text">ÖNCE</p>
               </div>
           </div>
           <div class="col-6">
              <div>
-                <p class="dunden-bugune-text">SONRASI</p>
-                <img src="img/dundenbugune/4temmuzsonra.jpg"  alt=""/>
+                <img class="dunden-bugune-img" src="img/dundenbugune/4temmuzsonra.jpg"  alt=""/>
+                <p class="dunden-bugune-text">SONRA</p>
                 <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
               </div>
           </div>
@@ -176,10 +236,10 @@
               </div>
           </div>
         </div>
+ #}
 
-
-      </div>
-    </div>
+   
+ 
 
     <div class="col-12 col-md-12 col-lg-6">
       <p class="video-baslik-bold" style="margin-top: 40px;">

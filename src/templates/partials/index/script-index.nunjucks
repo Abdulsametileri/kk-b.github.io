@@ -6,29 +6,29 @@
    </script>
 
    
-   <script>
-  $(document).ready(function () {
-  //initialize swiper when document ready
-    var mySwiper = new Swiper ('.swiper-container', {
-      // Optional parameters
-      direction: 'horizontal',
-      loop: true,
-      navigation: {
-        nextEl: '.swiper-button-next-uniq',
-        prevEl: '.swiper-button-prev-uniq',
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-      },
-    })
-    mySwiper.on('slideChange', function () {
-      var slider =$('.swiper-slide-active')[0]
-      var baslik = $("#" + slider.id).data('baslik')
-      $('#slider-title').text(baslik)
-    });
-  });
-  </script>
+      <script>
+      $(document).ready(function () {
+        //initialize swiper when document ready
+          var mySwiper = new Swiper ('.swiper-container', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+            navigation: {
+              nextEl: '.swiper-button-next-uniq',
+              prevEl: '.swiper-button-prev-uniq',
+            },
+            pagination: {
+              el: '.swiper-pagination',
+              type: 'bullets',
+            },
+          })
+          mySwiper.on('slideChange', function () {
+            var slider =$('.swiper-slide-active')[0]
+            var baslik = $("#" + slider.id).data('baslik')
+            $('#slider-title').text(baslik)
+          });
+        });
+      </script>
    
   <script>
 
@@ -109,6 +109,9 @@
           "<img src='img/dergiler/solOk.png'>", "<img src='img/dergiler/sagOk.png'>"
         ],
       });
+
+  
+
     });
   </script>
 

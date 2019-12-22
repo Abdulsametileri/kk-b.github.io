@@ -73,18 +73,34 @@
         margin: 0;
       }
 
+      .dunden-bugune-baslik {
+        background-color: #ecf7ff;
+        font-size: 16.644px;
+        font-family: "Raleway";
+        color: rgb(71, 127, 194);
+        font-weight: bold;
+        line-height: 2.163;
+        padding: 5px;    
+        padding-left: 20px;     
+        margin-top: 30px;
+      }
+
+
+      .dunden-bugune-img {
+
+      }
+
       .dunden-bugune-text {
-          margin: 0;
-          margin-top: 35px;
-          margin-bottom: 5px;
-          margin-left: 5px;
+          padding-left: 10px;
+          padding-top: 10px;
           font-size: 14.563px;
           color: rgb(167, 200, 220);
           font-weight: bold;
           text-align: left;
       }
 
-      .dunden-bugune-baslik {
+      
+      .dunden-bugune-baslik-yedek {
           margin: 0;
           margin-top: 30px;
           margin-bottom: 5px;
@@ -96,7 +112,7 @@
       }
 
       .tumuicintiklayiniz {
-        margin-top: 37px;
+        margin-top: 5px;
         width: initial;
         float: right;
       }
@@ -107,13 +123,15 @@
         //text-align: end;
         position: absolute;
         width: 100%;
-        top: 34%;
+        top: 40%;
 
         .owl-prev {
+          margin: 0px;
           float: left;
         }
 
         .owl-next {
+          margin: 0px;
           float:right;
         }
       }

@@ -631,17 +631,26 @@ a {
   padding-bottom: 10px;
   margin: 0; }
 
+.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik {
+  background-color: #ecf7ff;
+  font-size: 16.644px;
+  font-family: "Raleway";
+  color: #477fc2;
+  font-weight: bold;
+  line-height: 2.163;
+  padding: 5px;
+  padding-left: 20px;
+  margin-top: 30px; }
+
 .online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-text {
-  margin: 0;
-  margin-top: 35px;
-  margin-bottom: 5px;
-  margin-left: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
   font-size: 14.563px;
   color: #a7c8dc;
   font-weight: bold;
   text-align: left; }
 
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik {
+.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik-yedek {
   margin: 0;
   margin-top: 30px;
   margin-bottom: 5px;
@@ -652,7 +661,7 @@ a {
   text-align: left; }
 
 .online-dergiler-container .row .owl-dunden-bugune .tumuicintiklayiniz {
-  margin-top: 37px;
+  margin-top: 5px;
   width: initial;
   float: right; }
 
@@ -660,10 +669,12 @@ a {
   border: none;
   position: absolute;
   width: 100%;
-  top: 34%; }
+  top: 40%; }
   .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-prev {
+    margin: 0px;
     float: left; }
   .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-next {
+    margin: 0px;
     float: right; }
 
 .owl-two .owl-nav {
@@ -937,17 +948,26 @@ a {
   padding-bottom: 10px;
   margin: 0; }
 
+.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik {
+  background-color: #ecf7ff;
+  font-size: 16.644px;
+  font-family: "Raleway";
+  color: #477fc2;
+  font-weight: bold;
+  line-height: 2.163;
+  padding: 5px;
+  padding-left: 20px;
+  margin-top: 30px; }
+
 .online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-text {
-  margin: 0;
-  margin-top: 35px;
-  margin-bottom: 5px;
-  margin-left: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
   font-size: 14.563px;
   color: #a7c8dc;
   font-weight: bold;
   text-align: left; }
 
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik {
+.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik-yedek {
   margin: 0;
   margin-top: 30px;
   margin-bottom: 5px;
@@ -958,7 +978,7 @@ a {
   text-align: left; }
 
 .online-dergiler-container .row .owl-dunden-bugune .tumuicintiklayiniz {
-  margin-top: 37px;
+  margin-top: 5px;
   width: initial;
   float: right; }
 
@@ -966,10 +986,12 @@ a {
   border: none;
   position: absolute;
   width: 100%;
-  top: 34%; }
+  top: 40%; }
   .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-prev {
+    margin: 0px;
     float: left; }
   .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-next {
+    margin: 0px;
     float: right; }
 
 .owl-two .owl-nav {
@@ -1122,17 +1144,26 @@ a {
   padding-bottom: 10px;
   margin: 0; }
 
+.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik {
+  background-color: #ecf7ff;
+  font-size: 16.644px;
+  font-family: "Raleway";
+  color: #477fc2;
+  font-weight: bold;
+  line-height: 2.163;
+  padding: 5px;
+  padding-left: 20px;
+  margin-top: 30px; }
+
 .online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-text {
-  margin: 0;
-  margin-top: 35px;
-  margin-bottom: 5px;
-  margin-left: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
   font-size: 14.563px;
   color: #a7c8dc;
   font-weight: bold;
   text-align: left; }
 
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik {
+.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik-yedek {
   margin: 0;
   margin-top: 30px;
   margin-bottom: 5px;
@@ -1143,7 +1174,7 @@ a {
   text-align: left; }
 
 .online-dergiler-container .row .owl-dunden-bugune .tumuicintiklayiniz {
-  margin-top: 37px;
+  margin-top: 5px;
   width: initial;
   float: right; }
 
@@ -1151,10 +1182,12 @@ a {
   border: none;
   position: absolute;
   width: 100%;
-  top: 34%; }
+  top: 40%; }
   .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-prev {
+    margin: 0px;
     float: left; }
   .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-next {
+    margin: 0px;
     float: right; }
 
 .owl-two .owl-nav {
@@ -1396,17 +1429,26 @@ a {
   padding-bottom: 10px;
   margin: 0; }
 
+.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik {
+  background-color: #ecf7ff;
+  font-size: 16.644px;
+  font-family: "Raleway";
+  color: #477fc2;
+  font-weight: bold;
+  line-height: 2.163;
+  padding: 5px;
+  padding-left: 20px;
+  margin-top: 30px; }
+
 .online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-text {
-  margin: 0;
-  margin-top: 35px;
-  margin-bottom: 5px;
-  margin-left: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
   font-size: 14.563px;
   color: #a7c8dc;
   font-weight: bold;
   text-align: left; }
 
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik {
+.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik-yedek {
   margin: 0;
   margin-top: 30px;
   margin-bottom: 5px;
@@ -1417,7 +1459,7 @@ a {
   text-align: left; }
 
 .online-dergiler-container .row .owl-dunden-bugune .tumuicintiklayiniz {
-  margin-top: 37px;
+  margin-top: 5px;
   width: initial;
   float: right; }
 
@@ -1425,10 +1467,12 @@ a {
   border: none;
   position: absolute;
   width: 100%;
-  top: 34%; }
+  top: 40%; }
   .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-prev {
+    margin: 0px;
     float: left; }
   .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-next {
+    margin: 0px;
     float: right; }
 
 .owl-two .owl-nav {
@@ -2069,17 +2113,26 @@ a {
   padding-bottom: 10px;
   margin: 0; }
 
+.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik {
+  background-color: #ecf7ff;
+  font-size: 16.644px;
+  font-family: "Raleway";
+  color: #477fc2;
+  font-weight: bold;
+  line-height: 2.163;
+  padding: 5px;
+  padding-left: 20px;
+  margin-top: 30px; }
+
 .online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-text {
-  margin: 0;
-  margin-top: 35px;
-  margin-bottom: 5px;
-  margin-left: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
   font-size: 14.563px;
   color: #a7c8dc;
   font-weight: bold;
   text-align: left; }
 
-.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik {
+.online-dergiler-container .row .owl-dunden-bugune .dunden-bugune-baslik-yedek {
   margin: 0;
   margin-top: 30px;
   margin-bottom: 5px;
@@ -2090,7 +2143,7 @@ a {
   text-align: left; }
 
 .online-dergiler-container .row .owl-dunden-bugune .tumuicintiklayiniz {
-  margin-top: 37px;
+  margin-top: 5px;
   width: initial;
   float: right; }
 
@@ -2098,10 +2151,12 @@ a {
   border: none;
   position: absolute;
   width: 100%;
-  top: 34%; }
+  top: 40%; }
   .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-prev {
+    margin: 0px;
     float: left; }
   .online-dergiler-container .row .owl-dunden-bugune .owl-nav .owl-next {
+    margin: 0px;
     float: right; }
 
 .owl-two .owl-nav {
