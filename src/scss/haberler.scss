@@ -271,7 +271,10 @@
 
     &-container {
       padding-left: 32px;
-
+      @media (max-width: $phone) {
+        padding-left: 20px;
+      }
+      
       &-list {
         list-style-image: url('../img/projeler/bulletbg.png');
         padding-left: 6px;
@@ -296,6 +299,12 @@
           }
         }
 
+      }
+    }
+    #whatsaplink {
+      padding-left: 25px;
+      @media (max-width: $phone) {
+        padding-left: 10px;
       }
     }
     .detaylaricintikla img{
