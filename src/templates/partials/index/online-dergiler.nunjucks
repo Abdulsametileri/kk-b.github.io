@@ -144,8 +144,10 @@
             </div>
           </div>
         {% endfor %}
-
-        <img src="img/video-duyuru/duyurutum.png" style="padding-left: 15px;padding-top: 18px;" alt=""/>
+        <a href="">
+          <img src="img/video-duyuru/duyurutum.png" style="padding-left: 15px;padding-top: 18px;" alt=""/>
+        </a>
+        
 
         {# <div class="row duyuru-wrapper">
           <div class="col-12 col-sm-5 col-md-3 col-lg-4">
