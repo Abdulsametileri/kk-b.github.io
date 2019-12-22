@@ -62,15 +62,34 @@
           <div id="slider9" class="swiper-slide" style="background-image: url(img/header-slider/09.jpg)"></div>
           <div id="slider10" class="swiper-slide" style="background-image: url(img/header-slider/10.jpg)"></div>
  #}
-
-
-            <div id="slider11" class="swiper-slide"
+          {% set images = [
+            { 
+              id: 'slider11',
+              url: 'img/header-slider/11.jpg'
+            },
+            { 
+              id: 'slider12',
+              url: 'img/header-slider/12.jpg'
+            },
+            { 
+              id: 'slider13',
+              url: 'img/header-slider/13.jpg'
+            },
+            { 
+              id: 'slider14',
+              url: 'img/header-slider/14.jpg'
+            }
+          ]%}
+          {% for image in images %}
+            <div id="{{image.id}}" class="swiper-slide" style="background-image: url({{image.url}})"></div>
+          {% endfor %}
+            {# <div id="slider11" class="swiper-slide"
            style="background-image: url(img/header-slider/11.jpg)">
            </div>
 
           <div id="slider12" class="swiper-slide" style="background-image: url(img/header-slider/12.jpg)"></div>
           <div id="slider13" class="swiper-slide" style="background-image: url(img/header-slider/13.jpg)"></div>
-          <div id="slider14" class="swiper-slide" style="background-image: url(img/header-slider/14.jpg)"></div>
+          <div id="slider14" class="swiper-slide" style="background-image: url(img/header-slider/14.jpg)"></div> #}
 
       </div>
 

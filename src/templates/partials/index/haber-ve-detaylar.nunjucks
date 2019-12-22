@@ -75,43 +75,6 @@
         <p class="haber-preview-detay">{{haber.baslik}}</p>
       </div>
     {% endfor %}
-
-    {# <div class="col-12 col-sm-4 col-md-4 col-lg-2 my-1">
-      <div class="haber-preview-wrapper">
-        <img class="haber-preview-resim" src="img/haber/gorsel1.png" alt="6 BİN KİŞİYE BALIK İKRAMI ŞENLİĞİ" />
-      </div>
-      <p class="haber-preview-detay">6 BİN KİŞİYE BALIK İKRAMI ŞENLİĞİ</p>
-    </div>
-    <div class="col-12 col-sm-4 col-md-4 col-lg-2 my-1">
-      <div class="haber-preview-wrapper">
-        <img class="haber-preview-resim" src="img/haber/gorsel2.png" alt="AÇIK SU YÜZME ŞAMPİYONASI" />
-      </div>
-      <p class="haber-preview-detay">AÇIK SU YÜZME ŞAMPİYONASI</p>
-    </div>
-    <div class="col-12 col-sm-4 col-md-4 col-lg-2 my-1">
-      <div class="haber-preview-wrapper">
-        <img class="haber-preview-resim" src="img/haber/gorsel3.png" alt="30 AĞUSTOS ZAFER BAYRAMI KUTLAMASI" />
-      </div>
-      <p class="haber-preview-detay">30 AĞUSTOS ZAFER BAYRAMI KUTLAMASI</p>
-    </div>
-    <div class="col-12 col-sm-4 col-md-4 col-lg-2 my-1">
-      <div class="haber-preview-wrapper">
-        <img class="haber-preview-resim" src="img/haber/gorsel4.png" alt="4 TEMMUZ KARAMÜRSEL ŞENLİKLERİ" />
-      </div>
-      <p class="haber-preview-detay">4 TEMMUZ KARAMÜRSEL ŞENLİKLERİ</p>
-    </div>
-    <div class="col-12 col-sm-4 col-md-4 col-lg-2 my-1">
-      <div class="haber-preview-wrapper">
-        <img class="haber-preview-resim" src="img/haber/gorsel5.png" alt="19 MAYIS GENÇLİK VE SPOR BAYRAMI" />
-      </div>
-      <p class="haber-preview-detay">19 MAYIS GENÇLİK VE SPOR BAYRAMI</p>
-    </div>
-    <div class="col-12 col-sm-4 col-md-4 col-lg-2 my-1">
-      <div class="haber-preview-wrapper">
-        <img class="haber-preview-resim" src="img/haber/gorsel6.png" alt="KOMEK SERGİSİ BAŞLADI" />
-      </div>
-      <p class="haber-preview-detay">KOMEK SERGİSİ BAŞLADI</p>
-    </div> #}
   </div>
   <div class="row tumhaberlericintiklayin">
     <div class="col-sm">
