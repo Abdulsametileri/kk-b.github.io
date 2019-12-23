@@ -26,9 +26,15 @@
               title: "SÖZ VERDİK, YAPTIK",
               href: "./sozverdikveyaptik.html",
               class: ""
-            }, {
+            }, 
+            {
               title: "YENİ PROJELER",
               href: "#",
+              class: ""
+            },
+            {
+              title: 'YATIRIMLAR',
+              href: '#',
               class: ""
             }
           ] %}
@@ -43,10 +49,15 @@
           <a href="">
             <img class="projeler-tema-resim" style="margin-top: 15px;" src="img/projeler-menu/yeniprojeler.png" alt="">
           </a>
+
+           <a href="">
+            <img class="projeler-tema-resim" style="margin-top: 15px;" src="img/projeler-menu/yatirimlar.png" alt="">
+          </a>
+
         </div>
       </div>
 
-      <div style="margin-top: 345px; margin-bottom: 80px;">
+      <div style="margin-top: 135px; margin-bottom: 80px;">
         {% include "partials/index/hizmetler.nunjucks" %}
       </div>
     </div>
