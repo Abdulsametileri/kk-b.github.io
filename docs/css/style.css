@@ -1213,6 +1213,29 @@ a {
   .hizmetler .hizmet-resim {
     width: 100%;
     height: 115px; }
+  .hizmetler .img-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 115px;
+    width: 160px; }
+    .hizmetler .img-container:hover {
+      cursor: pointer; }
+    .hizmetler .img-container img {
+      object-fit: contain;
+      padding-top: 25px; }
+    .hizmetler .img-container p {
+      font-size: 12px;
+      font-family: "Raleway";
+      color: white;
+      font-weight: bold;
+      line-height: 1.167;
+      text-align: center;
+      width: 100%;
+      padding-left: 18px;
+      padding-right: 18px;
+      padding-top: 12px; }
 
 .online-dergiler-container-baslik, .online-dergiler-container-baslik-bold, .bold-baslik, .footer .footer-baslik-bold, .normal-baslik, .footer .footer-baslik-normal {
   font-size: 28.413px;

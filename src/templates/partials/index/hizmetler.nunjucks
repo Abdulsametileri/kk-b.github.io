@@ -1,11 +1,57 @@
   <div class="container hizmetler">
     <div class="row">
-      <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
-        <a href="">
-          <img class="hizmet-resim" src="img/hizmetler/nobetcieczane.png" alt=""/>
-        </a>
-      </div>
-      <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
+      {% set hizmetler = [
+        {
+          hoverBgColor: '#ff7380',
+          defaultBgColor: '#ca4754',
+          iconSrc: 'e.png',
+          text: 'NÖBETÇİ ECZANELER'
+        },
+        {
+          hoverBgColor: '#b07cba',
+          defaultBgColor: '#79578a',
+          iconSrc: 'vd.png',
+          text: 'VEFAT EDENLER'
+        },
+        {
+          hoverBgColor: '#86cbe8',
+          defaultBgColor: '#67a2c3',
+          iconSrc: 'vs.png',
+          text: 'VAPUR SAATLERİ'
+        },
+        {
+          hoverBgColor: '#63e7c2',
+          defaultBgColor: '#6cc79d',
+          iconSrc: 'fa.png',
+          text: 'FAALİYET RAPORLARI'
+        },
+        {
+          hoverBgColor: '#84e3e5',
+          defaultBgColor: '#72cdd0',
+          iconSrc: 'mt.png',
+          text: 'MECLİS TOPLANTILARI'
+        },
+        {
+          hoverBgColor: '#fcf4cf',
+          defaultBgColor: '#faeda4',
+          iconSrc: 'cimer.png',
+          text: ''
+        }
+      ]%}
+
+      {% for hizmet in hizmetler %}
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
+          <div class="img-container" 
+          onmouseover="this.style.backgroundColor='{{hizmet.hoverBgColor}}'"
+          onmouseout="this.style.backgroundColor='{{hizmet.defaultBgColor}}'"
+          style="background-color: {{hizmet.defaultBgColor}};"
+          >
+            <img src="img/hizmetler/{{hizmet.iconSrc}}">
+            <p>{{hizmet.text}}</p>
+          </div>
+        </div>
+      {% endfor %}
+      {# <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
         <a href="">
           <img class="hizmet-resim" src="img/hizmetler/vefateden.png" alt=""/>
         </a>
@@ -27,6 +73,6 @@
         <a href="">
           <img class="hizmet-resim" src="img/hizmetler/CIMER.png" alt=""/>
         </a>
-      </div>
+      </div> #}
     </div>
   </div>
