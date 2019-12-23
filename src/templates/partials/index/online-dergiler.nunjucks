@@ -147,40 +147,6 @@
         <a href="">
           <img src="img/video-duyuru/duyurutum.png" style="padding-left: 15px;padding-top: 18px;" alt=""/>
         </a>
-        
-
-        {# <div class="row duyuru-wrapper">
-          <div class="col-12 col-sm-5 col-md-3 col-lg-4">
-            <img class="duyuru-resim" src="img/video-duyuru/duyuru1.png" alt=""/>
-          </div>
-          <div class="col-12 col-sm-5 col-md-7 col-lg-7 ml-2">
-            <div class="row">
-              <p class="duyuru-baslik">EKİM AYINDA TOPLANTI YAPILDI</p>
-            </div>
-            <div class="row tarih-row">
-              <p class="duyuru-tarih">02.10.2019</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row duyuru-wrapper">
-          <div class="col-12 col-sm-5 col-md-3 col-lg-4">
-            <img class="duyuru-resim" src="img/video-duyuru/duyuru2.png" alt=""/>
-          </div>
-          <div class="col-12 col-sm-5  col-md-7 col-lg-7 ml-2">
-            <div class="row">
-              <p class="duyuru-baslik">
-                ZEYTİN AĞAÇLARI HAKKINDA ÖNEMLİ DUYURU
-              </p>
-            </div>
-            <div class="row tarih-row">
-              <p class="duyuru-tarih">04.10.2019</p>
-            </div>
-          </div>
-        </div> #}
-
-        
-        
       </div>
     </div>
     {#<div class="col-12 col-md-12 col-lg-6">

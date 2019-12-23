@@ -15,7 +15,7 @@
       {% include "partials/karamursel-header.nunjucks" %}
 
       <div class="container">
-        <p id="breadcrumb-text" class="karamursel-breadcrumb">ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; BİLGİ HİZMETLERİ &nbsp;&nbsp;&nbsp; SALON HİZMETLERİ</p>
+        <p id="breadcrumb-text" class="karamursel-breadcrumb"><a href="./">ANASAYFA</a>&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;<a href="./bilgi-hizmetleri.html">BİLGİ HİZMETLERİ</a>&nbsp;&nbsp;&nbsp;<span id="dinamik-baslik"></span></p>
 
         <img id="detay-img" src="">
         <p id="detay-baslik"></p>
@@ -87,9 +87,9 @@
         $('#detay-baslik').text(images[index].baslik)
         $('#detay-aciklama').text(images[index].detay)
 
-        let breadcrumbTitle = "ANASAYFA  >   BİLGİ HİZMETLERİ  >   "
-        console.log(breadcrumbTitle)
-        $('#breadcrumb-text').text(breadcrumbTitle + images[index].text)
+        let text = $('#breadcrumb-text').text()
+        
+        $('#dinamik-baslik').text(images[index].text)
       }
     </script>
   </div>

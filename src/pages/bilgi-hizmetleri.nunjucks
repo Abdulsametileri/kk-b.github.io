@@ -15,7 +15,11 @@
       {% include "partials/karamursel-header.nunjucks" %}
 
       <div class="container">
-        <p class="karamursel-breadcrumb">ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; BİLGİ HİZMETLERİ</p>
+        <p class="karamursel-breadcrumb">
+          <a href="./">ANASAYFA</a>
+          &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
+          <a href="./bilgi-hizmetleri.html">BİLGİ HİZMETLERİ</a>
+        </p>
 
         {% set images = [
           {

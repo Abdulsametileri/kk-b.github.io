@@ -14,7 +14,13 @@
 
     <div class="container">
       <p class="karamursel-breadcrumb">
-        ANASAYFA &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; PROJELER &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; SÖZ VERDİK, YAPTIK &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; KENT MEYDANI
+        <a href="./">ANASAYFA</a> 
+        &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
+        <a href="./projeler.html">PROJELER </a>
+        &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
+        <a href="./sozverdikveyaptik.html">SÖZ VERDİK, YAPTIK</a> 
+        &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
+        KENT MEYDANI
       </p>
 
       <div class="row">
