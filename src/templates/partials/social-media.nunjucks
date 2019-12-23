@@ -1,0 +1,18 @@
+
+<div class="social-media-alignment">
+
+  {% set socials = [
+    'facebook.png',
+    'twitter.png',
+    'instagram.png',
+    'youtube.png'
+  ]%}
+
+  {% for social in socials %}
+    <div class="social-media-container mr-2">
+      <img src="img/social-media/{{social}}" alt="">
+    </div>
+  {% endfor %}
+</div>
+
+

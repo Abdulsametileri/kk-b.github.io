@@ -7,7 +7,8 @@
       </p>
     </div>
     <div class="col-12 col-sm-6">
-      <div class="footer-social-media">
+      {% include "partials/social-media.nunjucks" %}
+      {# <div class="footer-social-media">
         <a class="mr-1" href="">
           <img src="img/facebook.png" />
         </a>
@@ -22,7 +23,7 @@
         <a class="mr-1" href="">
           <img src="img/youtube.png"/>
         </a>
-      </div>
+      </div> #}
     </div>
 
     <div class="row footer-cizgi"></div>

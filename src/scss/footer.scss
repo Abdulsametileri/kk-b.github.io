@@ -27,21 +27,6 @@
     }
   }
 
-  .footer-social-media {
-    text-align: end;
-    @media (max-width: $xs) {
-      text-align: center;
-    }
-    a:hover {
-      display:inline-block;    
-      background: #9dd9fe;
-      opacity: 1;
-    }
-    img:hover{
-      opacity:0.5;
-    }
-  }
-
   .footer-cizgi {
     border: #9dd9fe 1px solid; 
     width: 100%; 

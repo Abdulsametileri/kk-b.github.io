@@ -7,7 +7,9 @@
           <img src="img/online_islemler.png"/>
         </a>
       </div>
-      <div class="links">
+            {% include "partials/social-media.nunjucks" %}
+
+      {# <div class="links">
         <a class="mr-1" href="">
           <img src="img/facebook.png"/>
         </a>
@@ -20,8 +22,7 @@
         <a  href="">
           <img src="img/youtube.png"/>
         </a>
-      </div>
-
+      </div> #}
     </div>
   </div>
   <div class="container">

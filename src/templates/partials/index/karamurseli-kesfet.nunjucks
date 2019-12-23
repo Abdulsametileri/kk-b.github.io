@@ -33,17 +33,6 @@
         </a>
       </div>
       {% endfor %}
-      {# <div class="col-sm-12 col-md-6 col-lg-4 my-2" >
-        <a href="">
-          <div class="img-kesfet" style="background-image: url(img/indexkaramurselikesfet/konaklama.png)"></div>
-        </a>
-
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-4 my-2" >
-        <a href="">
-          <div class="img-kesfet" style="background-image: url(img/indexkaramurselikesfet/yemeicme.png)"></div>
-        </a>
-      </div> #}
     </div>
     <div>
       <div class="col-4 col-md-6 my-2">
