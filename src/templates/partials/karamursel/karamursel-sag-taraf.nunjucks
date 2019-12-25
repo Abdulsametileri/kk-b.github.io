@@ -41,8 +41,50 @@
       </div>
       <div class="row">
         <div class="row mt-3">
-
-          <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+          {% set items = [
+            {
+               id: "image1",
+               src: 'img/foto-buyuk-1.jpg',
+               class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
+            },
+            {
+               id: "image2",
+               src: 'img/foto-buyuk-2.jpg',
+               class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
+            },
+            {
+               id: "image3",
+               src: 'img/foto-buyuk-3.jpg',
+               class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
+            },
+            {
+               id: "image4",
+               src: 'img/foto-buyuk-4.jpg',
+               class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
+            },
+            {
+               id: "image5",
+               src: 'img/foto-buyuk-5.jpg',
+               class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
+            },
+            {
+               id: "image6",
+               src: 'img/foto-buyuk-6.jpg',
+               class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
+            },
+            {
+               id: "image7",
+               src: 'img/foto-buyuk-7.jpg',
+               class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
+            },
+            {
+               id: "image8",
+               src: 'img/foto-buyuk-8.jpg',
+               class: 'col-6 col-sm-6 col-md-6 col-lg-3 my-2'
+            }
+          ]%}
+          {% include "partials/hoverli-resim-list.nunjucks" %}
+          {# <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
             <div class="galeri-foto-container">
               <img id="image1" onclick="previewImg('image1')"
              src="img/foto-buyuk-1.jpg" class="img-fluid galeri-fotolar"  >
@@ -124,7 +166,7 @@
                     BÜYÜK HALİ İÇİN TIKLAYIN
                   </a>
             </div>
-          </div>
+          </div> #}
         </div>
       </div>
     </div>

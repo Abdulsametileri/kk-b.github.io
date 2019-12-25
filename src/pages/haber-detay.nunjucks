@@ -73,32 +73,32 @@
                 class: 'col-6 col-sm-4 col-md-3 col-lg-2 my-1 '
               },
               {
-                id: "image4",
+                id: "image5",
                 src: "img/haber-detay/5.png",
                 class: 'col-6 col-sm-4 col-md-3 col-lg-2 my-1 '
               },
               {
-                id: "image1",
+                id: "image6",
                 src: "img/haber-detay/6.png",
                 class: 'col-6 col-sm-4 col-md-3 col-lg-2 my-1 '
               },
               {
-                id: "image2",
+                id: "image7",
                 src: "img/haber-detay/7.png",
                 class: 'col-6 col-sm-4 col-md-3 col-lg-2 my-1'
               },
               {
-                id: "image3",
+                id: "image8",
                 src: "img/haber-detay/8.png",
                 class: 'col-6 col-sm-4 col-md-3 col-lg-2 my-1'
               },
               {
-                id: "image4",
+                id: "image9",
                 src: "img/haber-detay/9.png",
                 class: 'col-6 col-sm-4 col-md-3 col-lg-2 my-1'
               },
               {
-                id: "image4",
+                id: "image10",
                 src: "img/haber-detay/10.png",
                 class: 'col-6 col-sm-4 col-md-3 col-lg-2 my-1'
               }
