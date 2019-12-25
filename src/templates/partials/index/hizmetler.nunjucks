@@ -3,38 +3,38 @@
       {% set hizmetler = [
         {
           hoverBgColor: '#ff7380',
-          defaultBgColor: '#ca4754',
+          defaultBgColor: '#EB3D4C',
           iconSrc: 'e.png',
           text: 'NÖBETÇİ ECZANELER'
         },
         {
           hoverBgColor: '#b07cba',
-          defaultBgColor: '#79578a',
+          defaultBgColor: '#78497B',
           iconSrc: 'vd.png',
           text: 'VEFAT EDENLER'
         },
         {
           hoverBgColor: '#86cbe8',
-          defaultBgColor: '#67a2c3',
+          defaultBgColor: '#2291B1',
           iconSrc: 'vs.png',
           text: 'VAPUR SAATLERİ'
         },
         {
           hoverBgColor: '#63e7c2',
-          defaultBgColor: '#6cc79d',
+          defaultBgColor: '#00C194',
           iconSrc: 'fa.png',
           text: 'FAALİYET RAPORLARI'
         },
         {
           hoverBgColor: '#84e3e5',
-          defaultBgColor: '#72cdd0',
+          defaultBgColor: '#00C7C9',
           iconSrc: 'mt.png',
           text: 'MECLİS TOPLANTILARI'
         },
         {
           hoverBgColor: '#fcf4cf',
-          defaultBgColor: '#faeda4',
-          iconSrc: 'cimer.png',
+          defaultBgColor: '#FFEC9E',
+          iconSrc: 'cmr.png',
           text: ''
         }
       ]%}
