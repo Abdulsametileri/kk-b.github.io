@@ -58,14 +58,16 @@
 
         <div class="col-sm-6 col-md-9">
           <div class="row pb-4">
-              {% set calisanlar = [ 'img/kurumsal/1.png',
-              'img/kurumsal/2.png',
-              'img/kurumsal/3.png',
-              'img/kurumsal/4.png',
-              'img/kurumsal/5.png',
-              'img/kurumsal/6.png',
-              'img/kurumsal/7.png',
-              'img/kurumsal/8.png' ] %}
+              {% set calisanlar = [
+              { image: 'alikaracan.png', isim: 'ALİ KARACAN', gorev: 'KOORDİNATOR', dahili: '0041' },
+              { image: 'avnicakmak.png', isim: 'AVNİ ÇAKMAK', gorev: 'BAŞKAN YARDIMCISI', dahili: '0041' },
+              { image: 'nazmiyetunc.png', isim: 'NAZMİYE TUNÇ YILDIRIM', gorev: 'BAŞKAN YARDIMCISI', dahili: '0041' },
+              { image: 'mesutcetinkaya.png', isim: 'MESUT ÇETİNKAYA', gorev: 'BAŞKAN YARDIMCISI', dahili: '0041' },
+              { image: 'ferdigurses.png',isim: 'FERDİ GÜRSES', gorev: 'ÖZEL KALEM MÜDÜRLÜĞÜ', dahili: '0041' },
+              { image: 'timucinuysal.png',isim: 'TİMUÇİN UYSAL', gorev: 'FEN İŞLERİ MÜDÜRLÜĞÜ', dahili: '0041' },
+              { image: 'namiser.png',isim: 'NAMİSER BEKAR', gorev: 'ZABITA MÜDÜRÜ', dahili: '0041' },
+              { image: 'nesecakmak.png', isim: 'NEŞE ÇAKMAK', gorev: 'YAZI İŞLERİ MÜDÜRLÜĞÜ', dahili: '0041' }
+              ] %}
               {% include "partials/kurumsal/calisanlar.nunjucks" %}
           </div>
         </div>

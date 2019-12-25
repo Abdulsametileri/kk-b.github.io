@@ -2442,13 +2442,40 @@ a {
     font-weight: 500;
     line-height: 1.714; }
 
-.kurumsal .dahili-text {
-  font-size: 11px;
-  text-align: center;
-  color: #bdc9d0;
+.kurumsal .calisan-img {
   width: 167px;
+  height: 196px; }
+
+.kurumsal .kisi-ad {
+  font-size: 14px;
   font-family: "Raleway";
-  padding-top: 8px; }
+  color: #868787;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 0px;
+  width: 170px; }
+
+.kurumsal .gorev {
+  font-size: 12px;
+  font-family: "Raleway";
+  color: #78c0e8;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.167;
+  text-align: center;
+  width: 167px;
+  margin-bottom: 0px; }
+
+.kurumsal .dahili-text {
+  font-size: 12px;
+  font-family: "Raleway";
+  color: #aaabab;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  width: 167px; }
 
 .karamursel, .iletisim, .baskanimiz, .kurumsal, .bilgi-hizmetleri, .projeler-sayfasi, .projeler-detay-sayfasi, .haber-detay-sayfasi {
   /* .menu-container {

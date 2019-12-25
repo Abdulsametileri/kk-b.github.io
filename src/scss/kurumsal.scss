@@ -2,12 +2,43 @@
 .kurumsal {
   @extend .karamursel;
 
-  .dahili-text {
-    font-size: 11px;
-    text-align: center;
-    color: #bdc9d0;
+  .calisan-img {
     width: 167px;
+    height: 196px;
+  }
+
+  .kisi-ad {
+    font-size: 14px;
     font-family: "Raleway";
-    padding-top: 8px;
+    color: rgb(134, 135, 135);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;    
+    margin-top: 16px;
+    margin-bottom: 0px;
+    width: 170px;  
+  }
+
+  .gorev {
+    font-size: 12px;
+    font-family: "Raleway";
+    color: rgb(120, 192, 232);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.167;
+    text-align: center;
+    width: 167px;
+    margin-bottom: 0px;
+    
+  }
+
+  .dahili-text {
+    font-size: 12px;
+    font-family: "Raleway";
+    color: rgb(170, 171, 171);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    width: 167px;
   }
 }
