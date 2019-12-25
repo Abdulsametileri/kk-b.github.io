@@ -10,7 +10,7 @@
 
   {% for social in socials %}
     <div class="social-media-container mr-2">
-      <a style="display: inline-block;" href="">
+      <a style="display: inline-block; z-index: 99;" href="">
         <img src="img/social-media/{{social}}" alt="">
       </a>
     </div>
