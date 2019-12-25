@@ -53,6 +53,12 @@
 
   @import 'navbar.scss';
 
+  .banner {
+    @media (max-width: $xs) {
+      background-position-x: 67% !important;
+    }
+  }
+
   .baslik {
     position: relative;
     bottom: 140px;

@@ -5,41 +5,44 @@
   {% set sayfaId = "1" %}
   {% include "partials/header.nunjucks" %}
 
-   <div id="index-swiper" class="swiper-container">
-      <div class="swiper-wrapper">
-          {% set images = [
-            { 
-              id: 'slider11',
-              url: 'img/header-slider/11.jpg'
-            },
-            { 
-              id: 'slider12',
-              url: 'img/header-slider/12.jpg'
-            },
-            { 
-              id: 'slider13',
-              url: 'img/header-slider/13.jpg'
-            },
-            { 
-              id: 'slider14',
-              url: 'img/header-slider/14.jpg'
-            }
+  <div id="index-swiper" class="swiper-container">
+    <div class="swiper-wrapper">
+      {% set images = [
+            {  id: 'slider1', url: '01.jpg' },
+            {  id: 'slider2', url: '02.jpg' },
+            {  id: 'slider3', url: '03.jpg' },
+            {  id: 'slider4', url: '04.jpg' },
+            {  id: 'slider5', url: '05.jpg' },
+            {  id: 'slider6', url: '06.jpg' },
+            {  id: 'slider7', url: '07.jpg' },
+            {  id: 'slider8', url: '08.jpg' },
+            {  id: 'slider9', url: '09.jpg' },
+            {  id: 'slider10', url: '10.jpg' },
+            {  id: 'slider11', url: '11.jpg' },
+            {  id: 'slider12', url: '12.jpg' },
+            {  id: 'slider13', url: '13.jpg' },
+            {  id: 'slider14', url: '14.jpg' },
+            {  id: 'slider15', url: '15.jpg' },
+            {  id: 'slider16', url: '16.jpg' },
+            {  id: 'slider17', url: '17.jpg' },
+            {  id: 'slider18', url: '18.jpg' },
+            {  id: 'slider19', url: '19.jpg' }
           ]%}
-          {% for image in images %}
-            <div id="{{image.id}}" class="swiper-slide" style="background-image: url({{image.url}})"></div>
-          {% endfor %}
-      </div>
+      {% for image in images %}
+        <div id="{{image.id}}" class="swiper-slide banner" style="background-image: url(img/header-slider/{{image.url}})"></div>
+      {% endfor %}
+    </div>
 
-      <div class="swiper-pagination container dots"></div>
+    <div class="swiper-pagination container dots"></div>
 
-      <div class="container navigate-container">
-        <div class="swiper-button-prev-uniq" style="background: url(img/solOk.png);" ></div>
-        <div class="swiper-button-next-uniq" style=" background: url(img/sagOk.png);"></div>
-      </div>
-      
-    </div>  
+    <div class="container navigate-container">
+      <div class="swiper-button-prev-uniq" style="background: url(img/solOk.png);" ></div>
+      <div class="swiper-button-next-uniq" style=" background: url(img/sagOk.png);"></div>
+    </div>
 
-    {# <div id="slider-baslik-container" >
+  </div>
+
+  {# <div id="slider-baslik-container" >
       <p id="slider-title" >
         Karamürsel Belediyesi
       </p>
@@ -48,5 +51,5 @@
       </p>
     </div> #}
 
-    {# <img class="cizgi" src="img/sari_cizgi.png"/> #}
+  {# <img class="cizgi" src="img/sari_cizgi.png"/> #}
 </div>

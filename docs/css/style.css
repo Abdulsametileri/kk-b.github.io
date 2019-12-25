@@ -280,6 +280,9 @@ a {
         background: none;
         margin-top: -23px;
         margin-left: 160px; }
+  @media (max-width: 576px) {
+    .header .banner {
+      background-position-x: 67% !important; } }
   .header .baslik {
     position: relative;
     bottom: 140px;
