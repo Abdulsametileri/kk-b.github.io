@@ -2,7 +2,8 @@
 <div class="row">
   {% for calisan in calisanlar %}
   <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <img src="{{calisan}}" >
+    <img src="{{calisan}}" />
+    <p class="dahili-text">DAHİLİ: 0041</p>
   </div>
   {% endfor %}
 </div>

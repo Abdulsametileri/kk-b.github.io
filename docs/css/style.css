@@ -2442,6 +2442,14 @@ a {
     font-weight: 500;
     line-height: 1.714; }
 
+.kurumsal .dahili-text {
+  font-size: 11px;
+  text-align: center;
+  color: #bdc9d0;
+  width: 167px;
+  font-family: "Raleway";
+  padding-top: 8px; }
+
 .karamursel, .iletisim, .baskanimiz, .kurumsal, .bilgi-hizmetleri, .projeler-sayfasi, .projeler-detay-sayfasi, .haber-detay-sayfasi {
   /* .menu-container {
     border: 1px solid #a9cbef;

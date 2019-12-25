@@ -1,4 +1,13 @@
 @import 'karamursel.scss';
 .kurumsal {
-  @extend .karamursel
+  @extend .karamursel;
+
+  .dahili-text {
+    font-size: 11px;
+    text-align: center;
+    color: #bdc9d0;
+    width: 167px;
+    font-family: "Raleway";
+    padding-top: 8px;
+  }
 }
