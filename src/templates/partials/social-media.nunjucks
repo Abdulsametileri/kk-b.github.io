@@ -10,7 +10,9 @@
 
   {% for social in socials %}
     <div class="social-media-container mr-2">
-      <img src="img/social-media/{{social}}" alt="">
+      <a style="display: inline-block;" href="">
+        <img src="img/social-media/{{social}}" alt="">
+      </a>
     </div>
   {% endfor %}
 </div>

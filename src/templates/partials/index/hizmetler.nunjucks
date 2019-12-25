@@ -35,12 +35,14 @@
           hoverBgColor: '#fcf4cf',
           defaultBgColor: '#FFEC9E',
           iconSrc: 'cmr.png',
-          text: ''
+          text: '',
+          url: 'https://www.cimer.gov.tr'
         }
       ]%}
 
       {% for hizmet in hizmetler %}
         <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
+        <a href="{{hizmet.url}}">
           <div class="img-container" 
           onmouseover="this.style.backgroundColor='{{hizmet.hoverBgColor}}'"
           onmouseout="this.style.backgroundColor='{{hizmet.defaultBgColor}}'"
@@ -50,6 +52,7 @@
             <p>{{hizmet.text}}</p>
           </div>
         </div>
+        </a>
       {% endfor %}
     </div>
   </div>
