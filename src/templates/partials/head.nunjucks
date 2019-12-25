@@ -4,7 +4,7 @@
 <link href="https://fonts.googleapis.com/css?family=Marck+Script&display=swap&subset=latin-ext" rel="stylesheet"/>
 
 <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,600,600i,700,800&display=swap&subset=latin-ext" rel="stylesheet"/>
-
+<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
