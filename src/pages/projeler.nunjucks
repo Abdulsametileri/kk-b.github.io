@@ -41,18 +41,37 @@
           {% include "partials/mavi-bar-menu.nunjucks" %}
         </div>
 
-        <div class="col-sm-6 col-md-9">
-          <a href="./sozverdikveyaptik.html">
-            <img class="projeler-tema-resim" src="img/projeler-menu/sozverdikveyaptik.png" alt="">
-          </a>
-        
-          <a href="">
-            <img class="projeler-tema-resim" style="margin-top: 15px;" src="img/projeler-menu/yeniprojeler.png" alt="">
-          </a>
+        {% set projelerKategori = [
+          {
+            class: '',
+            img: 'sozverdikveyaptik.png',
+            hoverImg: 'sozverdikveyaptik-hover.png',
+            url: 'sozverdikveyaptik.html'
+          },
+          {
+          class: 'my-3',
+            img: 'yeniprojeler.png',
+            hoverImg: 'yeniprojeler-hover.png',
+            url: ''
+          },
+          {
+          class: 'my-3',
+            img: 'yatirimlar.png',
+            hoverImg: 'yatirimlar-hover.png',
+            url: ''
+          }
+        ]%}
 
-           <a href="">
-            <img class="projeler-tema-resim" style="margin-top: 15px;" src="img/projeler-menu/yatirimlar.png" alt="">
-          </a>
+        <div class="col-sm-6 col-md-9">
+          {% for pk in projelerKategori %}
+            <a href="{{pk.url}}">
+               <div class="projeler-tema-resim {{pk.class}}" 
+                onmouseover="this.style.backgroundImage='url(img/projeler-menu/{{pk.hoverImg}})'"
+                onmouseout="this.style.backgroundImage='url(img/projeler-menu/{{pk.img}})'"
+                style="background-image: url(img/projeler-menu/{{pk.img}})">
+                </div>
+            </a>
+          {% endfor %}          
 
         </div>
       </div>
