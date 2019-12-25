@@ -249,8 +249,7 @@
   style="display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;">
+    ">
 
   <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
     <div class="galeri-foto-container" onclick="previewImg('image1')">
@@ -487,7 +486,6 @@
       */
     }
     const gallery = new Viewer(document.getElementById('images'), { filter(image) {
-      console.log(image.hidden)
       if (!image.hidden)
         return image
     } });
