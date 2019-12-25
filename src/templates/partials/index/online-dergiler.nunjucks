@@ -1,4 +1,5 @@
-<div class="container online-dergiler-container">
+<div class="container-fluid" style="background-color: #d7e2ed">
+<div class="container online-dergiler-container" style="background-color: white;" >
   <div class="row dergi-dundenbugun-row">
 
     <div class="col-12 col-md-12 col-lg-6">
@@ -166,4 +167,5 @@
     </div> #}
 
   </div>
+</div>
 </div>
