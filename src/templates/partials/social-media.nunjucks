@@ -2,16 +2,16 @@
 <div class="social-media-alignment">
 
   {% set socials = [
-    'facebook.png',
-    'twitter.png',
-    'instagram.png',
-    'youtube.png'
+    { image: 'facebook.png', url: 'https://www.facebook.com/kbb41500/' },
+    { image: 'twitter.png', url: 'https://twitter.com/KaramurselBel' },
+    { image: 'instagram.png', url: 'https://www.instagram.com/karamurselbelediyesi/' },
+    { image: 'youtube.png', url: 'https://www.youtube.com/user/karamurselbelediyesi' }
   ]%}
 
   {% for social in socials %}
     <div class="social-media-container mr-2">
-      <a style="display: inline-block; z-index: 99;" href="">
-        <img src="img/social-media/{{social}}" alt="">
+      <a style="display: inline-block; z-index: 99;" href="{{social.url}}">
+        <img src="img/social-media/{{social.image}}" alt="">
       </a>
     </div>
   {% endfor %}
