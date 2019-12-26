@@ -595,7 +595,8 @@ a {
             width: 10%; } }
     .haberler-container .baskan-card #whatsaplink {
       display: inline-block;
-      padding-left: 25px; }
+      padding-left: 25px;
+      padding-top: 110px; }
       @media (max-width: 576px) {
         .haberler-container .baskan-card #whatsaplink {
           padding-left: 10px;
