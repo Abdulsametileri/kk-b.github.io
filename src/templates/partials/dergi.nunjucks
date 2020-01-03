@@ -1,0 +1,15 @@
+<div class="item-dergi-wrapper">
+  <img class="item-dergi-resim" src="{{dergi.imgSrc}}" class="img-dergi" alt=""/>
+</div>
+
+<style>
+  .item-dergi-wrapper:hover {
+    cursor: pointer;
+    background: url("../img/dergiler/ho.png");
+    background-position: center;
+  }
+  .item-dergi-wrapper:hover img {
+    opacity: 0.3;
+    cursor: pointer;
+  }
+</style>
