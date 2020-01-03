@@ -23,7 +23,13 @@
         KENT MEYDANI
       </p>
 
-      <div class="row">
+
+      {% set imgSrc = 'img/projeler-menu/proje1.png' %}
+      {% set baslik = 'KENT MEYDANI' %}
+      {% set aciklama= 'Kocaeli Büyükşehir Belediyesi’nin de desteğiyle ilçeye 5 bin metrekarelik kent meydanı kazandırdık. Kent meydanında çok modern bir belediye hizmet binasının yanı sıra dükkanlar, 270 araçlık kapalı otopark, nikah salonu ve sinema salonları bulunuyor.2014 yerel seçimleri öncesinde verdiğimiz sözü tuttuk, Kocaeli Büyükşehir Belediyesi’nin de desteğiyle ilçeye 5 bin metrekarelik kent meydanı kazandırdık. Kent meydanında çok modern bir belediye hizmet binasının yanı sıra dükkanlar, 270 araçlık kapalı otopark, nikah salonu ve sinema salonları bulunuyor. Dal-Çık projesinin tamamlanmasıyla birlikte kent meydanı daha da büyüyecek, ilçenin iki yakası bir araya gelecek.' %}
+      {% include "partials/projeler/proje-detay.nunjucks" %}
+
+{#       <div class="row">
         <div class="col-sm-12 col-md-5">
           <img src="img/projeler-menu/proje1.png" style="width: 100%; padding-top:10px;" alt="">
         </div>
@@ -37,7 +43,7 @@
           </p>
         </div>
       </div>
-
+ #}
       <div style="margin-top: 250px; margin-bottom: 80px;">
         {% include "partials/index/hizmetler.nunjucks" %}
       </div>

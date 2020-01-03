@@ -1,0 +1,41 @@
+{% extends "layout.nunjucks" %}
+
+{% block headKismi %}
+  {% include "partials/head.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+
+  <body class="projeler-detay-sayfasi">
+    {% set headerTitle = 'PROJELER' %}
+    {% set headerResimYol = 'img/projeler-menu/projeler.png' %}
+    {% set sayfaId = "5" %}
+    {% include "partials/karamursel-header.nunjucks" %}
+
+    <div class="container">
+      <p class="karamursel-breadcrumb">
+        <a href="./">ANASAYFA</a> 
+        &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
+        <a href="./projeler.html">PROJELER </a>
+        &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
+        <a href="./yatirimlar.html">YATIRIMLAR</a> 
+        &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
+        DENİZCİLİK MÜZESİ
+      </p>
+
+
+      {% set imgSrc = 'img/yatirimlar/denizcilikmuzesi.png' %}
+      {% set baslik = 'DENİZCİLİK MÜZESİ' %}
+      {% set aciklama= 'Kocaeli Büyükşehir Belediyesi ile ortaklaşa yapacağımız Denizcilik Müzesi, Osmanlı Devleti’nin ilk tersanesinin kurulduğu, ilk savaş gemisinin yapıldığı, ilk ‘kaptan-ı derya’ unvanına sahip denizcisi Karamürsel Alp Bey’in fethettiği ilçemizin köklü tarihini gözler önüne serecek. 10 bin metrekarelik alana inşa edilecek Denizcilik Müzesi’nde Türk ve dünya denizciliğiyle ilgili interaktif, yaşayan bir müze konsepti uygulanacak. Müze alanında kütüphane, su sporları eğitimi, balıkçılık ve avcılık atölyesi, model gemi üretimi, yeme-içme ve hediyelik eşya bölümleri bulunacak.' %}
+      {% include "partials/projeler/proje-detay.nunjucks" %}
+
+      <div style="margin-top: 250px; margin-bottom: 80px;">
+        {% include "partials/index/hizmetler.nunjucks" %}
+      </div>
+    </div>
+    {% include "partials/footer.nunjucks" %}
+
+    {% include "partials/script.nunjucks" %}
+    {% include "partials/iletisim/iletisim-script.nunjucks" %}
+  </body>
+{% endblock %}
