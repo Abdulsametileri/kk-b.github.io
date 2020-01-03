@@ -79,11 +79,12 @@
 
       owlOne.on('changed.owl.carousel', function(event) {
           let eventItemId = 0;
-          if (event.item.index === 8)
+          if (event.item.index === 8) // ileri gidecekse
             eventItemId = 3
+          else if (event.item.index === 2) // geri geldiyse
+            eventItemId = 7
           else
             eventItemId = event.item.index
-            
           var id = '#proje-image-slider-' + eventItemId
           var baslik = $(id).data('baslik')
           var detay = $(id).data('detay')

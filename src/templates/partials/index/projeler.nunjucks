@@ -7,8 +7,57 @@
             <span class="projeler-baslik-bold">YENİ</span>
             <span class="projeler-baslik">PROJELER</span>
           </p>
+          {% set yeniProjeler = [ 
+            { 
+              id: 3,
+              dbaslik: "DENİZCİLİK MÜZESİ",
+              ddetay: "Kocaeli Büyükşehir Belediyesi ile ortaklaşa yapacağımız Denizcilik Müzesi, Osmanlı Devleti’nin ilk tersanesinin kurulduğu, ilk savaş gemisinin yapıldığı, ilk ‘kaptan-ı derya’ unvanına sahip denizcisi Karamürsel Alp Bey’in fethettiği ilçemizin köklü tarihini gözler önüne serecek.",
+              src: "img/projeler/proje1.jpg"
+            },
+            {
+              id: 4,
+              dbaslik: "DEREKÖY SPOR KOMPLEKSİ",
+              ddetay: "Dereköy’de inşa edeceğimiz spor kompleksinde çocuklarımız ve gençlerimiz diledikleri sporu yapma imkanı bulacak. İsteyen ata sporumuz güreşle ilgilenecek, isteyen futbol oynayacak, isteyen fitness yapacak.",
+              src: "img/projeler/proje2.jpg"
+            },
+            {
+              id: 5,
+              dbaslik: "GENÇLİK MERKEZİ",
+              ddetay: "Geleceğimizin teminatı gençlerimizi kötü
+          alışkanlıklardan uzak tutmak, farkındalığı yüksek,
+          eğitimli, ahlaklı, çalışkan ve sorumluluk sahibi bireyler
+          olarak yetiştirebilmek amacıyla sahile büyük bir Gençlik
+          Merkezi yapacağız.",
+              src: "img/projeler/proje3.jpg"
+            },
+            {
+              id: 6,
+              dbaslik : "BUZ PATENİ PİSTİ",
+              ddetay: "İlçemizdeki çocukları ve gençleri
+          buz pateniyle tanıştıracağız, sadece
+          kış aylarında değil yazın da buzda
+          kaymanın keyfini yaşatacağız.",
+              src: "img/projeler/proje4.jpg"
+            },
+            {
+              id: 7,
+              dbaslik: "AMİRAL TAŞ MEKTEP",
+              ddetay: "Daha önce seçim beyannamemizde yer alan ancak yönetmeliğin gecikmesi nedeniyle hayata geçiremediğimiz Amiral Karamürsel İlkokulu’nu ilk açıldığı tarih olan 1923 yılındaki günlerine geri döndüreceğiz, taş mektep projesine uygun olarak yeniden inşa edeceğiz.",
+              src: "img/projeler/proje5.jpg"
+            }
+          ] %}
           <div class="owl-one owl-carousel owl-theme">
-            <div class="item-proje"
+
+            {% for proje in yeniProjeler %}
+              <div class="item-proje"
+                  id="proje-image-slider-{{proje.id}}"
+                  data-baslik="{{proje.dbaslik}}" 
+                  data-detay="{{proje.ddetay}}" >
+                <img src="{{proje.src}}"/>
+              </div>
+            {% endfor %}
+
+            {# <div class="item-proje"
                 id="proje-image-slider-3"
                 data-baslik="DENİZCİLİK MÜZESİ" 
                 data-detay="Kocaeli Büyükşehir Belediyesi ile ortaklaşa yapacağımız Denizcilik Müzesi, Osmanlı Devleti’nin ilk tersanesinin kurulduğu, ilk savaş gemisinin yapıldığı, ilk ‘kaptan-ı derya’ unvanına sahip denizcisi Karamürsel Alp Bey’in fethettiği ilçemizin köklü tarihini gözler önüne serecek." >
@@ -48,7 +97,7 @@ kaymanın keyfini yaşatacağız."
                 data-detay="Daha önce seçim beyannamemizde yer alan ancak yönetmeliğin gecikmesi nedeniyle hayata geçiremediğimiz Amiral Karamürsel İlkokulu’nu ilk açıldığı tarih olan 1923 yılındaki günlerine geri döndüreceğiz, taş mektep projesine uygun olarak yeniden inşa edeceğiz."
                 id="proje-image-slider-7">
               <img src="img/projeler/proje5.jpg"/>
-            </div>
+            </div> #}
 
           </div>
 
@@ -72,29 +121,11 @@ kaymanın keyfini yaşatacağız."
                               { imgSrc: "img/dergiler/d3.png" }, { imgSrc: "img/dergiler/d4.png" } ]%}
 
           <div class="owl-two owl-carousel owl-theme">
-
             {% for dergi in dergiler %}
               <div class="item-dergi">
                 {% include "partials/dergi.nunjucks" %}
               </div>
             {% endfor %}
-           
-            <div class="item-dergi">
-             {#  <div class="item-dergi-wrapper">
-                <img src="img/dergiler/d2.png" class="img-dergi" alt=""/>
-              </div> #}
-            </div>
-            <div class="item-dergi">
-              <div class="item-dergi-wrapper">
-                <img src="img/dergiler/d3.png" class="img-dergi" alt=""/>
-              </div>
-            </div>
-            <div class="item-dergi">
-              <div class="item-dergi-wrapper">
-                <img src="img/dergiler/d4.png" class="img-dergi" alt=""/>
-              </div>
-            </div>
-
           </div>
         </div>
 
