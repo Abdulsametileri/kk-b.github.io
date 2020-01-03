@@ -47,7 +47,6 @@
             }
           ] %}
           <div class="owl-one owl-carousel owl-theme">
-
             {% for proje in yeniProjeler %}
               <div class="item-proje"
                   id="proje-image-slider-{{proje.id}}"
@@ -56,49 +55,6 @@
                 <img src="{{proje.src}}"/>
               </div>
             {% endfor %}
-
-            {# <div class="item-proje"
-                id="proje-image-slider-3"
-                data-baslik="DENİZCİLİK MÜZESİ" 
-                data-detay="Kocaeli Büyükşehir Belediyesi ile ortaklaşa yapacağımız Denizcilik Müzesi, Osmanlı Devleti’nin ilk tersanesinin kurulduğu, ilk savaş gemisinin yapıldığı, ilk ‘kaptan-ı derya’ unvanına sahip denizcisi Karamürsel Alp Bey’in fethettiği ilçemizin köklü tarihini gözler önüne serecek." >
-              <img src="img/projeler/proje1.jpg"/>
-            </div>
-            <div class="item-proje"
-                id="proje-image-slider-4"
-                data-baslik="DEREKÖY SPOR KOMPLEKSİ" 
-                data-detay="Dereköy’de inşa edeceğimiz spor kompleksinde çocuklarımız ve gençlerimiz diledikleri sporu yapma imkanı bulacak. İsteyen ata sporumuz güreşle ilgilenecek, isteyen futbol oynayacak, isteyen fitness yapacak."
-                >
-              <img src="img/projeler/proje2.jpg"/>
-            </div>
-            <div class="item-proje"
-            id="proje-image-slider-5"
-                data-baslik="GENÇLİK MERKEZİ" 
-                data-detay="Geleceğimizin teminatı gençlerimizi kötü
-alışkanlıklardan uzak tutmak, farkındalığı yüksek,
-eğitimli, ahlaklı, çalışkan ve sorumluluk sahibi bireyler
-olarak yetiştirebilmek amacıyla sahile büyük bir Gençlik
-Merkezi yapacağız."
-                >
-              <img src="img/projeler/proje3.jpg"/>
-            </div>
-
-            <div class="item-proje"
-                data-baslik="BUZ PATENİ PİSTİ" 
-                data-detay="İlçemizdeki çocukları ve gençleri
-buz pateniyle tanıştıracağız, sadece
-kış aylarında değil yazın da buzda
-kaymanın keyfini yaşatacağız."
-                id="proje-image-slider-6">
-              <img src="img/projeler/proje4.jpg"/>
-            </div>
-
-            <div class="item-proje"
-                data-baslik="AMİRAL TAŞ MEKTEP" 
-                data-detay="Daha önce seçim beyannamemizde yer alan ancak yönetmeliğin gecikmesi nedeniyle hayata geçiremediğimiz Amiral Karamürsel İlkokulu’nu ilk açıldığı tarih olan 1923 yılındaki günlerine geri döndüreceğiz, taş mektep projesine uygun olarak yeniden inşa edeceğiz."
-                id="proje-image-slider-7">
-              <img src="img/projeler/proje5.jpg"/>
-            </div> #}
-
           </div>
 
           <div class="proje-detay">
@@ -122,9 +78,12 @@ kaymanın keyfini yaşatacağız."
 
           <div class="owl-two owl-carousel owl-theme">
             {% for dergi in dergiler %}
+            <a href="./online-dergiler.html">
               <div class="item-dergi">
+                {% set sayfaModu = false %}
                 {% include "partials/dergi.nunjucks" %}
               </div>
+              </a>
             {% endfor %}
           </div>
         </div>

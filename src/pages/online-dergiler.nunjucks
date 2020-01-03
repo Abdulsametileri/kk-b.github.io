@@ -1,0 +1,57 @@
+{% extends "layout.nunjucks" %}
+
+{% block headKismi %}
+  {% include "partials/head.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+  <body >
+
+    <div class="online-dergiler-sayfasi">
+      {% set headerTitle = 'ONLİNE DERGİLER' %}
+      {% set headerResimYol = "img/dergiler/odergilerbg.png" %}
+      {% include "partials/karamursel-header.nunjucks" %}
+
+      <div class="container">
+        <p class="karamursel-breadcrumb" style="padding-left: 12px;">
+          <a href="./">ANASAYFA</a>
+          &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
+          ONLİNE DERGİLER
+        </p>
+
+{% set dergiler = [ { imgSrc: "img/dergiler/p1.png", sayi: 'SAYI 6' }, { imgSrc: "img/dergiler/p2.png", sayi: 'SAYI 5' }, 
+                    { imgSrc: "img/dergiler/p3.png", sayi: 'SAYI 4' }, { imgSrc: "img/dergiler/p4.png", sayi: 'SAYI 3' }, 
+                    { imgSrc: "img/dergiler/p5.png", sayi: 'SAYI 2' }, { imgSrc: "img/dergiler/p6.png", sayi: 'SAYI 1' } ] %}
+
+        <div class="row">
+          {% for dergi in dergiler %}
+            <div class="col-sm-12 col-md-6 col-lg-3 my-1">
+              <a href="./online-dergiler.html">
+                <div class="item-dergi">
+                  {% set sayfaModu = true %}
+                  {% include "partials/dergi.nunjucks" %}
+                </div>
+              </a>
+            </div>
+            {% endfor %}
+        </div>
+     
+
+      <div style="margin-top: 190px; margin-bottom: 80px;">
+        {% include "partials/index/hizmetler.nunjucks" %}
+      </div>
+
+      </div>
+    </div>
+
+    
+
+    <!-- FOOTER -->
+    {% include "partials/footer.nunjucks" %}
+
+    <!--SCRİPTLER-->
+    {% include "partials/script.nunjucks" %}
+
+  </div>
+</body>
+{% endblock %}

@@ -1,15 +1,36 @@
-<div class="item-dergi-wrapper">
+
+
+<div class="item-dergi-wrapper" {% if sayfaModu %} style="width: 264px;" {% endif %} >
   <img class="item-dergi-resim" src="{{dergi.imgSrc}}" class="img-dergi" alt=""/>
 </div>
+
+{% if sayfaModu %}
+  <p class="sayi">{{dergi.sayi}}</p>
+{% else %}
+  <p style="display: none" class="sayi">{{dergi.sayi}}</p>
+{% endif %}
+
 
 <style>
   .item-dergi-wrapper:hover {
     cursor: pointer;
-    background: url("../img/dergiler/ho.png");
+    background: url("../img/dergiler/phover.png");
     background-position: center;
+    background-size: cover;
   }
   .item-dergi-wrapper:hover img {
     opacity: 0.3;
     cursor: pointer;
+  }
+  
+  .sayi {
+      font-size: 16px;
+      font-family: "OpenSans";
+      color: rgb(120, 192, 232);
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.625;
+      text-align: center;
+      margin-top: 12px;
   }
 </style>
