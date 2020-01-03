@@ -5,31 +5,36 @@
           hoverBgColor: '#ff7380',
           defaultBgColor: '#EB3D4C',
           iconSrc: 'e.png',
-          text: 'NÖBETÇİ ECZANELER'
+          text: 'NÖBETÇİ ECZANELER',
+          url: '#'
         },
         {
           hoverBgColor: '#b07cba',
           defaultBgColor: '#78497B',
           iconSrc: 'vd.png',
-          text: 'VEFAT EDENLER'
+          text: 'VEFAT EDENLER',
+          url: '#'
         },
         {
           hoverBgColor: '#86cbe8',
           defaultBgColor: '#2291B1',
           iconSrc: 'vs.png',
-          text: 'VAPUR SAATLERİ'
+          text: 'VAPUR SAATLERİ',
+          url: '#'
         },
         {
           hoverBgColor: '#63e7c2',
           defaultBgColor: '#00C194',
           iconSrc: 'fa.png',
-          text: 'FAALİYET RAPORLARI'
+          text: 'FAALİYET RAPORLARI',
+          url: '#'
         },
         {
           hoverBgColor: '#84e3e5',
           defaultBgColor: '#00C7C9',
           iconSrc: 'mt.png',
-          text: 'MECLİS TOPLANTILARI'
+          text: 'MECLİS TOPLANTILARI',
+          url: '#'
         },
         {
           hoverBgColor: '#fcf4cf',
@@ -41,12 +46,12 @@
       ]%}
 
       {% for hizmet in hizmetler %}
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1" style="height: 115px; width: 160px;">
         <a href="{{hizmet.url}}">
           <div class="img-container" 
           onmouseover="this.style.backgroundColor='{{hizmet.hoverBgColor}}'"
           onmouseout="this.style.backgroundColor='{{hizmet.defaultBgColor}}'"
-          style="background-color: {{hizmet.defaultBgColor}};"
+          style="background-color: {{hizmet.defaultBgColor}}; "
           >
             <img src="img/hizmetler/{{hizmet.iconSrc}}">
             <p>{{hizmet.text}}</p>

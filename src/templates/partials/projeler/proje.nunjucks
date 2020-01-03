@@ -1,8 +1,32 @@
-<img src={{proje.projeImgSrc}} alt="" style="width: 100%;">
+
+<img src="{{proje.projeImgSrc}}" style="width: 100%;">
 <p class="proje-detay-baslik">{{proje.baslik}}</p>
-<p class="proje-detay-aciklama">
+<p class="proje-detay-aciklama" style="height: 100px;">
   {{proje.aciklama}}
 </p>
 <a href="./proje-detay.html" style="cursor: pointer;">
   <img src="img/projeler-menu/devamicintiklayiniz.png" alt="" >
 </a>
+
+<style>
+  .proje-detay-baslik {
+    font-size: 18px;
+    font-family: "Raleway";
+    color: rgb(0, 127, 197);
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  @media only screen and (max-width: 576px) {
+      .proje-detay-baslik {
+        //margin-top: 10px;
+      }
+  }
+
+  .proje-detay-aciklama {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(188, 188, 188);
+    line-height: 1.286;
+    text-align: left;
+  }
+</style>

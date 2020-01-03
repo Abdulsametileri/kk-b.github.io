@@ -11,8 +11,10 @@
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    height: 115px;
-    width: 160px;
+    //height: 115px;
+    //width: 160px;
+    height: 100%;
+    width: 100%;
 
     &:hover {
       cursor: pointer;

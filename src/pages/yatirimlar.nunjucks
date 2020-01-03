@@ -1,0 +1,90 @@
+{% extends "layout.nunjucks" %}
+
+{% block headKismi %}
+  {% include "partials/head.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+  <body >
+
+    <div class="yatirimlar">
+      {% set headerTitle = 'YATIRIMLAR' %}
+      {% set headerResimYol = 'img/projeler-menu/projeler.png' %}
+      {% include "partials/karamursel-header.nunjucks" %}
+
+      <div class="container">
+        <p class="karamursel-breadcrumb">
+          <a href="./">ANASAYFA</a>
+          &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
+          <a href="./projeler.html">PROJELER</a>
+          &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
+          YATIRIMLAR
+        </p>
+
+        {% set projeler = [
+          {
+            projeImgSrc: 'img/yatirimlar/denizcilikmuzesi.png',
+            baslik: 'DENİZCİLİK MÜZESİ',
+            aciklama: 'Kocaeli Büyükşehir Belediyesi ile ortaklaşa yapacağımız Denizcilik Müzesi, Osmanlı Devleti’nin ilk tersanesinin kurulduğu, ilk savaş gemisinin yapıldığı, ilk ‘kaptan-ı derya’ unvanına sahip denizcisi Karamürsel Alp Bey’in fethettiği ilçemizin köklü tarihini gözler önüne serecek. 10 bin me-',
+            top: '0px'
+          },
+          {
+            projeImgSrc: 'img/yatirimlar/derekoy.png',
+            baslik: 'DEREKÖY SPOR KOMPLEKSİ',
+            aciklama: 'Dereköy’de inşa edeceğimiz spor kompleksinde çocuklarımız ve gençlerimiz diledikleri sporu yapma imkanı bulacak. İsteyen ata sporumuz güreşle ilgilenecek, isteyen futbol oynayacak, isteyen fitness yapacak. Sporcuların her türlü ihtiyacını karşılayacak şekilde',
+            top: '0px'
+          },
+          {
+            projeImgSrc: 'img/yatirimlar/genclik.png',
+            baslik: 'GENÇLİK MERKEZİ',
+            aciklama: 'Geleceğimizin teminatı gençlerimizi kötü alışkanlıklardan uzak tutmak, farkındalığı yüksek, eğitimli, ahlaklı, çalışkan ve sorumluluk sahibi bireyler olarak yetiştirebilmek amacıyla sahile büyük bir Gençlik Merkezi yapacağız. Gençlerimiz bu merkezde sosyal ve kültürel faaliyetlere',
+            top: '0px'
+          },
+          {
+            projeImgSrc: 'img/yatirimlar/buzpatenti.png',
+            baslik: 'BUZ PATENTİ PİSTİ',
+            aciklama: 'İlçemizdeki çocukları ve gençleri buz pateniyle tanıştıracağız, sadece kış aylarında değil yazın da buzda kaymanın keyfini yaşatacağız. Buzun prensleri ve prensesleri bu pistte yetişecek, buz pateninde fırtınalar estirerek tarihi başarılara imza atacak ',
+            top: '80px'
+          },
+          {
+            projeImgSrc: 'img/yatirimlar/amiral.png',
+            baslik: 'AMİRAL TAŞ MEKTEP',
+            aciklama: 'Daha önce seçim beyannamemizde yer alan ancak yönetmeliğin gecikmesi nedeniyle hayata geçiremediğimiz Amiral Karamürsel İlkokulu’nu ilk açıldığı tarih olan 1923 yılındaki günlerine geri döndüreceğiz, taş mektep projesine uygun olarak yeniden inşa edeceğiz.',
+            top: '80px'
+          },
+          {
+            projeImgSrc: 'img/yatirimlar/eregli.png',
+            baslik: 'EREĞLİ KAPALI SPOR SALONU',
+            aciklama: 'Ereğli Mahallesi’nde yaptıracağımız spor salonunu haftanın belirli günlerinde bayanlara tahsis edeceğiz. Ereğlili bayanlarımız çocuklarıyla birlikte salonumuza gönül rahatlığıyla gelecek, çocukları öğretmen gözetiminde oyun odalarında oynarken onlar spor yapacak,',
+            top: '80px'
+          }
+      ] %}
+      <div class="row">
+        {% for proje in projeler %}
+            <div class="col-sm-12 col-md-6 col-lg-4 " style="padding-bottom: 80px">
+              <a href="./yatirim-detay.html">
+                {% include "partials/projeler/proje.nunjucks" %}
+              </a>
+          </div>
+         
+        {% endfor %}
+      </div>
+
+      <div style="margin-top: 190px; margin-bottom: 80px;">
+        {% include "partials/index/hizmetler.nunjucks" %}
+      </div>
+
+      </div>
+    </div>
+
+    
+
+    <!-- FOOTER -->
+    {% include "partials/footer.nunjucks" %}
+
+    <!--SCRİPTLER-->
+    {% include "partials/script.nunjucks" %}
+
+  </div>
+</body>
+{% endblock %}

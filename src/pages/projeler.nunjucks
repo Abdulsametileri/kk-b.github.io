@@ -34,7 +34,7 @@
             },
             {
               title: 'YATIRIMLAR',
-              href: '#',
+              href: './yatirimlar.html',
               class: ""
             }
           ] %}
@@ -58,7 +58,7 @@
           class: 'my-3',
             img: 'yatirimlar.png',
             hoverImg: 'yatirimlar-hover.png',
-            url: ''
+            url: 'yatirimlar.html'
           }
         ]%}
 
