@@ -13,7 +13,7 @@
     {% include "partials/karamursel-header.nunjucks" %}
 
     <div class="container">
-      <p class="karamursel-breadcrumb">
+      <p class="karamursel-breadcrumb" style="padding-left: 8px;">
         <a href="./">ANASAYFA</a> 
         &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
         <a href="./projeler.html">PROJELER </a>
