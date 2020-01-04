@@ -145,7 +145,7 @@
             </div>
           </div>
         {% endfor %}
-        <a href="">
+        <a href="./duyuruveilanlar.html">
           <img src="img/video-duyuru/duyurutum.png" style="padding-left: 15px;padding-top: 18px;" alt=""/>
         </a>
       </div>

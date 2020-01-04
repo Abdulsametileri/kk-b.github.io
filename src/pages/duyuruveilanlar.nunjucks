@@ -1,0 +1,71 @@
+{% extends "layout.nunjucks" %}
+
+{% block headKismi %}
+  {% include "partials/head.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+  <body >
+
+    <div class="duyuru-ve-ilanlar-sayfasi">
+      {% set headerTitle = 'DUYURU VE İLANLAR' %}
+      {% set headerResimYol = "img/video-duyuru/duyuruveilanlarbg.png" %}
+      {% include "partials/karamursel-header.nunjucks" %}
+
+      <div class="container">
+        <p class="karamursel-breadcrumb" style="padding-left: 12px;">
+          <a href="./">ANASAYFA</a>
+          &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
+          DUYURU VE İLANLAR
+        </p>
+
+        {% set duyurular = [
+          {
+            marginTop: '50px',
+            baslik: '7. BÖLGE İMAR UYGULAMASI İLANI',
+            detay: 'İlçemiz Karamürsel, Ereğli Mahallesinde, 57 nolu Düzenleme Bölgesi olarak adlandırılan, Ereğli Mahallesi, 204-276-277-279-280-281-282-283-284- 285-286-287-288-289-290-291-292-295 Adaları kapsayan alanda 3194 sayılı imar kanununun 18. maddesi uygulaması yapılmaktadır.'
+          },
+          {
+            marginTop: '70px',
+            baslik: '36. BÖLGE İMAR UYGULAMASI İLANI',
+            detay: 'İlçemizin Çamçukur mahallesinde, 2014 / 61774 ihale kayıt numaralı İmar Uygulaması kapsamında ihalesi yapılan ve 36 nolu düzenleme bölgesi olarak adlandırılan; Çamçukur Mahallesi, 113-114-115-116-117-118-119-120 adaları kapsayan alanda 3194 sayılı imar kanununun 18. Maddesi uygulaması yapılmaktadır.'
+          },
+          {
+            marginTop: '70px',
+            baslik: 'ZEYTİN AĞAÇLARI HAKKINDA ÖNEMLİ DUYURU',
+            detay: 'Hiçbir unsuru zayi edilemeyecek derecede kıymetli olan ve Akdeniz efsanelerinde ‘ölmez ağaç’ diye anılan zeytin ağaçları maalesef ülkemizde farklı sebepler yüzünden öldürülüyor. Farklı sebeplerden en önemlisi zeytin ağaçlarının bulunduğu alanlara yapı yapılmasıdır. Belediyemiz başlattığı uygulama ile, ilçemiz sınırları içerisinde yapılaşmaya izinli izinsiz zeytin ağacı bulunan tüm parsellerde parsel sahibi veya yapı yapacak '
+          }
+        ]%}
+
+        
+          {% for duyuru in duyurular %}
+            {% include "partials/duyuruveilanlaritem.nunjucks" %}
+          {% endfor %}
+          {# <div class="col-3">
+            <img src="img/video-duyuru/duyuru.png" style="width: 100%; height: 100%;">
+          </div>
+          <div class="col-5">
+            <p class="duyuru-baslik">57. BÖLGE İMAR UYGULAMASI İLANI</p>
+            <p class="duyuru-detay">İlçemiz Karamürsel, Ereğli Mahallesinde, 57 nolu Düzenleme Bölgesi olarak adlandırılan, Ereğli Mahallesi, 204-276-277-279-280-281-282-283-284- 285-286-287-288-289-290-291-292-295 Adaları kapsayan alanda 3194 sayılı imar kanununun 18. maddesi uygulaması yapılmaktadır.</p>
+            <img src="img/video-duyuru/devamicintiklayiniz.png" alt="">
+          </div> #}
+        
+
+      <div style="margin-top: 430px; margin-bottom: 80px;">
+        {% include "partials/index/hizmetler.nunjucks" %}
+      </div>
+
+      </div>
+    </div>
+
+    
+
+    <!-- FOOTER -->
+    {% include "partials/footer.nunjucks" %}
+
+    <!--SCRİPTLER-->
+    {% include "partials/script.nunjucks" %}
+
+  </div>
+</body>
+{% endblock %}
