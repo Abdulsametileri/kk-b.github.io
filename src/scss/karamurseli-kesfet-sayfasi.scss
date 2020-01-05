@@ -1,0 +1,47 @@
+@import 'karamursel.scss';
+.karamurseli-kesfet-sayfasi {
+  @extend .karamursel;
+
+  .kesfet-img {
+    width: 100%;
+  }
+
+  .baslik {
+      font-size: 18px;
+      font-family: "Raleway";
+      color: rgb(0, 127, 197);
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.444;
+      text-align: left;
+      @media (max-width: $md){
+        margin-top: 10px;
+      }
+  }
+
+  .detay {
+      font-size: 14px;
+      font-family: "Raleway";
+      color: #bcbcbc;
+      font-weight: bold;
+      line-height: 1.286;
+      text-align: left;
+  }
+
+  .bilgi-text {
+    @extend .detay;
+    color: #8f8f8f;
+  }
+
+  .ulasim-text {
+    @extend .bilgi-text;
+  }
+
+  .harita-link {
+    @extend .bilgi-text;
+    color: #007fc5;
+  }
+
+
+
+}

@@ -12,21 +12,24 @@
         {% set resimler = [
           {
             hoverImg: 'gezilecekyerlerhover.jpg',
-            defaultImg: 'gezilecekyerler.png' 
+            defaultImg: 'gezilecekyerler.png',
+            url: 'karamurseli-kesfet.html' 
           },
           {
             hoverImg: 'konaklamahover.jpg',
-            defaultImg: 'konaklama.png'
+            defaultImg: 'konaklama.png',
+            url: '#'
           },
           {
             hoverImg: 'yemeicmehover.jpg',
-            defaultImg: 'yemeicme.png'
+            defaultImg: 'yemeicme.png',
+            url: '#'
           }
         ]%}
 
         {% for resim in resimler %}
         <div class="col-sm-12 col-md-6 col-lg-4 my-2" >
-          <a href="">
+          <a href="{{resim.url}}">
             <div class="img-kesfet" 
             onmouseover="this.style.backgroundImage='url(img/indexkaramurselikesfet/{{resim.hoverImg}})'"
             onmouseout="this.style.backgroundImage='url(img/indexkaramurselikesfet/{{resim.defaultImg}})'"
