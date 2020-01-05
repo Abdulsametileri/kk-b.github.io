@@ -87,7 +87,7 @@
                     <div>
                       <img src="{{item.sonraImg}}"  alt=""/>
                       <p class="dunden-bugune-text">SONRA</p>
-                      <a href="">
+                      <a href="./dunden-bugune.html">
                         <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
                       </a>
                     </div>
