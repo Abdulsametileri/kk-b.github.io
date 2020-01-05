@@ -1,8 +1,8 @@
 <div class="row" style="margin-top: {{duyuru.marginTop}};">
-  <div class="col-sm-12 col-lg-3">
+  <div class="col-sm-12 col-md-4 col-lg-3">
     <img src="img/video-duyuru/duyuru.png" style="width: 100%; height: 100%;">
   </div>
-  <div class="col-sm-12 col-lg-5">
+  <div class="col-sm-12 col-md-6 col-lg-5 duyuru-bolumu" style="padding-left: 65px;" >
     <p class="duyuru-baslik">{{duyuru.baslik}}</p>
     <p class="duyuru-detay">{{duyuru.detay}}</p>
     <a href="#" style="cursor: pointer;">
@@ -22,11 +22,24 @@
     line-height: 1.444;
     text-align: left;
   }
+  
+
   @media only screen and (max-width: 600px) {
     .duyuru-baslik {
       margin-top: 10px;
     }
   }
+
+  .duyuru-bolumu {
+
+  }
+
+  @media only screen and (max-width: 770px) {
+    .duyuru-bolumu {
+      padding-left: 0;
+    }
+  }
+
   .duyuru-detay {
     font-size: 14px;
     font-family: "Raleway";

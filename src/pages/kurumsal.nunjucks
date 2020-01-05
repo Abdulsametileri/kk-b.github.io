@@ -8,7 +8,7 @@
   <div class="kurumsal">
     <!-- HEADER KISMI-->
     {% set headerTitle = 'KURUMSAL' %}
-    {% set headerResimYol = "img/kurumsal/kurumsal.png" %}
+    {% set headerResimYol = "img/kurumsal-yeni/kurumsal.png" %}
     {% set sayfaId = "4" %}
     {% include "partials/karamursel-header.nunjucks" %}
 
