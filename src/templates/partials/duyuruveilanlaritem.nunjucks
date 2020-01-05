@@ -5,7 +5,7 @@
   <div class="col-sm-12 col-md-6 col-lg-5 duyuru-bolumu" style="padding-left: 65px;" >
     <p class="duyuru-baslik">{{duyuru.baslik}}</p>
     <p class="duyuru-detay">{{duyuru.detay}}</p>
-    <a href="#" style="cursor: pointer;">
+    <a href="./duyuru-detay.html" style="cursor: pointer;">
       <img src="img/video-duyuru/devamicintiklayiniz.png" alt="">
     </a>
   </div>
@@ -29,7 +29,7 @@
       margin-top: 10px;
     }
   }
-
+  // silme
   .duyuru-bolumu {
 
   }

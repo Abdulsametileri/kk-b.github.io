@@ -1,10 +1,10 @@
 <div class="row">
-  <div class="col-sm-12 col-md-5" style="padding-left: 25px;" >
+  <div class="col-sm-12 col-md-5 col-lg-4 proje-duyuru-resim-bolumu" style="padding-left: 25px;" >
     <img src="{{imgSrc}}" 
     style="width: 100%; padding-top:10px;" alt="">
   </div>
 
-  <div class="col-sm-12 col-md-5">
+  <div class="col-sm-12 col-md-5 col-lg-8">
     <p class="proje-detay-baslik">{{baslik}}</p>
     <p class="proje-detay-aciklama">
       {{aciklama}}
@@ -23,6 +23,15 @@
       .proje-detay-baslik {
         margin-top: 10px;
       }
+  }
+
+  .proje-duyuru-resim-bolumu {
+  }
+   @media only screen and (max-width: 770px) {
+    .proje-duyuru-resim-bolumu {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
   }
 
   .proje-detay-aciklama {

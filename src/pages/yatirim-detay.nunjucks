@@ -27,7 +27,7 @@
       {% set imgSrc = 'img/yatirimlar/denizcilikmuzesi.png' %}
       {% set baslik = 'DENİZCİLİK MÜZESİ' %}
       {% set aciklama= 'Kocaeli Büyükşehir Belediyesi ile ortaklaşa yapacağımız Denizcilik Müzesi, Osmanlı Devleti’nin ilk tersanesinin kurulduğu, ilk savaş gemisinin yapıldığı, ilk ‘kaptan-ı derya’ unvanına sahip denizcisi Karamürsel Alp Bey’in fethettiği ilçemizin köklü tarihini gözler önüne serecek. 10 bin metrekarelik alana inşa edilecek Denizcilik Müzesi’nde Türk ve dünya denizciliğiyle ilgili interaktif, yaşayan bir müze konsepti uygulanacak. Müze alanında kütüphane, su sporları eğitimi, balıkçılık ve avcılık atölyesi, model gemi üretimi, yeme-içme ve hediyelik eşya bölümleri bulunacak.' %}
-      {% include "partials/projeler/proje-detay.nunjucks" %}
+      {% include "partials/projeler/proje-duyuru-detay.nunjucks" %}
 
       <div style="margin-top: 250px; margin-bottom: 80px;">
         {% include "partials/index/hizmetler.nunjucks" %}
