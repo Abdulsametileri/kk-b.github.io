@@ -1,0 +1,53 @@
+<div class="row">
+  <div class="col-sm-12 col-md-5 col-lg-3 duyuru-resim">
+    <img src="{{imgSrc}}" 
+    style="width: 100%; padding-top:10px;" alt="">
+  </div>
+
+  <div class="col-sm-12 col-md-5 col-lg-8 duyuru-icerik">
+    <p class="duyuru-detay-baslik">{{baslik}}</p>
+    <p class="duyuru-detay-aciklama">
+      {{aciklama}}
+    </p>
+  </div>
+</div>
+
+<style>
+  .duyuru-detay-baslik {
+    font-size: 18px;
+    font-family: "Raleway";
+    color: rgb(0, 127, 197);
+    font-weight: bold;
+  }
+  @media only screen and (max-width: 576px) {
+      .duyuru-detay-baslik {
+        margin-top: 10px;
+      }
+  }
+  .duyuru-resim {
+    padding-left: 25px;
+  }
+
+  @media only screen and (max-width: 770px) {
+    .duyuru-resim  {
+      padding-left: 15px !important;
+    }
+  }
+
+  .duyuru-icerik {
+    padding-left: 65px;
+  }
+   @media only screen and (max-width: 770px) {
+    .duyuru-icerik {
+      padding-left: 15px !important;
+    }
+  }
+
+  .duyuru-detay-aciklama {
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(188, 188, 188);
+    line-height: 1.286;
+    text-align: left;
+  }
+</style>
