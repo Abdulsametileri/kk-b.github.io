@@ -20,44 +20,36 @@
         GEZİLEYECEK YERLER
       </p>
 
-      {% set gy = [ 
+      {% set items = [ 
         {
           img: 'img/gezilecek-yerler/1.png',
           baslik: 'AKPINAR SUYU',
           detay: 'Akpınar Suyu ve çevresi Orman Bakanlığı Milli Parklar Genel Müdürlüğü tarafından Milli Parklar arasına alınmıştır. İlçe ile arasında 15 kilometre mesafe bulunur. Akpınar köyü içinde yer alır ve buraya giden yol asfalt değildir. Bu çevrede yer alan Mamba Suyu ünlüdür. Alan yüksekte bulunduğu için temiz havaya ve güzel sulara sahiptir.',
-          ulasimLink: '#',
-          parentId: "1"
+          ulasimLink: '#'
         },
         {
           img: 'img/gezilecek-yerler/2.png',
           baslik: 'OLUKLU TEPESİ',
           detay: 'Oluklu Tepesi ilçe merkezine 7 kilometre mesafede bulunur. İznik- Karamürsel yolu üzerinde kalır. Bir mesire yeri olarak kullanılan alan İzmit Körfezi manzarasına sahip doğa ile iç içe bir tepedir. Temiz havası ve yeşil doğası sayesinde sıkça tercih edilir.',
-          ulasimLink: '#',
-          parentId: "2"
+          ulasimLink: '#'
         },
         {
           img: 'img/gezilecek-yerler/3.png',
           baslik: 'KARAMÜRSEL BEY MEZARI',
           detay: "BİLGİ : Kara Mürsel Bey Osmanlı dönemindeki ilk kaptan-ı deryadır. Doğum yeri ve tarihi günümüzde bilinmemektedir. Osmanlı donanmasının ciddi anlamda gelişmesini sağlamıştır. Orhan Gazi zamanında Bizans ile yapılan Pelekanon Savaşı Kara Mürsel Bey sayesinde kazanılmıştır.. 1329 yılında hayatını kaybettikten sonra Karamürsel'e defnedilmiştir. Mezarın batı tarafında taşa oyularak yapılmış bir kadırga resmi vardır. Mezarın üzeri ise dört ayak üzerine örtülmüş bir çadırı andırır.",
-          ulasimLink: '#',
-          parentId: "1"
+          ulasimLink: '#'
         },
         {
           img: 'img/gezilecek-yerler/4.png',
           baslik: 'KARAMÜRSEL BEY MEZARI',
           detay: "BİLGİ : Kara Mürsel Bey Osmanlı dönemindeki ilk kaptan-ı deryadır. Doğum yeri ve tarihi günümüzde bilinmemektedir. Osmanlı donanmasının ciddi anlamda gelişmesini sağlamıştır. Orhan Gazi zamanında Bizans ile yapılan Pelekanon Savaşı Kara Mürsel Bey sayesinde kazanılmıştır.. 1329 yılında hayatını kaybettikten sonra Karamürsel'e defnedilmiştir. Mezarın batı tarafında taşa oyularak yapılmış bir kadırga resmi vardır. Mezarın üzeri ise dört ayak üzerine örtülmüş bir çadırı andırır.",
-          ulasimLink: '#',
-          parentId: "1"
+          ulasimLink: '#'
         }
       ] %}
 
-      {% set idyeGoreItems = [
-        { items: gy }
-      ]%}
-
       
 
-      {% for item in idyeGoreItems[0].items %}
+      {% for item in items %}
           <div class="row" style="margin-top: 50px;">
             <div class="col-sm-12 col-md-6 col-lg-3">
               <img class="kesfet-img" src="{{item.img}}" height="160" alt="">
@@ -91,14 +83,6 @@
 
     {% include "partials/script.nunjucks" %}
     {% include "partials/iletisim/iletisim-script.nunjucks" %}
-      <script>
-        function getIdFromUrl() {
-          const urlParams = new URLSearchParams(window.location.search);
-          const id = urlParams.get('id');
-          console.log("bismillah")
-          console.log(id)
-        }
-      </script>
   </body>
 
 {% endblock %}

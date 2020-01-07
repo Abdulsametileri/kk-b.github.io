@@ -13,17 +13,17 @@
           {
             hoverImg: 'gezilecekyerlerhover.jpg',
             defaultImg: 'gezilecekyerler.png',
-            url: 'karamurseli-kesfet.html' 
+            url: 'gezilecek-yerler.html' 
           },
           {
             hoverImg: 'konaklamahover.jpg',
             defaultImg: 'konaklama.png',
-            url: '#'
+            url: 'konaklama.html'
           },
           {
             hoverImg: 'yemeicmehover.jpg',
             defaultImg: 'yemeicme.png',
-            url: '#'
+            url: 'yemeicme.html'
           }
         ]%}
 
