@@ -23,7 +23,7 @@
           {
             hoverImg: 'yemeicmehover.jpg',
             defaultImg: 'yemeicme.png',
-            url: 'yemeicme.html'
+            url: 'yeme-icme.html'
           }
         ]%}
 
