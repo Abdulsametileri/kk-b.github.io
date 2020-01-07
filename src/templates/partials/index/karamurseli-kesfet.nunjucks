@@ -24,6 +24,7 @@
             hoverImg: 'yemeicmehover.jpg',
             defaultImg: 'yemeicme.png',
             url: 'yeme-icme.html'
+            
           }
         ]%}
 
