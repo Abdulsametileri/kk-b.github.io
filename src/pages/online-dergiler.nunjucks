@@ -19,9 +19,33 @@
           ONLİNE DERGİLER
         </p>
 
-{% set dergiler = [ { imgSrc: "img/dergiler/p1.png", sayi: 'SAYI 6' }, { imgSrc: "img/dergiler/p2.png", sayi: 'SAYI 5' }, 
-                    { imgSrc: "img/dergiler/p3.png", sayi: 'SAYI 4' }, { imgSrc: "img/dergiler/p4.png", sayi: 'SAYI 3' }, 
-                    { imgSrc: "img/dergiler/p5.png", sayi: 'SAYI 2' }, { imgSrc: "img/dergiler/p6.png", sayi: 'SAYI 1' } ] %}
+        {% set dergiler = [
+          {
+            imgSrc: "img/dergiler/p1.png",
+            sayi: 'SAYI 6',
+            url: 'oku.html'
+          }, {
+            imgSrc: "img/dergiler/p2.png",
+            sayi: 'SAYI 5',
+            url: 'oku.html'
+          }, {
+            imgSrc: "img/dergiler/p3.png",
+            sayi: 'SAYI 4',
+            url: 'oku.html'
+          }, {
+            imgSrc: "img/dergiler/p4.png",
+            sayi: 'SAYI 3',
+            url: 'oku.html'
+          }, {
+            imgSrc: "img/dergiler/p5.png",
+            sayi: 'SAYI 2',
+            url: 'oku.html'
+          }, {
+            imgSrc: "img/dergiler/p6.png",
+            sayi: 'SAYI 1',
+            url: 'oku.html'
+          }
+        ] %}
 
         <div class="row">
           {% for dergi in dergiler %}
@@ -33,18 +57,15 @@
                 </div>
               </a>
             </div>
-            {% endfor %}
+          {% endfor %}
         </div>
-     
 
-      <div style="margin-top: 190px; margin-bottom: 80px;">
-        {% include "partials/index/hizmetler.nunjucks" %}
-      </div>
+        <div style="margin-top: 190px; margin-bottom: 80px;">
+          {% include "partials/index/hizmetler.nunjucks" %}
+        </div>
 
       </div>
     </div>
-
-    
 
     <!-- FOOTER -->
     {% include "partials/footer.nunjucks" %}

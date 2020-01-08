@@ -1,0 +1,75 @@
+{% extends "layout.nunjucks" %}
+
+{% block headKismi %}
+  {% include "partials/head.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+  <body >
+
+    <div class="dergi-oku-sayfasi">
+      {% set headerTitle = 'ONLİNE DERGİLER' %}
+      {% set headerResimYol = "img/dergiler/odergilerbg.png" %}
+      {% include "partials/karamursel-header.nunjucks" %}
+
+      <div class="container">
+        <p class="karamursel-breadcrumb">
+          <a href="./">ANASAYFA</a>
+          &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
+          <a href="./online-dergiler.html">ONLİNE DERGİLER</a>
+          &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
+          SAYI 6
+        </p>
+
+
+        {# <div class="row" style="width: 100%; background-color: #e1e8eb;">
+          <div class="dergi-container">
+            <canvas id="pdf_canvas"></canvas>  
+          </div>
+        </div> #}
+        <div class="row" style="background-color: #e1e8eb;">
+          <div class="col-md-1 col-lg-2 yonoklari">
+            <img id="prev_page" src="img/dergiler/dokuma-solOk.png" alt="">
+          </div>
+          <div class="col-md-10 col-lg-8 dergi-container">
+            <canvas id="pdf_canvas"></canvas>  
+          </div>
+          <div class="col-md-1 col-lg-2 yonoklari">
+            <img class="onemli-bir" id="next_page" src="img/dergiler/dokuma-sagOk.png" alt="">
+          </div>
+        </div>
+        
+
+        {# <div class="container">
+            <button id="prev_page">Previos Page</button>
+            <button id="next_page">next Page</button>
+            <span id="current_page_num"></span>
+                of
+            <span id="total_page_num"></span>
+
+            <input type="text" id="page_num">
+            <button id="go_to_page">Go To Page</button>
+        </div> #}
+
+        <!-- Replace pdf.js with downloaded pdf.js file location-->
+        {# <script src="pdf.js/build/generic/build/pdf.js"></script> #}
+        <script src="js/build/pdf.js"></script>
+        <script src="js/oku.js" charset="utf-8"></script>
+     
+
+      </div>
+    </div>
+
+     <div style="margin-top: 190px; margin-bottom: 80px;">
+        {% include "partials/index/hizmetler.nunjucks" %}
+      </div>
+
+    <!-- FOOTER -->
+    {% include "partials/footer.nunjucks" %}
+
+    <!--SCRİPTLER-->
+    {% include "partials/script.nunjucks" %}
+
+  </div>
+</body>
+{% endblock %}

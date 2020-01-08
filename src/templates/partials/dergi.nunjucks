@@ -1,8 +1,10 @@
 
+<a href="{{dergi.url}}">
+  <div class="item-dergi-wrapper" {% if sayfaModu %} style="width: 264px;" {% endif %} >
+    <img class="item-dergi-resim" src="{{dergi.imgSrc}}" class="img-dergi" alt=""/>
+  </div>
+</a>
 
-<div class="item-dergi-wrapper" {% if sayfaModu %} style="width: 264px;" {% endif %} >
-  <img class="item-dergi-resim" src="{{dergi.imgSrc}}" class="img-dergi" alt=""/>
-</div>
 
 {% if sayfaModu %}
   <p class="sayi">{{dergi.sayi}}</p>
