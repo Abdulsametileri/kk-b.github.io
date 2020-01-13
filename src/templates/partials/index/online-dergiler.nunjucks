@@ -131,21 +131,23 @@
         ]%}
 
         {% for haber in haberler %}
-          <div class="row duyuru-wrapper">
-            <div class="col-12 col-sm-5 col-md-3 col-lg-4">
-              <img class="duyuru-resim" src="{{haber.img}}" alt=""/>
-            </div>
-            <div class="col-12 col-sm-5 col-md-7 col-lg-7 ml-2 my-auto">
-              <div class="row">
-                <p class="duyuru-baslik">
-                  {{haber.baslik}}
-                </p>
+          <a href="./duyuru-detay.html">
+            <div class="row duyuru-wrapper">
+              <div class="col-12 col-sm-5 col-md-3 col-lg-4">
+                <img class="duyuru-resim" src="{{haber.img}}" alt=""/>
               </div>
-              <div class="row tarih-row">
-                <p class="duyuru-tarih">{{haber.tarih}}</p>
+              <div class="col-12 col-sm-5 col-md-7 col-lg-7 ml-2 my-auto">
+                <div class="row">
+                  <p class="duyuru-baslik">
+                    {{haber.baslik}}
+                  </p>
+                </div>
+                <div class="row tarih-row">
+                  <p class="duyuru-tarih">{{haber.tarih}}</p>
+                </div>
               </div>
-            </div>
           </div>
+          </a>
         {% endfor %}
         <a href="./duyuruveilanlar.html">
           <img src="img/video-duyuru/duyurutum.png" style="padding-left: 15px;padding-top: 18px;" alt=""/>
