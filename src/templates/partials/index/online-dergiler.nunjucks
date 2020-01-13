@@ -80,19 +80,23 @@
                 </a>
                 <div class="row">
                   <div class="col-6">
-                    <div>
-                      <img src="{{item.onceImg}}"  alt=""/>
-                      <p class="dunden-bugune-text">ÖNCE</p>
-                    </div>
+                    <a href="./dunden-bugune.html">
+                      <div>
+                        <img src="{{item.onceImg}}"  alt=""/>
+                        <p class="dunden-bugune-text">ÖNCE</p>
+                      </div>
+                    </a>
                   </div>
                   <div class="col-6">
-                    <div>
-                      <img src="{{item.sonraImg}}"  alt=""/>
-                      <p class="dunden-bugune-text">SONRA</p>
-                      <a href="./dunden-bugune.html">
+                    <a href="./dunden-bugune.html">
+                      <div>
+                        <img src="{{item.sonraImg}}"  alt=""/>
+                        <p class="dunden-bugune-text">SONRA</p>
+                      </div>
+                    </a>
+                    <a href="./dunden-bugune.html">
                         <img class="tumuicintiklayiniz" src="img/dundenbugune/tumuicintiklayiniz.png"  alt=""/>
                       </a>
-                    </div>
                   </div>
                 </div>
               </div>
