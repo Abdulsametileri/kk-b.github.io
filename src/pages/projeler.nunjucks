@@ -29,12 +29,12 @@
             }, 
             {
               title: "YENİ PROJELER",
-              href: "#",
+              href: "./yeni-projeler.html",
               class: ""
             },
             {
               title: 'YATIRIMLAR',
-              href: './yatirimlar.html',
+              href: '#',
               class: ""
             }
           ] %}
@@ -52,13 +52,13 @@
           class: 'my-3',
             img: 'yeniprojeler.png',
             hoverImg: 'yeniprojeler-hover.png',
-            url: ''
+            url: 'yeni-projeler.html'
           },
           {
           class: 'my-3',
             img: 'yatirimlar.png',
             hoverImg: 'yatirimlar-hover.png',
-            url: 'yatirimlar.html'
+            url: '#'
           }
         ]%}
 
