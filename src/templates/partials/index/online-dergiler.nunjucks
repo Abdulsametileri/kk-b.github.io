@@ -75,7 +75,9 @@
           {% for item in items %}
             <div id="{{item.id}}" class="row dundenbugune-container swiper-slide">
               <div class="col-12">
-                <p class="dunden-bugune-baslik">{{item.baslik}}</p>
+                <a href="./dunden-bugune.html">
+                  <p class="dunden-bugune-baslik">{{item.baslik}}</p>
+                </a>
                 <div class="row">
                   <div class="col-6">
                     <div>
