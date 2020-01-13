@@ -7,7 +7,7 @@
       </p>
     </div>
 
-    <div style="       border: #a9cbef 2px solid;">
+    <div style="border: #a9cbef 2px solid;">
       <div class="row mx-auto" style="margin-top: 25px;">
         {% set resimler = [
           {
@@ -24,7 +24,6 @@
             hoverImg: 'yemeicmehover.jpg',
             defaultImg: 'yemeicme.png',
             url: 'yeme-icme.html'
-            
           }
         ]%}
 
