@@ -48,17 +48,21 @@
           ] %}
           <div class="owl-one owl-carousel owl-theme">
             {% for proje in yeniProjeler %}
-              <div class="item-proje"
+              <a href="./proje-detay.html">
+                <div class="item-proje"
                   id="proje-image-slider-{{proje.id}}"
                   data-baslik="{{proje.dbaslik}}" 
                   data-detay="{{proje.ddetay}}" >
                 <img src="{{proje.src}}"/>
               </div>
+              </a>
             {% endfor %}
           </div>
 
           <div class="proje-detay">
-            <p class="proje-detay-baslik" id="pd-baslik">DENİZCİLİK MÜZESİ</p>
+            <a href="./proje-detay.html">
+              <p class="proje-detay-baslik" id="pd-baslik">DENİZCİLİK MÜZESİ</p>
+            </a>
             <p class="proje-detay-detay" id="pd-detay" >Kocaeli Büyükşehir Belediyesi ile ortaklaşa yapacağımız Denizcilik Müzesi, Osmanlı Devleti’nin ilk tersanesinin kurulduğu, ilk savaş gemisinin yapıldığı, ilk ‘kaptan-ı derya’ unvanına sahip denizcisi Karamürsel Alp Bey’in fethettiği ilçemizin köklü tarihini gözler önüne serecek.</p>
             <a class="projelericintiklayiniz" href="">
               <img src="img/projeler/projelerinintiklayiniz.png"/>
