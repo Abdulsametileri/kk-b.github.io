@@ -6,7 +6,7 @@
           defaultBgColor: '#EB3D4C',
           iconSrc: 'e.png',
           text: 'NÖBETÇİ ECZANELER',
-          url: '#'
+          url: './nobetci-eczaneler.html'
         },
         {
           hoverBgColor: '#b07cba',

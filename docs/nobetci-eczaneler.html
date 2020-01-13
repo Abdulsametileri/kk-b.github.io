@@ -22,18 +22,16 @@
 
 <link rel="stylesheet" href="css/swiper.min.css">
 <title>Karamürsel Belediyesi</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
   </head>
   <body>
     
 
-  <body class="iletisim">
-    
+  <body class="nobetci-eczaneler-sayfasi">
     
     
     <div id="scrollOnTop"></div>
-<div class="container-fluid header" style="background: url('img/iletisim/iletisimarkaplan.png');">
+<div class="container-fluid header" style="background: url('img/nobetcieczanelerbg.png');">
 
   
   <!-- AYNI BASLANGIC -->
@@ -185,7 +183,7 @@
               <a class="nav-link " href="./bilgi-hizmetleri.html">BİLGİ HİZMETLERİ</a>
             </li>
             <li class="nav-item" id="iletisim">
-              <a class="nav-link active" href="./iletisim.html">İLETİŞİM</a>
+              <a class="nav-link " href="./iletisim.html">İLETİŞİM</a>
             </li>
           </ul>
           <div class="aramaAlani">
@@ -208,7 +206,7 @@
   <img class="cizgi" src="img/sari_cizgi.png"/>
   <div class="header-kesfet-text-wrapper">
     <div class="container" style="text-align: right; padding: 0;">
-      <p class="header-kesfet-text">İLETİŞİM</p>
+      <p class="header-kesfet-text">NÖBETÇİ ECZANELER</p>
     </div>
   </div>
 </div>
@@ -217,141 +215,93 @@
       <p class="karamursel-breadcrumb">
         <a href="./">ANASAYFA</a> 
         &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
-        <a href="./iletisim.html">İLETİŞİM</a>
+        NÖBETÇİ ECZANELER
       </p>
-      <div class="row google-map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1512.6108417317284!2d29.6158586!3d40.6911151!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7aba168cb7826cee!2sKaramUrsel%20Belediyesi!5e0!3m2!1sen!2str!4v1575620234391!5m2!1sen!2str"
-     width="100%" height="355" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-</div>
+    
+    
 
-
-
-      <div class="row" style="justify-content: space-between; margin-top: 30px;">
-        <div class="col-md-12 col-lg-7 form-bilgi-container form-border" >
-  <div id="form-normal"   class="form-content">
-    <p class="baslik">İLETİŞİM FORMU</p>
-
-    <div style="position: relative;">
-      <input 
-        style="margin-top: 50px;"
-        id="ad-soyad"
-        oninput="inputDegisim(event);"
-        class="form-control" 
-        placeholder="Adınız - Soyadınızı giriniz" >      
-      <span id="ad-soyad-error-icon" style="display: none;"  class="invalid-x">x</span>
-    </div>
-
-    <div style="position: relative;">
-      <input 
-        id="email"
-        oninput="inputDegisim(event);"
-        class="form-control" 
-        placeholder="E-Mail Adresiniz" >      
-      <span id="email-error-icon" style="display: none;"  class="invalid-x">x</span>
-    </div>
-
-    <div style="position: relative;">
-      <input 
-        id="telefon"
-        oninput="inputDegisim(event);"
-        class="form-control" 
-        placeholder="Lütfen Telefon Numaranızı giriniz" >      
-      <span id="telefon-error-icon" style="display: none;"  class="invalid-x">x</span>
-    </div>
-
-    <div style="position: relative;">
-      <input 
-        id="konu"
-        oninput="inputDegisim(event);"
-        class="form-control" 
-        placeholder="Konuyu giriniz" >      
-      <span id="konu-error-icon" style="display: none;"  class="invalid-x">x</span>
-    </div>
-
-    <div style="position: relative;">
-        <textarea 
-        id="mesaj"
-        oninput="inputDegisim(event);"
-        class="form-control" placeholder="Mesajınız" rows="12"></textarea> 
-
-      <span id="mesaj-error-icon" style="display: none;"  class="invalid-x">x</span>
-    </div>
-
-    <div class="g-recaptcha" 
-      data-sitekey="6LeuscYUAAAAAAIIw6eO4JzBM_6aMJ7GxVHRaC95" 
-      data-callback="verifyRecaptchaCallback" 
-      data-expired-callback="expiredRecaptchaCallback"></div>
-    <input class="form-control d-none" data-recaptcha="true" required data-error="Captcha tamamlayın.">
-
-
-    <button type="button" class="btn btn-gonder" onclick="formuGonder(event);">GÖNDER</button>
-  </div>
-
-  <div style="display: none;" id="form-success" class="form-content form-gonderildi">
-    <img src="img/iletisim/iletisim-iletildi.png">
-  </div>
-</div>
-
-
-        <div class="col-md-12 col-lg-4 form-bilgi-container"  >
-
-  <div class="row iletisim-bilgi-row" >
-    <div class="col-12" style="background-color: #e0f3ff;">
-      <div class="iletisim-bilgi">
-        <p class="baslik">İLETİŞİM BİLGİLERİ</p>
-        <hr class="baslik-alt-cizgi">
-
-        <a  href="https://goo.gl/maps/JMxhGeTHiVSdgQXW8">
-          <img src="img/iletisim/iletisim-adres.png" />
-        </a>
-        
-        <div style="position:relative; margin-top:15px;">
-          <img src="img/iletisim/iletisim-telefon.png" alt=""/>
-          <a style="margin-left:12px;" class="telefon-text" href="tel:+902624521025">0 (262) 452 1025</a> <br>
-          <a style="margin-left:50px; position: absolute; top: 29px;" class="telefon-text" href="tel:+902624521221">0 (262) 452 1221</a> <br>
-          <a style="margin-left:50px; position: absolute; top: 50px;" class="telefon-text" href="tel:+902624525400">0 (262) 452 5400</a> <br>
+      <div class="row">
+        <div class="col-4 col-md col-lg gutter">
+          <div class="eczane-baslik-container">
+            <p class="eczane-zaman">DÜN</p>
+            <p class="eczane-baslik">ECZANE</p>
+          </div>
         </div>
-
-        <div>
-          <img src="img/iletisim/iletisim-fax.png" />
-          <a style="margin-left:12px;" class="telefon-text" href="tel:+902624521389">0 (262) 452 1389 </a>
+        <div class="col-5 col-md-5 col-lg-5 gutter">
+          <div class="eczane-baslik-container">
+            <p class="eczane-zaman">11.01.2020 - Cumartesi</p>
+            <p class="eczane-baslik">ADRES - TARİF BÖLÜMÜ</p>
+          </div>
         </div>
-        <a  href="mailto:karamurselbelediye@hs01.kep.tr">
-          <img src="img/iletisim/iletisim-mail.png" />
-        </a>
-        <br>
-        <a  href="mailto:info@karamursel.bel.tr">
-          <img src="img/iletisim/iletisim-info-mail.png" />
-        </a>
-        <br>
-        <a  href="mailto:muhasebe@karamursel.bel.tr">
-          <img src="img/iletisim/iletisim-muhasebe.png" />
-        </a>
-        <br>
-        <a  href="mailto:zabita@karamursel.bel.tr">
-          <img src="img/iletisim/iletisim-zabita.png" />
-        </a>
-        <br>
-        <a  href="mailto:hizmet@karamursel.bel.tr">
-          <img src="img/iletisim/iletisim-hizmet.png" />
-        </a>
+        <div class="col-3 col-md col-lg gutter">
+          <div class="eczane-baslik-container">
+            <p class="eczane-zaman">YARIN</p>
+            <p class="eczane-baslik">TELEFON</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+         <div class="col-4 col-md col-lg gutter">
+          <div class="eczane-container">
+            <p class="eczane-adi" style="font-weight: bold;">KARAMÜRSEL ECZANESİ</p>
+          </div>
+        </div>
+        <div class="col-5 col-md-5 col-lg-5 gutter">
+          <div class="eczane-container"> 
+            <p class="eczane-adres" style="font-weight: bold;">4 TEMMUZ MAH. CUMHURİYET CD. NO:36 KARAMÜRSEL</p>
+            <p class="eczane-adres" >VAPUR İSKELESİ YOLU ÜZERİ İŞBANKASI KARAMÜRSEL ŞUBESİ</p>
+          </div>
+        </div>
+        <div class="col-3 col-md col-lg gutter">
+          <div class="eczane-container" style="padding-left: 0px;">
+            <p class="eczane-no">0262 - 452 11 64</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4 col-md col-lg gutter">
+          <div class="eczane-container">
+            <p class="eczane-adi" style="font-weight: bold;">HAYAT ECZANESİ</p>
+          </div>
+        </div>
+        <div class="col-5 col-md-5 col-lg-5 gutter">
+          <div class="eczane-container"> 
+            <p class="eczane-adres" style="font-weight: bold;">4 TEMMUZ MH. SELAHATTİN BEY CD. NO:40/A-40/C</p>
+            <p class="eczane-adres" >BELEDİYE BİNASININ 200 M YANINDA</p>
+          </div>
+        </div>
+        <div class="col-3 col-md col-lg gutter">
+          <div class="eczane-container" style="padding-left: 0px;">
+            <p class="eczane-no">0262 - 452 20 00</p>
+          </div>
+        </div>
       </div>
       
-    </div>
-    <div class="col-12 mt-3" style="background-color: #f9f1c2;">
-      <div class="diger-bilgiler">
-        <p class="baslik">DİĞER BİLGİLER</p>
-        <img src="img/iletisim/postaceki.png" />
-        <img class="pt-3" src="img/iletisim/vergi-dairesi.png" />
+      <div class="row">
+        <div class="col-4 col-md col-lg gutter">
+          <div class="eczane-container">
+            <p class="eczane-adi" style="font-weight: bold;">ÇAĞDAŞ ECZANESİ</p>
+          </div>
+        </div>
+        <div class="col-5 col-md-5 col-lg-5 gutter">
+          <div class="eczane-container"> 
+            <p class="eczane-adres" style="font-weight: bold;">KAYACIK MAH. SAĞLIK SOK. NO:6/B KARAMÜRSEL</p>
+            <p class="eczane-adres" >BELEDİYE BİNASININ 200 M YANINDA</p>
+          </div>
+        </div>
+        <div class="col-3 col-md col-lg gutter">
+          <div class="eczane-container" style="padding-left: 0px;">
+            <p class="eczane-no">0262 - 452 54 13</p>
+          </div>
+        </div>
       </div>
+
+      
     </div>
-  </div>
 
-</div>
-
-
-      </div>
-
+    <div style="margin-top: 190px; margin-bottom: 80px;">
         <div class="container hizmetler">
     <div class="row">
       
@@ -438,7 +388,6 @@
     </div>
   </div>
 
-    
     </div>
     <div class="container footer">
   <div class="row justify-content-between">
@@ -566,7 +515,7 @@
   </div>
 </div>
 
-    
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
