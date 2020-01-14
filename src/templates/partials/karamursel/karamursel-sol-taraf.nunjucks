@@ -1,6 +1,5 @@
 <div class="col-sm-6 col-md-3">
   {% set items = [{ title: "TARİHÇE", href: "#" },
-                  { title: "SANAYİ", href: "#" },
                   { title: "NÜFUS", href: "#" },
                   { title: "SPOR", href: "#" },
                   { title: "COĞRAFYA", href: "#" },
