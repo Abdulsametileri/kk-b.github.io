@@ -34,7 +34,7 @@
           defaultBgColor: '#00C7C9',
           iconSrc: 'mt.png',
           text: 'MECLİS TOPLANTILARI',
-          url: '#'
+          url: './meclis-toplantilari.html'
         },
         {
           hoverBgColor: '#fcf4cf',
