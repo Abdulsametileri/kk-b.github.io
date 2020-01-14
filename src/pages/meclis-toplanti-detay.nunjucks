@@ -1,0 +1,106 @@
+{% extends "layout.nunjucks" %}
+
+{% block headKismi %}
+  {% include "partials/head.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+
+  <body class="meclis-toplantilari-detay-sayfasi">
+    {% set headerTitle = 'MECLİS TOPLANTILARI' %}
+    {% set headerResimYol = 'img/meclistoplantilari/meclistoplantilari.png' %}
+    {% include "partials/karamursel-header.nunjucks" %}
+
+    <div class="container">
+      <p class="karamursel-breadcrumb">
+        <a href="./">ANASAYFA</a> 
+        &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
+        <a href="meclis-toplantilari.html">MECLİS TOPLANTILARI</a> 
+        &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
+        EKİM AYI MECLİSİ TOPLANTISI YAPILDI
+      </p>
+    
+      <img style="padding-bottom: 40px; width: 100%;" src="img/meclistoplantilari/meclistoplantidetay.png" style="width: 100%;">
+
+        <div>
+          <p>
+            <span class="haber-detay-baslik">EKİM AYI MECLİSİ TOPLANTISI YAPILDI</span>
+            <span class="haber-detay-aciklama" style="float:right;">Güncelleme: 02.20.2019</span>
+          </p>
+        </div>
+        
+        <p class="haber-detay-aciklama">
+
+        <span>
+          2019 Ekim ayı meclis toplantısı 1 Ekim Salı günü Karamürsel Belediyesi Meclis Salonunda düzenlendi.
+        </span>  
+        <br><br>
+        <span>
+          4 Maddeden oluşan Meclis gündemi açılış – yoklama ve bir önceki Eylül ayı meclis toplantısı tutanağının oya sunulması ile başladı. Karamürsel Belediye Başkanı İsmail Yıldırım’ın yaptığı açılış konuşmasının ardından 4 maddeden oluşan Ekim ayı Meclis toplantısını başlattı. Ekim ayı meclis toplantısında yer alan maddeler ise şöyle;
+        </span>
+        <br><br>
+        <span>
+  1)- Mali Hizmetler Müdürlüğü'nün  25.09.2019 tarih ve 32250 sayılı 2020-2024 Belediye Stratejik Planı ile ilgili yazısı.
+  <br>
+2)- Mali Hizmetler Müdürlüğü'nün    25.09.2019   tarih  ve  32218   sayılı 2020-2022 yılı  Gelir Gider Bütçesi ile ilgili yazısı.
+<br>
+3)- Mali Hizmetler Müdürlüğü'nün 25.09.2019 tarih ve 32217 sayılı Belediye 2020 yılı Performans Planı ile ilgili yazısı.
+<br>
+4)- Mali Hizmetler Müdürlüğü'nün 25.09.2019 tarih ve 32219 sayılı Belediye 2020 yılı Gelir Tarifesi ile ilgili yazısı oldu.
+<br><br>
+Meclis gündeminin ardından Karamürsel Belediye Başkanı İsmail Yıldırım, geçmiş dönemlerde Belediye Başkanlığı yapmış Hikmet Doğansoy, Özcan Özalgın ve geçtiğimi ay vefat eden Kent Konseyi Başkanımız Mesut Çalık’ın isimlerinin hayata geçirilen yatırımlara verilmesini gündem maddesi olarak meclise sundu ve oy birliği ile kabul edildi.
+        </span>
+<br><br>
+Geçmiş dönem Belediye Başkanlarımızdan Hikmet Doğansoy’un ismi; Stadyumun yanında yapılan Halı Saha ve Tesise verilmesi,
+Geçmiş dönem Belediye Başkanlarımızdan Özcan Özalgın’ın ismi; Karamürsel Yarı Olimpik Yüzme Havuzuna verilmesi,
+Ve son olarak Kent Konut Yanında yapılan Millet Bahçesine geçtiğimiz ay içerisinde vefat eden Kent Konseyi Başkanımız Mesut Çalık’ın isminin verilmesi oy birliği ile belirlendi.          
+        </p>
+
+        <p class="haber-detay-baslik" style="font-size: 18px; margin-top: 100px;">İLGİLİ FOTOĞRAFLAR</p>
+        <div class="galeri-container">
+          <div class="row">
+            {% set items = [
+              {
+                id: "image1",
+                src: "img/meclistoplantilari/1.png",
+                class: 'col-6 col-sm-4 col-md-3 col-lg my-1 '
+              },
+              {
+                id: "image2",
+                src: "img/meclistoplantilari/2.png",
+                class: 'col-6 col-sm-4 col-md-3 col-lg my-1 '
+              },
+              {
+                id: "image3",
+                src: "img/meclistoplantilari/3.png",
+                class: 'col-6 col-sm-4 col-md-3 col-lg my-1 '
+              },
+              {
+                id: "image4",
+                src: "img/meclistoplantilari/4.png",
+                class: 'col-6 col-sm-4 col-md-3 col-lg my-1 '
+              },
+              {
+                id: "image5",
+                src: "img/meclistoplantilari/5.png",
+                class: 'col-6 col-sm-4 col-md-3 col-lg my-1 '
+              }
+              ]%}
+            
+            {% include "partials/hoverli-resim-list.nunjucks" %}
+            
+          </div>
+        </div>
+    </div>
+
+    
+    
+    <div style="margin-top: 130px; margin-bottom: 80px;">
+      {% include "partials/index/hizmetler.nunjucks" %}
+    </div>
+    {% include "partials/footer.nunjucks" %}
+
+    {% include "partials/script.nunjucks" %}
+    {% include "partials/iletisim/iletisim-script.nunjucks" %}
+  </body>
+{% endblock %}

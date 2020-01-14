@@ -317,10 +317,10 @@
     <div class="galeri-foto-container" onclick="previewImg('image1')">
       <img id="image1" src="img/foto-buyuk-1.jpg" class="img-fluid galeri-fotolar"   >
       <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img hidden="true" src="img/foto-hover.png">
+        <img gizlen="true" src="img/foto-hover.png">
         <br><br>
-                  BÜYÜK HALİ İÇİN TIKLAYIN
-                </a>
+        BÜYÜK HALİ İÇİN TIKLAYIN
+      </a>
     </div>  
   </div>
 
@@ -328,10 +328,10 @@
     <div class="galeri-foto-container" onclick="previewImg('image2')">
       <img id="image2" src="img/foto-buyuk-2.jpg" class="img-fluid galeri-fotolar"   >
       <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img hidden="true" src="img/foto-hover.png">
+        <img gizlen="true" src="img/foto-hover.png">
         <br><br>
-                  BÜYÜK HALİ İÇİN TIKLAYIN
-                </a>
+        BÜYÜK HALİ İÇİN TIKLAYIN
+      </a>
     </div>  
   </div>
 
@@ -339,10 +339,10 @@
     <div class="galeri-foto-container" onclick="previewImg('image3')">
       <img id="image3" src="img/foto-buyuk-3.jpg" class="img-fluid galeri-fotolar"   >
       <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img hidden="true" src="img/foto-hover.png">
+        <img gizlen="true" src="img/foto-hover.png">
         <br><br>
-                  BÜYÜK HALİ İÇİN TIKLAYIN
-                </a>
+        BÜYÜK HALİ İÇİN TIKLAYIN
+      </a>
     </div>  
   </div>
 
@@ -350,10 +350,10 @@
     <div class="galeri-foto-container" onclick="previewImg('image4')">
       <img id="image4" src="img/foto-buyuk-4.jpg" class="img-fluid galeri-fotolar"   >
       <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img hidden="true" src="img/foto-hover.png">
+        <img gizlen="true" src="img/foto-hover.png">
         <br><br>
-                  BÜYÜK HALİ İÇİN TIKLAYIN
-                </a>
+        BÜYÜK HALİ İÇİN TIKLAYIN
+      </a>
     </div>  
   </div>
 
@@ -361,10 +361,10 @@
     <div class="galeri-foto-container" onclick="previewImg('image5')">
       <img id="image5" src="img/foto-buyuk-5.jpg" class="img-fluid galeri-fotolar"   >
       <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img hidden="true" src="img/foto-hover.png">
+        <img gizlen="true" src="img/foto-hover.png">
         <br><br>
-                  BÜYÜK HALİ İÇİN TIKLAYIN
-                </a>
+        BÜYÜK HALİ İÇİN TIKLAYIN
+      </a>
     </div>  
   </div>
 
@@ -372,10 +372,10 @@
     <div class="galeri-foto-container" onclick="previewImg('image6')">
       <img id="image6" src="img/foto-buyuk-6.jpg" class="img-fluid galeri-fotolar"   >
       <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img hidden="true" src="img/foto-hover.png">
+        <img gizlen="true" src="img/foto-hover.png">
         <br><br>
-                  BÜYÜK HALİ İÇİN TIKLAYIN
-                </a>
+        BÜYÜK HALİ İÇİN TIKLAYIN
+      </a>
     </div>  
   </div>
 
@@ -383,10 +383,10 @@
     <div class="galeri-foto-container" onclick="previewImg('image7')">
       <img id="image7" src="img/foto-buyuk-7.jpg" class="img-fluid galeri-fotolar"   >
       <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img hidden="true" src="img/foto-hover.png">
+        <img gizlen="true" src="img/foto-hover.png">
         <br><br>
-                  BÜYÜK HALİ İÇİN TIKLAYIN
-                </a>
+        BÜYÜK HALİ İÇİN TIKLAYIN
+      </a>
     </div>  
   </div>
 
@@ -394,10 +394,10 @@
     <div class="galeri-foto-container" onclick="previewImg('image8')">
       <img id="image8" src="img/foto-buyuk-8.jpg" class="img-fluid galeri-fotolar"   >
       <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img hidden="true" src="img/foto-hover.png">
+        <img gizlen="true" src="img/foto-hover.png">
         <br><br>
-                  BÜYÜK HALİ İÇİN TIKLAYIN
-                </a>
+        BÜYÜK HALİ İÇİN TIKLAYIN
+      </a>
     </div>  
   </div>
 
@@ -416,7 +416,7 @@
       */
     }
     const gallery = new Viewer(document.getElementById('images'), { filter(image) {
-      if (!image.hidden)
+      if (!image.src.includes('foto-hover'))
         return image
     } });
 

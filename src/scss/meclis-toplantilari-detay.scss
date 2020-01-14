@@ -1,0 +1,23 @@
+@import 'karamursel.scss';
+
+.meclis-toplantilari-detay-sayfasi {
+  @extend .karamursel;
+  .haber-detay-baslik {
+    font-size: 24px;
+    color: rgb(0, 127, 197);
+    font-weight: bold;
+    line-height: 1.292;
+  }
+  
+
+  .haber-detay-aciklama {
+      font-size: 14px;
+      font-family: "Raleway";
+      color: rgb(143, 144, 145);
+      line-height: 1.714;
+      .haber-detay-baslik-baslik {
+        color: #8f9091;
+        font-weight: bold;
+      }
+  }
+}

@@ -8,10 +8,10 @@
     <div class="galeri-foto-container" onclick="previewImg('{{item.id}}')">
       <img id="{{item.id}}" src="{{item.src}}" class="img-fluid galeri-fotolar"   >
       <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img hidden="true" src="img/foto-hover.png">
+        <img gizlen="true" src="img/foto-hover.png">
         <br><br>
-                  BÜYÜK HALİ İÇİN TIKLAYIN
-                </a>
+        BÜYÜK HALİ İÇİN TIKLAYIN
+      </a>
     </div>  
   </div>
 {% endfor %}
@@ -30,7 +30,7 @@
       */
     }
     const gallery = new Viewer(document.getElementById('images'), { filter(image) {
-      if (!image.hidden)
+      if (!image.src.includes('foto-hover'))
         return image
     } });
 

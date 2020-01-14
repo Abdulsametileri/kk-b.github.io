@@ -8,7 +8,7 @@
 
   <body class="meclis-toplantilari-sayfasi">
     {% set headerTitle = 'MECLİS TOPLANTILARI' %}
-    {% set headerResimYol = 'img/meclistoplantilari.png' %}
+    {% set headerResimYol = 'img/meclistoplantilari/meclistoplantilari.png' %}
     {% include "partials/karamursel-header.nunjucks" %}
 
     <div class="container">
@@ -51,25 +51,27 @@
       ]%}
 
       {% for tl in toplantiList %}
-        <div class="row" style="background-color: #fafafa; padding-top: 15px; padding-bottom: 15px; margin-bottom: 8px;" >
-          <div class="col-1 meclis-sag-icon" style="padding-left:0px; padding-right: 0px;">
-            <img src="img/vefatedenlersagicon.png" alt="">
-          </div>
-          <div class="col-11" style="padding-left: 0px;">
-            <div class="meclis-aciklama-container">
-              <p class="meclis-baslik">
-                {{tl.baslik}}
-              </p>
-              <p class="meclis-aciklama">
-                {{tl.aciklama}}
-              </p>
+        <a href="./meclis-toplanti-detay.html">
+          <div class="row" style="background-color: #fafafa; padding-top: 15px; padding-bottom: 15px; margin-bottom: 8px;" >
+            <div class="col-1 meclis-sag-icon" style="padding-left:0px; padding-right: 0px;">
+              <img src="img/vefatedenlersagicon.png" alt="">
+            </div>
+            <div class="col-11" style="padding-left: 0px;">
+              <div class="meclis-aciklama-container">
+                <p class="meclis-baslik">
+                  {{tl.baslik}}
+                </p>
+                <p class="meclis-aciklama">
+                  {{tl.aciklama}}
+                </p>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
       {% endfor %}
-      
+
     </div>
-    
+
     <div style="margin-top: 190px; margin-bottom: 80px;">
       {% include "partials/index/hizmetler.nunjucks" %}
     </div>
