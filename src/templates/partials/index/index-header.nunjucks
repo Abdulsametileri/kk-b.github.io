@@ -9,6 +9,7 @@
     <div class="swiper-wrapper">
       {% set images = [
             {  id: 'slider0', url: 'yeni01.jpg' },
+            {  id: 'slider111', url: 'yeni02.jpg' },
             {  id: 'slider1', url: '01.jpg' },
             {  id: 'slider2', url: '02.jpg' },
             {  id: 'slider3', url: '03.jpg' },
