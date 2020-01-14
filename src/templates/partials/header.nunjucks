@@ -51,11 +51,6 @@
                       </div>
                       <div class="li-item">
                         <li>
-                          <a href="#">SANAYİ</a>
-                        </li>
-                      </div>
-                      <div class="li-item">
-                        <li>
                           <a href="#">NÜFUS</a>
                         </li>
                       </div>
@@ -91,11 +86,11 @@
                           <a href="#">YEMEK KÜLTÜRÜ</a>
                         </li>
                       </div>
-                      <div class="li-item">
+                      {# <div class="li-item">
                         <li>
                           <a href="#">KÜLTÜR VARLIKLARI</a>
                         </li>
-                      </div>
+                      </div> #}
                     </div>
                   </div>
                 </ul>
