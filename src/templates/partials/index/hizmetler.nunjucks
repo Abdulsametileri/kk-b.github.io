@@ -27,7 +27,7 @@
           defaultBgColor: '#00C194',
           iconSrc: 'fa.png',
           text: 'FAALİYET RAPORLARI',
-          url: '#'
+          url: './faaliyet-raporlari.html'
         },
         {
           hoverBgColor: '#84e3e5',
@@ -49,14 +49,13 @@
         <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1" style="height: 115px; width: 160px;">
         <a href="{{hizmet.url}}">
           <div class="img-container" 
-          onmouseover="this.style.backgroundColor='{{hizmet.hoverBgColor}}'"
-          onmouseout="this.style.backgroundColor='{{hizmet.defaultBgColor}}'"
-          style="background-color: {{hizmet.defaultBgColor}}; "
-          >
-            <img src="img/hizmetler/{{hizmet.iconSrc}}">
-            <p>{{hizmet.text}}</p>
+            onmouseover="this.style.backgroundColor='{{hizmet.hoverBgColor}}'"
+            onmouseout="this.style.backgroundColor='{{hizmet.defaultBgColor}}'"
+            style="background-color: {{hizmet.defaultBgColor}};">
+              <img src="img/hizmetler/{{hizmet.iconSrc}}">
+              <p>{{hizmet.text}}</p>
+            </div>
           </div>
-        </div>
         </a>
       {% endfor %}
     </div>

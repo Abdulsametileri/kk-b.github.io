@@ -1,0 +1,100 @@
+{% extends "layout.nunjucks" %}
+
+{% block headKismi %}
+  {% include "partials/head.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+
+  <body class="faaliyet-raporlari-sayfasi">
+    {% set headerTitle = 'FAALİYET RAPORLARI' %}
+    {% set headerResimYol = 'img/faaliyetraporlari/faaliyetraporlaribg.png' %}
+    {% include "partials/karamursel-header.nunjucks" %}
+
+    <div class="container">
+      <p class="karamursel-breadcrumb">
+        <a href="./">ANASAYFA</a> 
+        &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
+        FAALİYET RAPORLARI
+      </p>
+    
+
+      {% set faaliyetler = [
+        {
+          url: '#',
+          text: '2008 YILI FAALİYET RAPORU'
+        },
+        {
+          url: '#',
+          text: '2009 YILI FAALİYET RAPORU'
+        },
+        {
+          url: '#',
+          text: '2010 YILI FAALİYET RAPORU'
+        },
+        {
+          url: '#',
+          text: '2011 YILI FAALİYET RAPORU'
+        },
+        {
+          url: '#',
+          text: '2012 YILI FAALİYET RAPORU'
+        },
+        {
+          url: '#',
+          text: '2013 YILI FAALİYET RAPORU'
+        },
+        {
+          url: '#',
+          text: '2014 YILI FAALİYET RAPORU'
+        },
+        {
+          url: '#',
+          text: '2015 YILI FAALİYET RAPORU'
+        },
+        {
+          url: '#',
+          text: '2016 YILI FAALİYET RAPORU'
+        },
+        {
+          url: '#',
+          text: '2017 YILI FAALİYET RAPORU'
+        },
+        {
+          url: '#',
+          text: '2018 YILI FAALİYET RAPORU'
+        },
+        {
+          url: '#',
+          text: '2019 YILI FAALİYET RAPORU'
+        }
+      ]%}
+
+      <div class="row">
+        {% for f in faaliyetler%}
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <a href="./">
+                <div class="faaliyet-container" 
+                  style="background-color: #cce5f3;">
+                    <div class="faaliyet-text-icon-container">
+                        <img class="faaliyet-icon" src="img/faaliyetraporlari/faaliyeticon.png">
+                        <p class="faaliyet-text">{{f.text}}</p>
+                    </div>
+                </div>
+              </a>
+          </div>
+        {% endfor %}
+      </div>
+
+      
+    </div>
+    
+    <div style="margin-top: 190px; margin-bottom: 80px;">
+      {% include "partials/index/hizmetler.nunjucks" %}
+    </div>
+    {% include "partials/footer.nunjucks" %}
+
+    {% include "partials/script.nunjucks" %}
+    {% include "partials/iletisim/iletisim-script.nunjucks" %}
+  </body>
+{% endblock %}

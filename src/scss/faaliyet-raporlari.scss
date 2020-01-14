@@ -1,0 +1,47 @@
+@import 'karamursel.scss';
+
+.faaliyet-raporlari-sayfasi {
+  @extend .karamursel;
+
+
+  .faaliyet-container {
+    height: 290px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #cce5f3;
+    margin-top: 25px;
+
+    &:hover {
+      background: url('../img/faaliyetraporlari/faaliyethover.png');
+      background-position: center;   
+      cursor: pointer;
+      @media (max-width: $xs) {
+        opacity: 1;
+      }
+    }
+
+    .faaliyet-text-icon-container {
+      text-align: center;
+    }
+
+
+    .faaliyet-text {
+      font-size: 16px;
+      font-family: "OpenSans";
+      color: rgb(105, 138, 157);
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 1.5;
+      width: 155px;
+      margin-bottom: 0px;
+      margin-top: 35px;
+    }
+
+  }
+
+}
