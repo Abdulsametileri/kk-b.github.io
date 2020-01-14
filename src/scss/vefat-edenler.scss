@@ -1,0 +1,61 @@
+@import 'karamursel.scss';
+
+.vefat-edenler-sayfasi {
+  @extend .karamursel;
+
+  .baslik {
+    background-color: rgb(90, 214, 253);
+    color: white;
+    padding: 10px;
+    padding-left: 25px;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .vefat-container {
+    background-color: #fafafa;
+  }
+
+  .vefat-tarih {
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(0, 127, 197);
+    font-weight: bold;
+    line-height: 1.313;
+    text-align: left;
+  }
+
+  .vefat-aciklama {
+    font-size: 12px;
+    font-family: "Raleway";
+    color: rgb(146, 144, 144);
+    line-height: 1.417;
+    margin-bottom: 0px;
+  }
+
+  .vefat-sag-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vefat-aciklama-container { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .kahverengi-baslik {
+    color: #929090;
+  }
+
+  .hizmetler {
+    padding-left: 0px;
+    padding-right: 0px;
+    @media (max-width: $phone) {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
+}

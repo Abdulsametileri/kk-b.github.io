@@ -13,7 +13,7 @@
           defaultBgColor: '#78497B',
           iconSrc: 'vd.png',
           text: 'VEFAT EDENLER',
-          url: '#'
+          url: './vefat-edenler.html'
         },
         {
           hoverBgColor: '#86cbe8',

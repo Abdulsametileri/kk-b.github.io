@@ -2,14 +2,14 @@
 <div class="social-media-alignment">
 
   {% set socials = [
-    { image: 'facebook.png', url: 'https://www.facebook.com/kbb41500/' },
-    { image: 'twitter.png', url: 'https://twitter.com/KaramurselBel' },
-    { image: 'instagram.png', url: 'https://www.instagram.com/karamurselbelediyesi/' },
-    { image: 'youtube.png', url: 'https://www.youtube.com/user/karamurselbelediyesi' }
+    { class: 'mr-2', image: 'facebook.png', url: 'https://www.facebook.com/kbb41500/' },
+    { class: 'mr-2', image: 'twitter.png', url: 'https://twitter.com/KaramurselBel' },
+    { class: 'mr-2', image: 'instagram.png', url: 'https://www.instagram.com/karamurselbelediyesi/' },
+    { class: '', image: 'youtube.png', url: 'https://www.youtube.com/user/karamurselbelediyesi' }
   ]%}
 
   {% for social in socials %}
-    <div class="social-media-container mr-2">
+    <div class="social-media-container {{social.class}}">
       <a style="display: inline-block; z-index: 99;" href="{{social.url}}">
         <img src="img/social-media/{{social.image}}" alt="">
       </a>

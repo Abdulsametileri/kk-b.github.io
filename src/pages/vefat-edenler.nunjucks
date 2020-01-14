@@ -1,0 +1,113 @@
+{% extends "layout.nunjucks" %}
+
+{% block headKismi %}
+  {% include "partials/head.nunjucks" %}
+{% endblock %}
+
+{% block content %}
+
+  <body class="vefat-edenler-sayfasi">
+    {% set headerTitle = 'VEFAT EDENLER' %}
+    {% set headerResimYol = 'img/vefatedenlerbg.png' %}
+    {% include "partials/karamursel-header.nunjucks" %}
+
+    <div class="container">
+      <div class="row">
+        <p class="karamursel-breadcrumb">
+        <a href="./">ANASAYFA</a> 
+        &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
+        VEFAT EDENLER
+      </p>
+      </div>
+    
+      <div class="row" style="margin-bottom: 5px;">
+        <p class="baslik">VEFAT EDENLER - 30 GÜNLÜK LİSTE</p>
+      </div>
+
+      {% set vefatList = [
+        {
+          tarih: '11.01.2020',
+          kisi: 'ZÜLKÜF AYDIN',
+          aciklama: "DİYARBAKIR ÇÜNKÜŞ EŞRAFINDAN TANER,ŞENER,UĞUR,ÇİGDEM VE ÜNER AYDIN'IN BABALARI ZÜLKÜF AYDIN VEFAT ETMİŞTİR. CENAZESİ ÖĞLEN NAMAZINA MÜTEAKİP MERKEZ YENİ CAMİİNDEN KALDIRILARAK YENİ MEZARLIĞA DEFNEDİLECEKTİR.",
+          class: ''
+        },
+        {
+          tarih: '11.01.2020',
+          kisi: 'NEVİN MÜEZZİNOĞLU',
+          aciklama: "İLÇEMİZ SAKİNLERİNDEN GÜMÜŞHANELİ MERHUM ZEKİ MÜEZZİNOĞLU'NUN EŞİ, SERAP, MEHTAP VE MEHMET MÜEZZİNOĞLUNUN ANNELERİ, NEVİN MÜEZZİNOĞLU VEFAT ETMİŞTİR. CENAZESİ ÖĞLEN NAMAZINA MÜTEAKİP İZMİT YAHYAKAPTAN CAMİİSİNDEN KALDIRILARAK KARAMÜRSEL YENİ MEZARLIĞA DEFNEDİLECEKTİR.",
+          class: ''
+        },
+        {
+          tarih: '10.01.2020',
+          kisi: 'AYŞE AKBAŞ',
+          aciklama: "Kızderbent Mahallesinden merhum Hacı Ali AKBAŞ' ın eşi, Salih, Alaaddin, Fatih AKBAŞ ve Fatma ALPSAN' ın anneleri Ayşe AKBAŞ vefat etmiştir. Cenazesi cuma namazına müteakip Kızderbent mahallesinde defnedilecektir. Cenazeye gitmek isteyenler için arabalar saat 12:00'de terminalden kalkacaktır.",
+          class: 'kahverengi-baslik'
+        },
+        {
+          tarih: '10.01.2020',
+          kisi: 'ADEM DİKBAYIR',
+          aciklama: "Karapınar mahallesinden Pınar MERCAN' ın babası, Halil MERCAN' ın kayınpederi, eski börek ustası Adem DİKBAYIR vefat etmiştir. Cenazesi ikindi namazına müteakip merkez camiinden kaldırılarak Karapınar mahallesinde defnedilecektir.",
+          class: 'kahverengi-baslik'
+        },
+        {
+          tarih: '08.01.2020',
+          kisi: 'HASAN DENİZ',
+          aciklama: "Avcı mahallesinden Hüseyin ve İlyas DENİZ' in babaları, hasan DENİZ vefat etmiştir. Cenazesi öğle namazına müteakip Avcı mahallesinde defnedilecektir. Cenazeye gitmek isteyenler için arabalar saat 12:00' de terminalden kalkacaktır.",
+          class: 'kahverengi-baslik'
+        },
+        {
+          tarih: '07.01.2020',
+          kisi: 'REMZİYE FİLİBELİ',
+          aciklama: "Merhum Zühtü FİLİBELİ' nin eşi, Mithat, Mustafa Şahap FİLİBELİ ve İlkay SOYER' in anneleri, Remziye FİLİBELİ vefat etmiştir. Cenazesi öğle namazına müteakip merkez camiinden kaldırılarak yeni mezarlıkta defnedilecektir.",
+          class: 'kahverengi-baslik'
+        }
+      ]%}
+
+      {% for vl in vefatList %}
+        <div class="row" style="background-color: #fafafa; padding-top: 15px; padding-bottom: 15px;  margin-bottom: 8px;" >
+          <div class="col-1 vefat-sag-icon" style="padding-left:0px; padding-right: 0px; ">
+            <img src="img/vefatedenlersagicon.png" alt="">
+          </div>
+          <div class="col-11" style="padding-left: 0px;">
+            <div class="vefat-aciklama-container">
+              <p>
+              <span class="vefat-tarih {{vl.class}}">{{vl.tarih}} - </span>
+              <span class="vefat-tarih {{vl.class}}">{{vl.kisi}}</span>
+              </p>
+              <p class="vefat-aciklama">
+                {{vl.aciklama}}
+              </p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+
+
+     {#  <div class="row" style="background-color: #fafafa; padding-top: 15px; padding-bottom: 15px;">
+        <div class="col-1 vefat-sag-icon" style="padding-left:0px; padding-right: 0px; ">
+          <img src="img/vefatedenlersagicon.png" alt="">
+        </div>
+        <div class="col-11" style="padding-left: 0px;">
+          <div class="vefat-aciklama-container">
+            <p>
+            <span class="vefat-tarih">11.01.2020 - </span>
+            <span class="vefat-tarih">ZÜLKÜF AYDIN</span>
+            </p>
+            <p class="vefat-aciklama">
+              DİYARBAKIR ÇÜNKÜŞ EŞRAFINDAN TANER,ŞENER,UĞUR,ÇİGDEM VE ÜNER AYDIN'IN BABALARI ZÜLKÜF AYDIN VEFAT ETMİŞTİR. CENAZESİ ÖĞLEN NAMAZINA MÜTEAKİP MERKEZ YENİ CAMİİNDEN KALDIRILARAK YENİ MEZARLIĞA DEFNEDİLECEKTİR.
+            </p>
+          </div>
+        </div>
+      </div> #}
+      
+    </div>
+    <div  style="margin-top: 190px; margin-bottom: 80px;">
+      {% include "partials/index/hizmetler.nunjucks" %}
+    </div>
+    
+    {% include "partials/footer.nunjucks" %}
+
+    {% include "partials/script.nunjucks" %}
+    {% include "partials/iletisim/iletisim-script.nunjucks" %}
+  </body>
+{% endblock %}
