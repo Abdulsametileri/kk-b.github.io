@@ -28,48 +28,60 @@
             src: 'e.png',
             detayImg: 'img/bilgi-hizmetleri/salonhizmetleri-detay.png',
             baslik: 'Belediye Kültür Merkezi',
-            detay: 'Nikah, düğün ve diğer cemiyetleriniz için belediyemiz Kültür Me'
+            detay: 'Nikah, düğün ve diğer cemiyetleriniz için belediyemiz Kültür Me',
+            url: './nobetci-eczaneler.html'
           },
           {
             text: 'VEFAT EDENLER',
-            src: 'vefat.png'
+            src: 'vefat.png',
+            url: './vefat-edenler.html'
           }, {
             text: 'VAPUR SAATLERİ',
-            src: 'vapur.png'
+            src: 'vapur.png',
+            url: './vapur-saatleri.html'
           }, {
             text: 'FAALİYET RAPORLARI',
-            src: 'faaliyet.png'
+            src: 'faaliyet.png',
+            url: './faaliyet-raporlari.html'
           }, {
             text: 'MECLİS TOPLANTILARI',
-            src: 'meclis.png'
+            src: 'meclis.png',
+            url: './meclis-toplantilari.html'
           }, {
             text: '',
-            src: 'cimer.png'
+            src: 'cimer.png',
+            url: 'https://www.cimer.gov.tr'
           }, {
             text: 'SPORTİF HİZMETLER',
-            src: 'sportif.png'
+            src: 'sportif.png',
+            url: './bilgi-hizmetleri-detay.html?index=1'
           }, {
             text: 'ATIK / MOLOZ TOPLAMA HİZMETİ',
-            src: 'atikmoloz.png'
+            src: 'atikmoloz.png',
+            url: './bilgi-hizmetleri-detay.html?index=1'
           }, {
             text: 'SALON HİZMETLERİ',
-            src: 'salonhizmetleri.png'
+            src: 'salonhizmetleri.png',
+            url: './bilgi-hizmetleri-detay.html?index=1'
           }, {
             text: 'EL SANATLARI VE BECERİ KURSLARI',
-            src: 'elsanatlari.png'
+            src: 'elsanatlari.png',
+            url: './bilgi-hizmetleri-detay.html?index=1'
           }, {
             text: 'EVLENDİRME HİZMETLERİ',
-            src: 'evlendirme.png'
+            src: 'evlendirme.png',
+            url: './bilgi-hizmetleri-detay.html?index=1'
           }, {
             text: 'CENAZE HİZMETLERİ',
-            src: 'cenaze.png'
+            src: 'cenaze.png',
+            url: './bilgi-hizmetleri-detay.html?index=1'
           }
         ] %}
 
         <div class="row" id="bilgi-hizmet-menu">
           {% for image in images %}
             <div class="col-6 col-sm-4 col-md-3 col-lg-2 my-1">
-              <a href="./bilgi-hizmetleri-detay.html?index=1">
+              <a href="{{image.url}}">
                 <div class="img-container">
                   <img src="img/bilgi-hizmetleri/{{image.src}}">
                   <p>{{image.text}}</p>
