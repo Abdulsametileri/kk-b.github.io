@@ -20,7 +20,7 @@
           defaultBgColor: '#2291B1',
           iconSrc: 'vs.png',
           text: 'VAPUR SAATLERİ',
-          url: '#'
+          url: './vapur-saatleri.html'
         },
         {
           hoverBgColor: '#63e7c2',
