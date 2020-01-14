@@ -1,0 +1,67 @@
+@import 'karamursel.scss';
+
+.site-ici-ara-sayfasi {
+  @extend .karamursel;
+  .aranan-baslik {
+    font-size: 24px;
+    font-family: "Raleway";
+    color: rgb(159, 159, 159);
+    font-weight: bold;
+    line-height: 0.75;
+    margin-top: 25px;
+    @media (max-width: $phone) {
+      padding-left: 25px;
+    }
+  }
+  .arama-loading-text {
+    font-size: 18px;
+    font-family: "Raleway";
+    color: rgb(0, 127, 197);
+    font-weight: bold;
+    line-height: 1;
+    text-align: left;
+    margin-bottom: 63px;
+    @media (max-width: $phone) {
+      padding-left: 25px;
+    }
+  }
+
+  .padding-breadcrumb {
+    @media (max-width: $phone) {
+      padding-left: 25px;
+    }
+  }
+
+  .meclis-container {
+    background-color: #fafafa;
+  }
+
+  .meclis-baslik {
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgb(0, 127, 197);
+    font-weight: bold;
+    line-height: 1.313;
+    text-align: left;
+  }
+
+  .meclis-aciklama {
+    font-size: 12px;
+    font-family: "Raleway";
+    color: rgb(146, 144, 144);
+    line-height: 1.417;
+    margin-bottom: 0px;
+  }
+
+  .meclis-sag-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .meclis-aciklama-container { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
