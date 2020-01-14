@@ -6,7 +6,7 @@
 
 {% block content %}
 
-  <body class="nobetci-eczaneler-sayfasi">
+  <body class="vapur-saatleri-sayfasi">
     {% set headerTitle = 'VAPUR SAATLERİ' %}
     {% set headerResimYol = 'img/vapursaatleribg.png' %}
     {% include "partials/karamursel-header.nunjucks" %}
@@ -18,7 +18,18 @@
         VAPUR SAATLERİ
       </p>
     
-
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div class="vapur-preview-wrapper">
+            <img class="vapur-preview-resim" src='img/vapursaatleri/resim1.png'/>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="vapur-preview-wrapper">
+            <img class="vapur-preview-resim" src='img/vapursaatleri/resim2.png'/>
+          </div>
+        </div>
+      </div>
       
     </div>
     
