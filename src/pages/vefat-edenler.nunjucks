@@ -81,25 +81,6 @@
           </div>
         </div>
       {% endfor %}
-
-
-     {#  <div class="row" style="background-color: #fafafa; padding-top: 15px; padding-bottom: 15px;">
-        <div class="col-1 vefat-sag-icon" style="padding-left:0px; padding-right: 0px; ">
-          <img src="img/vefatedenlersagicon.png" alt="">
-        </div>
-        <div class="col-11" style="padding-left: 0px;">
-          <div class="vefat-aciklama-container">
-            <p>
-            <span class="vefat-tarih">11.01.2020 - </span>
-            <span class="vefat-tarih">ZÜLKÜF AYDIN</span>
-            </p>
-            <p class="vefat-aciklama">
-              DİYARBAKIR ÇÜNKÜŞ EŞRAFINDAN TANER,ŞENER,UĞUR,ÇİGDEM VE ÜNER AYDIN'IN BABALARI ZÜLKÜF AYDIN VEFAT ETMİŞTİR. CENAZESİ ÖĞLEN NAMAZINA MÜTEAKİP MERKEZ YENİ CAMİİNDEN KALDIRILARAK YENİ MEZARLIĞA DEFNEDİLECEKTİR.
-            </p>
-          </div>
-        </div>
-      </div> #}
-      
     </div>
     <div  style="margin-top: 190px; margin-bottom: 80px;">
       {% include "partials/index/hizmetler.nunjucks" %}

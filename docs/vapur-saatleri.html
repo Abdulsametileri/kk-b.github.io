@@ -218,9 +218,9 @@
         VAPUR SAATLERİ
       </p>
     
-      <div class="row">
+      <div class="row" id="images-vapur-saatleri">
         <div class="col-sm-12 col-md-6">
-          <div class="vapur-preview-wrapper">
+          <div class="vapur-preview-wrapper" onclick="previewImg('item1')">
             <img class="vapur-preview-resim" src='img/vapursaatleri/resim1.png'/>
           </div>
         </div>
@@ -230,7 +230,7 @@
           </div>
         </div>
       </div>
-      
+     
     </div>
     
     <div style="margin-top: 190px; margin-bottom: 80px;">
@@ -572,6 +572,16 @@ $('#karamurselDropdownWeb').hover(function () {
 </script>
   <script src='https://www.google.com/recaptcha/api.js'></script>
 
+     <script src="viewer/viewer.js"></script>
+      <script>
+        const gallery = new Viewer(document.getElementById('images-vapur-saatleri'), { filter(image) {
+        console.log(image)
+          if (!image.hidden)
+            return image
+          
+        } });
+
+      </script>
   </body>
 
   </body>
