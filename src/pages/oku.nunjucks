@@ -63,7 +63,7 @@
      <div style="margin-top: 190px; margin-bottom: 80px;">
         {% include "partials/index/hizmetler.nunjucks" %}
       </div>
-
+    
     <!-- FOOTER -->
     {% include "partials/footer.nunjucks" %}
 

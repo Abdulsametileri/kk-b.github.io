@@ -7,8 +7,8 @@ let canvasContext;
 let totalPages;
 let currentPageNum = 1;
 
-//pdfjsLib.GlobalWorkerOptions.workerSrc = "js/build/pdf.worker.js"
-pdfjsLib.GlobalWorkerOptions.workerSrc = "https://abdulsametileri.github.io/kk-b.github.io/js/build/pdf.worker.js"
+pdfjsLib.GlobalWorkerOptions.workerSrc = "js/build/pdf.worker.js"
+//pdfjsLib.GlobalWorkerOptions.workerSrc = "https://abdulsametileri.github.io/kk-b.github.io/js/build/pdf.worker.js"
 
 // events
 window.addEventListener('load', function () {
@@ -32,11 +32,10 @@ function initEvents() {
 
 // init when window is loaded
 function initPDFRenderer() {
-    //const url = 'pdf/d1.pdf'; 
-    const url = 'https://abdulsametileri.github.io/kk-b.github.io/pdf/d1.pdf'; 
-    let option  = { url};
+    const url = 'pdf/d1.pdf'; 
+    //const url = 'https://abdulsametileri.github.io/kk-b.github.io/pdf/d1.pdf'; 
+    let option  = { url };
     
-
     pdfjsLib.getDocument(option).promise.then(pdfData => {
         totalPages = pdfData.numPages;
         //let pagesCounter= document.getElementById('total_page_num');

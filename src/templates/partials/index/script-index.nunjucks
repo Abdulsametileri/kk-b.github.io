@@ -21,6 +21,9 @@
             el: '.swiper-pagination',
             type: 'bullets',
           },
+          autoplay: {
+            delay: 4000,
+          },
         })
         indexSwiper.on('slideChange', function () {
           var slider =$('.swiper-slide-active')[0]

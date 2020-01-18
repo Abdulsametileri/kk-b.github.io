@@ -282,7 +282,7 @@ a {
         margin-left: 160px; }
   @media (max-width: 576px) {
     .header .banner {
-      background-position-x: 67% !important; } }
+      background-position-x: 35% !important; } }
   .header .baslik {
     position: relative;
     bottom: 140px;
