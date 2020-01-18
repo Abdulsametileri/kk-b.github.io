@@ -46,14 +46,6 @@
 
     {% include "partials/script.nunjucks" %}
     {% include "partials/iletisim/iletisim-script.nunjucks" %}
-     {# <script src="viewer/viewer.js"></script>
-     <script>
-        const gallery = new Viewer(document.getElementById('images-vapur-saatleri'), { filter(image) {
-        console.log(image)
-          if (!image.hidden)
-            return image
-        } });
-     </script> #}
   </body>
 {% endblock %}
 
