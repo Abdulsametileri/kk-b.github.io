@@ -39,7 +39,6 @@
           <h4 class="mt-4 galeri-baslik">FOTOĞRAFLARLA KARAMÜRSEL</h4>
         </div>
       </div>
-      <div class="row">
         <div class="row mt-3">
           {% set items = [
             {
@@ -85,7 +84,6 @@
           ]%}
           {% include "partials/hoverli-resim-list.nunjucks" %}
         </div>
-      </div>
     </div>
   </div>
 
