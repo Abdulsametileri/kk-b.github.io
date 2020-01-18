@@ -89,14 +89,4 @@
     </div>
   </div>
 
-  <script src="viewer/viewer.js"></script>
-  <script>
-    function previewImg(imageId) {
-
-      const viewer = new Viewer(document.getElementById(imageId), {
-        viewed() {
-          viewer.zoomTo(.5);
-        }
-      });
-    }
-  </script>
+ 

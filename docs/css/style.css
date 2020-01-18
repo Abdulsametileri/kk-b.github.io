@@ -3574,7 +3574,7 @@ a {
   @media (max-width: 499px) {
     .dergi-oku-sayfasi .yonoklari #prev_page {
       position: absolute;
-      top: 560px;
+      top: 326px;
       z-index: 99;
       left: 35%; }
     .dergi-oku-sayfasi .yonoklari #next_page {

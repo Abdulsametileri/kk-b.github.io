@@ -16,7 +16,9 @@
       crossorigin="anonymous"/>
 <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css"/>
 <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css"/>
-<link  href="viewer/viewer.css" rel="stylesheet">
+
+
+<link  href="css/lightbox.min.css" rel="stylesheet">
 
 <link rel="stylesheet" href="css/style.css"/>
 
@@ -244,252 +246,267 @@
 
   
   <div class="row">
-    <div id="images"
+    <a  href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" 
+  data-lightbox="example-set" 
+  data-title="Click the right half of the image to move forward.">
+  <img 
+    src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/>
+</a>
+
+<a href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg" data-lightbox="example-set" 
+data-title="Or press the right arrow on your keyboard."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt=""/></a>
+<a href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg" data-lightbox="example-set" 
+data-title="The next image in the set is preloaded as you're viewing.">
+  <img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt=""/>
+</a>
+
+<div id="images"
   style="display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     ">
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image1')">
-      <img id="image1" src="img/baskanimiz/fotograflar/1.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image1"  src="img/baskanimiz/fotograflar/1.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image2')">
-      <img id="image2" src="img/baskanimiz/fotograflar/2.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image2"  src="img/baskanimiz/fotograflar/2.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image3')">
-      <img id="image3" src="img/baskanimiz/fotograflar/3.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image3"  src="img/baskanimiz/fotograflar/3.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image4')">
-      <img id="image4" src="img/baskanimiz/fotograflar/4.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image4"  src="img/baskanimiz/fotograflar/4.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image5')">
-      <img id="image5" src="img/baskanimiz/fotograflar/5.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image5"  src="img/baskanimiz/fotograflar/5.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image6')">
-      <img id="image6" src="img/baskanimiz/fotograflar/6.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image6"  src="img/baskanimiz/fotograflar/6.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image7')">
-      <img id="image7" src="img/baskanimiz/fotograflar/7.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image7"  src="img/baskanimiz/fotograflar/7.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image8')">
-      <img id="image8" src="img/baskanimiz/fotograflar/8.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image8"  src="img/baskanimiz/fotograflar/8.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image9')">
-      <img id="image9" src="img/baskanimiz/fotograflar/9.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image9"  src="img/baskanimiz/fotograflar/9.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image10')">
-      <img id="image10" src="img/baskanimiz/fotograflar/10.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image10"  src="img/baskanimiz/fotograflar/10.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image11')">
-      <img id="image11" src="img/baskanimiz/fotograflar/11.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image11"  src="img/baskanimiz/fotograflar/11.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image12')">
-      <img id="image12" src="img/baskanimiz/fotograflar/12.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image12"  src="img/baskanimiz/fotograflar/12.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image13')">
-      <img id="image13" src="img/baskanimiz/fotograflar/13.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image13"  src="img/baskanimiz/fotograflar/13.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image14')">
-      <img id="image14" src="img/baskanimiz/fotograflar/14.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image14"  src="img/baskanimiz/fotograflar/14.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image15')">
-      <img id="image15" src="img/baskanimiz/fotograflar/15.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image15"  src="img/baskanimiz/fotograflar/15.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image16')">
-      <img id="image16" src="img/baskanimiz/fotograflar/16.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image16"  src="img/baskanimiz/fotograflar/16.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image17')">
-      <img id="image17" src="img/baskanimiz/fotograflar/17.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image17"  src="img/baskanimiz/fotograflar/17.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image18')">
-      <img id="image18" src="img/baskanimiz/fotograflar/18.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image18"  src="img/baskanimiz/fotograflar/18.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image19')">
-      <img id="image19" src="img/baskanimiz/fotograflar/19.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image19"  src="img/baskanimiz/fotograflar/19.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
-  <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
-    <div class="galeri-foto-container" onclick="previewImg('image20')">
-      <img id="image20" src="img/baskanimiz/fotograflar/20.png" class="img-fluid galeri-fotolar"   >
-      <a  class="foto-buyuk"  style="pointer-events:none;">
-        <img gizlen="true" src="img/foto-hover.png">
-        <br><br>
+      </div>
+    </div>
+  
+    <div class="col-6 col-sm-6 col-md-6 col-lg-3 my-2">
+      <div class="galeri-foto-container" >
+        <img id="image20"  src="img/baskanimiz/fotograflar/20.png" class="img-fluid galeri-fotolar"   >
+        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
+          <img gizlen="true" src="img/foto-hover.png">
+          <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
-    </div>  
-  </div>
-
+      </div>
+    </div>
+  
 </div>
 
- <script src="viewer/viewer.js"></script>
-  <script>
-    function previewImg(imageId) {
-      /*
-      console.log(imageId)
-      const viewer = new Viewer(document.getElementById(imageId), {
-        viewed() {
-          viewer.zoomTo(1);
-        }
-      });
-      */
-    }
-    const gallery = new Viewer(document.getElementById('images'), { filter(image) {
-      if (!image.src.includes('foto-hover'))
-        return image
-    } });
+<script>
+  function previewImg(imageId) {}
+  /*
+  function previewImg(imageId) {
 
-  </script>
+    console.log(imageId)
+    const viewer = new Viewer(document.getElementById(imageId), {
+      viewed() {
+        viewer.zoomTo(1);
+      }
+    });
+
+  }
+  const gallery = new Viewer(document.getElementById('images'), { filter(image) {
+    if (!image.src.includes('foto-hover'))
+      return image
+  } });
+  */
+</script>
   </div>
 </div>
 
@@ -728,6 +745,8 @@
     crossorigin="anonymous"></script>
 
 <script src="js/swiper.min.js"></script>
+<script src="js/lightbox.js"></script>
+
 <script>
 $('#karamurselDropdownWeb').hover(function () {
     $('#karamurselDropdownWeb').addClass('show')

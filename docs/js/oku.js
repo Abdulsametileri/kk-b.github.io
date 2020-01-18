@@ -7,8 +7,8 @@ let canvasContext;
 let totalPages;
 let currentPageNum = 1;
 
-pdfjsLib.GlobalWorkerOptions.workerSrc = "js/build/pdf.worker.js"
-//pdfjsLib.GlobalWorkerOptions.workerSrc = "https://abdulsametileri.github.io/kk-b.github.io/js/build/pdf.worker.js"
+//pdfjsLib.GlobalWorkerOptions.workerSrc = "js/build/pdf.worker.js"
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https://abdulsametileri.github.io/kk-b.github.io/js/build/pdf.worker.js"
 
 // events
 window.addEventListener('load', function () {
@@ -32,9 +32,11 @@ function initEvents() {
 
 // init when window is loaded
 function initPDFRenderer() {
-    const url = 'pdf/d1.pdf'; 
-    //const url = 'https://abdulsametileri.github.io/kk-b.github.io/pdf/d1.pdf'; 
-    let option  = { url };
+    //const url = 'pdf/d1.pdf'; 
+    const url = 'https://abdulsametileri.github.io/kk-b.github.io/pdf/d1.pdf'; 
+    let option  = { 
+        url: url
+    };
     
     pdfjsLib.getDocument(option).promise.then(pdfData => {
         totalPages = pdfData.numPages;
@@ -56,14 +58,15 @@ function renderPage(pageNumToRender = 1, scale = 1) {
         canvas.height = viewport.height;
         canvas.width = viewport.width;  
         let renderCtx = {canvasContext ,viewport};
-        page.render(renderCtx).promise.then(()=> {
+        page.render(renderCtx).promise
+        .then(()=> {
             isPageRendering = false;
             if(pageRenderingQueue !== null) { // this is to check of there is next page to be rendered in the queue
                 renderPage(pageNumToRender);
                 pageRenderingQueue = null; 
             }
-        });        
-    }); 
+        }).catch(e => console.log(e));        
+    }).catch(e => console.log(e)) 
 }
 
 function renderPageQueue(pageNum) {
