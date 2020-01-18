@@ -7,8 +7,8 @@ let canvasContext;
 let totalPages;
 let currentPageNum = 1;
 
-//pdfjsLib.GlobalWorkerOptions.workerSrc = "js/build/pdf.worker.js"
-pdfjsLib.GlobalWorkerOptions.workerSrc = "https://abdulsametileri.github.io/kk-b.github.io/js/build/pdf.worker.js"
+pdfjsLib.GlobalWorkerOptions.workerSrc = "js/build/pdf.worker.js"
+//pdfjsLib.GlobalWorkerOptions.workerSrc = "https://abdulsametileri.github.io/kk-b.github.io/js/build/pdf.worker.js"
 
 // events
 window.addEventListener('load', function () {
@@ -22,18 +22,23 @@ window.addEventListener('load', function () {
 });
 
 function initEvents() {
-    let prevPageBtn = document.getElementById('prev_page');
+    let webPrevPageBtn = document.getElementById('web-prev-page');
+    let mobilePrevPageBtn = document.getElementById('mobile-prev-page');
+
     let nextPageBtn = document.getElementById('next_page');
     let goToPage = document.getElementById('go_to_page');
-    prevPageBtn.addEventListener('click', renderPreviousPage);
+
+    webPrevPageBtn.addEventListener('click', renderPreviousPage);
+    mobilePrevPageBtn.addEventListener('click', renderPreviousPage);
+
     nextPageBtn.addEventListener('click',renderNextPage);
     //goToPage.addEventListener('click', goToPageNum);
 }
 
 // init when window is loaded
 function initPDFRenderer() {
-    //const url = 'pdf/d1.pdf'; 
-    const url = 'https://abdulsametileri.github.io/kk-b.github.io/pdf/d1.pdf'; 
+    const url = 'pdf/d1.pdf'; 
+    //const url = 'https://abdulsametileri.github.io/kk-b.github.io/pdf/d1.pdf'; 
     let option  = { 
         url: url
     };
@@ -86,6 +91,7 @@ function renderNextPage(ev) {
     renderPageQueue(currentPageNum);
 }
 
+
 function renderPreviousPage(ev) {
     if(currentPageNum<=1) {
         //alert("This is the first page");
@@ -94,6 +100,9 @@ function renderPreviousPage(ev) {
     currentPageNum--;
     renderPageQueue(currentPageNum);
 }
+
+
+
 
 function goToPageNum(ev) {
     let numberInput = document.getElementById('page_num');

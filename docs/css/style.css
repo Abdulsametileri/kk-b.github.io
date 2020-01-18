@@ -3580,16 +3580,17 @@ a {
   align-items: center;
   display: flex; }
   @media (max-width: 499px) {
-    .dergi-oku-sayfasi .yonoklari #prev_page {
-      position: absolute;
-      top: 326px;
-      z-index: 99;
-      left: 35%; }
-    .dergi-oku-sayfasi .yonoklari #next_page {
-      position: absolute;
-      z-index: 99;
-      left: 55%;
-      bottom: 57px; } }
+    .dergi-oku-sayfasi .yonoklari #web-prev-page {
+      display: none; }
+    .dergi-oku-sayfasi .yonoklari #mobile-prev-page {
+      margin-right: 20px; }
+    .dergi-oku-sayfasi .yonoklari .onemli-bir {
+      margin-left: 20px; }
+    .dergi-oku-sayfasi .yonoklari #mobile-prev-page, .dergi-oku-sayfasi .yonoklari .onemli-bir {
+      margin-bottom: 40px; } }
+  @media (min-width: 499px) {
+    .dergi-oku-sayfasi .yonoklari #mobile-prev-page {
+      display: none; } }
 
 .karamursel, .iletisim, .baskanimiz, .kurumsal, .bilgi-hizmetleri, .projeler-sayfasi, .projeler-detay-sayfasi, .haber-detay-sayfasi, .yatirimlar, .online-dergiler-sayfasi, .duyuru-ve-ilanlar-sayfasi, .dunden-bugune-sayfasi, .karamurseli-kesfet-sayfasi, .dergi-oku-sayfasi, .nobetci-eczaneler-sayfasi, .vefat-edenler-sayfasi, .vapur-saatleri-sayfasi, .faaliyet-raporlari-sayfasi, .meclis-toplantilari-sayfasi, .meclis-toplantilari-detay-sayfasi, .site-ici-ara-sayfasi {
   /* .menu-container {

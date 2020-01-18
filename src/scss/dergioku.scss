@@ -34,17 +34,22 @@
     align-items: center;
     display: flex;
     @media (max-width: $phone){
-      #prev_page {
-        position: absolute;
-        top: 326px;
-        z-index: 99;
-        left: 35%;
+      #web-prev-page {
+        display: none;
       }
-      #next_page {
-        position: absolute;
-        z-index: 99;
-        left: 55%;
-        bottom: 57px;
+      #mobile-prev-page {
+        margin-right: 20px;
+      }
+      .onemli-bir {
+        margin-left: 20px;
+      }
+      #mobile-prev-page, .onemli-bir {
+        margin-bottom: 40px;
+      }
+    }
+    @media (min-width: $phone) {
+      #mobile-prev-page {
+        display: none;
       }
     }
   }
