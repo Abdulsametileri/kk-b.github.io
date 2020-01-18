@@ -478,14 +478,22 @@ a {
       text-overflow: ellipsis;
       overflow: hidden;
       white-space: nowrap; }
-  .haberler-container .tumhaberlericintiklayin {
+  .haberler-container .tumhaberlericintiklayin-web {
     margin-top: 38px;
     padding-bottom: 40px; }
     @media (max-width: 499px) {
-      .haberler-container .tumhaberlericintiklayin {
+      .haberler-container .tumhaberlericintiklayin-web {
         margin: initial;
         text-align: center;
         margin-bottom: 15px; } }
+  .haberler-container .tumhaberlericintiklayin-mobile {
+    text-align: center; }
+    @media (min-width: 499px) {
+      .haberler-container .tumhaberlericintiklayin-mobile {
+        display: none; } }
+  @media (max-width: 499px) {
+    .haberler-container #web-tum-haberleri-goster {
+      display: none; } }
   .haberler-container .projeler-card, .haberler-container .projeler .baskan-card, .projeler .haberler-container .baskan-card {
     background-color: white;
     width: 100%;
