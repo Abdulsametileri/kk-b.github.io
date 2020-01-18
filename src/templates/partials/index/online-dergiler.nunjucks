@@ -83,7 +83,7 @@
                     <a href="./dunden-bugune.html">
                       <div>
                         <img src="{{item.onceImg}}"  alt=""/>
-                        <p class="dunden-bugune-text">ÖNCE</p>
+                        <p class="dunden-bugune-text">ÖNCESİ</p>
                       </div>
                     </a>
                   </div>
@@ -91,7 +91,7 @@
                     <a href="./dunden-bugune.html">
                       <div>
                         <img src="{{item.sonraImg}}"  alt=""/>
-                        <p class="dunden-bugune-text">SONRA</p>
+                        <p class="dunden-bugune-text">SONRASI</p>
                       </div>
                     </a>
                     <a href="./dunden-bugune.html">
