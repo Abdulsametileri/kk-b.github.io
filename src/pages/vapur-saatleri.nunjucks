@@ -17,17 +17,23 @@
         &nbsp;&nbsp;>&nbsp;&nbsp;&nbsp; 
         VAPUR SAATLERİ
       </p>
-    
+
       <div class="row" id="images-vapur-saatleri">
         <div class="col-sm-12 col-md-6">
-          <div class="vapur-preview-wrapper" onclick="previewImg('item1')">
-            <img class="vapur-preview-resim" src='img/vapursaatleri/resim1.png'/>
-          </div>
+          <a href="img/vapursaatleri/resim1.png" 
+            data-lightbox="vapur-saatleri">
+            <div class="vapur-preview-wrapper" onclick="previewImg('item1')">
+              <img class="vapur-preview-resim" src='img/vapursaatleri/resim1.png'/>
+            </div>  
+          </a>
         </div>
         <div class="col-sm-12 col-md-6">
-          <div class="vapur-preview-wrapper">
-            <img class="vapur-preview-resim" src='img/vapursaatleri/resim2.png'/>
-          </div>
+        <a href="img/vapursaatleri/resim2.png" 
+            data-lightbox="vapur-saatleri">
+            <div class="vapur-preview-wrapper">
+              <img class="vapur-preview-resim" src='img/vapursaatleri/resim2.png'/>
+            </div>
+          </a>
         </div>
       </div>
      
@@ -40,16 +46,14 @@
 
     {% include "partials/script.nunjucks" %}
     {% include "partials/iletisim/iletisim-script.nunjucks" %}
-     <script src="viewer/viewer.js"></script>
-      <script>
+     {# <script src="viewer/viewer.js"></script>
+     <script>
         const gallery = new Viewer(document.getElementById('images-vapur-saatleri'), { filter(image) {
         console.log(image)
           if (!image.hidden)
             return image
-          
         } });
-
-      </script>
+     </script> #}
   </body>
 {% endblock %}
 

@@ -1,35 +1,38 @@
-<a  href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" 
-  data-lightbox="example-set" 
-  data-title="Click the right half of the image to move forward.">
-  <img 
-    src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/>
-</a>
+{# {% for item in items %}
+  <a class="example-image-link" 
+   href="{{item.src}}" 
+   data-lightbox="example-set" 
+   data-title="Click the right half of the image to move forward.">
+    <img id="{{item.id}}" src="{{item.src}}" class="img-fluid galeri-fotolar"   >
 
-<a href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg" data-lightbox="example-set" 
-data-title="Or press the right arrow on your keyboard."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt=""/></a>
-<a href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg" data-lightbox="example-set" 
-data-title="The next image in the set is preloaded as you're viewing.">
-  <img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt=""/>
-</a>
-
-<div id="images"
-  style="display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    ">
-  {% for item in items %}
-    <div class="{{item.class}}">
-      <div class="galeri-foto-container" >
-        <img id="{{item.id}}"  src="{{item.src}}" class="img-fluid galeri-fotolar"   >
-        <a  class="foto-buyuk" data-lightbox="group-image"  style="pointer-events:none;">
-          <img gizlen="true" src="img/foto-hover.png">
-          <br><br>
+    <a class="foto-buyuk"  style="pointer-events:none;">
+      <img gizlen="true" src="img/foto-hover.png">
+      <br><br>
         BÜYÜK HALİ İÇİN TIKLAYIN
       </a>
+
+  </a>
+{% endfor %} #}
+
+
+
+ {% for item in items %}
+    <div class="{{item.class}}">
+      <div class="galeri-foto-container" >
+        <a href="{{item.src}}" 
+          data-lightbox="example-set">
+            <img id="{{item.id}}" src="{{item.src}}" class="img-fluid galeri-fotolar"   >
+
+            <a class="foto-buyuk"  style="pointer-events:none;">
+              <img gizlen="true" src="img/foto-hover.png">
+              <br><br>
+                BÜYÜK HALİ İÇİN TIKLAYIN
+              </a>
+          </a>
       </div>
     </div>
-  {% endfor %}
-</div>
+  {% endfor %} 
+
 
 <script>
   function previewImg(imageId) {}

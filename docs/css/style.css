@@ -486,6 +486,9 @@ a {
         margin: initial;
         text-align: center;
         margin-bottom: 15px; } }
+    @media (max-width: 499px) {
+      .haberler-container .tumhaberlericintiklayin-web {
+        display: none; } }
   .haberler-container .tumhaberlericintiklayin-mobile {
     text-align: center; }
     @media (min-width: 499px) {
@@ -552,7 +555,7 @@ a {
         margin-top: 30px; } }
     @media (max-width: 499px) {
       .haberler-container .baskan-card {
-        margin-top: 60px;
+        margin-top: 40px;
         background-size: contain;
         background-color: white;
         background-position-y: 53%; } }
