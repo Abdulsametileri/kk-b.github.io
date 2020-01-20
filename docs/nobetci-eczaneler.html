@@ -37,16 +37,27 @@
 
   
   <!-- AYNI BASLANGIC -->
-<div style="position: absolute; left: 0; right: 0;  z-index: 99;">
-  <div class="container" style="text-align: right; z-index:99;">
+<div style="position: absolute; left: 0; right: 0;  z-index: 99; background-color: white;">
+  <div class="container-fluid beyaz-arka-plan-container">
+    <div class="container" style="z-index:99; height: 108px;
+     position:relative;">
     <div class="row social-media">
-      <a style="display: inline-block; z-index: 99;" href="https://online.karamursel.bel.tr">
-        <div class="online-islemler">
-          <img src="img/online_islemler.png"/>
-        </div>
-      </a>
-        
-
+    <a class="nav-logo" href="./"><img src="img/logo.png" alt=""/></a>
+    <div class="aramaAlani">
+      <input class="aramaKutusu" type="text" placeholder="SİTE İÇİ ARA"/>
+      <button class="aramaBtn" onclick="window.location.href = './site-ici-ara.html';">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.423cm"
+            height="0.459cm">
+          <path fill-rule="evenodd" fill="rgb(109, 128, 139)"
+              d="M11.817,11.843 L8.858,8.626 C9.619,7.679 10.036,6.489 10.036,5.249 C10.036,2.355 7.784,-0.000 5.015,-0.000 C2.248,-0.000 -0.004,2.355 -0.004,5.249 C-0.004,8.145 2.248,10.500 5.015,10.500 C6.055,10.500 7.046,10.173 7.892,9.549 L10.874,12.793 C10.998,12.929 11.166,13.004 11.346,13.004 C11.515,13.004 11.676,12.936 11.799,12.812 C12.060,12.550 12.067,12.116 11.817,11.843 L11.817,11.843 ZM5.015,1.369 C7.062,1.369 8.726,3.111 8.726,5.249 C8.726,7.390 7.062,9.130 5.015,9.130 C2.970,9.130 1.306,7.390 1.306,5.249 C1.306,3.111 2.970,1.369 5.015,1.369 L5.015,1.369 Z"/>
+        </svg>
+      </button>
+    </div>
+    <a style="display: inline-block; z-index: 99;" href="https://online.karamursel.bel.tr">
+      <div class="online-islemler">
+        <img src="img/online_islemler.png"/>
+      </div>
+    </a>
       
 <div class="social-media-alignment">
 
@@ -83,11 +94,10 @@
 
     </div>
   </div>
-  <div class="container">
-
+  </div>
+  
+  <div class="container-fluid">
     <div class="row navbar-container">
-      
-      
       <nav class="nav navbar navbar-expand-lg navbar-light ">
         <button class="navbar-toggler" id="hamburger-btn" type="button" data-toggle="collapse"
           data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -97,7 +107,7 @@
         <a id="text-title" href="#">KARAMÜRSEL BELEDİYESİ</a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
-            <a class="nav-logo" href="./"><img src="img/logo.png" alt=""/></a>  
+            
             <li class="nav-item">
               <a class="nav-link " href="./">ANASAYFA</a>
             </li>
@@ -179,16 +189,7 @@
               <a class="nav-link " href="./iletisim.html">İLETİŞİM</a>
             </li>
           </ul>
-          <div class="aramaAlani">
-            <input class="aramaKutusu" type="text" placeholder="SİTE İÇİ ARA"/>
-            <button class="aramaBtn" onclick="window.location.href = './site-ici-ara.html';">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0.423cm"
-                  height="0.459cm">
-                <path fill-rule="evenodd" fill="rgb(109, 128, 139)"
-                    d="M11.817,11.843 L8.858,8.626 C9.619,7.679 10.036,6.489 10.036,5.249 C10.036,2.355 7.784,-0.000 5.015,-0.000 C2.248,-0.000 -0.004,2.355 -0.004,5.249 C-0.004,8.145 2.248,10.500 5.015,10.500 C6.055,10.500 7.046,10.173 7.892,9.549 L10.874,12.793 C10.998,12.929 11.166,13.004 11.346,13.004 C11.515,13.004 11.676,12.936 11.799,12.812 C12.060,12.550 12.067,12.116 11.817,11.843 L11.817,11.843 ZM5.015,1.369 C7.062,1.369 8.726,3.111 8.726,5.249 C8.726,7.390 7.062,9.130 5.015,9.130 C2.970,9.130 1.306,7.390 1.306,5.249 C1.306,3.111 2.970,1.369 5.015,1.369 L5.015,1.369 Z"/>
-              </svg>
-            </button>
-          </div>
+          
         </div>
       </nav>
     </div>
