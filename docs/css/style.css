@@ -158,6 +158,12 @@ a {
   @media (max-width: 992px) {
     .header .beyaz-arka-plan-container {
       display: none; } }
+  .header #index-swiper {
+    height: 100%;
+    padding-top: 152px; }
+    @media (max-width: 992px) {
+      .header #index-swiper {
+        padding-top: 0px; } }
   .header .navbar-container {
     justify-content: center;
     background-color: #0073bc; }
