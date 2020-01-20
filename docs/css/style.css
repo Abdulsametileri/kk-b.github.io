@@ -3,7 +3,7 @@
   -webkit-appearance: none;
   margin: 0;
   padding: 0;
-  font-family: "Raleway"; }
+  font-family: "PT Sans"; }
 
 html {
   scroll-behavior: smooth; }
@@ -243,7 +243,7 @@ a {
           .header .nav .dropdown ul .li-item li a {
             margin-left: 10px;
             font-size: 12px;
-            font-family: "Raleway";
+            font-family: "PT Sans";
             color: #007fc5;
             font-weight: bold;
             line-height: 2.083;
@@ -257,7 +257,7 @@ a {
     .header .nav #text-title {
       margin: 0 auto;
       color: white;
-      font-family: "Raleway";
+      font-family: "PT Sans";
       font-weight: 700; }
       @media (min-width: 992px) {
         .header .nav #text-title {
@@ -380,7 +380,7 @@ a {
     padding: 12px;
     padding-left: 25px;
     font-size: 16px;
-    font-family: "Raleway";
+    font-family: "PT Sans";
     /* color: #e8f7ff; */
     font-weight: bold;
     color: #007fc5; }
@@ -435,7 +435,7 @@ a {
           margin-bottom: 10px; } }
     .haberler-container .haber-manset-detay-container .devamicintiklayin span {
       font-size: 16px;
-      font-family: "Raleway";
+      font-family: "PT Sans";
       text-align: center;
       margin-left: 10px;
       color: #69b5ee;
@@ -470,7 +470,7 @@ a {
       text-align: center;
       font-weight: 520;
       font-size: 12px;
-      font-family: "Raleway";
+      font-family: "PT Sans";
       color: #96aeba;
       font-weight: bold;
       text-overflow: ellipsis;
@@ -656,7 +656,7 @@ a {
   .online-dergiler-container .row .dundenbugune-container .dunden-bugune-baslik {
     background-color: #ecf7ff;
     font-size: 16.644px;
-    font-family: "Raleway";
+    font-family: "PT Sans";
     color: #477fc2;
     font-weight: bold;
     line-height: 2.163;
@@ -935,7 +935,7 @@ a {
   .projeler .proje-detay-detay {
     font-size: 12px;
     color: #9195a4;
-    font-family: "Raleway";
+    font-family: "PT Sans";
     line-height: 1.333;
     height: 27.554px;
     overflow: hidden;
@@ -1030,7 +1030,7 @@ a {
   .online-dergiler-container .row .dundenbugune-container .dunden-bugune-baslik {
     background-color: #ecf7ff;
     font-size: 16.644px;
-    font-family: "Raleway";
+    font-family: "PT Sans";
     color: #477fc2;
     font-weight: bold;
     line-height: 2.163;
@@ -1264,7 +1264,7 @@ a {
       padding-top: 25px; }
     .hizmetler .img-container p {
       font-size: 12px;
-      font-family: "Raleway";
+      font-family: "PT Sans";
       color: white;
       font-weight: bold;
       line-height: 1.167;
@@ -1312,7 +1312,7 @@ a {
   .online-dergiler-container .row .dundenbugune-container .dunden-bugune-baslik {
     background-color: #ecf7ff;
     font-size: 16.644px;
-    font-family: "Raleway";
+    font-family: "PT Sans";
     color: #477fc2;
     font-weight: bold;
     line-height: 2.163;
@@ -1895,7 +1895,7 @@ a {
   margin-bottom: 40px; }
   .iletisim .form-bilgi-container .baslik {
     font-size: 21.66px;
-    font-family: "Raleway";
+    font-family: "PT Sans";
     color: #447999;
     font-weight: bold;
     line-height: 1.2;
@@ -1910,12 +1910,12 @@ a {
         margin-right: 0px; } }
     .iletisim .form-bilgi-container .form-content input, .iletisim .form-bilgi-container .form-content textarea {
       border: 1px solid #b5cbff;
-      font-family: "Raleway";
+      font-family: "PT Sans";
       margin-top: 20px;
       font-size: 12.551px; }
     .iletisim .form-bilgi-container .form-content .form-control::-webkit-input-placeholder {
       font-size: 12.551px;
-      font-family: "Raleway";
+      font-family: "PT Sans";
       color: #6e98b3;
       font-weight: bold;
       line-height: 1.2; }
@@ -1924,7 +1924,7 @@ a {
       width: 300px;
       margin-top: 13px;
       font-size: 16px;
-      font-family: "Raleway";
+      font-family: "PT Sans";
       color: #545646;
       font-weight: bold;
       line-height: 1.2;
@@ -1935,7 +1935,7 @@ a {
           margin-bottom: 30px; } }
     .iletisim .form-bilgi-container .form-content .error-text, .iletisim .form-bilgi-container .form-content input.error::-webkit-input-placeholder, .iletisim .form-bilgi-container .form-content textarea.error::-webkit-input-placeholder, .iletisim .form-bilgi-container .form-content .invalid-x {
       font-size: 12.551px;
-      font-family: "Raleway";
+      font-family: "PT Sans";
       color: #fb2121;
       font-weight: bold;
       line-height: 1.2; }
@@ -2042,7 +2042,7 @@ a {
   .online-dergiler-container .row .dundenbugune-container .dunden-bugune-baslik {
     background-color: #ecf7ff;
     font-size: 16.644px;
-    font-family: "Raleway";
+    font-family: "PT Sans";
     color: #477fc2;
     font-weight: bold;
     line-height: 2.163;
@@ -2354,14 +2354,14 @@ a {
 
 .baskanimiz .baskan-metin-baslik {
   font-size: 24px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #8f9091;
   font-weight: bold;
   line-height: 1.292; }
 
 .baskanimiz .baskan-metin {
   font-size: 14px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #8f9091;
   line-height: 1.714; }
 
@@ -2460,7 +2460,7 @@ a {
 
 .kurumsal .kisi-ad {
   font-size: 14px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #868787;
   font-weight: bold;
   text-transform: uppercase;
@@ -2471,7 +2471,7 @@ a {
 
 .kurumsal .gorev {
   font-size: 12px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #78c0e8;
   font-weight: bold;
   text-transform: uppercase;
@@ -2482,7 +2482,7 @@ a {
 
 .kurumsal .dahili-text {
   font-size: 12px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #aaabab;
   font-weight: bold;
   text-transform: uppercase;
@@ -2598,7 +2598,7 @@ a {
     padding-top: 25px; }
   .bilgi-hizmetleri .img-container p {
     font-size: 12px;
-    font-family: "Raleway";
+    font-family: "PT Sans";
     color: #007fc5;
     font-weight: bold;
     line-height: 1.167;
@@ -2729,13 +2729,13 @@ a {
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 18px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #007fc5;
   font-weight: bold; }
 
 .projeler-sayfasi .proje-detay-aciklama {
   font-size: 14px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #bcbcbc;
   line-height: 1.286; }
 
@@ -2832,7 +2832,7 @@ a {
   /*
   .proje-detay-baslik {
     font-size: 18px;
-    font-family: "Raleway";
+    font-family: "PT Sans";
     color: rgb(0, 127, 197);
     font-weight: bold;
     @media (max-width: $xs) {
@@ -2842,7 +2842,7 @@ a {
 
   .proje-detay-aciklama {
     font-size: 14px;
-    font-family: "Raleway";
+    font-family: "PT Sans";
     color: rgb(188, 188, 188);
     line-height: 1.571;
   }
@@ -2945,7 +2945,7 @@ a {
 
 .haber-detay-sayfasi .haber-detay-aciklama {
   font-size: 14px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #8f9091;
   line-height: 1.714; }
   .haber-detay-sayfasi .haber-detay-aciklama .haber-detay-baslik-baslik {
@@ -3221,7 +3221,7 @@ a {
 
 .duyuru-ve-ilanlar-sayfasi .duyuru-baslik {
   font-size: 18px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #007fc5;
   font-weight: bold;
   text-transform: uppercase;
@@ -3230,7 +3230,7 @@ a {
 
 .duyuru-ve-ilanlar-sayfasi .duyuru-detay {
   font-size: 14px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #bcbcbc;
   line-height: 1.286;
   text-align: left; }
@@ -3327,7 +3327,7 @@ a {
 .dunden-bugune-sayfasi .dunden-bugune-baslik {
   background-color: #ecf7ff;
   font-size: 16.644px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #477fc2;
   font-weight: bold;
   line-height: 2.163;
@@ -3444,7 +3444,7 @@ a {
 
 .karamurseli-kesfet-sayfasi .baslik {
   font-size: 18px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #007fc5;
   font-weight: bold;
   text-transform: uppercase;
@@ -3456,7 +3456,7 @@ a {
 
 .karamurseli-kesfet-sayfasi .detay, .karamurseli-kesfet-sayfasi .bilgi-text, .karamurseli-kesfet-sayfasi .ulasim-text, .karamurseli-kesfet-sayfasi .harita-link {
   font-size: 14px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #bcbcbc;
   font-weight: bold;
   line-height: 1.286;
@@ -3736,7 +3736,7 @@ a {
 
 .nobetci-eczaneler-sayfasi .eczane-adi {
   font-size: 18px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #929090;
   line-height: 1;
   text-align: left;
@@ -3747,14 +3747,14 @@ a {
 
 .nobetci-eczaneler-sayfasi .eczane-adres {
   font-size: 14px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #929090;
   text-align: left;
   margin-bottom: 0px; }
 
 .nobetci-eczaneler-sayfasi .eczane-no {
   font-size: 19px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #929090;
   line-height: 0.947;
   text-align: center; }
@@ -3861,7 +3861,7 @@ a {
 
 .vefat-edenler-sayfasi .vefat-tarih {
   font-size: 16px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #007fc5;
   font-weight: bold;
   line-height: 1.313;
@@ -3869,7 +3869,7 @@ a {
 
 .vefat-edenler-sayfasi .vefat-aciklama {
   font-size: 12px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #929090;
   line-height: 1.417;
   margin-bottom: 0px; }
@@ -4226,7 +4226,7 @@ a {
 
 .meclis-toplantilari-sayfasi .meclis-baslik {
   font-size: 16px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #007fc5;
   font-weight: bold;
   line-height: 1.313;
@@ -4234,7 +4234,7 @@ a {
 
 .meclis-toplantilari-sayfasi .meclis-aciklama {
   font-size: 12px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #929090;
   line-height: 1.417;
   margin-bottom: 0px; }
@@ -4346,7 +4346,7 @@ a {
 
 .meclis-toplantilari-detay-sayfasi .haber-detay-aciklama {
   font-size: 14px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #8f9091;
   line-height: 1.714; }
   .meclis-toplantilari-detay-sayfasi .haber-detay-aciklama .haber-detay-baslik-baslik {
@@ -4444,7 +4444,7 @@ a {
 
 .site-ici-ara-sayfasi .aranan-baslik {
   font-size: 24px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #9f9f9f;
   font-weight: bold;
   line-height: 0.75;
@@ -4455,7 +4455,7 @@ a {
 
 .site-ici-ara-sayfasi .arama-loading-text {
   font-size: 18px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #007fc5;
   font-weight: bold;
   line-height: 1;
@@ -4474,7 +4474,7 @@ a {
 
 .site-ici-ara-sayfasi .meclis-baslik {
   font-size: 16px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #007fc5;
   font-weight: bold;
   line-height: 1.313;
@@ -4482,7 +4482,7 @@ a {
 
 .site-ici-ara-sayfasi .meclis-aciklama {
   font-size: 12px;
-  font-family: "Raleway";
+  font-family: "PT Sans";
   color: #929090;
   line-height: 1.417;
   margin-bottom: 0px; }

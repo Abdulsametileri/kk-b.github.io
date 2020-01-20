@@ -9,13 +9,13 @@
 
   input, textarea {
     border: 1px solid #b5cbff;
-    font-family: "Raleway";
+    font-family: "PT Sans";
     margin-top: 20px;
     font-size: 12.551px;
   }
   .form-control::-webkit-input-placeholder {
       font-size: 12.551px;
-      font-family: "Raleway";
+      font-family: "PT Sans";
       color: rgb(110, 152, 179);
       font-weight: bold;
       line-height: 1.2;
@@ -26,7 +26,7 @@
     width: 300px;
     margin-top: 13px;
     font-size: 16px;
-    font-family: "Raleway";
+    font-family: "PT Sans";
     color: rgb(84, 86, 70);
     font-weight: bold;
     line-height: 1.2;
@@ -41,7 +41,7 @@
   //input error kısım
   .error-text {
     font-size: 12.551px;
-    font-family: "Raleway";
+    font-family: "PT Sans";
     color: rgb(251, 33, 33);
     font-weight: bold;
     line-height: 1.2;
