@@ -10,7 +10,7 @@
     <div class="haber-detay-sayfasi">
       <!-- HEADER KISMI-->
       {% set headerTitle = 'HABERLER' %}
-      {% set headerResimYol = "img/haber-detay/haberler-bg.png" %}
+      {% set headerResimYol = "img/haber-detay/haberler-bg.jpg" %}
       {% set sayfaId = "1" %}
       {% include "partials/karamursel-header.nunjucks" %}
 
