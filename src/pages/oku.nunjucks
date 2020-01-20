@@ -27,7 +27,8 @@
             <canvas id="pdf_canvas"></canvas>  
           </div>
         </div> #}
-        <div class="row" style="background-color: #e1e8eb;">
+
+        {# <div class="row" style="background-color: #e1e8eb;">
           <div class="col-md-1 col-lg-2 yonoklari">
             <img id="web-prev-page" src="img/dergiler/dokuma-solOk.png" alt="">
           </div>
@@ -38,6 +39,17 @@
             <img id="mobile-prev-page" src="img/dergiler/dokuma-solOk.png" alt="">
             <img class="onemli-bir" id="next_page" src="img/dergiler/dokuma-sagOk.png" alt="">
           </div>
+        </div> #}
+
+        <div class="row" style="background-color: #e1e8eb;">
+          <div class="dergi-container">
+            <canvas id="pdf_canvas"></canvas>  
+          </div>
+        </div>
+
+        <div class="row yonoklari" style="background-color: #e1e8eb;">
+            <img id="web-prev-page" src="img/dergiler/dokuma-solOk.png" alt="">
+          <img class="onemli-bir" id="next_page" src="img/dergiler/dokuma-sagOk.png" alt="">
         </div>
         
 

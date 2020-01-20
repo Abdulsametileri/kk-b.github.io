@@ -5,15 +5,15 @@
 
   .dergi-container {
     //margin: 0 auto; 
-    padding-top: 46px; 
-    padding-bottom: 120px;
+    padding-top: 45px; 
+    padding-bottom: 0px;
     text-align: center;
-    
+    margin: 0 auto;
   }
   #pdf_canvas {
     box-shadow: 6px 8px 0px 5px rgba(192,205,211,1);
-    width: 520px;
-    height: 735px;
+    width: 100%;
+    
 
     @media (max-width: $xs){
       width: 100%;
@@ -28,29 +28,21 @@
     //margin: auto 0px;
     padding-left: 0px;
     padding-right: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     justify-content: center;
     align-content: center;
     align-items: center;
     display: flex;
-    @media (max-width: $phone){
-      #web-prev-page {
-        display: none;
-      }
-      #mobile-prev-page {
-        margin-right: 20px;
-      }
-      .onemli-bir {
-        margin-left: 20px;
-      }
-      #mobile-prev-page, .onemli-bir {
-        margin-bottom: 40px;
-      }
+    
+    #web-prev-page {
+      margin-right: 15px;
     }
-    @media (min-width: $phone) {
-      #mobile-prev-page {
-        display: none;
-      }
+    
+    #next_page {
+      margin-left: 15px;
     }
+
   }
 
 }

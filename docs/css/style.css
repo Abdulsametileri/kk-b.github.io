@@ -3564,14 +3564,14 @@ a {
     line-height: 1.714; }
 
 .dergi-oku-sayfasi .dergi-container {
-  padding-top: 46px;
-  padding-bottom: 120px;
-  text-align: center; }
+  padding-top: 45px;
+  padding-bottom: 0px;
+  text-align: center;
+  margin: 0 auto; }
 
 .dergi-oku-sayfasi #pdf_canvas {
   box-shadow: 6px 8px 0px 5px #c0cdd3;
-  width: 520px;
-  height: 735px; }
+  width: 100%; }
   @media (max-width: 576px) {
     .dergi-oku-sayfasi #pdf_canvas {
       width: 100%; } }
@@ -3582,22 +3582,16 @@ a {
 .dergi-oku-sayfasi .yonoklari {
   padding-left: 0px;
   padding-right: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   justify-content: center;
   align-content: center;
   align-items: center;
   display: flex; }
-  @media (max-width: 499px) {
-    .dergi-oku-sayfasi .yonoklari #web-prev-page {
-      display: none; }
-    .dergi-oku-sayfasi .yonoklari #mobile-prev-page {
-      margin-right: 20px; }
-    .dergi-oku-sayfasi .yonoklari .onemli-bir {
-      margin-left: 20px; }
-    .dergi-oku-sayfasi .yonoklari #mobile-prev-page, .dergi-oku-sayfasi .yonoklari .onemli-bir {
-      margin-bottom: 40px; } }
-  @media (min-width: 499px) {
-    .dergi-oku-sayfasi .yonoklari #mobile-prev-page {
-      display: none; } }
+  .dergi-oku-sayfasi .yonoklari #web-prev-page {
+    margin-right: 15px; }
+  .dergi-oku-sayfasi .yonoklari #next_page {
+    margin-left: 15px; }
 
 .karamursel, .iletisim, .baskanimiz, .kurumsal, .bilgi-hizmetleri, .projeler-sayfasi, .projeler-detay-sayfasi, .haber-detay-sayfasi, .yatirimlar, .online-dergiler-sayfasi, .duyuru-ve-ilanlar-sayfasi, .dunden-bugune-sayfasi, .karamurseli-kesfet-sayfasi, .dergi-oku-sayfasi, .nobetci-eczaneler-sayfasi, .vefat-edenler-sayfasi, .vapur-saatleri-sayfasi, .faaliyet-raporlari-sayfasi, .meclis-toplantilari-sayfasi, .meclis-toplantilari-detay-sayfasi, .site-ici-ara-sayfasi {
   /* .menu-container {

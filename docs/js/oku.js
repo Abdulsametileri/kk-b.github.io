@@ -23,13 +23,13 @@ window.addEventListener('load', function () {
 
 function initEvents() {
     let webPrevPageBtn = document.getElementById('web-prev-page');
-    let mobilePrevPageBtn = document.getElementById('mobile-prev-page');
+    //let mobilePrevPageBtn = document.getElementById('mobile-prev-page');
 
     let nextPageBtn = document.getElementById('next_page');
-    let goToPage = document.getElementById('go_to_page');
+    //let goToPage = document.getElementById('go_to_page');
 
     webPrevPageBtn.addEventListener('click', renderPreviousPage);
-    mobilePrevPageBtn.addEventListener('click', renderPreviousPage);
+    //mobilePrevPageBtn.addEventListener('click', renderPreviousPage);
 
     nextPageBtn.addEventListener('click',renderNextPage);
     //goToPage.addEventListener('click', goToPageNum);
