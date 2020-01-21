@@ -46,9 +46,12 @@
               src: "img/projeler/proje5.jpg"
             }
           ] %}
-          <div class="owl-one owl-carousel owl-theme">
+          <div class="owl-one owl-carousel owl-theme" >
             {% for proje in yeniProjeler %}
-              <a href="./yeni-projeler.html">
+              <a href="./yeni-projeler.html" style="display: block;
+	    border: rgb(210,210,210) 1px solid;
+	    padding: 4px;
+	    padding-bottom: 8px;" >
                 <div class="item-proje"
                   id="proje-image-slider-{{proje.id}}"
                   data-baslik="{{proje.dbaslik}}" 
