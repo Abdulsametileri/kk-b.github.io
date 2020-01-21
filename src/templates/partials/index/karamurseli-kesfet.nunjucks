@@ -29,7 +29,10 @@
 
         {% for resim in resimler %}
         <div class="col-sm-12 col-md-6 col-lg-4 my-2" >
-          <a href="{{resim.url}}">
+          <a href="{{resim.url}}" style="display: block;
+    border: rgb(210,210,210) 1px solid;
+    padding: 4px;
+    padding-bottom: 8px;">
             <div class="img-kesfet" 
             onmouseover="this.style.backgroundImage='url(img/indexkaramurselikesfet/{{resim.hoverImg}})'"
             onmouseout="this.style.backgroundImage='url(img/indexkaramurselikesfet/{{resim.defaultImg}})'"
