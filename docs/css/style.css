@@ -779,14 +779,18 @@ a {
   .owl-two .owl-nav .owl-next {
     margin-right: 0px; }
 
-.owl-two .item-dergi-wrapper:hover {
-  cursor: pointer;
-  background: url("../img/dergiler/ho.png");
-  background-position: center; }
-
-.owl-two .item-dergi-wrapper:hover img {
-  opacity: 0.3;
-  cursor: pointer; }
+.owl-two .item-dergi {
+  display: block;
+  border: #d2d2d2 1px solid;
+  padding: 4px;
+  padding-bottom: 8px; }
+  .owl-two .item-dergi-wrapper:hover {
+    cursor: pointer;
+    background: url("../img/dergiler/ho.png");
+    background-position: center; }
+  .owl-two .item-dergi-wrapper:hover img {
+    opacity: 0.3;
+    cursor: pointer; }
 
 /* 
 .video-duyuru-container-border {
@@ -1153,14 +1157,18 @@ a {
   .owl-two .owl-nav .owl-next {
     margin-right: 0px; }
 
-.owl-two .item-dergi-wrapper:hover {
-  cursor: pointer;
-  background: url("../img/dergiler/ho.png");
-  background-position: center; }
-
-.owl-two .item-dergi-wrapper:hover img {
-  opacity: 0.3;
-  cursor: pointer; }
+.owl-two .item-dergi {
+  display: block;
+  border: #d2d2d2 1px solid;
+  padding: 4px;
+  padding-bottom: 8px; }
+  .owl-two .item-dergi-wrapper:hover {
+    cursor: pointer;
+    background: url("../img/dergiler/ho.png");
+    background-position: center; }
+  .owl-two .item-dergi-wrapper:hover img {
+    opacity: 0.3;
+    cursor: pointer; }
 
 /* 
 .video-duyuru-container-border {
@@ -1435,14 +1443,18 @@ a {
   .owl-two .owl-nav .owl-next {
     margin-right: 0px; }
 
-.owl-two .item-dergi-wrapper:hover {
-  cursor: pointer;
-  background: url("../img/dergiler/ho.png");
-  background-position: center; }
-
-.owl-two .item-dergi-wrapper:hover img {
-  opacity: 0.3;
-  cursor: pointer; }
+.owl-two .item-dergi {
+  display: block;
+  border: #d2d2d2 1px solid;
+  padding: 4px;
+  padding-bottom: 8px; }
+  .owl-two .item-dergi-wrapper:hover {
+    cursor: pointer;
+    background: url("../img/dergiler/ho.png");
+    background-position: center; }
+  .owl-two .item-dergi-wrapper:hover img {
+    opacity: 0.3;
+    cursor: pointer; }
 
 /* 
 .video-duyuru-container-border {
@@ -2165,14 +2177,18 @@ a {
   .owl-two .owl-nav .owl-next {
     margin-right: 0px; }
 
-.owl-two .item-dergi-wrapper:hover {
-  cursor: pointer;
-  background: url("../img/dergiler/ho.png");
-  background-position: center; }
-
-.owl-two .item-dergi-wrapper:hover img {
-  opacity: 0.3;
-  cursor: pointer; }
+.owl-two .item-dergi {
+  display: block;
+  border: #d2d2d2 1px solid;
+  padding: 4px;
+  padding-bottom: 8px; }
+  .owl-two .item-dergi-wrapper:hover {
+    cursor: pointer;
+    background: url("../img/dergiler/ho.png");
+    background-position: center; }
+  .owl-two .item-dergi-wrapper:hover img {
+    opacity: 0.3;
+    cursor: pointer; }
 
 /* 
 .video-duyuru-container-border {
