@@ -1,6 +1,17 @@
 .haberler-container {
   padding-top: 35px;
   background-color: white;
+
+  .haber-detay-link-container {
+    display: block;
+    border: rgb(210,210,210) 1px solid;
+    padding: 4px;
+    padding-bottom: 8px;
+    @media (max-width: $phone) {
+      padding-bottom: 27px;
+    }
+  }
+
   .haber-manset-resim {
     width: 100%;
     height: 410px;
@@ -108,11 +119,18 @@
   .haberler {
     margin-top: 28px;
 
+    border: rgb(210,210,210) 1px solid;
+    margin-left: 1px;
+    margin-right: 1px;
+
     @media (max-width: $phone) {
       display: none;
     }
 
+    
+
     .haber-preview-wrapper {
+      margin-top: 2px;
       display: inline-block;
       background: url('../img/haber/hover.png');
       background-position: center;      
@@ -145,7 +163,6 @@
     .haber-preview-detay {
       margin-top:5px;
       text-align: center;
-      font-weight: 520;
       font-size: 12px;
       font-family: "PT Sans";
       color: #96aeba;
@@ -153,6 +170,7 @@
       text-overflow: ellipsis;
       overflow: hidden;
       white-space: nowrap;
+      margin-bottom: 0px;
     }
   }
 
@@ -203,10 +221,25 @@
     text-align: left;
   }
 
+  .baskan-web-cerceve {
+    height: 100%;
+    border: rgb(210,210,210) 1px solid;
+    padding: 4px;
+    padding-bottom: 8px;
+    @media (max-width: $phone) {
+      height: initial;
+      padding: initial;
+      border: none;
+    }
+  }
+
+
   .baskan-card {
     background: url('../img/haber/baskan-mavi-gorsel.png');
+    
     background-size: contain;
     height: 410px;
+    //height: 100%;
     position: relative;
     background-position-y: bottom;
     background-repeat: no-repeat;
@@ -237,6 +270,19 @@
       background-color: white;
       background-position-y: 53%;
     }
+
+    .baskan-mobil-web-cerceve {
+      /* border: rgb(210,210,210) 1px solid;
+      padding: 4px;
+      padding-bottom: 8px;
+      height: 87%;
+      @media (min-width: 500px) {
+        border: none;
+        height: initial;
+        padding: initial;
+      } */
+    }
+    
 
 
 

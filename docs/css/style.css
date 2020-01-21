@@ -365,6 +365,14 @@ a {
 .haberler-container {
   padding-top: 35px;
   background-color: white; }
+  .haberler-container .haber-detay-link-container {
+    display: block;
+    border: #d2d2d2 1px solid;
+    padding: 4px;
+    padding-bottom: 8px; }
+    @media (max-width: 499px) {
+      .haberler-container .haber-detay-link-container {
+        padding-bottom: 27px; } }
   .haberler-container .haber-manset-resim {
     width: 100%;
     height: 410px; }
@@ -448,11 +456,15 @@ a {
       font-weight: bold;
       line-height: 1.5; }
   .haberler-container .haberler {
-    margin-top: 28px; }
+    margin-top: 28px;
+    border: #d2d2d2 1px solid;
+    margin-left: 1px;
+    margin-right: 1px; }
     @media (max-width: 499px) {
       .haberler-container .haberler {
         display: none; } }
     .haberler-container .haberler .haber-preview-wrapper {
+      margin-top: 2px;
       display: inline-block;
       background: url("../img/haber/hover.png");
       background-position: center; }
@@ -474,14 +486,14 @@ a {
     .haberler-container .haberler .haber-preview-detay {
       margin-top: 5px;
       text-align: center;
-      font-weight: 520;
       font-size: 12px;
       font-family: "PT Sans";
       color: #96aeba;
       font-weight: bold;
       text-overflow: ellipsis;
       overflow: hidden;
-      white-space: nowrap; }
+      white-space: nowrap;
+      margin-bottom: 0px; }
   .haberler-container .tumhaberlericintiklayin-web {
     margin-top: 38px;
     padding-bottom: 40px; }
@@ -519,6 +531,16 @@ a {
     line-height: 1.236;
     font-weight: bold;
     text-align: left; }
+  .haberler-container .baskan-web-cerceve {
+    height: 100%;
+    border: #d2d2d2 1px solid;
+    padding: 4px;
+    padding-bottom: 8px; }
+    @media (max-width: 499px) {
+      .haberler-container .baskan-web-cerceve {
+        height: initial;
+        padding: initial;
+        border: none; } }
   .haberler-container .baskan-card {
     background: url("../img/haber/baskan-mavi-gorsel.png");
     background-size: contain;
@@ -563,6 +585,16 @@ a {
         background-size: contain;
         background-color: white;
         background-position-y: 53%; } }
+    .haberler-container .baskan-card .baskan-mobil-web-cerceve {
+      /* border: rgb(210,210,210) 1px solid;
+      padding: 4px;
+      padding-bottom: 8px;
+      height: 87%;
+      @media (min-width: 500px) {
+        border: none;
+        height: initial;
+        padding: initial;
+      } */ }
     .haberler-container .baskan-card-baslik {
       font-size: 29px;
       color: white;
