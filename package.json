@@ -22,7 +22,7 @@
     "gulp-sass": "^4.0.2"
   },
   "dependencies": {
-    "swiper": "^5.2.0"
+    "swiper": "^6.5.1"
   },
   "directories": {
     "doc": "docs"
