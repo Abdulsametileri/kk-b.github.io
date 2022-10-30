@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/Abdulsametileri/kk-b#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "gulp": "^4.0.2",
     "gulp-nunjucks-render": "^2.2.3",
     "gulp-sass": "^4.0.2"
